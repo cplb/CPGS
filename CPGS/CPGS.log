@@ -1,0 +1,690 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.9)  19 JUN 2010 11:12
+entering extended mode
+**C:/Users/cplb2/Documents/Cambridge/PhD/Write*up/CPGS/CPGS.tex
+("C:/Users/cplb2/Documents/Cambridge/PhD/Write up/CPGS/CPGS.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.sty"
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\charter.sty"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2008/11/26 v0.40 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pstricks.tex"
+`PSTricks' v1.31  <2009/11/27> (tvz)
+\pst@dima=\dimen107
+\pst@dimb=\dimen108
+\pst@dimc=\dimen109
+\pst@dimd=\dimen110
+\pst@dimg=\dimen111
+\pst@dimh=\dimen112
+\pst@hbox=\box26
+\pst@boxg=\box27
+\pst@cnta=\count91
+\pst@cntb=\count92
+\pst@cntc=\count93
+\pst@cntd=\count94
+\pst@cntg=\count95
+\pst@cnth=\count96
+\pst@toks=\toks16
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pstricks.con")
+\psunit=\dimen113
+\psxunit=\dimen114
+\psyunit=\dimen115
+\pslinewidth=\dimen116
+\pst@customdefs=\toks17
+\pslinearc=\dimen117
+\everypsbox=\toks18
+\psframesep=\dimen118
+\pslabelsep=\dimen119
+\pst@shift=\dimen120
+\theoverlaybox=\box28
+)
+File: pstricks.tex 2009/11/27 v1.31 `PSTricks' (tvz,hv)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count97
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pstricks\pst-node.sty"
+Package: pst-node 2006/01/01 package wrapper for pst-node.tex
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pst-node.tex"
+ v1.01, 2008/11/26
+\psrow=\count98
+\pscol=\count99
+\psmatrixcnt=\count100
+\psrowsep=\skip52
+\pscolsep=\skip53
+)
+File: pst-node.tex 2008/11/26 1.01 `pst-node' (tvz)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-text\pst-text.sty"
+Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pst-text\pst-text.tex"
+ v1.00, 2006/11/05(tvz,hv))
+File: pst-text.tex 2006/11/05 1.00 `pst-text' (tvz)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-3d\pst-3d.sty"
+Package: pst-3d 2005/09/02 package wrapper for pst-3d.tex (hv)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pst-3d\pst-3d.tex"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+\XKV@depth=\count101
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+)))
+`PST-3d' v1.00, 2005/09/03 (tvz))
+File: pst-3d.tex 2005/09/03 v1.00 `PST-3d' (tvz)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\pfg@pcount=\count102
+\pfg@scount=\count103
+\pfg@temp=\write3
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\import.sty"
+Package: import 2009/03/23  v 5.1
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip54
+\subfigcapskip=\skip55
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip56
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip57
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip58
+\subfig@bottom=\skip59
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen125
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen126
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count108
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count109
+\leftroot@=\count110
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count111
+\DOTSCASE@=\count112
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen127
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count113
+\c@MaxMatrixCols=\count114
+\dotsspace@=\muskip10
+\c@parentequation=\count115
+\dspbrk@lvl=\count116
+\tag@help=\toks23
+\row@=\count117
+\column@=\count118
+\maxfields@=\count119
+\andhelp@=\toks24
+\eqnshift@=\dimen128
+\alignsep@=\dimen129
+\tagshift@=\dimen130
+\tagwidth@=\dimen131
+\totwidth@=\dimen132
+\lineht@=\dimen133
+\@envbody=\toks25
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.sty"
+\lst@mode=\count120
+\lst@gtempboxa=\box31
+\lst@token=\toks27
+\lst@length=\count121
+\lst@currlwidth=\dimen134
+\lst@column=\count122
+\lst@pos=\count123
+\lst@lostspace=\dimen135
+\lst@width=\dimen136
+\lst@newlines=\count124
+\lst@lineno=\count125
+\lst@maxwidth=\dimen137
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count126
+\lst@skipnumbers=\count127
+\lst@framebox=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.sty"
+Package: microtype 2009/11/09 v2.3e Micro-typography with pdfTeX (RS)
+\MT@toks=\toks28
+\MT@count=\count128
+LaTeX Info: Redefining \lsstyle on input line 1617.
+LaTeX Info: Redefining \lslig on input line 1617.
+\MT@outer@space=\skip63
+LaTeX Info: Redefining \textls on input line 1625.
+\MT@outer@kern=\dimen138
+LaTeX Info: Redefining \textmicrotypecontext on input line 2176.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2009/11/09 v2.3e microtype main configuration file (RS)
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\units\nicefrac.sty"
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip64
+\L@UnitsRaiseTextstyle=\skip65
+\L@UnitsRaiseScriptstyle=\skip66
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\siunitx.sty"
+Package: siunitx 2009/10/24 v1.3d A comprehensive (SI) units package
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen139
+\extrarowheight=\dimen140
+\NC@list=\toks29
+\extratabsurround=\skip67
+\backup@length=\skip68
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\xspace.sty"
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+\si@tempboxa=\box33
+\si@tempboxb=\box34
+\si@tempboxc=\box35
+\si@tempboxd=\box36
+\si@temptoks=\toks30
+\si@tab@mantprecnt=\count129
+\si@tab@mantpostcnt=\count130
+\si@tab@expprecnt=\count131
+\si@tab@exppostcnt=\count132
+\si@num@dp=\count133
+\si@num@sf=\count134
+\si@eVcorra=\skip69
+\si@eVcorrb=\skip70
+\si@frc@displen=\skip71
+\si@frc@textlen=\skip72
+\si@frc@suplen=\skip73
+\si@frc@ssuplen=\skip74
+\si@num@rndtarget=\count135
+\si@tab@toks=\toks31
+\si@tab@pretoks=\toks32
+\si@tab@posttoks=\toks33
+\si@tempcnta=\count136
+\si@tempcntb=\count137
+\si@tab@prebox=\box37
+\si@tab@midbox=\box38
+\si@tab@postbox=\box39
+\si@tab@expbox=\box40
+\si@tab@predim=\dimen141
+\si@tab@postdim=\dimen142
+\si@tab@expdim=\dimen143
+\si@tempdima=\dimen144
+\si@tempdimb=\dimen145
+\si@unt@unitcnta=\count138
+\si@unt@unitcntb=\count139
+\si@unt@depthcnt=\count140
+\si@unt@prefixcnt=\count141
+\si@unt@powerdim=\dimen146
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-prefix.cfg"
+File: si-prefix.cfg 2009/10/24 v1.3d siunitx: SI Multiple prefixes
+Package siunitx Info: Redefining unit \kilogram on input line 46.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-named.cfg"
+File: si-named.cfg 2009/10/24 v1.3d siunitx: SI Named units
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-addn.cfg"
+File: si-addn.cfg 2009/10/24 v1.3d siunitx: SI Additional units
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-prefixed.cfg"
+File: si-prefixed.cfg 2009/10/24 v1.3d siunitx: SI Prefixed units
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-accepted.cfg"
+File: si-accepted.cfg 2009/10/24 v1.3d siunitx: SI Accepted units
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-physical.cfg"
+File: si-physical.cfg 2009/10/24 v1.3d siunitx: SI Physically-measured units
+)) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-abbr.cfg"
+File: si-abbr.cfg 2009/10/24 v1.3d siunitx: Abbreviated units
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\braket.sty")
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\afterpage.sty"
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks34
+\AP@partial=\box41
+\AP@footins=\box42
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latin9.def"
+File: latin9.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\natbib\natbib.sty"
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip75
+\bibsep=\skip76
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count142
+)
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 71.70166pt, 0.7\paperwidth , 107.55254pt (default)
+v-parts: 101.40665pt, 0.7\paperheight , 152.11pt (default)
+hmarginratio: 2:3
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  418.25368pt
+\textheight 612.00027pt
+\oddsidemargin  -0.56833pt
+\evensidemargin 35.28255pt
+\topmargin  -7.86334pt
+\headheight 13.6pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 103.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count143
+\scratchdimen=\dimen147
+\scratchbox=\box43
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen148
+\MPnumerator=\count147
+\everyMPtoPDFconversion=\toks38
+)
+\c@lstlisting=\count148
+LaTeX Info: Redefining \microtypecontext on input line 72.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package siunitx Info: xfrac package unavailable
+(siunitx)             using `fraction=sfrac' will fall back on
+(siunitx)             nicefrac-like method on input line 72.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 72.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 72.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 72.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 72.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 72.
+LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 72.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 72.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmtt.fd"
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 106.
+ [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}]
+[1]
+Chapter 1.
+[1
+
+] [2]
+Chapter 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 121.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 121.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 121.
+[3
+
+] [4] [5] [6] [7] [8] [9]
+Overfull \hbox (16.55101pt too wide) detected at line 464
+[] \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 :
+ []
+
+[10] [11] [12] [13] [14] [15] [16]
+Chapter 3.
+[17
+
+]
+Chapter 4.
+[18
+
+] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl"
+
+Package natbib Warning: Empty `thebibliography' environment on input line 12.
+
+) [19
+
+] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
+Here is how much of TeX's memory you used:
+ 10162 strings out of 495285
+ 143097 string characters out of 3179878
+ 289895 words of memory out of 3000000
+ 13066 multiletter control sequences out of 15000+200000
+ 91167 words of font info for 121 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 37i,13n,55p,903b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Progra
+m Files (x86)/MiKTeX 2.8/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x8
+6)/MiKTeX 2.8/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2
+.8/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.8/fonts/en
+c/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/lm/lm-e
+c.enc}<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmb10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmex10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKT
+eX 2.8/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.8/font
+s/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/publ
+ic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmr12.
+pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmr17.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.8/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.8/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.8/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CPGS.pdf (21 pages, 247769 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 27137 words of extra memory for PDF output out of 29859 (max. 10000000)
+
