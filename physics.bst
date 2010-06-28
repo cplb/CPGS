@@ -44,6 +44,7 @@ ENTRY
   { address
     annote
     archive
+	arXiv
     author
     booktitle
     chapter
@@ -628,6 +629,12 @@ FUNCTION {bibinfo.warn}
     }
   if$
 }
+FUNCTION {format.arXiv}
+{ arXiv empty$
+    { "" }
+    { "\arXivprefix\arXiv{" arXiv * "}" * }
+  if$
+}
 FUNCTION {format.eprint}
 { eprint duplicate$ empty$
     'skip$
@@ -1192,7 +1199,8 @@ FUNCTION {article}
   if$
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 FUNCTION {book}
@@ -1221,6 +1229,7 @@ FUNCTION {book}
   if$
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1233,6 +1242,7 @@ FUNCTION {booklet}
   format.date output
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1266,7 +1276,8 @@ FUNCTION {inbook}
   if$
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 
@@ -1288,7 +1299,8 @@ FUNCTION {incollection}
   if$
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 FUNCTION {inproceedings}
@@ -1313,7 +1325,8 @@ FUNCTION {inproceedings}
   if$
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 FUNCTION {conference} { inproceedings }
@@ -1347,7 +1360,8 @@ FUNCTION {manual}
   format.date output
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 
@@ -1362,6 +1376,7 @@ FUNCTION {mastersthesis}
   format.date "year" output.check
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1374,6 +1389,7 @@ FUNCTION {misc}
   format.date output
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
   empty.misc.check
@@ -1389,6 +1405,7 @@ FUNCTION {phdthesis}
   format.date "year" output.check
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1423,7 +1440,8 @@ FUNCTION {proceedings}
   if$
   format.note output
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 
@@ -1438,6 +1456,7 @@ FUNCTION {techreport}
   format.date "year" output.check
   format.note output
   format.eprint output
+  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1449,7 +1468,8 @@ FUNCTION {unpublished}
   format.date output
   format.note "note" output.check
   format.eprint output
-  format.url output
+  format.arXiv output
+  %format.url output
   fin.entry
 }
 
@@ -1484,6 +1504,10 @@ FUNCTION {begin.bib}
   "\providecommand{\url}[1]{\texttt{#1}}"
   write$ newline$
   "\providecommand{\urlprefix}{URL }"
+  write$ newline$
+  "\providecommand{\arXiv}[1]{\texttt{#1}}"
+  write$ newline$
+  "\providecommand{\arXivprefix}{\texttt{arXiv: }}"
   write$ newline$
   "\providecommand{\bibAnnoteFile}[1]{%"
   write$ newline$

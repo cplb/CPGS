@@ -1,6 +1,8 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+\providecommand{\arXiv}[1]{\texttt{#1}}
+\providecommand{\arXivprefix}{\texttt{arXiv: }}
 \providecommand{\bibAnnoteFile}[1]{%
   \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
@@ -8,5 +10,168 @@
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Landau1975}
+Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
+  fourth edition; Course of Theoretical Hysics; Oxford: Butterworth-Heinemann,
+  1975.
+\bibAnnoteFile{Landau1975}
+
+\bibitem{Lynden-Bell1971}
+Lynden-Bell, D. \& Rees, M.~J.; {On quasars, dust and the galactic centre};
+  \textit{Monthly Notices of the Royal Astronomical Society}; \textbf{152},
+  1971.
+\bibAnnoteFile{Lynden-Bell1971}
+
+\bibitem{Rees1984}
+Rees, M.~J.; {Black Hole Models for Active Galactic Nuclei}; \textit{Annual
+  Review of Astronomy and Astrophysics}; \textbf{22}(1):471--506, September
+  1984.
+\bibAnnoteFile{Rees1984}
+
+\bibitem{Israel1967}
+Israel, W.; {Event Horizons in Static Vacuum Space-Times}; \textit{Physical
+  Review}; \textbf{164}(5):1776--1779, December 1967.
+\bibAnnoteFile{Israel1967}
+
+\bibitem{Israel1968}
+Israel, W.; {Event horizons in static electrovac space-times};
+  \textit{Communications in Mathematical Physics}; \textbf{8}(3):245--260,
+  September 1968.
+\bibAnnoteFile{Israel1968}
+
+\bibitem{Carter1971}
+Carter, B.; {Axisymmetric Black Hole Has Only Two Degrees of Freedom};
+  \textit{Physical Review Letters}; \textbf{26}(6):331--333, February 1971.
+\bibAnnoteFile{Carter1971}
+
+\bibitem{Hawking1972}
+Hawking, S.~W.; {Black holes in general relativity}; \textit{Communications in
+  Mathematical Physics}; \textbf{25}(2):152--166, June 1972.
+\bibAnnoteFile{Hawking1972}
+
+\bibitem{Robinson1975}
+Robinson, D.; {Uniqueness of the Kerr Black Hole}; \textit{Physical Review
+  Letters}; \textbf{34}(14):905--906, April 1975.
+\bibAnnoteFile{Robinson1975}
+
+\bibitem{Chandrasekhar1998}
+Chandrasekhar, S.; \textit{{The Mathematical Theory of Black Holes}}; Oxford
+  Classic Texts in the Physical Sciences; Oxford: Oxford University Press,
+  1998.
+\bibAnnoteFile{Chandrasekhar1998}
+
+\bibitem{Merritt2010}
+Merritt, D., Mikkola, S. \& Will, C.~M.; {Testing properties of the Galactic
+  center black hole using stellar orbits}; \textit{Physical Review D};
+  \textbf{81}(6):062002(17), March 2010.
+\bibAnnoteFile{Merritt2010}
+
+\bibitem{Kato2010}
+Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al.}; {Measuring spin of a
+  supermassive black hole at the Galactic centre - implications for a unique
+  spin}; \textit{Monthly Notices of the Royal Astronomical Society: Letters};
+  \textbf{403}(1):L74--L78, March 2010.
+\bibAnnoteFile{Kato2010}
+
+\bibitem{Rubbo2006}
+Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{{Event Rate for
+  Extreme Mass Ratio Burst Signals in the LISA Band}}; AIP, 2006;
+  \urlprefix\url{http://arxiv.org/abs/astro-ph/0602445}.
+\bibAnnoteFile{Rubbo2006}
+
+\bibitem{Kobayashi2004}
+Kobayashi, S., Laguna, P., Phinney, E.~S. \& Meszaros, P.; {Gravitational Waves
+  and X‐Ray Signals from Stellar Disruption by a Massive Black Hole};
+  \textit{The Astrophysical Journal}; \textbf{615}(2):855----865, November
+  2004.
+\bibAnnoteFile{Kobayashi2004}
+
+\bibitem{Babak2007}
+Babak, S., Fang, H., Gair, J. \textit{et~al.}; {``Kludge'' gravitational
+  waveforms for a test-body orbiting a Kerr black hole}; \textit{Physical
+  Review D}; \textbf{75}(2):024005(25), January 2007.
+\bibAnnoteFile{Babak2007}
+
+\bibitem{Kerr1963}
+Kerr, R.; {Gravitational Field of a Spinning Mass as an Example of
+  Algebraically Special Metrics}; \textit{Physical Review Letters};
+  \textbf{11}(5):237--238, September 1963.
+\bibAnnoteFile{Kerr1963}
+
+\bibitem{Boyer1967}
+Boyer, R.~H. \& Lindquist, R.~W.; {Maximal Analytic Extension of the Kerr
+  Metric}; \textit{Journal of Mathematical Physics}; \textbf{8}(2):265,
+  February 1967.
+\bibAnnoteFile{Boyer1967}
+
+\bibitem{Hobson2006}
+Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
+  Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
+\bibAnnoteFile{Hobson2006}
+
+\bibitem{Carter1968}
+Carter, B.; {Global Structure of the Kerr Family of Gravitational Fields};
+  \textit{Physical Review}; \textbf{174}(5):1559--1571, October 1968.
+\bibAnnoteFile{Carter1968}
+
+\bibitem{DeFelice1980}
+de~Felice, F.; {Angular momentum and separation constant in the Kerr metric };
+  \textit{Journal of Physics A: Mathematical and General};
+  \textbf{13}(5):1701----1708, 1980.
+\bibAnnoteFile{DeFelice1980}
+
+\bibitem{Rosquist2009}
+Rosquist, K., Bylund, T. \& Samuelsson, L.; {Carter's Constant Revealed};
+  \textit{International Journal of Modern Physics D}; \textbf{18}(03):429,
+  October 2009.
+\bibAnnoteFile{Rosquist2009}
+
+\bibitem{Wilkins1972}
+Wilkins, D.; {Bound Geodesics in the Kerr Metric}; \textit{Physical Review D};
+  \textbf{5}(4):814--822, February 1972.
+\bibAnnoteFile{Wilkins1972}
+
+\bibitem{Drasco2004}
+Drasco, S. \& Hughes, S.; {Rotating black hole orbit functionals in the
+  frequency domain}; \textit{Physical Review D}; \textbf{69}(4):044015(11),
+  February 2004.
+\bibAnnoteFile{Drasco2004}
+
+\bibitem{Gair2005}
+Gair, J., Kennefick, D. \& Larson, S.; {Semirelativistic approximation to
+  gravitational radiation from encounters with nonspinning black holes};
+  \textit{Physical Review D}; \textbf{72}(8):084009(20), October 2005.
+\bibAnnoteFile{Gair2005}
+
+\bibitem{Glampedakis2002a}
+Glampedakis, K. \& Kennefick, D.; {Zoom and whirl: Eccentric equatorial orbits
+  around spinning black holes and their evolution under gravitational radiation
+  reaction}; \textit{Physical Review D}; \textbf{66}(4):044002(33), August
+  2002.
+\bibAnnoteFile{Glampedakis2002a}
+
+\bibitem{Ruffini1981}
+Ruffini, R. \& Sasaki, M.; {On a Semi-Relativistic Treatment of the
+  Gravitational Radiation from a Mass Thrusted into a Black Hole};
+  \textit{Progress of Theoretical Physics}; \textbf{66}(5):1627--1638, November
+  1981.
+\bibAnnoteFile{Ruffini1981}
+
+\bibitem{Press1977}
+Press, W.; {Gravitational radiation from sources which extend into their own
+  wave zone}; \textit{Physical Review D}; \textbf{15}(4):965--968, February
+  1977.
+\bibAnnoteFile{Press1977}
+
+\bibitem{Bekenstein1973}
+Bekenstein, J.~D.; {Gravitational-Radiation Recoil and Runaway Black Holes};
+  \textit{The Astrophysical Journal}; \textbf{183}:657, July 1973.
+\bibAnnoteFile{Bekenstein1973}
+
+\bibitem{Misner1973}
+Misner, C.~W., Thorne, K.~S. \& Wheeler, J.~A.; \textit{{Gravitation}}; New
+  York: W. H. Freeman, 1973.
+\bibAnnoteFile{Misner1973}
 
 \end{thebibliography}
