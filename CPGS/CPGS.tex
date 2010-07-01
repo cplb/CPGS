@@ -7,8 +7,9 @@
 \usepackage{import}
 \usepackage{graphicx}
 \usepackage{subfigure}
-\usepackage{amssymb,amstext} %% ... with default font
+\usepackage{amssymb,amstext,amsfonts} %% ... with default font
 \usepackage{amsmath}
+\usepackage{mathrsfs}
 \usepackage{listings}
 %\usepackage{tikz}
 %\usetikzlibrary{shapes,arrows}
@@ -47,26 +48,33 @@
 \newcommand{\Figref}[1]{Figure~\ref{fig:#1}}
 
 \newcommand{\sub}[1]{\ensuremath{_\mathrm{#1}}}
+\newcommand{\sup}[1]{\ensuremath{^\mathrm{#1}}}
 
 \newcommand{\recip}[1]{\ensuremath{\frac{1}{#1}}}
 
 \newcommand{\order}[1]{\ensuremath{\mathcal{O}({#1})}}
 
-\newcommand{\rqm}{{\declareslashed{}{\text{-}}{0.04}{0}{I}\slashed{I}}}
+\newcommand{\innerprod}[2]{\ensuremath{\left({#1}\middle|{#2}\right)}}
+
+\newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{0}{I}\slashed{I}}}
 
 % Define differential operators
 \newcommand{\dd}{\ensuremath{\mathrm{d}}}
 \newcommand{\diff}[2]{\ensuremath{\frac{\dd {#1}}{\dd {#2}}}}
 \newcommand{\linediff}[2]{\ensuremath{\dd {#1}/\dd {#2}}}
+\newcommand{\nicediff}[2]{\ensuremath{\nicefrac{\dd {#1}}{\dd {#2}}}}
 \newcommand{\diffop}[1]{\ensuremath{\frac{\dd}{\dd {#1}}}}
 \newcommand{\difftwo}[2]{\ensuremath{\frac{\dd^2 {#1}}{\dd {#2}^2}}}
 \newcommand{\linedifftwo}[2]{\ensuremath{\dd^2 {#1}/\dd {#2}^2}}
+\newcommand{\nicedifftwo}[2]{\ensuremath{\nicefrac{\dd^2 {#1}}{\dd {#2}^2}}}
 \newcommand{\difftwoop}[1]{\ensuremath{\frac{\dd^2}{\dd {#1}^2}}}
 \newcommand{\diffn}[3]{\ensuremath{\frac{\dd^{#3} {#1}}{\dd {#2}^{#3}}}}
 \newcommand{\linediffn}[3]{\ensuremath{\dd^{#3} {#1}/\dd {#2}^{#3}}}
+\newcommand{\nicediffn}[3]{\ensuremath{\nicefrac{\dd^{#3} {#1}}{\dd {#2}^{#3}}}}
 \newcommand{\diffnop}[2]{\ensuremath{\frac{\dd^{#2}}{\dd {#1}^{#2}}}}
 \newcommand{\partialdiff}[2]{\ensuremath{\frac{\partial {#1}}{\partial {#2}}}}
 \newcommand{\linepartialdiff}[2]{\ensuremath{\partial {#1}/\partial {#2}}}
+\newcommand{\nicepartialdiff}[2]{\ensuremath{\nicefrac{\partial {#1}}{\partial {#2}}}}
 \newcommand{\partialdiffop}[1]{\ensuremath{\frac{\partial}{\partial {#1}}}}
 \newcommand{\grad}{\ensuremath{\boldsymbol{\nabla}}}
 \newcommand{\intd}[4]{\ensuremath{\int_{#1}^{#2}{#3}\,\dd{#4}}}
@@ -128,7 +136,7 @@ Throughout this work we will use the the timelike sign convention of Landau and 
 \item The Reinann tensor is defined as ${R^\mu}_{\nu\sigma\rho} = \partial_\sigma {\Gamma^\mu}_{\nu\rho} - \partial_\rho {\Gamma^\mu}_{\nu\sigma} + {\Gamma^\mu}_{\lambda\sigma}{\Gamma^\lambda}_{\rho\nu} - {\Gamma^\mu}_{\lambda\rho}{\Gamma^\lambda}_{\sigma\nu}$.
 \item The Ricci tensor is defined as the contraction $R_{\mu\nu} = {R^\lambda}_{\mu\lambda\mu}$.
 \end{enumerate}
-Greek indicies are used to represent spacetime indicies $\mu = \{0,1,2,3\}$ and Latin indices are for spatial indicies $i = \{1,2,3\}$. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
+Greek indicies are used to represent spacetime indicies $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indicies $i = \{1,2,3\}$. Uppercase Latin indicies from the beginning of the alphabet will be used for the output of two LISA detector arms $A = \{\mathrm{I}, \mathrm{II}\}$, and lowercase Latin indicies from the beginning of the alphabet are used for parameter space. Summation over repeated indices is assumed unless explicitally noted otherwise. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
 
 \chapter{Gravitational Radiation In $f(R)$ Theory}
 
@@ -663,6 +671,10 @@ Using this with our expression for the Ricci tensor in the field equation gives
 \end{align}
 We see that our field equations are consistent.
 
+\section{Discussion \& Remaining Questions}
+
+
+
 \chapter{Parabolic Encounters Of A Massive Black Hole}
 
 \section{Background \& Introduction}
@@ -688,7 +700,7 @@ where we have introduced functions
 \rho^2 = {} & r^2 + a^2\cos^2\theta,\\
 \Delta = {} & r^2 - \frac{2GM_\bullet r}{c^2} + a^2,\\
 \Sigma = {} & \left(r^2 +a^2\right)^2 - a^2\Delta\sin^2\theta,\\
-\omega = {} & \frac{2GM_\bullet ar}{c\Sigma}.\\
+\omega = {} & \frac{2GM_\bullet ar}{c\Sigma}.
 \end{align}
 The spin parameter is related to the BH's angular momentum by
 \begin{equation}
@@ -706,7 +718,7 @@ Geodesics are parameterized by three conserved quantities (aside from the partic
 where we have introduced potentials
 \begin{align}
 T = {} & E\left(r^2 +a^2\right) - aL_z,\\
-V_r = {} & T^2 - Delta\left[r^2 + \left(L_z -aE\right)^2 + Q\right],\\
+V_r = {} & T^2 - \Delta\left[r^2 + \left(L_z -aE\right)^2 + Q\right],\\
 V_\theta = {} & Q - \cos^2 \theta\left[a^2\left(1 - E^2\right) + \frac{{L_z}^2}{\sin^2\theta}\right],
 \end{align}
 and $\tau$ is proper time. The signs of the $r$ and $\theta$ equations may be chosen independently.
@@ -729,13 +741,13 @@ In integrating the geodesic equations difficulties can arise because of the pres
 V_r = {} & 0 \nonumber \\
 2M_\bullet r^3 - \left({L_z}^2+Q\right)r^2 + 2M_\bullet\left[\left(L_z - a\right)^2 + Q\right]r - a^2Q= {} & 0.
 \end{align}
-This has three roots, which we shall denote $\{r_1, r_2, r_p\}$; the periapsis $r_p$ is the largest real root. We do not find the apoapsis as a (fourth) root to this equation as we have removed it by taking $E = 1$ before solving: it is simple to show this is a turning point by setting the unconstrained expression for $V_r$ equal to zero and then solving for $E(r)$, taking the limit $r \rightarrow \infty$ gives $E \rightarrow 1$, so parabolic orbits do have a stationary point at infinity\cite{Wilkins1972}. We may avoid the difficulties of the turning point by introducing an angular variable that always increases with proper time\cite{Drasco2004}: inspired by Keplerian orbits, we may parameterize our parabolic trajectory by
+This has three roots, which we shall denote $\{r_1, r_2, r_p\}$; the periapsis $r_p$ is the largest real root. We do not find the apoapsis as a (fourth) root to this equation as we have removed it by taking $E = 1$ before solving: it is simple to show this is a turning point by setting the unconstrained expression for $V_r$ equal to zero, and then solving for $E(r)$; taking the limit $r \rightarrow \infty$ gives $E \rightarrow 1$, so parabolic orbits do have a stationary point at infinity\cite{Wilkins1972}. We may avoid the difficulties of the turning point by introducing an angular variable that always increases with proper time\cite{Drasco2004}: inspired by Keplerian orbits, we may parameterize our parabolic trajectory by
 \begin{equation}
-r = \frac{p}{1-e\cos\phi}
+r = \frac{p}{1-e\cos\psi},
 \end{equation}
-where $e = 1$ is the eccentricity and $p = 2r_p$ is the semilatus rectum. As $\phi$ covers its full range from $0$ to $2\pi$, $r$ traces out one full orbit from infinity through the periapsis at $\phi = \pi$ back to infinity. The geodesic equation for $\phi$ is
+where $e = 1$ is the eccentricity and $p = 2r_p$ is the semilatus rectum. As $\psi$ covers its full range from $0$ to $2\pi$, $r$ traces out one full orbit from infinity through the periapsis at $\pshi = \pi$ back to infinity. The geodesic equation for $\psi$ is
 \begin{equation}
-\rho^2 \diff{\phi}{\tau} = \left\{M_\bullet\left[2r_p - \left(r_1 + r_2\right)\left(1 + \cos\phi\right) + \frac{r_1 r_2}{2r_p}\left(1 + \cos\phi\right)^2\right]\right\}^{1/2}.
+\rho^2 \diff{\psi}{\tau} = \left\{M_\bullet\left[2r_p - \left(r_1 + r_2\right)\left(1 + \cos\psi\right) + \frac{r_1 r_2}{2r_p}\left(1 + \cos\psi\right)^2\right]\right\}^{1/2}.
 \end{equation}
 This may be integrated without problem. Parameterizing an orbit by it periapsis and eccentricity has the additional benefit of allowing easier comparison with its flat-space equivalent than considering energy and angular momentum\cite{Gair2005}.
 
@@ -759,7 +771,7 @@ See \figref{L_triangle} for a geometrical visulaization.
 		%\pstMarkAngle{A}{C}{B}{$\iota$}
 		%\pstMarkAngle{B}{A}{C}{$\theta_0$}
 		%\pstMiddleAB{A}{B}{$\sqrt{Q}$}
-		%\pstMiddleAB{C}{A}{$L_infty$}
+		%\pstMiddleAB{C}{A}{$L_\infty$}
 		%\pstMiddleAB{B}{C}{$L_z$}
 %\end{pspicture}
     \caption{The angular momenta $L_\infty$, $L_z$ and $\sqrt{Q}$ define a right-angled triangle. The accute angles are $\theta_0$, the extremal value of the polar angle, and $\iota$, the orbital inclination\cite{Glampedakis2002a}.}
@@ -785,48 +797,316 @@ With the geodesic calculated for given angular momenta $L_z$ and $Q$, and initia
 Numerical kludge approximations aim to encapsulate the main characteristics of a waveform by using the exact particle trajectory (ignoring inaccuracies from the evolution of the orbital parameters), whilst saving on computational time by using approximate waveform generation techniques. To start, we build an equivalent flat spacetime trajectory from the Kerr geodesic. This is done by identifying the Boyer-Lindquist coordinates with a set of flat-space coordinates; we consider two choices here:
 \begin{enumerate}
 \item Identify the Boyer-Lindquist coordinates with flat-space spherical polars $\{r\sub{BL}, \theta\sub{BL}, \phi\sub{BL}\} \rightarrow \{r\sub{sph}, \theta\sub{sph}, \phi\sub{sph}\}$, then define flat-space Cartesian coordinates\cite{Gair2005, Babak2007}
-\begin{align}
-x = {} & r\sub{sph} \sin\theta\sub{sph}\cos\phi\sub{sph} \\
-y = {} & r\sub{sph} \sin\theta\sub{sph}\sin\phi\sub{sph} \\
-z = {} & r\sub{sph} \cos\theta\sub{sph}.
-\end{align}
+\begin{equation}
+\boldsymbol{x} = \left(r\sub{sph} \sin\theta\sub{sph}\cos\phi\sub{sph}, r\sub{sph} \sin\theta\sub{sph}\sin\phi\sub{sph}, r\sub{sph} \cos\theta\sub{sph}\right).
+\end{equation}
 \item Identify the Boyer-Lindquist coordinates with flat-space oblate-spheroidal coordinates $\{r\sub{BL}, \theta\sub{BL}, \phi\sub{BL}\} \rightarrow \{r\sub{ob}, \theta\sub{ob}, \phi\sub{ob}\}$ so that the flat-space Cartesian coordinates are
-\begin{align}
-x = {} & \sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\cos\phi\sub{ob} \\
-y = {} & \sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\sin\phi\sub{ob} \\
-z = {} & r\sub{ob} \cos\theta\sub{ob}.
-\end{align}
-These are appealing since in the limit of $G \rightarrow 0$, so that the gravitating mass goes to zero, the Kerr metric in Boyer-Lindquist coordinates reduces to the Minkowski metric in oblate spheroidal coordinates.\footnote{We must take the limit $G \rightarrow 0$, rather than $M_\bullet \rightarrow 0$ to avoid the problem of an over-extreme BH with $a > M_bullet$.}
+\begin{equation}
+boldsymbol{x} = \left(sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\cos\phi\sub{ob}, \sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\sin\phi\sub{ob}, r\sub{ob} \cos\theta\sub{ob}\right).
+\end{equation}
+These are appealing since in the limit of $G \rightarrow 0$, so that the gravitating mass goes to zero, the Kerr metric in Boyer-Lindquist coordinates reduces to the Minkowski metric in oblate spheroidal coordinates.\footnote{We must take the limit $G \rightarrow 0$, rather than $M_\bullet \rightarrow 0$ to avoid the problem of an over-extreme BH with $a > M_\bullet$.}
 \end{enumerate}
 In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of large $r\sub{BL}$. It must be stressed that there is no well motivated argument that either coordinate system must yield an accurate GW; their use is justified {\it post facto} by comparison with result obtained from more accurate, and computationally intensive, methods\cite{Gair2005, Babak2007}. This ambiguity in assigning flat-space coordinates reflects the inconsistency of the semirelativistic approximation: the geodesic trajectory was calculated for the Kerr geometry, by moving to flat spacetime we lose the reason for its existance. However, this inconsistency should not be regarded as a major problem; it is just an artifact of the basic assumption that the shape of the trajectory is important for determining the character of the radiation, but the curvature of the spacetime in the vicintiy of the source is not. By binding the particle to the exact geodesic, we ensure that the kludge waveform has spectral components at the correct frequencies, but by assuming flat spacetime for generation of GWs they will not have the correct amplitudes.
 
 \subsection{Quadrupole-Octopole Formula}
 
-Now we have a flat-space particle trajectory, we may apply a flat-space wave generation formula. We shall use the quadrupole-octopole formula to calculate the gravitational strain\cite{Press1977, Bekenstein1973}
+Now we have a flat-space particle trajectory ${x\sub{p}}^\mu(\tau)$, we may apply a flat-space wave generation formula. We shall use the quadrupole-octopole formula to calculate the gravitational strain\cite{Press1977, Bekenstein1973}
 \begin{equation}
-\overline{h}^{jk} = -\frac{2G}{c^6r}\left[\ddot{I}^{jk} - 2n_i\ddot{S}^{ijk} + n_i\dddot{M}^{ijk}\right]_{t' = t - cr}
+h^{jk}(t, \boldsymbol{x}) = -\frac{2G}{c^6r}\left[\ddot{I}^{jk} - 2n_i\ddot{S}^{ijk} + n_i\dddot{M}^{ijk}\right]_{t' = t - cr}
+\label{eq:Octopole}
 \end{equation}
-where an overdot represents differentiation with respect to time $t$, $t'$ is the retarded time, $r$ is the radial distance, $\boldsymbol{n}$ is the radial unit vector, and the mass quadrupole ${I}^{jk}$, current quadrupole ${S}^{ijk}$ and mass octopole ${M}^{ijk}$ are defined by
+where an overdot represents differentiation with respect to time $t$, $t'$ is the retarded time, $r = \left|\boldsymbol{x} - \boldsymbol{x}\sub{p}\right|$ is the radial distance, $\boldsymbol{n}$ is the radial unit vector, and the mass quadrupole ${I}^{jk}$, current quadrupole ${S}^{ijk}$ and mass octopole ${M}^{ijk}$ are defined by
 \begin{align}
 {I}^{jk}(t') = {} & \intd{}{}{{x'}^j{x'}^kT^{00}(t', \boldsymbol{x'})}{^3x'}\\
-{S}^{ijk}(t') = {} & \intd{}{}{{x'}^j{x'}^kT^{0i}(t', \boldsymbol{x'}}{^3x'}\\
-{M}^{ijk}(t') = {} & \recip{c}\intd{}{}{{x'}^i{x'}^j{x'}^kT^{00}(t', \boldsymbol{x'}}{^3x'}.
+{S}^{ijk}(t') = {} & \intd{}{}{{x'}^j{x'}^kT^{0i}(t', \boldsymbol{x'})}{^3x'}\\
+{M}^{ijk}(t') = {} & \recip{c}\intd{}{}{{x'}^i{x'}^j{x'}^kT^{00}(t', \boldsymbol{x'})}{^3x'}.
 \end{align}
 This is correct for a slow moving source. It is the familiar quadrupole formula\cite{Misner1973, Hobson2006}, derived from linearized theory, but with the next order term included. For a point mass the energy-momentum tensor $T^{\mu\nu}$ contains a $\delta$-function which allows easy evaluation of the integrals of the various moments to give
 \begin{align}
-{I}^{jk} = {} & c^2\mu{x}^j{x}^k\\
-{S}^{ijk} = {} & c\mu v^i{x}^j{x}^k\\
-{M}^{ijk} = {} & c\mu{x}^i{x}^j{x}^k.
+{I}^{jk} = {} & c^2\mu{x\sub{p}}^j{x\sub{p}}^k\\
+{S}^{ijk} = {} & c\mu {v\sub{p}}^i{x\sub{p}}^j{x\sub{p}}^k\\
+{M}^{ijk} = {} & c\mu{x\sub{p}}^i{x\sub{p}}^j{x\sub{p}}^k.
 \end{align}
-The velocity $\boldsymbol{v} = \dot{\boldsymbol{x}}$ can be calculated simply from the geodesic equations. 
+To evaluate \eqnref{Octopole} we need up to the third time derivative of the position. The velocity $\boldsymbol{v}\sub{p} = \dot{\boldsymbol{x}}\sub{p}$ can be calculated from the geodesic equations: dividing by $nicediff{t}{\tau}$ gives $\dot{r}$, $\dot{\theta}$ and $\dot{\phi}$ which can then be transformed to the Cartesian velocities assuming either the spherical or oblate spheroidal coordinate system. Expressions for the acceleration $\boldsymbol{a}\sub{p} = \ddot{\boldsymbol{x}}\sub{p}$ and the jerk $\boldsymbol{j}\sub{p} = \dddot{\boldsymbol{x}}\sub{p}$ are more involved, so these derivatives are found numerically using a simple difference formula to approximate the derivative as
+\begin{equation}
+\diff{f}{t}(t_1) \approx \recip{2}\left[\frac{f(t_1) - f(t_0)}{t_1 - t_0} + \frac{f(t_2) - f(t_1)}{t_2 - t_1}\right],
+\end{equation}
+where $t_0$, $t_1$ and $t_2$ are subsequent (not necessarily uniformly spaced) timesteps.
 
-\section{Energy Spectra}
+Since we are only interested in GWs, we shall use the transverse-traceless (TT) gauge. The waveform is given in the TT gauge by\cite{Misner1973}
+\begin{equation}
+{h\sup{TT}}_{jk} = P^l_jh_{lm}P^m_k - \recip{2}P_{jk}P^{lm}h_{lm},
+\end{equation}
+where the (spatial) projection operator $P_{ij}$ is
+\begin{equation}
+P_{ij} = \delta_{ij} - n_in_j.
+\end{equation}
 
-The energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}
+\section{The LISA Detector}
+
+To transform from the BH coordinate system to those of the LISA detecor, we will need to define several angles.
+
+The tranformation matrix is from the BH coordinates to the detector coordinates is
+\begin{equation}
+\boldsymbol{A} = \begin{pmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{pmatrix};
+\end{equation}
+the elements are
+\begin{align}
+a_{11} =  {} & s_\varphi\left(c_\delta s_\Phi - s_\delta c_\Phi c_\Sigma\right) - c_\varphi \left[s_\alpha c_\Phi s_\Sigma - c_\alpha \left(c_\delta c_\Phi c_\Sigma + s_\delta s_\Sigma\right)\right]; \\
+a_{12} = {} & -s_\varphi\left(c_\delta c_\Phi - s_\delta s_\Phi c_\Sigma\right) - c_\varphi \left[s_\alpha s_\Phi s_\Sigma - c_\alpha \left(c_\delta s_\Phi c_\Sigma + s_\delta s_\Sigma\right)\right]; \\
+a_{13} = {} & s_\varphi s_\delta s_\Sigma - c_\varphi\left(s_\alpha c_\Sigma + c_\alpha c_\delta s_\Sigma\right); \\
+a_{21} = {} & s_\varphi\left[s_\alpha c_\Phi s_\Sigma - c_\alpha \left(c_\delta c_\Phi c_\Sigma + s_\delta s_\Sigma\right)\right] - c_\varphi \left(c_\delta s_\Phi - s_\delta c_\Phi s_\Sigma\right); \\
+a_{22} = {} & s_\varphi\left[s_\alpha s_\Phi s_\Sigma - c_\alpha \left(c_\delta s_\Phi c_\Sigma + s_\delta s_\Sigma\right)\right] - c_\varphi \left(c_\delta c_\Phi - s_\delta s_\Phi s_\Sigma\right);
+a_{23} = {} & s_\varphi\left(s_\alpha c_\Sigma + c_\alpha c_\delta s_\Sigma\right) - c_\varphi s_\delta s_\Sigma; \\
+a_{31} = {} & -s_\alpha\left(c_\delta c_\Phi c_\Sigma + s_\delta s_\Phi\right) - c_\alpha c_\Phi s_\Sigma; \\
+a_{32} = {} & s_\alpha\left(s_\delta c_\Phi - c_\delta s_\Phi c_\Sigma) - c_\alpha s_\Phi s_\Sigma; \\
+a_{33} = {} & s_\alpha c_\delta s_\Sigma - c_\alpha c_\Sigma;
+\end{align}
+where we define $s_\vartheta \equiv \sin \vartheta$ and $c_\vartheta \equiv \cos \vartheta$.
+
+We will use vector notation $\boldsymbol{h}(t) = \left(h\sub{I}(t), h\sub{II}(t)\right)$ to denote signals for both detectors.
+
+\section{Signal Analysis}
+
+\subsection{Frequency Domain Formalism}
+
+At this stage we now know the GW $\boldsymbol{h}(t)$ that will be incident upon the LISA detector. We must now discuss how to analysis the waveform to extract the information it contains. We begin with a brief overview of the basic components of signal analysis used for GWs, with application to LISA in particular. This fixes the notation we will employ. A more complete discussion of material presented here can be found in the work of Finn\cite{Finn1992}, and Cutler and Flanagan\cite{Cutler1994}.
+
+The actual measured strain $\boldsymbol{s}(t)$ will be the combination of the signal and the detector noise
+\begin{equation}
+\boldsymbol{s}(t) = \boldsymbol{h}(t) + \boldsymbol{n}(t),
+\end{equation}
+we will assume that the noise $n_A(t)$ is stationary and Gaussian. When analysing signals, it is most convenient to work with the Fourier transform
+\begin{equation}
+\tilde{g}(f) = \intd{-infty}{infty}{g(t)e^{2\pi i ft}}{t}.
+\end{equation}
+Since we have assumed Gaussianity for the noise signal $n_A(t)$, each Fourier component $\tilde{n}_A(f)$ also has a Gaussian probability distribution; the assumption of stationarity means that different Fourier components are uncorrelated, thus\cite{Cutler1994}
+\begin{equation}
+\left\angle\tilde{n}_A(f)\tilde{n}_B^*(f')\right\angle = \recip{2}\delta(f - f')S__{AB}(f),
+\end{equation}
+where $\left\angle\ldots\right\angle$ denotes the expectation value and $S_{AB}(f)$ is the (single-sided) noise spectral density. For simplicity, we may assume that the noise in the two detectors are uncorrelated, but share the same characterisation so that\cite{Cutler1998}
+\begin{equation}
+S_{AB}(f) = \delta_{AB}S_n(f).
+\end{equation}
+The functional form of the noise spectral density $S_n(f)$ for LISA is discussed below.
+
+The properties of the noise allow us to define a natural inner product and associated ditance on the space of signals\cite{Cutler1994}
+\begin{equation}
+\innerprod{\boldsymbol{g}}{\boldsymbol{k}} = 2\intd{0}{infty}{\frac{\tilde{g}_A^*(f)\tilde{k}_A(f) + \tilde{g}_A(f)\tilde{k}_A^*(f)}{S_n(f)}}{f}.
+\end{equation}
+Using this definition, the probability of a particular realization of noise $\boldsymbol{n}(t) = \boldsymbol{n_0}(t)$ is
+\begin{equation}
+p(\boldsymbol{n}(t) = \boldsymbol{n_0}(t)) \propto e^{-\innerprod{\boldsymbol{n_0}}{\boldsymbol{n_0}}/2}.
+\end{equation}
+Thus, if the incident waveform is given as $\boldsymbol{h}(t)$, the probability of measuring signal $\boldsymbol{s}(t)$ is
+\begin{equation}
+p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto e^{-\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}/2}.
+\end{equation}
+
+\subsection{LISA Noise Curve}
+
+LISA's noise has two sources: instrumental noise and confusion noise, primarily from white dwarf binariers. The latter may be divided into contributions from galactic and extragalactic binariers. In this work we use the noise model of Barack and Cutler\cite{Barack2004}. The shape of the noise curve can be seen figures (??). The instrumentation noise dominates at both high and low frequencies. The confusion noise is important at intermediate frequencies, and is responsible for the cusp around $f = \SI{1e-3}{\Hz}$.
+
+\subsection{Window Functions}
+
+There is one remaining complication regarding signal analysis. When we perform a Fourier transform using a computer we must necessarily only transform a finite timespan (it is a discrete Fourier transform).\footnote{The timespan in this case is the length of time the trajectory was calculated for.} The effect of which is the same as transforming the true, infinite signal multiplied by a unit tophat function of width equal to the timespan. Fourier transforming this yields the true waveform convolved with a sinc. If $\tilde{h}'(f)$ is the computed Fourier transform then
+\begin{align}
+\tilde{h}'(f) = {} & \intd{0}{\tau}{h(t)e^{2\pi i ft}}{t} \\
+ = {} & \left[\tilde{h}(f) \ast e^{-\pi if\tau}\tau\sinc(\pi f\tau)\right],
+\end{align}
+where $\tilde{h}(f) = \mathscr{F}\{h(t)\}$, is the unwindowed Fourier transform. This windowing of the data is an inherent problem in the method; it will be as much of a problem when analysing signals from LISA as it is computing waveforms here. Windowing causes spectral leakage, which means that a contribution from large amplitude spectral components leaks into other components (sidelobes), obscuring and distorting the spectrum at these frequencies\cite{Jones1982}.
+
+Figure (??) shows the computed Fourier transfroms for an example parabolic encounter. The waveforms have two distinct regions: a low frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicefrac{1}{f}}$ behaviour of the sinc gives the shape of the tail. This has possibly been miss-identified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
+
+Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible the reduce the amount of spectral leakage using apodization: to improve the frequency responce of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse responce in a prescribed way. The simplest window function is the rectangular (or Dirichelet) window, this is just the tophat described above. Other window functions are generally tapered. The introduction of a window function influence the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude side lobes. Chosing a window-function is a trade-off between these two sources of error.
+
+
 
 \section{Parameter Extimation \& Fisher Matrices}
 
 
+\section{Energy Spectra}
+
+We may compare the energy spectrum calculated from the kludge waveform with that obtain from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The sprectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis, however we do not expect an exact match because of the differing input physics are various approximations.
+
+\subsection{Kludge Spectrum}
+
+\subsection{Peters \& Matthews Spectrum}
+
+To calculate the energy spectrum for a parabolic orbit, we follow the derivation of Gair\cite{Gair2010}. Peters and Matthews give the power radiated into the $n$th harmonic of the orbital angular frequency as
+\begin{equation}
+P(n) = \frac{32}{5}\frac{G^4}{c^5}\frac{{M_\bullet}^2\mu^2(M_\bullet + \mu)(1-e)^5}{{r_p}^5}g(n,e)
+\label{eq:PM_P}
+\end{equation}
+where the function $g(n,e)$ is defined in terms of Bessel functions of the first kind
+\begin{align}
+g(n,e) = {} & \frac{n^4}{32}\left\{\left[J_{n-2}(ne) - 2eJ_{n-1}(ne) + \frac{2}{n}J_n(ne) + 2eJ_{n+1}(ne) - J_{n+2}(ne)\right]^2 \right. \nonumber \\
+ & + \left. \left(1 - e^2\right)\left[J_{n-2}(ne) - 2J_n(ne) + J_{n+2}(ne)\right]^2 + \frac{4}{3n^2}\left[J_n(ne)\right]^2\right\}.
+\end{align}
+The Keplerian orbital frequency is
+\begin{align}
+{\omega_0}^2 = {} & \frac{G(M_\bullet + \mu)(1-e)^3}{{r_p}^3}\\
+ = {} & (1-e)^3{\omega\sub{c}}^2,
+\label{eq:Kepler_freq}
+\end{align}
+where $\omega\sub{c}$ is defined as the orbital angular frequency of a circular orbit of radius equal to $r_p$. The total energy radiated into the $n$th harmonic, that is at frequency $\omega_n = n\omega_0$, is the power multiplied by the orbital period
+\begin{equation}
+E(n) = \frac{2\pi}{\omega_0}P(n);
+\label{eq:E(n)}
+\end{equation}
+as $e \rightarrow 1$ for a parabolic orbit, $\omega_0 \rightarrow 0$ so the orbital period becomes infinite. we may therefore identify the energy radiated per orbit with the total orbital energy radiated. Since the spacing of harmonics is $\Delta\omega = \omega_0$, we may identify the energy spectrum
+\begin{equation}
+\diff{E}{\omega}(\omega_n)\omega_0 = E(n).
+\end{equation}
+Using the above relations, and changing to linear frequency $2\pif = \omega$, we obtain
+\begin{align}
+\diff{E}{f}(f_n) = & {} \frac{128\pi^2}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}(1-e)^2g(n,e) \\
+ = {} & \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\ell(n,e),
+\label{eq:PM_spectrum}
+\end{align}
+where we have defined the function $\ell(n,e)$ in the last line. For a parabolic orbit, we now have to take the limit of $\ell(n,e)$ as $e \rightarrow 1$.
+
+We shall simplify $\ell(n,e)$ using the recurrance formulae\cite{Watson1995}
+\begin{align}
+J_{\nu-1}(z) + J_{\nu+1}(z) = {} & \frac{2\nu}{z}J_\nu(z)\\
+J_{\nu-1}(z) - J_{\nu+1}(z) = {} & 2J'_\nu(z).
+\end{align}
+We shall also eliminate $n$ using
+\begin{align}
+n = & {} \frac{\omega_n}{\omega_0} \nonumber \\
+= & {} (1-e)^{-3/2}\tilde{f}.
+where $\tilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. We begin by breaking $\ell$ into three parts
+\begin{equation}
+\ell = \underbrace{(1-e)^2n^4\left[J_{n-2} - 2eJ_{n-1} + \frac{2}{n}J_n + 2eJ_{n+1} - J_{n+2}\right]^2}_{\ell_1} + \underbrace{(1-e)^3(1+e)n^4\left[J_{n-2} - 2J_n + J_{n+2}\right]^2}_{\ell_2} + \underbrace{\frac{4(1-e)^2n^2}{3}\left[J_n\right]^2}_{\ell_3}.
+\end{equation}
+We have surpressed the argument of the Bessel functions for brevity. Tackling each term of $\ell$ in turn we obtain
+\begin{align}
+\ell_1(\tilde{f},e) = & {} \left[\frac{4(1+e)\tilde{f}^2}{e}\frac{J'_n}{1-e} + 2\frac{e-2}{e}\tilde{f}\frac{J_n}{(1-e)^{1/2}}\right]^2\\
+\ell_2(\tilde{f},e) = & {} 16(1+e)\left[\frac{(1+e)\tilde{f}^2}{e^2}\frac{J_n}{(1-e)^{1/2}} - \tilde{f}\frac{J'_n}{e}\right]^2\\
+\ell_3(\tilde{f},e) = & {} 4\tilde{f}^2{3}\left[{J_n}{(1-e)^{1/2}}\right]^2.
+\end{align}
+To take the limit of these we need to find the limiting behaviour of Bessel functions. We shall define two new functions
+\begin{equation}
+A(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n}{(1-e)^{1/2}}\right\}; \quad B(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n}{1-e}\right\}.
+\end{equation}
+To give a well defined energy spectrum, both of these must be finite. In this case we see that the second term in $\ell_2$ should go to zero.
+
+The Bessel function has an integral representation\cite{Watson1995}
+\begin{equation}
+J_\nu(z) = \recip{\pi}\intd{0}{\pi}{\cos(\nu\theta - z\sin\theta)}{\theta},
+\end{equation}
+we want the limit of this for $\nu \rightarrow \infty$, $z \rightarrow \infty$, with $z \leq \nu$. We will use the stationary phase approximation to argue that the predominant contribution to the integral comes from when the argument of the cosine is approximately zero, that is for small $\teheta$. In this case we have\cite{Watson1995}
+\begin{align}
+J_\nu(z) \sym {} & \recip{\pi}\intd{0}{\pi}{\cos(\nu\theta - z\theta + \frac{z}{6}\theta^3)}{\theta}\\
+ \sym {} & \recip{\pi}\intd{0}{\infty}{\cos(\nu\theta - z\theta + \frac{z}{6}\theta^3)}{\theta};
+\end{align}
+this last expression is an Airy integral. The Airy integral has a standard from\cite{Watson1995}
+\begin{equation}
+\intd{0}{\infty}{\cos(t^3 + xt)}{t} = \frac{\sqrt{x}}{3}K_{1/3}\left(\frac{2x^{3/2}}{3^{3/2}}\right),
+\end{equation}
+where $K_\nu(z)$ is a modified Bessel function of the second kind. Using this to evaluate our limit gives
+\begin{equation}
+J_\nu(z) \sym \recip{\pi}\sqrt{\frac{2(\nu - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu -z)^3}{z}}\right).
+\end{equation}
+For our particular case we have
+\begin{equation}
+\nu = (1 - e)^{-3/2}\tilde{f}; \quad z = (1 - e)^{-3/2}e\tilde{f};
+\end{equation}
+\begin{equation}
+\frac{\nu - z}{z} = (1 - e); \quad \frac{(\nu - z)^3}{z}  = \tilde{f}^2;
+\end{equation}
+so we find
+\begin{equation}
+J_n(ne) \sym \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}),
+\end{equation}
+thus
+\begin{equation}
+A(\tilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3})
+\end{equation}
+is well defined.
+
+Now finding the derivative
+\begin{align}
+J'_\nu(z) = {} & \recip{2}\left[J_{\nu-1}(z) - J_{\nu+1}(z)\right] \nonumber
+ \sym {} &  \recip{2\pi}\left[\sqrt{\frac{2(\nu -1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu - 1 - z)^3}{z}}\right) - \sqrt{\frac{2(\nu +1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu + 1 - z)^3}{z}}\right)\right].
+\end{align}
+For our case
+\begin{equation}
+\sqrt{\frac{\nu \pm 1 - z}{z}} = (1 - e)^{1/2}\left[1 \pm \frac{(1-e)^{1/2}}{2\tilde{f}} + \ldots\right]; \quad \sqrt{\frac{(\nu \pm 1 - z)^{3/2}}{z}} = \tilde{f}\left[1 \pm \frac{3(1-e)^{1/2}}{2\tilde{f}} + \ldots\right];
+\end{equation}
+and so
+\begin{align}
+J'_n(ne) \sym {} & \recip{2\pi}\sqrt\frac{{2}{3}}(1-e)^{1/2}\left\{\left[1 - \frac{(1-e)^{1/2}}{2\tilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right) - \left[1 + \frac{(1-e)^{1/2}}{2\tilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right)\right]\nonumber \\
+ \sym {} & \frac{-1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}) + \recip{\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3})\right].
+\end{align}
+We may re-express the derivative using the recurrance formula\cite{Watson1995}
+\begin{equation}
+K_{\nu-1}(z) - K_{\nu+1}(z) = {} & -2K'_\nu(z)
+\end{equation}
+to give
+\begin{equation}
+J'_n(ne) \sym \recip{\sqrt{3}\pi}(1-e)\left[K_{-2/3}\left(\frac{2^{3/2}\tilde{f}}{3}) + K_{4/3}\left(\frac{2^{3/2}\tilde{f}}{3}) - \recip{\sqrt{2}\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3})\right].
+\end{equation}
+And so finally,
+\begin{equation}
+B(\tilde{f}) = \recip{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\tilde{f}}{3}) + K_{4/3}\left(\frac{2^{3/2}\tilde{f}}{3}) - \recip{\sqrt{2}\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3})\right],
+\end{equation}
+which is also well defined.
+
+Having obtained expressions for $A(\tilde{f})$ and $B(\tilde{f})$ in terms of standard functions, we may now calculate the energy spectrum for a parabolic orbit. From \eqnref{PM_spectrum} we have
+\begin{equation}
+\diff{E}{f} = \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\ell\left(\frac{f}{f\sub{c}}\right),
+\label{eq:PM_dEdf}
+\end{align}
+where we have used the limit
+\begin{align}
+\ell(\tilde{f}) = {} & \lim_{e \rightarrow 1}\left\{\ell(n,e)\right\} \nonumber \\
+ = {} & \left[8\tilde{f}B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
+\end{align}
+
+To check the validity of this limit we may calculate the total energy radiated. We should be able to calculate this by integrating \eqnref{PM_dEdf} over all frequncies, or alternatively by summing the energy radiated into each harmonic. For consistency, the two apporaches should yield the same result. First, summing over harmonics the
+\begin{align}
+E_\sum = & {} \sum_n E(n) \nonumber \\
+ = & {} \frac{64\pi}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\omega\sub{c}(1-e)^{7/2}\sum_n g(n,e),
+\end{align}
+where we have used equations \eqref{eq:PM_P}, \eqref{eq:Kepler_freq} and \eqref{eq:E(n)}. Peters and Matthews\cite{Peters1963} provide the result
+\begin{equation}
+\sum_n g(n,e) = \frac{1 + \nicefrac{73}{24}e^2 + \nicefrac{37}{96}e^4}{(1-e^2)^{7/2}}.
+\end{equation}
+Using this,
+\begin{equation}
+E_\sum = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\omega\sub{c}\frac{1 + \nicefrac{73}{24}e^2 + \nicefrac{37}{96}e^4}{(1+e^2)^{7/2}}.
+\end{equation}
+This is perfectly well behaved as $e \rightarrow 1$. Taking the limit for a parabolic orbit, the total energy radiated is
+\begin{equation}
+E_\sum = \frac{85\pi}{3 2^{5/2}}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\omega\sub{c}.
+\end{equation}
+Integrating over the energy spectrum, \eqnref{PM_dEdf}, gives
+\begin{align}
+E_\int = & {} \intd{0}{\infty}{\diff{E}{f}}{f} \nonumber \\
+ = & \frac{2\pi}{5}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\omega\sub{c}\intd{0}{\infty}{\ell(\tilde{f})}{\tilde{f}}.
+\end{align}
+The integral can be easily evaluated numerically showing
+\begin{align}
+\intd{0}{\infty}{\ell(\tilde{f})}{\tilde{f}} = & {} 12.5216858\ldots \nonumber \\
+ = & {} \frac{425}{2^{7/2}3},
+\end{align}
+and so we find that the two total energies are consistent
+\begin{align}
+E_\int = & {} \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{{M_\bullet}^2\mu^2}{{r_p}^2}\omega\sub{c}
+ = & {} E_\sum.
+\end{align}
+
+\subsection{Comparison}
+
+
+The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}.
+
+\section{Discussion \& Further Work}
 
 
 
@@ -876,14 +1156,14 @@ The energy flux from the kludge waveform is larger than the Peters and Matthews 
 
 
 
-\chapter{Further Work}
+
+\chapter{Future Work}
 
 \newpage
 
-\bibliographystyle{../physics}
-
 \noindent
-
+\bibliographystyle{../physics}
+\noindent
 \bibliography{../library}
 \noindent
 
