@@ -13,7 +13,7 @@
 
 \bibitem{Landau1975}
 Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
-  fourth edition; Course of Theoretical Hysics; Oxford: Butterworth-Heinemann,
+  fourth edition; Course of Theoretical Physics; Oxford: Butterworth-Heinemann,
   1975.
 \bibAnnoteFile{Landau1975}
 
@@ -83,8 +83,7 @@ Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{{Event Rate for
 \bibitem{Kobayashi2004}
 Kobayashi, S., Laguna, P., Phinney, E.~S. \& Meszaros, P.; {Gravitational Waves
   and X‐Ray Signals from Stellar Disruption by a Massive Black Hole};
-  \textit{The Astrophysical Journal}; \textbf{615}(2):855----865, November
-  2004.
+  \textit{The Astrophysical Journal}; \textbf{615}(2):855--865, November 2004.
 \bibAnnoteFile{Kobayashi2004}
 
 \bibitem{Babak2007}
@@ -101,7 +100,7 @@ Kerr, R.; {Gravitational Field of a Spinning Mass as an Example of
 
 \bibitem{Boyer1967}
 Boyer, R.~H. \& Lindquist, R.~W.; {Maximal Analytic Extension of the Kerr
-  Metric}; \textit{Journal of Mathematical Physics}; \textbf{8}(2):265,
+  Metric}; \textit{Journal of Mathematical Physics}; \textbf{8}(2):265--281,
   February 1967.
 \bibAnnoteFile{Boyer1967}
 
@@ -118,12 +117,12 @@ Carter, B.; {Global Structure of the Kerr Family of Gravitational Fields};
 \bibitem{DeFelice1980}
 de~Felice, F.; {Angular momentum and separation constant in the Kerr metric };
   \textit{Journal of Physics A: Mathematical and General};
-  \textbf{13}(5):1701----1708, 1980.
+  \textbf{13}(5):1701--1708, 1980.
 \bibAnnoteFile{DeFelice1980}
 
 \bibitem{Rosquist2009}
 Rosquist, K., Bylund, T. \& Samuelsson, L.; {Carter's Constant Revealed};
-  \textit{International Journal of Modern Physics D}; \textbf{18}(03):429,
+  \textit{International Journal of Modern Physics D}; \textbf{18}(03):429--434,
   October 2009.
 \bibAnnoteFile{Rosquist2009}
 
@@ -173,5 +172,59 @@ Bekenstein, J.~D.; {Gravitational-Radiation Recoil and Runaway Black Holes};
 Misner, C.~W., Thorne, K.~S. \& Wheeler, J.~A.; \textit{{Gravitation}}; New
   York: W. H. Freeman, 1973.
 \bibAnnoteFile{Misner1973}
+
+\bibitem{Finn1992}
+Finn, L.~S.; {Detection, measurement, and gravitational radiation};
+  \textit{Physical Review D}; \textbf{46}(12):5236--5249, December 1992.
+\bibAnnoteFile{Finn1992}
+
+\bibitem{Cutler1994}
+Cutler, C., Kennefick, D. \& Poisson, E.; {Gravitational radiation reaction for
+  bound motion around a Schwarzschild black hole}; \textit{Physical Review D};
+  \textbf{50}(6):3816--3835, September 1994.
+\bibAnnoteFile{Cutler1994}
+
+\bibitem{Cutler1998}
+Cutler, C.; {Angular resolution of the LISA gravitational wave detector};
+  \textit{Physical Review D}; \textbf{57}(12):7089--7102, June 1998.
+\bibAnnoteFile{Cutler1998}
+
+\bibitem{Barack2004}
+Barack, L. \& Cutler, C.; {LISA capture sources: Approximate waveforms,
+  signal-to-noise ratios, and parameter estimation accuracy}; \textit{Physical
+  Review D}; \textbf{69}(8):082005(24), April 2004.
+\bibAnnoteFile{Barack2004}
+
+\bibitem{Jones1982}
+Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
+  Engineering Series; Exeter: Peter Peregrinus, 1982.
+\bibAnnoteFile{Jones1982}
+
+\bibitem{Burko2007}
+Burko, L.~M. \& Khanna, G.; {Accurate time-domain gravitational waveforms for
+  extreme-mass-ratio binaries}; \textit{Europhysics Letters (EPL)};
+  \textbf{78}(6):60005, June 2007.
+\bibAnnoteFile{Burko2007}
+
+\bibitem{Peters1963}
+Peters, P.~C. \& Mathews, J.; {Gravitational Radiation from Point Masses in a
+  Keplerian Orbit}; \textit{Physical Review}; \textbf{131}(1):435--440, July
+  1963.
+\bibAnnoteFile{Peters1963}
+
+\bibitem{Peters1964}
+Peters, P.~C.; {Gravitational Radiation and the Motion of Two Point Masses};
+  \textit{Physical Review}; \textbf{136}(4B):B1224--B1232, November 1964.
+\bibAnnoteFile{Peters1964}
+
+\bibitem{Gair2010}
+Gair, J.~R.; private communication, 2010.
+\bibAnnoteFile{Gair2010}
+
+\bibitem{Watson1995}
+Watson, G.~N.; \textit{{A Treatise on the Theory of Bessel Functions}}; second
+  edition; Cambridge Mathematical Library; Cambridge: Cambridge University
+  Press, 1995.
+\bibAnnoteFile{Watson1995}
 
 \end{thebibliography}

@@ -44,7 +44,7 @@ ENTRY
   { address
     annote
     archive
-	arXiv
+    arXiv
     author
     booktitle
     chapter
