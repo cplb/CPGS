@@ -139,7 +139,7 @@ Throughout this work we will use the the time-like sign convention of Landau and
 \item The Reinann tensor is defined as ${R^\mu}_{\nu\sigma\rho} = \partial_\sigma {\Gamma^\mu}_{\nu\rho} - \partial_\rho {\Gamma^\mu}_{\nu\sigma} + {\Gamma^\mu}_{\lambda\sigma}{\Gamma^\lambda}_{\rho\nu} - {\Gamma^\mu}_{\lambda\rho}{\Gamma^\lambda}_{\sigma\nu}$.
 \item The Ricci tensor is defined as the contraction $R_{\mu\nu} = {R^\lambda}_{\mu\lambda\mu}$.
 \end{enumerate}
-Greek indicies are used to represent spacetime indicies $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indicies $i = \{1,2,3\}$. Uppercase Latin indicies from the beginning of the alphabet will be used for the output of two LISA detector arms $A = \{\mathrm{I}, \mathrm{II}\}$, and lowercase Latin indicies from the beginning of the alphabet are used for parameter space. Summation over repeated indices is assumed unless explicitally noted otherwise. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
+Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indices $i = \{1,2,3\}$. Uppercase Latin indices from the beginning of the alphabet will be used for the output of two LISA detector arms $A = \{\mathrm{I}, \mathrm{II}\}$, and lowercase Latin indices from the beginning of the alphabet are used for parameter space. Summation over repeated indices is assumed unless explictly noted otherwise. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
 
 \chapter{Gravitational Radiation In $f(R)$ Theory}
 
@@ -157,7 +157,7 @@ We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed
 \begin{equation}
 f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
-Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$, any rescaling may be absorbed into the definition of $G$.
+Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
 We may calculate the field equations in $f(R)$ theory by varying the action with respect to the metric $g^{\mu\nu}$,
 \begin{align}
@@ -268,7 +268,7 @@ which is a nice geometric identity. Using this we find that
 \frac{8\pi G}{c^4}\nabla^\mu T_{\mu\nu} = {} & R_{\mu\nu}\nabla^\mu f' - R_{\mu\nu}\nabla^\mu f' \nonumber \\
  = {} & 0.
 \end{align}
-Consequently we see that energy-momentum is a conserved quantity in the same way as in GR as may be expected from the symmetries of the action.
+Consequently we see that energy-momentum is a conserved quantity in the same way as in GR, as may be expected from the symmetries of the action.
 
 \section{Linear Perturbations}\label{sec:Lin}
 
@@ -349,7 +349,7 @@ In GR we use the trace reversed form where $A_{\mu\nu} = -(h/2)\eta_{\mu\nu}$. T
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} - \frac{h}{2}\eta_{\mu\nu} + B_{\mu\nu}.
 \end{equation}
-The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, $R_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate $R_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\epsilon}$, there are three scalar quantities that satisfy this: $h$, $R$ and $\Box R$; $h$ is used already and $\Box R$ is related to $R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
+The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, $R_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate $R_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\epsilon}$. There are three scalar quantities that satisfy this: $h$, $R$ and $\Box R$; $h$ is used already and $\Box R$ is related to $R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} + \left(b a_2 R - \frac{h}{2}\right)\eta_{\mu\nu}
 \label{eq:Ansatz}
@@ -400,7 +400,7 @@ This means finally that
 \end{equation}
 we have our wave equation and it is consistent.
 
-Should $a_2$ be sufficiently small that it may be regarded an $\order{\epsilon}$ quantity then we recover GR to leading within our analysis.
+Should $a_2$ be sufficiently small that it may be regarded an $\order{\epsilon}$ quantity, we recover GR to leading order within our analysis.
 
 \section{Gravitational Radiation}
 
@@ -409,7 +409,7 @@ Having established two wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}
 \overline{h}_{\mu\nu} = {} & \Re\left\{\hat{\overline{h}}_{\mu\nu}(k_\rho) \exp\left(ik_\rho x^\rho\right)\right\},\\
 R = {} & \Re\left\{\hat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
 \end{align}
-where $k_\mu$ and $q_\mu$ are the 4-wavevectors, or 4-momenta, of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave traveling along the $z$-axis
+where $k_\mu$ and $q_\mu$ are the 4-wavevectors, or 4-momenta, of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave travelling along the $z$-axis
 \begin{equation}
 k^\mu = \omega(1, 0, 0, 1),
 \end{equation}
@@ -535,7 +535,7 @@ We will consider terms only to $\order{\epsilon^2}$. The connection coefficient 
 \begin{equation}
 {\Gamma^\rho}_{\mu\nu} = {{\Gamma^{(\mathrm{B})}}^\rho}_{\mu\nu} + {{\Gamma^{(1)}}^\rho}_{\mu\nu} + {{\Gamma^{(2)}}^\rho}_{\mu\nu} + \ldots
 \end{equation}
-We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately to the accuracy considered here it does not make a difference, however we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
+We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
 \begin{align}
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} = {} & \frac{1}{2}\gamma^{\rho\lambda}\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
   & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
@@ -609,7 +609,7 @@ Using all of these
  & + {} a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) - {a_2}^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\
  & + \left. \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right)
 \end{align}
-It is simplest to split this up for the purposes of averaging. Since we average over over all directions at each point gradients average to zero
+It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point gradients average to zero
 \begin{equation}
 \left\langle\partial_\mu V\right\rangle = 0.
 \end{equation}
@@ -684,11 +684,11 @@ We see that our field equations are consistent.
 
 Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few millparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}: this latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
 
-An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to continuously emit significant gravitational radiation. The resulting waveforms are known as extreme mass ratio inspirals (EMRIs).
+An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted during each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to emit continuously significant gravitational radiation. The resulting waveforms are known as extreme mass ratio inspirals (EMRIs).
 
-Studies of these systems have usually focused upon when the orbit completes multiple cycles, thus allowing a high signal-to-noise ratio to be accumulated. Here, we will investigate what can be learnt from high eccentricity orbits. These are the initial orbits we expect that COs may be scattered onto by interactions with other bodies. We will make the simplifying assumption that all these orbits are marginally bound, or parabolic, since highly eccentric orbits will appear almost indistinguishable from an appropriate parabolic orbit\cite{Kobayashi2004}. Here ``parabolic'' and ``eccentricity'' refer to the energy of the geodesic and not to the geometric shape of the orbit.\footnote{Marginally bound Keplerian orbits in flat spacetime are parabolic in both senses.} Following such a trajectory a nobject may make just one pass of the MBH or, if the periapsis distance is small enough, it may complete a number or rotations. Such an orbit is referred to as zoom-whirl.
+Studies of these systems have usually focused upon when the orbit completes multiple cycles, thus allowing a high signal-to-noise ratio to be accumulated. Here, we will investigate what can be learnt from high eccentricity orbits. These are the initial orbits onto which we expect that COs may be scattered by interactions with other bodies. We will make the simplifying assumption that all these orbits are marginally bound, or parabolic, since highly eccentric orbits will appear almost indistinguishable from an appropriate parabolic orbit\cite{Kobayashi2004}. Here ``parabolic'' and ``eccentricity'' refer to the energy of the geodesic and not to the geometric shape of the orbit.\footnote{Marginally bound Keplerian orbits in flat spacetime are parabolic in both senses.} Following such a trajectory an object may make just one pass of the MBH or, if the periapsis distance is small enough, it may complete a number or rotations. Such an orbit is referred to as zoom-whirl.
 
-In order to compute the gravitational waveform produced in such as case, we integrate the geodesic equations for a parabolic orbit in Kerr spacetime. We assume that the orbitting body is a test particle, such that it does not influence the underlying spacetime, and that the orbital parameters evolve neglibly during the orbit so that they may be held constant. We use this to construct an approximate numerical kludge waveform\cite{Babak2007}.
+In order to compute the gravitational waveform produced in such as case, we integrate the geodesic equations for a parabolic orbit in Kerr spacetime. We assume that the orbiting body is a test particle, such that it does not influence the underlying spacetime, and that the orbital parameters evolve negligibly during the orbit so that they may be held constant. We use this to construct an approximate numerical kludge waveform\cite{Babak2007}.
 
 \section{Parabolic Orbits in Kerr Spacetime}
 
@@ -752,7 +752,7 @@ where $e = 1$ is the eccentricity and $p = 2r_p$ is the semilatus rectum. As $\p
 \begin{equation}
 \rho^2 \diff{\psi}{\tau} = \left\{M_\bullet\left[2r_p - \left(r_1 + r_2\right)\left(1 + \cos\psi\right) + \frac{r_1 r_2}{2r_p}\left(1 + \cos\psi\right)^2\right]\right\}^{1/2}.
 \end{equation}
-This may be integrated without problem. Parameterizing an orbit by it periapsis and eccentricity has the additional benefit of allowing easier comparison with its flat-space equivalent than considering energy and angular momentum\cite{Gair2005}.
+This may be integrated without problem. Parameterizing an orbit by its periapsis and eccentricity has the additional benefit of allowing easier comparison with its flat-space equivalent than considering energy and angular momentum\cite{Gair2005}.
 
 The $\theta$ motion is (usually) bounded, with $\theta_0 \leq \theta \leq \pi - \theta_0$. The turning points are given by where
 \begin{align}
@@ -809,7 +809,7 @@ Numerical kludge approximations aim to encapsulate the main characteristics of a
 \end{equation}
 These are appealing since in the limit of $G \rightarrow 0$, so that the gravitating mass goes to zero, the Kerr metric in Boyer-Lindquist coordinates reduces to the Minkowski metric in oblate spheroidal coordinates.\footnote{We must take the limit $G \rightarrow 0$, rather than $M_\bullet \rightarrow 0$ to avoid the problem of an over-extreme BH with $a > M_\bullet$.}
 \end{enumerate}
-In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of large $r\sub{BL}$. It must be stressed that there is no well motivated argument that either coordinate system must yield an accurate GW; their use is justified {\it post facto} by comparison with result obtained from more accurate, and computationally intensive, methods\cite{Gair2005, Babak2007}. This ambiguity in assigning flat-space coordinates reflects the inconsistency of the semi-relativistic approximation: the geodesic trajectory was calculated for the Kerr geometry, by moving to flat spacetime we lose the reason for its existence. However, this inconsistency should not be regarded as a major problem; it is just an artifact of the basic assumption that the shape of the trajectory is important for determining the character of the radiation, but the curvature of the spacetime in the vicinity of the source is not. By binding the particle to the exact geodesic, we ensure that the kludge waveform has spectral components at the correct frequencies, but by assuming flat spacetime for generation of GWs they will not have the correct amplitudes.
+In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of large $r\sub{BL}$. It must be stressed that there is no well motivated argument that either coordinate system must yield an accurate GW; their use is justified {\it post facto} by comparison with result obtained from more accurate, and computationally intensive, methods\cite{Gair2005, Babak2007}. This ambiguity in assigning flat-space coordinates reflects the inconsistency of the semi-relativistic approximation: the geodesic trajectory was calculated for the Kerr geometry; by moving to flat spacetime we lose the reason for its existence. However, this inconsistency should not be regarded as a major problem; it is just an artifact of the basic assumption that the shape of the trajectory is important for determining the character of the radiation, but the curvature of the spacetime in the vicinity of the source is not. By binding the particle to the exact geodesic, we ensure that the kludge waveform has spectral components at the correct frequencies, but by assuming flat spacetime for generation of GWs they will not have the correct amplitudes.
 
 \subsection{Quadrupole-Octopole Formula}
 
@@ -851,7 +851,7 @@ The LISA detector is a three-arm, space-Borneo laser interferometer\cite{Bender1
 \begin{equation}
 \overline{\phi}(t) = \omega_\oplus t + \overline{\phi}_0; \quad \varphi(t) = -\omega_\oplus t + \varphi_0;
 \end{equation}
-where $\omega_\oplus$ coorespond to one rotation per year; finally, $\alpha = \ang{60}$ is the inclination of the detector plane. We have computed the waveforms in the MBH's coordinates, however it is simplest to describe the measured signal using the detector's coordinates. To transform between coordinates we will use the matrix $A_{ij}$:
+where $\omega_\oplus$ corresponds to one rotation per year; finally, $\alpha = \ang{60}$ is the inclination of the detector plane. We have computed the waveforms in the MBH's coordinates, however it is simplest to describe the measured signal using the detector's coordinates. To transform between coordinates we will use the matrix $A_{ij}$:
 \begin{equation}
 x\sub{d}^i = A_{ij}x_\bullet^j; \quad h\sub{d}^{ij} = A_{ik}A_{jl}h_\bullet^{kl}.
 \end{equation}
@@ -903,7 +903,7 @@ where $t\sub{AU}$ is the light travel-time for LISA's orbital radius. The time $
 
 \subsection{Frequency Domain Formalism}
 
-At this stage we now know the GW $\boldsymbol{h}(t)$ that will be incident upon the LISA detector. We must now discuss how to analysis the waveform to extract the information it contains. We begin with a brief overview of the basic components of signal analysis used for GWs, with application to LISA in particular. This fixes the notation we will employ. A more complete discussion of material presented here can be found in the work of Finn\cite{Finn1992}, and Cutler and Flanagan\cite{Cutler1994}.
+At this stage we now know the GW $\boldsymbol{h}(t)$ that will be incident upon the LISA detector. We must now discuss how to analyse the waveform to extract the information it contains. We begin with a brief overview of the basic components of signal analysis used for GWs, with application to LISA in particular. This fixes the notation we will employ. A more complete discussion of material presented here can be found in the work of Finn\cite{Finn1992}, and Cutler and Flanagan\cite{Cutler1994}.
 
 The actual measured strain $\boldsymbol{s}(t)$ will be the combination of the signal and the detector noise
 \begin{equation}
@@ -915,29 +915,29 @@ we will assume that the noise $n_A(t)$ is stationary and Gaussian. When analysin
 \end{equation}
 Since we have assumed Gaussianity for the noise signal $n_A(t)$, each Fourier component $\tilde{n}_A(f)$ also has a Gaussian probability distribution; the assumption of stationarity means that different Fourier components are uncorrelated, thus\cite{Cutler1994}
 \begin{equation}
-\left\langle\tilde{n}_A(f)\tilde{n}_B^*(f')\right\rangle = \recip{2}\delta(f - f')S_{AB}(f),
+\left\langle\tilde{n}_A(f)\tilde{n}_B^*(f')\right\rangle_n = \recip{2}\delta(f - f')S_{AB}(f),
 \end{equation}
-where $\left\langle\ldots\right\rangle$ denotes the expectation value and $S_{AB}(f)$ is the (single-sided) noise spectral density. For simplicity, we may assume that the noise in the two detectors are uncorrelated, but share the same characterisation so that\cite{Cutler1998}
+where $\left\langle\ldots\right\rangle_n$ denotes the expectation value over the noise distribution, and $S_{AB}(f)$ is the (single-sided) noise spectral density. For simplicity, we may assume that the noise in the two detectors are uncorrelated, but share the same characterization so that\cite{Cutler1998}
 \begin{equation}
 S_{AB}(f) = \delta_{AB}S_n(f).
 \end{equation}
-The functional form of the noise spectral density $S_n(f)$ for LISA is discussed below.
+The functional form of the noise spectral density $S_n(f)$ for LISA is discussed below in \secref{Noise}.
 
 The properties of the noise allow us to define a natural inner product and associated distance on the space of signals\cite{Cutler1994}
 \begin{equation}
 \innerprod{\boldsymbol{g}}{\boldsymbol{k}} = 2\intd{0}{\infty}{\frac{\tilde{g}_A^*(f)\tilde{k}_A(f) + \tilde{g}_A(f)\tilde{k}_A^*(f)}{S_n(f)}}{f}.
 \end{equation}
-Using this definition, the probability of a particular realization of noise $\boldsymbol{n}(t) = \boldsymbol{n_0}(t)$ is
+Using this definition, the probability of a particular realization of noise $\boldsymbol{n}(t) = \boldsymbol{n}_0(t)$ is
 \begin{equation}
-p(\boldsymbol{n}(t) = \boldsymbol{n_0}(t)) \propto e^{-\innerprod{\boldsymbol{n_0}}{\boldsymbol{n_0}}/2}.
+p(\boldsymbol{n}(t) = \boldsymbol{n}_0(t)) \propto \exp\left[-\recip{2}\innerprod{\boldsymbol{n}_0}{\boldsymbol{n}_0}\right].
 \end{equation}
 Thus, if the incident waveform is given as $\boldsymbol{h}(t)$, the probability of measuring signal $\boldsymbol{s}(t)$ is
 \begin{equation}
-p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto e^{-\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}/2}.
+p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto \exp\left[-\recip{2}{\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}\right].
 \label{eq:sig_prob}
 \end{equation}
 
-\subsection{LISA Noise Curve}
+\subsection{LISA Noise Curve}\label{sec:Noise}
 
 LISA's noise has two sources: instrumental noise and confusion noise, primarily from white dwarf binaries. The latter may be divided into contributions from galactic and extragalactic binaries. In this work we use the noise model of Barack and Cutler\cite{Barack2004}. The shape of the noise curve can be seen figures (??). The instrumentation noise dominates at both high and low frequencies. The confusion noise is important at intermediate frequencies, and is responsible for the cusp around $f = \SI{1e-3}{\Hz}$.
 
@@ -950,29 +950,83 @@ There is one remaining complication regarding signal analysis. When we perform a
 \end{align}
 where $\tilde{h}(f) = \mathscr{F}\{h(t)\}$, is the unwindowed Fourier transform. This windowing of the data is an inherent problem in the method; it will be as much of a problem when analysing signals from LISA as it is computing waveforms here. Windowing causes spectral leakage, which means that a contribution from large amplitude spectral components leaks into other components (side lobes), obscuring and distorting the spectrum at these frequencies\cite{Jones1982}.
 
-Figure (??) shows the computed Fourier transforms for an example parabolic encounter. The waveforms have two distinct regions: a low frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicefrac{1}{f}}$ behaviour of the sinc gives the shape of the tail. This has possibly been miss-identified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
+Figure (??) shows the computed Fourier transforms for an example parabolic encounter. The waveforms have two distinct regions: a low-frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicefrac{1}{f}}$ behaviour of the sinc gives the shape of the tail. This has possibly been misidentified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
 
-Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible the reduce the amount of spectral leakage using apodization: to improve the frequency response of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse response in a prescribed way. The simplest window function is the rectangular (or Dirichlet) window, this is just the top hat described above. Other window functions are generally tapered. The introduction of a window function influence the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude side lobes. Choosing a window-function is a trade-off between these two sources of error.
+Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible to the reduce the amount of spectral leakage using apodization: to improve the frequency response of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse response in a prescribed way. The simplest window function is the rectangular (or Dirichlet) window; this is just the top hat described above. Other window functions are generally tapered. The introduction of a window function influences the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude side lobes. Choosing a window-function is a trade-off between these two sources of error.
 
-\section{Parameter Estimation \& Fisher Matrices}
+\section{Parameter Estimation \& Fisher Information Matrices}
 
 Having detected a GW signal $\boldsymbol{s}(t)$ we are interested in what we may infer about the source. Let us define $\boldsymbol{\lambda} = \{\lambda^1, \lambda^2, \ldots, \lambda^N\}$ as the set of $N$ parameters which define the GW. We have a inference problem that may be solved by appropriate application of Bayes' Theorem\cite{Jaynes2003}: the probability distribution for our parameters given that we have detected the signal $\boldsymbol{s}(t)$ is given by the posterior
 \begin{equation}
 p(\boldsymbol{\lambda}|\boldsymbol{s}(t)) = \frac{p(\boldsymbol{s}(t)|\boldsymbol{\lambda})p(\boldsymbol{\lambda})}{p(\boldsymbol{s}(t))}.
 \end{equation}
-Here $p(\boldsymbol{s}(t)|\boldsymbol{\lambda})$ is the likelihood of the parameters, $p(\boldsymbol{\lambda})$ is the prior probability distribution for the parameters, and $p(\boldsymbol{s}(t)) = \intd{}{}{(\boldsymbol{s}(t)|\boldsymbol{\lambda})}{^N \lambda}$ is, for our purposes a normalising constant, and may be ignored. The likelihood function depends upon the particular realization of noise. A particular set of parameters $\boldsymbol{\lambda}_0$ defines a waveform $\boldsymbol{h}_0(t)$, the probability that we observe signal $\boldsymbol{s}(t)$ for this GW is given by \eqnref{sig_prob}, so the likelihood is just
+Here $p(\boldsymbol{s}(t)|\boldsymbol{\lambda})$ is the likelihood of the parameters, $p(\boldsymbol{\lambda})$ is the prior probability distribution for the parameters, and $p(\boldsymbol{s}(t)) = \intd{}{}{p(\boldsymbol{s}(t)|\boldsymbol{\lambda})}{^N \lambda}$ is, for our purposes a normalising constant, and may be ignored. The likelihood function depends upon the particular realization of noise. A particular set of parameters $\boldsymbol{\lambda}_0$ defines a waveform $\boldsymbol{h}_0(t) = \boldsymbol{h}(t; \boldsymbol{\lambda}_0)$, the probability that we observe signal $\boldsymbol{s}(t)$ for this GW is given by \eqnref{sig_prob}, so the likelihood is just
 \begin{equation}
-p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto e^{-\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}/2}.
+p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \e\p\left[-\recip{2}{\innerprod{\boldsymbol{s}-\boldsymbol{h}_0}{\boldsymbol{s}-\boldsymbol{h}_0}\right].
+\end{equation}
+If we were to define this as a probability distribution for the parameters $boldsymbol{\lambda}$, then the modal values would be the maximum-likelihood parameters $\boldsymbol{\lambda}\sub{ML}$. The waveform $h((t; \boldsymbol{\lambda}\sub{ML}))$ would be the signal closest to \boldsymbol{s}(t) in the space of all signal, where distance is defined using the inner product\cite{Cutler1994}.
+
+In the limit of a high signal-to-noise ratio (SNR), we may approximate this as\cite{Vallisneri2008}
+\begin{equation}
+p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \exp\left[-\recip{2}\innerprod{\partial_a\boldsymbol{h}}{\partial_b\boldsymbol{h}}\left(\lambda^a - \langle\lambda^a\rangle_\ell\right)\lambda^b - \langle\lambda^b\rangle_\ell\left(\right)\right],
+\end{equation}
+where the mean is defined as
+\begin{equation}
+\langle\lambda^a\rangle_\ell = \frac{\intd{}{}{\lambda^a p(\boldsymbol{s}(t)|\boldsymbol{\lambda})}{^N \lambda}}{\intd{}{}{p(\boldsymbol{s}(t)|\boldsymbol{\lambda})}{^N \lambda}}.
+\end{equation}
+Using the high SNR limit approximation, this mean is just the maximum-likelihood value $\langle\lambda^a\rangle_\ell = \lambda^a\sub{ML}$. The quantity
+\begin{equation}
+\Gamma_{ab} = \innerprod{\partial_a\boldsymbol{h}}{\partial_b\boldsymbol{h}}
+\end{equation}
+is the Fisher information matrix. We see that it controls the variance of likelihood distribution.
+
+The form of the posterior distribution we depend upon the nature of the prior information. If we have an uninformative prior, such that $p(\boldsymbol{\lambda})$ is a constant, then the posterior distribution would be determined by the likelihood. In the high SNR limit, we would obtain a Gaussian with variance-covariance matrix
+\begin{equation}
+\boldsymbol{\Sigma} = \boldsymbol{\Gamma}^{-1}.
+\end{equation}
+The Fisher information matrix gives the uncertainty associated with the estimated parameter values, in this case the maximum-likelihood values. If the prior were to restrict the allowed range of parameters, for example we believe that the spin parameter is $|a| \leq M_\bullet$, then the posterior would be a truncated Gaussian, and $\boldsymbol{\Gamma}^{-1}$ would no longer represent the variance-covariance. If the prior was approximately Gaussian with variance-covariance matrix $\boldsymbol{\Sigma}_0$, then the posterior would also be Gaussian.\footnote{If we only know the typical value and spread of a parameter then a Gaussian is the maximum entropy prior\cite{Jaynes2003}: the prior that is least informative given what we do know, the prior that best reflects our state of ignorance.} The posterior variance-covariance would be\cite{Cutler1994, Vallisneri2008}
+\begin{equation}
+\boldsymbol{\Sigma} = \left(\boldsymbol{\Gamma} + \boldsymbol{\Sigma}_0^{-1}\right)^{-1}.
 \end{equation}
 
-
-
+As a first estimate of what we may learn from parabolic encounters we have only looked at the Fisher information matrix elements. If these are large then we expect we would be able to precisely determine a parameter, whereas if they are small we would not be able to learn much more than we already know from our prior knowledge. The input parameters for the model are:
 
 \section{Energy Spectra}
 
-We may compare the energy spectrum calculated from the kludge waveform with that obtain from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis, however we do not expect an exact match because of the differing input physics are various approximations.
+We may compare the energy spectrum calculated from the kludge waveform with that obtain from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis, however we do not expect an exact match because of the differing input physics and various approximations.
 
 \subsection{Kludge Spectrum}
+
+Our gravitational wave in the TT gauge has momentum pseudotensor\cite{Misner1973}
+\begin{equation}
+T_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle\partial_\mu h_{ij} \partial_\nu h^{ij}\right\rangle,
+\end{equation}
+where $\langle\ldots\rangle$ indicates averaging over several wavelengths, or equivalently averaging over several periods. Thus, the flux of energy through a sphere of radius $r = R$ is
+\begin{equation}
+\diff{E}{t} = \frac{c^3}{32\pi G} R^2 \intd{}{}{}{\Omega}\leftlangle\diff{h_{ij}}{t}\diff{h^{ij}}{t}\right\rangle,
+\end{equation}
+with $\intd{}{}{}{\Omega}$ representing integration over all solid angles. From \eqnref{Octopole} we see that the waves have a $\nicefrac{r}$ dependence, so if we define
+\begin{equation}
+h_{ij} = \frac{H_{ij}}{r},
+\end{equation}
+we see that the flux is independent of $R$, as required for energy conservation,
+\begin{equation}
+\diff{E}{t} = \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\left\langle\diff{H_{ij}}{t}\diff{H^{ij}}{t}\right\rangle.
+\end{equation}
+If we now integrate to find the total energy emitted we obtain
+\begin{equation}
+E = \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\diff{H_{ij}}{t}\diff{H^{ij}}{t}.
+\end{equation}
+Since we are considering all times the localization of the energy is no longer of importance and so it is unnecessary to average over several periods. If we switch to Fourier representation $\tilde{H}_{ij}(f) = \mathscr{F}\{H_{ij}(t)\}$, then
+\begin{align}
+E = {} & \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\\intd{-\infty}{\infty}{}{f}2\pi i f \tilde{H}_{ij}(f)e^{2\pi i f t}\intd{-\infty}{\infty}{}{f'}2\pi i f' \tilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
+ = {} & \frac{\pi c^3}{8 G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{f} f^2 \tilde{H}_{ij}(f)\tilde{H}^{ij}(-f) \nonumber \\
+ = {} & \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}\intd{0}{\infty}{}{f} f^2 \tilde{H}^{ij}(f)\tilde{H}_{ij}^*(f).
+\end{align}
+Here we have used that the signal is real so that $\tilde{H}_{ij}^*(f) = \tilde{H}_{ij}(-f)$. Using this we can identify the energy spectrum as
+\begin{align}
+\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}f^2 \tilde{H}^{ij}(f)\tilde{H}_{ij}^*(f).
+\end{align}
 
 \subsection{Peters \& Matthews Spectrum}
 
@@ -997,13 +1051,13 @@ where $\omega\sub{c}$ is defined as the orbital angular frequency of a circular 
 E(n) = \frac{2\pi}{\omega_0}P(n);
 \label{eq:E(n)}
 \end{equation}
-as $e \rightarrow 1$ for a parabolic orbit, $\omega_0 \rightarrow 0$ so the orbital period becomes infinite. we may therefore identify the energy radiated per orbit with the total orbital energy radiated. Since the spacing of harmonics is $\Delta\omega = \omega_0$, we may identify the energy spectrum
+as $e \rightarrow 1$ for a parabolic orbit, $\omega_0 \rightarrow 0$ so the orbital period becomes infinite. We may therefore identify the energy radiated per orbit with the total orbital energy radiated. Since the spacing of harmonics is $\Delta\omega = \omega_0$, we may identify the energy spectrum
 \begin{equation}
-\diff{E}{\omega}(\omega_n)\, \omega_0 = E(n).
+\left.\diff{E}{\omega}\right|_{\omega_n}\omega_0 = E(n).
 \end{equation}
 Using the above relations, and changing to linear frequency $2\pi f = \omega$, we obtain
 \begin{align}
-\diff{E}{f}(f_n) = {} & \frac{128\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}(1-e)^2g(n,e) \\
+\left.\diff{E}{f}\right|_{f_n} = {} & \frac{128\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}(1-e)^2g(n,e) \\
  = {} & \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}\ell(n,e),
 \label{eq:PM_spectrum}
 \end{align}
