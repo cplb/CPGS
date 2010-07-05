@@ -44,7 +44,6 @@ ENTRY
   { address
     annote
     archive
-    arXiv
     author
     booktitle
     chapter
@@ -63,6 +62,7 @@ ENTRY
     numpages
     organization
     pages
+	primaryClass
     publisher
     school
     series
@@ -629,24 +629,23 @@ FUNCTION {bibinfo.warn}
     }
   if$
 }
-FUNCTION {format.arXiv}
-{ arXiv empty$
-    { "" }
-    { "\arXivprefix\arXiv{" arXiv * "}" * }
-  if$
+FUNCTION {format.primaryClass}
+{
+  primaryClass empty$
+      { "" }
+      { " [" primaryClass * "]" *}
+  if$            
 }
+
 FUNCTION {format.eprint}
-{ eprint duplicate$ empty$
-    'skip$
-    { "\eprint"
-      archive empty$
-        'skip$
-        { "[" * archive * "]" * }
-      if$
-      "{" * swap$ * "}" *
-    }
-  if$
+{ eprint empty$
+     { ""}
+     {"\href{http://arxiv.org/abs/" eprint * "}" * 
+             "{{\arXivprefix\arXiv " eprint *
+              format.primaryClass * "}}" *}
+     if$
 }
+
 FUNCTION {format.url}
 { url empty$
     { "" }
@@ -1199,7 +1198,6 @@ FUNCTION {article}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1229,7 +1227,6 @@ FUNCTION {book}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1242,7 +1239,6 @@ FUNCTION {booklet}
   format.date output
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1276,7 +1272,6 @@ FUNCTION {inbook}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1299,7 +1294,6 @@ FUNCTION {incollection}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1325,7 +1319,6 @@ FUNCTION {inproceedings}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1360,7 +1353,6 @@ FUNCTION {manual}
   format.date output
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1376,7 +1368,6 @@ FUNCTION {mastersthesis}
   format.date "year" output.check
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1389,7 +1380,6 @@ FUNCTION {misc}
   format.date output
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
   empty.misc.check
@@ -1405,7 +1395,6 @@ FUNCTION {phdthesis}
   format.date "year" output.check
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1440,7 +1429,6 @@ FUNCTION {proceedings}
   if$
   format.note output
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }
@@ -1456,7 +1444,6 @@ FUNCTION {techreport}
   format.date "year" output.check
   format.note output
   format.eprint output
-  format.arXiv output
   format.url output
   fin.entry
 }
@@ -1468,7 +1455,6 @@ FUNCTION {unpublished}
   format.date output
   format.note "note" output.check
   format.eprint output
-  format.arXiv output
   %format.url output
   fin.entry
 }

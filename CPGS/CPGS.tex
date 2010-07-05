@@ -24,11 +24,13 @@
 \usepackage{slashed}
 \usepackage{afterpage}
 \usepackage[latin9]{inputenc}
+\usepackage{fixmath}
 %\usepackage{txfonts}
-\usepackage{natbib}
+\usepackage[numbers, sort&compress]{natbib}
 \renewcommand{\bibfont}{\footnotesize}
-\setlength{\bibhang}{0pt} 
 \renewcommand\refname{References}
+\setlength{\bibhang}{0pt} 
+
 
   \hyphenpenalty=4000
   \tolerance=1000
@@ -55,6 +57,7 @@
 \newcommand{\super}[1]{\ensuremath{^\mathrm{#1}}}
 
 \newcommand{\recip}[1]{\ensuremath{\frac{1}{#1}}}
+\newcommand{\nicerecip}[1]{\ensuremath{\nicefrac{1}{#1}}}
 
 \newcommand{\order}[1]{\ensuremath{\mathcal{O}({#1})}}
 
@@ -115,9 +118,9 @@
 \renewcommand\bottomfraction{.8}
 \renewcommand\textfraction{.2}
 
-\title{Exploring Strong Field Gravity}
-\author{Christopher Berry\\ \vspace{3mm} Churchill College\\and\\Institute of Astronomy\\University of Cambridge\\ \vspace{3mm} Supervisor: Jonathan Gair}
-\date{Certificate of Postgraduate Study\\ \vspace{3mm}\today}
+\title{{\huge{}Exploring Strong Field Gravity}}
+\author{{\Large{}Christopher Berry}\vspace{3mm}\\Churchill College\vspace{0.5mm}\\and\vspace{0.5mm}\\Institute of Astronomy,\vspace{0.5mm}\\University of Cambridge\vspace{5mm}\\{\Large{}Supervisor: Jonathan Gair}\vspace{5mm}}
+\date{\includegraphics[width=0.25\textwidth]{../shield.eps}\vspace{9mm}\\{\LARGE{}Certificate of Postgraduate Study}\vspace{5mm}\\\today}
 \maketitle
 
 \begin{abstract}
@@ -799,7 +802,7 @@ With the geodesic calculated for given angular momenta $L_z$ and $Q$, and initia
 
 Numerical kludge approximations aim to encapsulate the main characteristics of a waveform by using the exact particle trajectory (ignoring inaccuracies from the evolution of the orbital parameters), whilst saving on computational time by using approximate waveform generation techniques. To start, we build an equivalent flat spacetime trajectory from the Kerr geodesic. This is done by identifying the Boyer-Lindquist coordinates with a set of flat-space coordinates; we consider two choices here:
 \begin{enumerate}
-\item Identify the Boyer-Lindquist coordinates with flat-space spherical polars $\{r\sub{BL}, \theta\sub{BL}, \phi\sub{BL}\} \rightarrow \{r\sub{sph}, \theta\sub{sph}, \phi\sub{sph}\}$, then define flat-space Cartesian coordinates\cite{Gair2005, Babak2007}
+\item Identify the Boyer-Lindquist coordinates with flat-space spherical polars \linebreak $\{r\sub{BL}, \theta\sub{BL}, \phi\sub{BL}\} \rightarrow \{r\sub{sph}, \theta\sub{sph}, \phi\sub{sph}\}$, then define flat-space Cartesian coordinates\cite{Gair2005, Babak2007}
 \begin{equation}
 \boldsymbol{x} = \left(r\sub{sph} \sin\theta\sub{sph}\cos\phi\sub{sph}, r\sub{sph} \sin\theta\sub{sph}\sin\phi\sub{sph}, r\sub{sph} \cos\theta\sub{sph}\right).
 \end{equation}
@@ -830,7 +833,7 @@ This is correct for a slow moving source. It is the familiar quadrupole formula\
 {S}^{ijk} = {} & c\mu v\sub{p}^ix\sub{p}^jx\sub{p}^k\\
 {M}^{ijk} = {} & c\mu x\sub{p}^ix\sub{p}^jx\sub{p}^k.
 \end{align}
-To evaluate \eqnref{Octopole} we need up to the third time derivative of the position. The velocity $\boldsymbol{v}\sub{p} = \dot{\boldsymbol{x}}\sub{p}$ can be calculated from the geodesic equations: dividing by $\inlinediff{t}{\tau}$ gives $\dot{r}$, $\dot{\theta}$ and $\dot{\phi}$ which can then be transformed to the Cartesian velocities assuming either the spherical or oblate spheroidal coordinate system.\footnote{There is again the problem of the sign of the geodesic equations, this is simply solved by taking the sign as calculated by finite differencing the trajectory.} Expressions for the acceleration $\boldsymbol{a}\sub{p} = \ddot{\boldsymbol{x}}\sub{p}$ and the jerk $\boldsymbol{j}\sub{p} = \dddot{\boldsymbol{x}}\sub{p}$ are more involved, so these derivatives are found numerically using a simple difference formula to approximate the derivative as
+To evaluate \eqnref{Octopole} we need up to the third time derivative of the position. The velocity $\boldsymbol{v}\sub{p} = \dot{\boldsymbol{x}}\sub{p}$ can be calculated from the geodesic equations: dividing by $\linediff{t}{\tau}$ gives $\dot{r}$, $\dot{\theta}$ and $\dot{\phi}$ which can then be transformed to the Cartesian velocities assuming either the spherical or oblate spheroidal coordinate system.\footnote{There is again the problem of the sign of the geodesic equations, this is simply solved by taking the sign as calculated by finite differencing the trajectory.} Expressions for the acceleration $\boldsymbol{a}\sub{p} = \ddot{\boldsymbol{x}}\sub{p}$ and the jerk $\boldsymbol{j}\sub{p} = \dddot{\boldsymbol{x}}\sub{p}$ are more involved, so these derivatives are found numerically using a simple difference formula to approximate the derivative as
 \begin{equation}
 \diff{f}{t}(t_1) \approx \recip{2}\left[\frac{f(t_1) - f(t_0)}{t_1 - t_0} + \frac{f(t_2) - f(t_1)}{t_2 - t_1}\right],
 \end{equation}
@@ -881,17 +884,17 @@ a_{33} = {} & s_\alpha c_\delta s_\Sigma - c_\alpha c_\Sigma;
 \end{align}
 where we define $s_\vartheta \equiv \sin \vartheta$ and $c_\vartheta \equiv \cos \vartheta$.
 
-The strains measured in the three arms can be combined such that LISA behaves as a pair of $\ang{90}$ interferometers at $\ang{45}$ to each other (with signals scaled by $\nicefrac{\sqrt{3}{2}$)\cite{Cutler1998}. We will denote the two detectors as I and II. If we label the change in the three arms lengths caused by GWs $\delta L_1$, $\delta L_2$ and $\delta L_3$, and use $L$ for the unstrained length, then detector I measures strain
+The strains measured in the three arms can be combined such that LISA behaves as a pair of $\ang{90}$ interferometers at $\ang{45}$ to each other (with signals scaled by $\nicefrac{\sqrt{3}}{2}$)\cite{Cutler1998}. We will denote the two detectors as I and II. If we label the change in the three arms lengths caused by GWs $\delta L_1$, $\delta L_2$ and $\delta L_3$, and use $L$ for the unstrained length, then detector I measures strain
 \begin{align}
 h\sub{I}(t) = {} & \frac{\delta L_1 - \delta L_2}{L} \\
- = {} & \frac{\sqrt{3}{2}\left(\recip{2} h\sub{d}^{xx} - \recip{2}h\sub{d}^{yy}\right),
+ = {} & \frac{\sqrt{3}}{2}\left(\recip{2} h\sub{d}^{xx} - \recip{2}h\sub{d}^{yy}\right),
 \end{align}
 and detector II measures
 \begin{align}
 h\sub{II}(t) = {} & \frac{\delta L_1 + \delta L_2 - 2 \delta L_3}{\sqrt{3}L} \\
- = {} & \frac{\sqrt{3}{2}\left(\recip{2} h\sub{d}^{xy} + \recip{2}h\sub{d}^{yx}\right).
+ = {} & \frac{\sqrt{3}}{2}\left(\recip{2} h\sub{d}^{xy} + \recip{2} h\sub{d}^{yx}\right).
 \end{align}
-We will use vector notation $\boldsymbol{h}(t) = \left(h\sub{I}(t), h\sub{II}(t)\right) = \{h_A(t)\}$ to represent signals from both detectors.
+We will use vector notation $\boldsymbol{h}(t) = \left(h\sub{I}(t), h\sub{II}(t)\right) = \left\{h_A(t)\right\}$ to represent signals from both detectors.
 
 The final consideration for calculating the signal measured by LISA is the time of arrival of the signal: LISA's orbital position changes with time. Fortunately over the timescales of interest for parabolic encounters, these changes are small. We will assume that the position of the solar system barycentre relative to the galactic centre is constant, at least over these short timescales: it is defined by the distance $R_0$ and the angles $\overline{\Theta}$ and $\overline{\Phi}$. The time of arrival at the solar system barycentre $t_\odot$ is then the appropriate retarded time. The time of detection $t\sub{d}$ to lowest order is then
 \begin{equation}
@@ -933,7 +936,7 @@ p(\boldsymbol{n}(t) = \boldsymbol{n}_0(t)) \propto \exp\left[-\recip{2}\innerpro
 \end{equation}
 Thus, if the incident waveform is given as $\boldsymbol{h}(t)$, the probability of measuring signal $\boldsymbol{s}(t)$ is
 \begin{equation}
-p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto \exp\left[-\recip{2}{\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}\right].
+p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto \exp\left[-\recip{2}\innerprod{\boldsymbol{s}-\boldsymbol{h}}{\boldsymbol{s}-\boldsymbol{h}}\right].
 \label{eq:sig_prob}
 \end{equation}
 
@@ -954,7 +957,7 @@ Figure (??) shows the computed Fourier transforms for an example parabolic encou
 
 Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible to the reduce the amount of spectral leakage using apodization: to improve the frequency response of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse response in a prescribed way. The simplest window function is the rectangular (or Dirichlet) window; this is just the top hat described above. Other window functions are generally tapered. The introduction of a window function influences the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude side lobes. Choosing a window-function is a trade-off between these two sources of error.
 
-\section{Parameter Estimation \& Fisher Information Matrices}
+\section{Parameter Estimation}
 
 Having detected a GW signal $\boldsymbol{s}(t)$ we are interested in what we may infer about the source. Let us define $\boldsymbol{\lambda} = \{\lambda^1, \lambda^2, \ldots, \lambda^N\}$ as the set of $N$ parameters which define the GW. We have a inference problem that may be solved by appropriate application of Bayes' Theorem\cite{Jaynes2003}: the probability distribution for our parameters given that we have detected the signal $\boldsymbol{s}(t)$ is given by the posterior
 \begin{equation}
@@ -962,13 +965,13 @@ p(\boldsymbol{\lambda}|\boldsymbol{s}(t)) = \frac{p(\boldsymbol{s}(t)|\boldsymbo
 \end{equation}
 Here $p(\boldsymbol{s}(t)|\boldsymbol{\lambda})$ is the likelihood of the parameters, $p(\boldsymbol{\lambda})$ is the prior probability distribution for the parameters, and $p(\boldsymbol{s}(t)) = \intd{}{}{p(\boldsymbol{s}(t)|\boldsymbol{\lambda})}{^N \lambda}$ is, for our purposes a normalising constant, and may be ignored. The likelihood function depends upon the particular realization of noise. A particular set of parameters $\boldsymbol{\lambda}_0$ defines a waveform $\boldsymbol{h}_0(t) = \boldsymbol{h}(t; \boldsymbol{\lambda}_0)$, the probability that we observe signal $\boldsymbol{s}(t)$ for this GW is given by \eqnref{sig_prob}, so the likelihood is just
 \begin{equation}
-p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \e\p\left[-\recip{2}{\innerprod{\boldsymbol{s}-\boldsymbol{h}_0}{\boldsymbol{s}-\boldsymbol{h}_0}\right].
+p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \exp\left[-\recip{2}\innerprod{\boldsymbol{s}-\boldsymbol{h}_0}{\boldsymbol{s}-\boldsymbol{h}_0}\right].
 \end{equation}
-If we were to define this as a probability distribution for the parameters $boldsymbol{\lambda}$, then the modal values would be the maximum-likelihood parameters $\boldsymbol{\lambda}\sub{ML}$. The waveform $h((t; \boldsymbol{\lambda}\sub{ML}))$ would be the signal closest to \boldsymbol{s}(t) in the space of all signal, where distance is defined using the inner product\cite{Cutler1994}.
+If we were to define this as a probability distribution for the parameters $\boldsymbol{\lambda}$, then the modal values would be the maximum-likelihood parameters $\boldsymbol{\lambda}\sub{ML}$. The waveform $h(t; \boldsymbol{\lambda}\sub{ML})$ would be the signal closest to $\boldsymbol{s}(t)$ in the space of all signal, where distance is defined using the inner product\cite{Cutler1994}.
 
 In the limit of a high signal-to-noise ratio (SNR), we may approximate this as\cite{Vallisneri2008}
 \begin{equation}
-p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \exp\left[-\recip{2}\innerprod{\partial_a\boldsymbol{h}}{\partial_b\boldsymbol{h}}\left(\lambda^a - \langle\lambda^a\rangle_\ell\right)\lambda^b - \langle\lambda^b\rangle_\ell\left(\right)\right],
+p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \exp\left[-\recip{2}\innerprod{\partial_a\boldsymbol{h}}{\partial_b\boldsymbol{h}}\left(\lambda^a - \langle\lambda^a\rangle_\ell\right)\left(\lambda^b - \langle\lambda^b\rangle_\ell\right)\right],
 \end{equation}
 where the mean is defined as
 \begin{equation}
@@ -1003,9 +1006,9 @@ T_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle\partial_\mu h_{ij} \partial_\nu h^{
 \end{equation}
 where $\langle\ldots\rangle$ indicates averaging over several wavelengths, or equivalently averaging over several periods. Thus, the flux of energy through a sphere of radius $r = R$ is
 \begin{equation}
-\diff{E}{t} = \frac{c^3}{32\pi G} R^2 \intd{}{}{}{\Omega}\leftlangle\diff{h_{ij}}{t}\diff{h^{ij}}{t}\right\rangle,
+\diff{E}{t} = \frac{c^3}{32\pi G} R^2 \intd{}{}{}{\Omega}\left\langle\diff{h_{ij}}{t}\diff{h^{ij}}{t}\right\rangle,
 \end{equation}
-with $\intd{}{}{}{\Omega}$ representing integration over all solid angles. From \eqnref{Octopole} we see that the waves have a $\nicefrac{r}$ dependence, so if we define
+with $\intd{}{}{}{\Omega}$ representing integration over all solid angles. From \eqnref{Octopole} we see that the waves have a $\nicerecip{r}$ dependence, so if we define
 \begin{equation}
 h_{ij} = \frac{H_{ij}}{r},
 \end{equation}
@@ -1017,15 +1020,15 @@ If we now integrate to find the total energy emitted we obtain
 \begin{equation}
 E = \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\diff{H_{ij}}{t}\diff{H^{ij}}{t}.
 \end{equation}
-Since we are considering all times the localization of the energy is no longer of importance and so it is unnecessary to average over several periods. If we switch to Fourier representation $\tilde{H}_{ij}(f) = \mathscr{F}\{H_{ij}(t)\}$, then
+Since we are considering all times the localization of the energy is no longer of importance and so it is unnecessary to average over several periods. If we switch to Fourier representation $\widetilde{H}_{ij}(f) = \mathscr{F}\{H_{ij}(t)\}$, then
 \begin{align}
-E = {} & \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\\intd{-\infty}{\infty}{}{f}2\pi i f \tilde{H}_{ij}(f)e^{2\pi i f t}\intd{-\infty}{\infty}{}{f'}2\pi i f' \tilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
- = {} & \frac{\pi c^3}{8 G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{f} f^2 \tilde{H}_{ij}(f)\tilde{H}^{ij}(-f) \nonumber \\
- = {} & \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}\intd{0}{\infty}{}{f} f^2 \tilde{H}^{ij}(f)\tilde{H}_{ij}^*(f).
+E = {} & \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\intd{-\infty}{\infty}{}{f}2\pi i f \widetilde{H}_{ij}(f)e^{2\pi i f t}\intd{-\infty}{\infty}{}{f'}2\pi i f' \widetilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
+ = {} & \frac{\pi c^3}{8 G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{f} f^2 \widetilde{H}_{ij}(f)\widetilde{H}^{ij}(-f) \nonumber \\
+ = {} & \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}\intd{0}{\infty}{}{f} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
-Here we have used that the signal is real so that $\tilde{H}_{ij}^*(f) = \tilde{H}_{ij}(-f)$. Using this we can identify the energy spectrum as
+Here we have used that the signal is real so that $\widetilde{H}_{ij}^*(f) = \widetilde{H}_{ij}(-f)$. Using this we can identify the energy spectrum as
 \begin{align}
-\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}f^2 \tilde{H}^{ij}(f)\tilde{H}_{ij}^*(f).
+\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
 
 \subsection{Peters \& Matthews Spectrum}
@@ -1071,21 +1074,22 @@ J_{\nu-1}(z) - J_{\nu+1}(z) = {} & 2J'_\nu(z).
 We shall also eliminate $n$ using
 \begin{align}
 n = {} & \frac{\omega_n}{\omega_0} \nonumber \\
-= {} & (1-e)^{-3/2}\tilde{f}.
+= {} & (1-e)^{-3/2}\widetilde{f}.
 \end{align}
-where $\tilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. We begin by breaking $\ell$ into three parts
-\begin{equation}
-\ell = \underbrace{(1-e)^2n^4\left[J_{n-2} - 2eJ_{n-1} + \frac{2}{n}J_n + 2eJ_{n+1} - J_{n+2}\right]^2}_{\ell_1} + \underbrace{(1-e)^3(1+e)n^4\left[J_{n-2} - 2J_n + J_{n+2}\right]^2}_{\ell_2} + \underbrace{\frac{4(1-e)^2n^2}{3}\left[J_n\right]^2}_{\ell_3}.
-\end{equation}
+where $\widetilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. We begin by breaking $\ell$ into three parts
+\begin{align}
+\ell = {} & \underbrace{(1-e)^2n^4\left[J_{n-2} - 2eJ_{n-1} + \frac{2}{n}J_n + 2eJ_{n+1} - J_{n+2}\right]^2}_{\ell_1} \nonumber \\
+  & + \underbrace{(1-e)^3(1+e)n^4\left[J_{n-2} - 2J_n + J_{n+2}\right]^2}_{\ell_2} + \underbrace{\frac{4(1-e)^2n^2}{3}\left[J_n\right]^2}_{\ell_3}.
+\end{align}
 We have suppressed the argument of the Bessel functions for brevity. Tackling each term of $\ell$ in turn we obtain
 \begin{align}
-\ell_1(\tilde{f},e) = {} & \left[\frac{4(1+e)\tilde{f}^2}{e}\frac{J'_n}{1-e} + 2\frac{e-2}{e}\tilde{f}\frac{J_n}{(1-e)^{1/2}}\right]^2\\
-\ell_2(\tilde{f},e) = {} & 16(1+e)\left[\frac{(1+e)\tilde{f}^2}{e^2}\frac{J_n}{(1-e)^{1/2}} - \tilde{f}\frac{J'_n}{e}\right]^2\\
-\ell_3(\tilde{f},e) = {} & \frac{4\tilde{f}^2}{3}\left[{J_n}{(1-e)^{1/2}}\right]^2.
+\ell_1(\widetilde{f},e) = {} & \left[\frac{4(1+e)\widetilde{f}^2}{e}\frac{J'_n}{1-e} + 2\frac{e-2}{e}\widetilde{f}\frac{J_n}{(1-e)^{1/2}}\right]^2\\
+\ell_2(\widetilde{f},e) = {} & 16(1+e)\left[\frac{(1+e)\widetilde{f}^2}{e^2}\frac{J_n}{(1-e)^{1/2}} - \widetilde{f}\frac{J'_n}{e}\right]^2\\
+\ell_3(\widetilde{f},e) = {} & \frac{4\widetilde{f}^2}{3}\left[{J_n}{(1-e)^{1/2}}\right]^2.
 \end{align}
 To take the limit of these we need to find the limiting behaviour of Bessel functions. We shall define two new functions
 \begin{equation}
-A(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n}{(1-e)^{1/2}}\right\}; \quad B(\tilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n}{1-e}\right\}.
+A(\widetilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n}{(1-e)^{1/2}}\right\}; \quad B(\widetilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n}{1-e}\right\}.
 \end{equation}
 To give a well defined energy spectrum, both of these must be finite. In this case we see that the second term in $\ell_2$ should go to zero.
 
@@ -1108,34 +1112,37 @@ J_\nu(z) \sim \recip{\pi}\sqrt{\frac{2(\nu - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}
 \end{equation}
 For our particular case we have
 \begin{equation}
-\nu = (1 - e)^{-3/2}\tilde{f}; \quad z = (1 - e)^{-3/2}e\tilde{f};
+\nu = (1 - e)^{-3/2}\widetilde{f}; \quad z = (1 - e)^{-3/2}e\widetilde{f};
 \end{equation}
 \begin{equation}
-\frac{\nu - z}{z} = (1 - e); \quad \frac{(\nu - z)^3}{z} = \tilde{f}^2;
+\frac{\nu - z}{z} = (1 - e); \quad \frac{(\nu - z)^3}{z} = \widetilde{f}^2;
 \end{equation}
 so we find
 \begin{equation}
-J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right),
+J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right),
 \end{equation}
 thus
 \begin{equation}
-A(\tilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)
+A(\widetilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)
 \end{equation}
 is well defined.
 
 Now finding the derivative
 \begin{align}
 J'_\nu(z) = {} & \recip{2}\left[J_{\nu-1}(z) - J_{\nu+1}(z)\right] \nonumber \\
- \sim {} & \recip{2\pi}\left[\sqrt{\frac{2(\nu -1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu - 1 - z)^3}{z}}\right) - \sqrt{\frac{2(\nu +1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu + 1 - z)^3}{z}}\right)\right].
+ \sim {} & \recip{2\pi}\left[\sqrt{\frac{2(\nu -1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu - 1 - z)^3}{z}}\right) \right. \nonumber \\
+  & \left. - \sqrt{\frac{2(\nu +1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu + 1 - z)^3}{z}}\right)\right].
 \end{align}
 For our case
-\begin{equation}
-\sqrt{\frac{\nu \pm 1 - z}{z}} = (1 - e)^{1/2}\left[1 \pm \frac{(1-e)^{1/2}}{2\tilde{f}} + \ldots\right]; \\ \sqrt{\frac{(\nu \pm 1 - z)^{3/2}}{z}} = \tilde{f}\left[1 \pm \frac{3(1-e)^{1/2}}{2\tilde{f}} + \ldots\right];
-\end{equation}
+\begin{align}
+\sqrt{\frac{\nu \pm 1 - z}{z}} = {} & (1 - e)^{1/2}\left[1 \pm \frac{(1-e)^{1/2}}{2\widetilde{f}} + \ldots\right];\\
+\sqrt{\frac{(\nu \pm 1 - z)^{3/2}}{z}} = {} & \widetilde{f}\left[1 \pm \frac{3(1-e)^{1/2}}{2\widetilde{f}} + \ldots\right];
+\end{align}
 and so
 \begin{align}
-J'_n(ne) \sim {} & \recip{2\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}\left\{\left[1 - \frac{(1-e)^{1/2}}{2\tilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right) - \left[1 + \frac{(1-e)^{1/2}}{2\tilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\tilde{f}}\right]\right)\right]\nonumber \\
- \sim {} & \frac{-1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) + \recip{\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)\right].
+J'_n(ne) \sim {} & \recip{2\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}\left\{\left[1 - \frac{(1-e)^{1/2}}{2\widetilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\widetilde{f}}\right]\right) \right. \nonumber \\
+ & \left. - \left[1 + \frac{(1-e)^{1/2}}{2\widetilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\widetilde{f}}\right]\right)\right]\nonumber \\
+ \sim {} & \frac{-1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + \recip{\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right].
 \end{align}
 We may re-express the derivative using the recurrence formula\cite{Watson1995}
 \begin{equation}
@@ -1143,23 +1150,23 @@ K_{\nu-1}(z) - K_{\nu+1}(z) = -2K'_\nu(z)
 \end{equation}
 to give
 \begin{equation}
-J'_n(ne) \sim \recip{\sqrt{3}\pi}(1-e)\left[K_{-2/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) - \recip{\sqrt{2}\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)\right].
+J'_n(ne) \sim \frac{1-e}{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) - \recip{\sqrt{2}\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right].
 \end{equation}
 And so finally,
 \begin{equation}
-B(\tilde{f}) = \recip{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right) - \recip{\sqrt{2}\tilde{f}}K_{1/3}\left(\frac{2^{3/2}\tilde{f}}{3}\right)\right],
+B(\widetilde{f}) = \recip{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) - \recip{\sqrt{2}\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right],
 \end{equation}
 which is also well defined.
 
-Having obtained expressions for $A(\tilde{f})$ and $B(\tilde{f})$ in terms of standard functions, we may now calculate the energy spectrum for a parabolic orbit. From \eqnref{PM_spectrum} we have
+Having obtained expressions for $A(\widetilde{f})$ and $B(\widetilde{f})$ in terms of standard functions, we may now calculate the energy spectrum for a parabolic orbit. From \eqnref{PM_spectrum} we have
 \begin{equation}
 \diff{E}{f} = \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}\ell\left(\frac{f}{f\sub{c}}\right),
 \label{eq:PM_dEdf}
 \end{equation}
 where we have used the limit
 \begin{align}
-\ell(\tilde{f}) = {} & \lim_{e \rightarrow 1}\left\{\ell(n,e)\right\} \nonumber \\
- = {} & \left[8\tilde{f}B(\tilde{f}) - 2\tilde{f}A(\tilde{f})\right]^2 + \left(128\tilde{f}^4 + \frac{4\tilde{f}^2}{3}\right)\left[A(\tilde{f})\right]^2.
+\ell(\widetilde{f}) = {} & \lim_{e \rightarrow 1}\left\{\ell(n,e)\right\} \nonumber \\
+ = {} & \left[8\widetilde{f}B(\widetilde{f}) - 2\widetilde{f}A(\widetilde{f})\right]^2 + \left(128\widetilde{f}^4 + \frac{4\widetilde{f}^2}{3}\right)\left[A(\widetilde{f})\right]^2.
 \end{align}
 
 To check the validity of this limit we may calculate the total energy radiated. We should be able to calculate this by integrating \eqnref{PM_dEdf} over all frequencies, or alternatively by summing the energy radiated into each harmonic. For consistency, the two approaches should yield the same result. First, summing over harmonics the
@@ -1182,11 +1189,11 @@ E\sub{sum} = \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}
 Integrating over the energy spectrum, \eqnref{PM_dEdf}, gives
 \begin{align}
 E\sub{int} = {} & \intd{0}{\infty}{\diff{E}{f}}{f} \nonumber \\
- = {} & \frac{2\pi}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}\omega\sub{c}\intd{0}{\infty}{\ell(\tilde{f})}{\tilde{f}}.
+ = {} & \frac{2\pi}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}\omega\sub{c}\intd{0}{\infty}{\ell(\widetilde{f})}{\widetilde{f}}.
 \end{align}
 The integral can be easily evaluated numerically showing
 \begin{align}
-\intd{0}{\infty}{\ell(\tilde{f})}{\tilde{f}} = {} & 12.5216858\ldots \nonumber \\
+\intd{0}{\infty}{\ell(\widetilde{f})}{\widetilde{f}} = {} & 12.5216858\ldots \nonumber \\
  = {} & \frac{425}{2^{7/2}3},
 \end{align}
 and so we find that the two total energies are consistent
@@ -1256,7 +1263,8 @@ The total energy flux from the kludge waveform is larger than the Peters and Mat
 \newpage
 
 \noindent
-\bibliographystyle{../physics}
+\bibliographystyle{../physicsNEW}
+%\bibliographystyle{plain}
 \noindent
 \bibliography{../library}
 \noindent
