@@ -146,87 +146,43 @@ Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lo
 
 \chapter{Gravitational Radiation In $f(R)$ Theory}
 
-\section{The Action \& Field Equations}
+\section{Introduction To $f(R)$ Theory}
 
-In $f(R)$ we modify the standard Einstein-Hilbert action
+General relativity (GR) is a well tested theory of gravity\cite{Will2006}, however it is still interesting to explore alternate theories. This may be motivated by the need to explain dark matter and dark matter in cosmology, trying to formulate a quantizable theory of gravity or simple curiousity regarding the uniqueness of GR. One of the simplest extensions to standard GR are the class of $f(R)$ theories\cite{Sotirou2010, DeFelice2010}.
+
+\subsection{The Action \& Field Equations}
+
+General relativity may be derived from the Einstein-Hilbert action\cite{Misner1973, Landau1975}
 \begin{equation}
-S[g] = \frac{c^4}{16\pi G}\intd{}{}{R\sqrt{-g}}{^4x},
+S\sub{EH}[g] = \frac{c^4}{16\pi G}\intd{}{}{R\sqrt{-g}}{^4x}.
 \end{equation}
-to include an arbitrary function of the Ricci scalar $R$ such that
+In $f(R)$ theory we make a simple modification of the action to include an arbitrary function of the Ricci scalar $R$ such that\cite{Buchdahl1970}
 \begin{equation}
 S[g] = \frac{c^4}{16\pi G}\intd{}{}{f(R)\sqrt{-g}}{^4x}.
 \end{equation}
-We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series
+We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Psaltis2008}
 \begin{equation}
 f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
 Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
-We may calculate the field equations in $f(R)$ theory by varying the action with respect to the metric $g^{\mu\nu}$,
-\begin{align}
-\delta S = {} & \frac{c^4}{16\pi G}\intd{}{}{\frac{\delta}{\delta g^{\mu\nu}}(f(R)\sqrt{-g})\delta g^{\mu\nu}}{^4x}\nonumber \\
- = {} & \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\frac{\delta R}{\delta g^{\mu\nu}}\sqrt{-g} - f(R)\frac{1}{2\sqrt{-g}}\frac{\delta g}{\delta g^{\mu\nu}}\right\}\delta g^{\mu\nu}}{^4x},
-\label{eq:delta_S}
-\end{align}
-where we have used the Liebniz and chain rules, and a prime indicates differentiation with respect to $R$. We will consider each term individually.
+The field equations are obtained by a variational principle; there are a number of choice for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotirou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations are those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equaitons, for an action that only depends on the metric and Reimann tensor, selects Lovelock gravity\cite{Exirifard2007}. GR is a special case of Lovelock gravity; $f(R)$ gravity only coincides with Lovelock gravity when it reduces back to GR (with or without a cosmolgical constant).}
 
-The variation of the determinant gives, by consideration of the cofactor of $g^{\mu\nu}$,
-\begin{align}
-\delta g = {} & gg^{\mu\nu}\delta g_{\mu\nu}\nonumber \\
- = {} & -gg_{\mu\nu}\delta g^{\mu\nu}.
- \label{eq:delta g}
-\end{align}
-The second line follows from
-\begin{equation}
-\delta \delta^\mu_\nu = 0
-\end{equation}
-where the Kronecker represents $\delta^\mu_\nu = g^{\mu\lambda}g_{\lambda\nu}$.
+Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity. 
 
-The variation of the Ricci scalar is more involved. We start with variation in the Riemann tensor
-\begin{align}
-\delta {R^\rho}_{\sigma\mu\nu} = {} & \partial_\mu\delta{\Gamma^\rho}_{\nu\sigma} - \partial_\nu\delta{\Gamma^\rho}_{\mu\sigma} + \delta{\Gamma^\rho}_{\lambda\mu}{\Gamma^\lambda}_{\nu\sigma} + {\Gamma^\rho}_{\lambda\mu}\delta{\Gamma^\lambda}_{\nu\sigma}\nonumber \\
- & - \delta{\Gamma^\rho}_{\lambda\nu}{\Gamma^\lambda}_{\mu\sigma} - {\Gamma^\rho}_{\lambda\nu}\delta{\Gamma^\lambda}_{\mu\sigma}\nonumber \\
- = {} & \nabla_\mu\delta{\Gamma^\rho}_{\nu\sigma} - \nabla_\nu\delta{\Gamma^\rho}_{\mu\sigma}.
-\end{align}
-Thus, contracting over indices, the variation in the Ricci tensor is
-\begin{align}
-\delta R_{\mu\nu} = {} & \delta {R^\rho}_{\mu\rho\nu} \nonumber \\
- = {} & \nabla_\rho\delta{\Gamma^\rho}_{\nu\mu} - \nabla_\rho\delta{\Gamma^\nu}_{\rho\mu}.
-\end{align}
-Using this, the variation in the Ricci scalar is
-\begin{align}
-\delta R = {} & R_{\mu\nu}\delta g^{\mu\nu} + g^{\mu\nu}\delta R_{\mu\nu} \nonumber \\
- = {} & R_{\mu\nu}\delta g^{\mu\nu} + g^{\mu\nu}\left(\nabla_\rho\delta{\Gamma^\rho}_{\nu\mu} - \nabla_\rho\delta{\Gamma^\nu}_{\rho\mu}\right).
-\end{align}
-We just need the variation in the connection coefficients
-\begin{align}
-\delta {\Gamma^\rho}_{\mu\nu} = {} & \frac{1}{2}\left[\delta g^{\rho\lambda}(\partial_\mu g_{\lambda\nu} + \partial_\nu g_{\lambda\mu} - \partial_\lambda g_{\mu\nu})\right.\nonumber \\
- & + \left. g^{\rho\lambda}(\partial_\mu \delta g_{\lambda\nu} + \partial_\nu \delta g_{\lambda\mu} - \partial_\lambda \delta g_{\mu\nu})\right]\nonumber \\
- = {} & \frac{1}{2}\left[\delta g^{\rho\lambda}(\partial_\mu g_{\lambda\nu} + \partial_\nu g_{\lambda\mu} - \partial_\lambda g_{\mu\nu})\right.\nonumber \\
- & + \left. g^{\rho\lambda}(\nabla_\mu \delta g_{\lambda\nu} + \nabla_\nu \delta g_{\lambda\mu} - \nabla_\lambda \delta g_{\mu\nu})\right. \nonumber \\
- & + \left. g^{\rho\lambda}g^{\sigma\tau}(\partial_\mu g_{\tau\nu} + \partial_\nu g_{\tau\mu} - \partial_\tau \delta g_{\mu\nu})g_{\lambda\sigma}\right].
-\end{align}
-Identifying $g^{\rho\lambda}g^{\sigma\tau}\delta g_{\lambda\sigma} = -\delta g^{\rho\tau}$, this simplifies to
+Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
-\delta {\Gamma^\rho}_{\mu\nu} = \frac{1}{2}g^{\rho\lambda}\left(\nabla_\mu \delta g_{\lambda\nu} + \nabla_\nu \delta g_{\lambda\mu} - \nabla_\lambda \delta g_{\mu\nu}\right)
+\delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-Note that this, as the difference between two connections, is a tensor. Armed with this, we find that
-\begin{align}
-\delta R = {} & R_{\mu\nu}\delta g^{\mu\nu} + \nabla^\mu\nabla^\nu\delta g_{\mu\nu} - g^{\mu\nu}\Box\delta g_{\mu\nu} \nonumber \\
- = {} & R_{\mu\nu}\delta g^{\mu\nu} - \nabla_\mu\nabla_\nu\delta g^{\mu\nu} + g_{\mu\nu}\Box\delta g^{\mu\nu},
-\label{eq:delta R}
-\end{align}
-where the d'Alembertian operator is $\Box = g_{\mu\nu}\nabla^\mu\nabla^\nu$.
+where $\Box - g^{\mu\nu)\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here certain assumptions regarding surface terms.
 
-Inserting equations (\ref{eq:delta g}) and (\ref{eq:delta R}) into (\ref{eq:delta_S}) yields
-\begin{equation}
-\delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x}.
-\end{equation}
 Integrating by parts and assuming that the variation $\delta g^{\mu\nu}$ vanishes at infinity allows this to be rewritten as
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)R_{\mu\nu} - \nabla_\mu\nabla_\nu f'(R) + g_{\mu\nu}\Box f'(R) - f(R)\frac{1}{2}g_{\mu\nu}\right\}\delta g^{\mu\nu}\sqrt{-g}}{^4x}.
 \end{equation}
-For the action to be extremised for, $\delta S = 0$, for any variation $\delta g^{\mu\nu}$, the term in braces must vanish. Thus we obtain the vacuum field equation
+For the action to be extremised for, $\delta S = 0$, for any variation $\delta g^{\mu\nu}$, the term in braces must vanish.
+
+Thus we obtain the vacuum field equation
 \begin{equation}
 f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu} = 0.
 \label{eq:Field_eq}
@@ -245,28 +201,32 @@ Note if we consider a uniform flat spacetime $R = 0$, this equation gives
 a_0 = 0.
 \label{eq:a_0}
 \end{equation}
+In analogy to the Einstein tensor, we shall define
+\begin{equation}
+\mathcal{G}_{\mu\nu} = f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu},
+\end{equation}
+so that in a vacuum
+\begin{equation}
+\mathcal{G}_{\mu\nu} = 0.
+\end{equation}
+
+\subsection{Conservation Of Energy-Momentum}
 
 If we introduce matter with a stress-energy tensor $T_{\mu\nu}$, the field equation becomes
 \begin{equation}
-f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}.
+\mathcal{G}_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}.
 \end{equation}
 If we act upon this with the covariant derivative we obtain
 \begin{align}
-\frac{8\pi G}{c^4}\nabla^\mu T_{\mu\nu} = {} & (\nabla^\mu f')R_{\mu\nu} + f'\nabla^\mu R_{\mu\nu} - \Box\nabla_\nu f' + \nabla_\nu\Box f' - \frac{f'}{2}\nabla^\mu R g_{\mu\nu} \nonumber \\
+\frac{8\pi G}{c^4}\nabla^\mu T_{\mu\nu} = {} & \nabla^\mu\mathcal{G}_{\mu\nu} \nonumber \\
 = {} & R_{\mu\nu}\nabla^\mu f' + f'\nabla^\mu\left(R_{\mu\nu} - \recip{2}R g_{\mu\nu}\right) - \left(\Box\nabla_\nu - \nabla_\nu\Box\right)f'.
 \end{align}
-The second term contains the covariant derivative of the Einstein tensor and so is zero. Looking at the final term
+The second term contains the covariant derivative of the Einstein tensor and so is zero. After some manipulation the final term can be shown to be
 \begin{align}
 \left(\Box\nabla_\nu - \nabla_\nu\Box\right)f' = {} & g^{\mu\sigma}\left[\nabla_\mu\nabla_\sigma\nabla_\nu - \nabla_\nu\nabla_\mu\nabla_\sigma\right]f' \nonumber \\
-= {} & g^{\mu\sigma}\left[\partial_\mu\nabla_\sigma\partial_\nu - {\Gamma^\rho}_{\nu\mu}\nabla_\sigma\partial_\rho - {\Gamma^\rho}_{\sigma\mu}\nabla_\rho\partial_\nu\right. \nonumber \\
- & \left. - \partial_\nu\nabla_\mu\partial_\sigma + {\Gamma^\rho}_{\sigma\nu}\nabla_\mu\partial_\rho + {\Gamma^\rho}_{\mu\nu}\nabla_\rho\partial_\sigma\right]f' \nonumber \\
-= {} & g^{\mu\sigma}\left[\partial_\mu\left(\partial_\sigma\partial_\nu - {\Gamma^\tau}_{\nu\sigma}\partial_\tau\right) - {\Gamma^\rho}_{\sigma\mu}\left(\partial_\rho\partial_\nu - {\Gamma^\tau}_{\nu\rho}\partial_\tau\right)\right. \nonumber \\
- & \left. - \partial_\nu\left(\partial_\mu\partial_\sigma - {\Gamma^\tau}_{\sigma\mu}\partial_\tau\right) + {\Gamma^\rho}_{\mu\nu}\left(\partial_\rho\partial_\sigma - {\Gamma^\tau}_{\sigma\rho}\partial_\tau\right)\right]f' \nonumber \\
-= {} & g^{\mu\sigma}\left[\partial_\nu{\Gamma^\tau}_{\sigma\mu} -\partial_\mu{\Gamma^\tau}_{\nu\sigma} + {\Gamma^\rho}_{\sigma\mu} {\Gamma^\tau}_{\nu\rho} - {\Gamma^\rho}_{\mu\nu}{\Gamma^\tau}_{\sigma\rho}\right]\partial_\tau f' \nonumber \\
-= {} & g^{\mu\sigma}{R^\tau}_{\sigma\nu\mu}\partial_\tau f' \nonumber \\
-= {} & R_{\tau\nu}\nabla^\tau f',
+ = {} & R_{\tau\nu}\nabla^\tau f',
 \end{align}
-which is a nice geometric identity. Using this we find that
+which is a useful geometric identity. Using this we find that
 \begin{align}
 \frac{8\pi G}{c^4}\nabla^\mu T_{\mu\nu} = {} & R_{\mu\nu}\nabla^\mu f' - R_{\mu\nu}\nabla^\mu f' \nonumber \\
  = {} & 0.
@@ -283,7 +243,7 @@ where more formally we mean that $h_{\mu\nu} = \epsilon H_{\mu\nu}$ for small pa
 \begin{equation}
 g^{\mu\nu} = \eta^{\mu\nu} - h^{\mu\nu},
 \end{equation}
-where we have used the Minkowski metric to raise the indices, effectively defining
+where we have used the Minkowski metric to raise the indices on the right side, effectively defining
 \begin{equation}
 h^{\mu\nu} = \eta^{\mu\sigma}\eta^{\nu\rho}h_{\sigma\rho}.
 \end{equation}
@@ -291,56 +251,56 @@ Similarly, the trace $h$ is given by
 \begin{equation}
 h = \eta^{\mu\nu}h_{\mu\nu}.
 \end{equation}
-This means that all quantities denoted by ``$h$'' are strictly $\order{\epsilon}$. We will have to careful later on to distinguish between quantities where the Minkowski metric has been used and those where the full metric has been used.
+This means that all quantities denoted by ``$h$'' are strictly $\order{\epsilon}$. We will have to be careful later on to distinguish between quantities where the Minkowski metric has been used to raise indices and those where the full metric has been used.
 
 The linearized ($\order{\epsilon}$) connection coefficient is
 \begin{equation}
-{\Gamma^\rho}_{\mu\nu} = \frac{1}{2}\eta^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}).
+{{\Gamma^{(1)}}^\rho}_{\mu\nu} = \frac{1}{2}\eta^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}).
 \label{eq:Lin_Gamma}
 \end{equation}
 The covariant derivative of any perturbed quantity will be the same as the partial derivative. The Riemann tensor is
 \begin{equation}
-{R^\lambda}_{\mu\nu\rho} = \frac{1}{2}(\partial_\mu\partial_\nu h^\lambda_\rho + \partial^\lambda\partial_\rho h_{\mu\nu} - \partial_\mu\partial_\rho h^\lambda_\nu - \partial^\lambda\partial_\nu h_{\mu\rho}),
+{{R^{(1)}}^\lambda}_{\mu\nu\rho} = \frac{1}{2}(\partial_\mu\partial_\nu h^\lambda_\rho + \partial^\lambda\partial_\rho h_{\mu\nu} - \partial_\mu\partial_\rho h^\lambda_\nu - \partial^\lambda\partial_\nu h_{\mu\rho}),
 \label{eq:Lin_Riemann}
 \end{equation}
 where we have raised the index on the differential operator with the background Minkowski metric. Contracting gives the Ricci tensor
 \begin{equation}
-R_{\mu\nu} = \frac{1}{2}(\partial_\mu\partial_\rho h^\rho_\nu + \partial_\nu\partial_\rho h^\rho_\mu -\Box h_{\mu\nu} - \partial_\mu\partial_\nu h),
+{R^{(1)}}_{\mu\nu} = \frac{1}{2}(\partial_\mu\partial_\rho h^\rho_\nu + \partial_\nu\partial_\rho h^\rho_\mu -\Box h_{\mu\nu} - \partial_\mu\partial_\nu h),
 \label{eq:Ricci}
 \end{equation}
 where the d'Alembertian operator is $\Box = \eta^{\mu\nu}\partial_\mu\partial_\nu$. Contracting this with $\eta^{\mu\nu}$ we find the first order Ricci scalar
 \begin{equation}
-R = \partial_\mu\partial_\rho h^{\rho\mu} - \Box h.
+R^{(1)} = \partial_\mu\partial_\rho h^{\rho\mu} - \Box h.
 \label{eq:Scalar}
 \end{equation}
 
-Since $R$ is $\order{\epsilon}$ we may write $f(R)$ as a Maclaurin series to first order such that
+Since $R^{(1)}$ is $\order{\epsilon}$ we may write $f(R)$ as a Maclaurin series to first order such that
 \begin{align}
-f(R) = {} & a_0 + R\\
-f'(R) = {} & 1 + a_2 R.
+f^{(1)}(R) = {} & a_0 + R^{(1)}\\
+{f'}^{(1)}(R) = {} & 1 + a_2 R^{(1)}.
 \end{align}
 As we are perturbing from a flat Minkowski background where the Ricci scalar vanishes, we may use \eqnref{a_0} to set $a_0 = 0$. Inserting these into \eqnref{Field_eq} and retaining terms to first order we obtain
 \begin{equation}
-R_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R) + \eta_{\mu\nu}\Box(a_2 R) - \frac{R}{2}\eta_{\mu\nu} = 0.
+{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R^{(1)}) + \eta_{\mu\nu}\Box(a_2 R^{(1)}) - \frac{R^{(1)}}{2}\eta_{\mu\nu} = 0.
 \end{equation}
-We see that we need to find a relation between $R$ and its derivatives. Let us consider the linearized \eqnref{Trace_eq}
+We see that we need to find a relation between $R^{(1)}$ and its derivatives. Let us consider the linearized \eqnref{Trace_eq}
 \begin{align}
-R + 3 \Box(a_2 R) - 2 R = {} & 0 \nonumber \\
-3a_2 \Box R - R = {} & 0
+R^{(1)} + 3 \Box(a_2 R^{(1)}) - 2 R^{(1)} = {} & 0 \nonumber \\
+3a_2 \Box R^{(1)} - R^{(1)} = {} & 0
 \label{eq:Box_R}
 \end{align}
 This is the massive Klein-Gordon equation
 \begin{equation}
-\Box R + m^2R = 0,
+\Box R^{(1)} + m^2R^{(1)} = 0,
 \end{equation}
 if we define mass
 \begin{equation}
 m^2 = -\recip{3a_2}.
 \end{equation}
-For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$. Now substituting for $\Box R$ in the field equation gives
+For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$.\footnote{Use of the other sign convention for the metric would result in the reversal of this inequality.} Now substituting for $\Box R^{(1)}$ in the field equation gives
 \begin{align}
-R_{\mu\nu} - a_2 \partial_\mu\partial_\nu R + \frac{R}{3}\eta_{\mu\nu} - \frac{R}{2}\eta_{\mu\nu} = {} & 0 \nonumber \\
-R_{\mu\nu} - a_2\partial_\mu\partial_\nu R - \frac{R}{6}\eta_{\mu\nu} = {} & 0.
+{R^{(1)}}_{\mu\nu} - a_2 \partial_\mu\partial_\nu R^{(1)} + \frac{R^{(1)}}{3}\eta_{\mu\nu} - \frac{R^{(1)}}{2}\eta_{\mu\nu} = {} & 0 \nonumber \\
+{R^{(1)}}_{\mu\nu} - a_2\partial_\mu\partial_\nu R^{(1)} - \frac{R^{(1)}}{6}\eta_{\mu\nu} = {} & 0.
 \label{eq:Field}
 \end{align}
 
@@ -409,8 +369,8 @@ Should $a_2$ be sufficiently small that it may be regarded an $\order{\epsilon}$
 
 Having established two wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}, we may now investigate their solutions. We will use natural units $c = \hbar = 1$. Using a standard Fourier decomposition
 \begin{align}
-\overline{h}_{\mu\nu} = {} & \Re\left\{\hat{\overline{h}}_{\mu\nu}(k_\rho) \exp\left(ik_\rho x^\rho\right)\right\},\\
-R = {} & \Re\left\{\hat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
+\overline{h}_{\mu\nu} = {} & \Re\left\{\widehat{\overline{h}}_{\mu\nu}(k_\rho) \exp\left(ik_\rho x^\rho\right)\right\},\\
+R = {} & \Re\left\{\widehat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
 \end{align}
 where $k_\mu$ and $q_\mu$ are the 4-wavevectors, or 4-momenta, of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave travelling along the $z$-axis
 \begin{equation}
@@ -427,13 +387,13 @@ v = \frac{\sqrt{\Omega^2 - m^2}}{\Omega}.
 \end{equation}
 Provided that $m^2 > 0$, $v < c = 1$, but we do not get propagating modes for $\Omega^2 < m^2$.
 
-From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\hat{\overline{h}}_{\mu\nu}$,
+From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\widehat{\overline{h}}_{\mu\nu}$,
 \begin{equation}
-k^\mu\hat{\overline{h}}_{\mu\nu} = 0,
+k^\mu\widehat{\overline{h}}_{\mu\nu} = 0,
 \end{equation}
 thus in this case
 \begin{equation}
-\hat{\overline{h}}_{0\nu} + \hat{\overline{h}}_{3\nu} = 0.
+\widehat{\overline{h}}_{0\nu} + \widehat{\overline{h}}_{3\nu} = 0.
 \label{eq:Transverse}
 \end{equation}
 
@@ -444,7 +404,7 @@ Let us now consider the implications of \eqnref{Box_h} using equations \eqref{eq
 \end{align}
 For non-zero $R$ (as required for the Ricci mode) there is no way we can make such that the trace $h$ will vanish. This is distinct from the case in GR. It is possible, however, to make a gauge choice such that the trace $\overline{h}$ will vanish. Consider a gauge transformation generated by $\xi_\mu$ which satisfies $\Box \xi_\mu = 0$, and so has a Fourier decomposition
 \begin{equation}
-\xi_\mu = \hat{\xi}_\mu \exp\left(ik_\rho x^\rho\right).
+\xi_\mu = \widehat{\xi}_\mu \exp\left(ik_\rho x^\rho\right).
 \end{equation}
 We see that a transformation
 \begin{equation}
@@ -452,17 +412,17 @@ We see that a transformation
 \end{equation}
 would ensure both conditions \eqref{eq:Lorenz} and \eqref{eq:Box_hmunu} are satisfied. Under such a transformation
 \begin{equation}
-\hat{\overline{h}}_{\mu\nu} \rightarrow \hat{\overline{h}}_{\mu\nu} + i\left(k_\mu\hat{\xi}_\nu + k_\nu\hat{\xi}_\mu - \eta_{\mu\nu}k^\rho\hat{\xi}_\rho\right).
+\widehat{\overline{h}}_{\mu\nu} \rightarrow \widehat{\overline{h}}_{\mu\nu} + i\left(k_\mu\widehat{\xi}_\nu + k_\nu\widehat{\xi}_\mu - \eta_{\mu\nu}k^\rho\widehat{\xi}_\rho\right).
 \end{equation}
-We may therefore impose four further constraints (one for each $\hat{\xi}_\mu$) upon $\hat{\overline{h}}_{\mu\nu}$, and we may take these to be
+We may therefore impose four further constraints (one for each $\widehat{\xi}_\mu$) upon $\widehat{\overline{h}}_{\mu\nu}$, and we may take these to be
 \begin{equation}
-\hat{\overline{h}}_{0\nu} = 0, \quad \hat{\overline{h}} = 0.
+\widehat{\overline{h}}_{0\nu} = 0, \quad \widehat{\overline{h}} = 0.
 \end{equation}
-This may appear to be five constraints, however we have already imposed \eqref{eq:Transverse}, and so setting $\hat{\overline{h}}_{00} = 0$ automatically implies $\hat{\overline{h}}_{03} = 0$.
+This may appear to be five constraints, however we have already imposed \eqref{eq:Transverse}, and so setting $\widehat{\overline{h}}_{00} = 0$ automatically implies $\widehat{\overline{h}}_{03} = 0$.
 
 We see that $\overline{h}_{\mu\nu}$ behaves just as its counterpart in GR so we may define
 \begin{equation}
-\left[\hat{\overline{h}}_{\mu\nu}\right] =
+\left[\widehat{\overline{h}}_{\mu\nu}\right] =
 \begin{bmatrix}
 0 & 0 & 0 & 0\\
 0 & h_+ & h_\times & 0\\
@@ -482,10 +442,10 @@ Combining both wave modes ($\overline{h}_{\mu\nu}$ and $R$) the perturbation to 
 \begin{equation}
 \left[{h}_{\mu\nu}(z,t)\right] =
 \begin{bmatrix}
--a_2\hat{R}(t - vz) & 0 & 0 & 0\\
-0 & h_+(t - z) + a_2\hat{R}(t - vz) & h_\times(t - z) & 0\\
-0 & h_\times(t - z) & -h_+ + a_2\hat{R}(t - vz) & 0\\
-0 & 0 & 0 & a_2\hat{R}(t - vz)
+-a_2\widehat{R}(t - vz) & 0 & 0 & 0\\
+0 & h_+(t - z) + a_2\widehat{R}(t - vz) & h_\times(t - z) & 0\\
+0 & h_\times(t - z) & -h_+ + a_2\widehat{R}(t - vz) & 0\\
+0 & 0 & 0 & a_2\widehat{R}(t - vz)
 \end{bmatrix}.
 \end{equation}
 If we now assume that both are excited by the same source so that the frequencies will be equal $\omega = \Omega$.
@@ -494,15 +454,7 @@ It is important that our solutions reduce to those of GR in the event that $f(R)
 
 \section{Energy-momentum Tensor}
 
-We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point. We see that the full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. Let us first define, in analogy to the Einstein tensor
-\begin{equation}
-\mathcal{G}_{\mu\nu} = f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu},
-\end{equation}
-so that in a vacuum
-\begin{equation}
-\mathcal{G}_{\mu\nu} = 0.
-\end{equation}
-We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
+We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point. We see that the full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
 \begin{equation}
 \mathcal{G}_{\mu\nu} = {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} + {\mathcal{G}^{(1)}}_{\mu\nu} + {\mathcal{G}^{(2)}}_{\mu\nu} + \ldots
 \label{eq:G_exp}
@@ -835,7 +787,7 @@ This is correct for a slow moving source. It is the familiar quadrupole formula\
 \end{align}
 To evaluate \eqnref{Octopole} we need up to the third time derivative of the position. The velocity $\boldsymbol{v}\sub{p} = \dot{\boldsymbol{x}}\sub{p}$ can be calculated from the geodesic equations: dividing by $\linediff{t}{\tau}$ gives $\dot{r}$, $\dot{\theta}$ and $\dot{\phi}$ which can then be transformed to the Cartesian velocities assuming either the spherical or oblate spheroidal coordinate system.\footnote{There is again the problem of the sign of the geodesic equations, this is simply solved by taking the sign as calculated by finite differencing the trajectory.} Expressions for the acceleration $\boldsymbol{a}\sub{p} = \ddot{\boldsymbol{x}}\sub{p}$ and the jerk $\boldsymbol{j}\sub{p} = \dddot{\boldsymbol{x}}\sub{p}$ are more involved, so these derivatives are found numerically using a simple difference formula to approximate the derivative as
 \begin{equation}
-\diff{f}{t}(t_1) \approx \recip{2}\left[\frac{f(t_1) - f(t_0)}{t_1 - t_0} + \frac{f(t_2) - f(t_1)}{t_2 - t_1}\right],
+\left.\diff{f}{t}\right|_{t_1} \approx \recip{2}\left[\frac{f(t_1) - f(t_0)}{t_1 - t_0} + \frac{f(t_2) - f(t_1)}{t_2 - t_1}\right],
 \end{equation}
 where $t_0$, $t_1$ and $t_2$ are subsequent (not necessarily uniformly spaced) time-steps.
 
