@@ -10,6 +10,7 @@
 \usepackage{amssymb,amstext,amsfonts} %% ... with default font
 \usepackage{amsmath}
 \usepackage{mathrsfs}
+%\usepackage{txfonts}
 \usepackage{listings}
 %\usepackage{tikz}
 %\usetikzlibrary{shapes,arrows}
@@ -25,10 +26,9 @@
 \usepackage{afterpage}
 \usepackage[latin9]{inputenc}
 \usepackage{fixmath}
-%\usepackage{txfonts}
 \usepackage[numbers, sort&compress]{natbib}
 \renewcommand{\bibfont}{\footnotesize}
-\renewcommand{\bibname}{References}
+\renewcommand{\bibname}{{R\lowercase{eferences}}}
 \setlength{\bibhang}{0pt} 
 
 
@@ -64,6 +64,7 @@
 \newcommand{\innerprod}[2]{\ensuremath{\left({#1}\middle|{#2}\right)}}
 
 \newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{0}{I}\slashed{I}}}
+\newcommand{\lambdabar}{{\declareslashed{}{\text{--}}{0.04}{0}{\lambda}\slashed{\lambda}}}
 
 % Define differential operators
 \newcommand{\dd}{\ensuremath{\mathrm{d}}}
@@ -124,7 +125,7 @@
 \maketitle
 
 \begin{abstract}
-Abstract
+This is exceedingly abstract
 \end{abstract}
 
 \chapter{Introduction}\setcounter{page}{1}
@@ -148,7 +149,7 @@ Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lo
 
 \section{Introduction To $f(R)$ Theory}
 
-General relativity (GR) is a well tested theory of gravity\cite{Will2006}, however it is still interesting to explore alternate theories. This may be motivated by the need to explain dark matter and dark matter in cosmology, trying to formulate a quantizable theory of gravity or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR are the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
+General relativity (GR) is a well tested theory of gravity\cite{Will2006}; however it is still interesting to explore alternate theories. This may be motivated by the need to explain dark matter and dark matter in cosmology, trying to formulate a quantizable theory of gravity or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR are the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
 
 \subsection{The Action \& Field Equations}
 
@@ -160,21 +161,21 @@ In $f(R)$ theory we make a simple modification of the action to include an arbit
 \begin{equation}
 S[g] = \frac{c^4}{16\pi G}\intd{}{}{f(R)\sqrt{-g}}{^4x}.
 \end{equation}
-Including the function $f(R)$ gives extra freedom in defining the behaviour of gravity; while this action may not encode the true theory of gravity it may at least contain sufficent information to act as an effective field theory, correctly describing phenomological behaviour\cite{Park2010}. We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Buchdahl1970, Psaltis2008}
+Including the function $f(R)$ gives extra freedom in defining the behaviour of gravity; while this action may not encode the true theory of gravity it may at least contain sufficient information to act as an effective field theory, correctly describing phenomological behaviour\cite{Park2010}. We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Buchdahl1970, Psaltis2008}
 \begin{equation}
 f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
 Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
-The field equations are obtained by a variational principle; there are a number of choice for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations are those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equations, for an action that only depends on the metric and Reimann tensor, selects Lovelock gravity\cite{Exirifard2008}. GR is a special case of Lovelock gravity; $f(R)$ gravity only coincides with Lovelock gravity when it reduces back to GR (with or without a cosmological constant).}
+The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. GR is a special case of Lovelock gravity; $f(R)$ gravity only coincides with Lovelock gravity when it reduces back to GR (with or without a cosmological constant).}
 
-Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007a, Sotiriou 2001b}. This goes beyond the Palantini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction or torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
+Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palantini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction or torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
-We shall restrict our attention to only consider metric $f(R)$ gravity. The metric formalism is prefered as the Palantini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
+We shall restrict our attention to only consider metric $f(R)$ gravity. The metric formalism is preferred as the Palantini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1988}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Sotiriou2010}. There is no well described perscription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
 The vacuum field equation is
 \begin{equation}
@@ -198,7 +199,7 @@ a_0 = 0.
 In analogy to the Einstein tensor, we shall define
 \begin{equation}
 \mathcal{G}_{\mu\nu} = f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu},
-label{eq:G_tensor}
+\label{eq:G_tensor}
 \end{equation}
 so that in a vacuum
 \begin{equation}
@@ -293,7 +294,7 @@ if we define mass
 \begin{equation}
 m^2 = -\frac{\hbar^2}{3c^2a_2}.
 \end{equation}
-For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Corda2008}.
+For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Corda2007}.
 
 The next step is to substitute in $h_{\mu\nu}$ to try to find wave solutions. We hope to find a quantity $\overline{h}_{\mu\nu}$ that will satisfy a wave equation, related to $h_{\mu\nu}$ by
 \begin{equation}
@@ -335,10 +336,10 @@ Using this together with \eqnref{Box_R} in our field equation \eqref{eq:Field} g
 -\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\right) - (b + 1)\left(a_2\partial_\mu\partial_\nu R + \frac{R}{6}\eta_{\mu\nu}\right) = {\mathcal{G}^{(1)}}_{\mu\nu} - \mathcal{G}^{(1)}\eta_{\mu\nu}.
 \label{eq:b_Field}
 \end{equation}
-If we pick $b = -1$, then the second term vanishes, thus we will set\cite{Corda2008, Capozziello2008}
+If we pick $b = -1$, then the second term vanishes, thus we will set\cite{Corda2007, Capozziello2008}
 \begin{align}
 \overline{h}_{\mu\nu} = {} & h_{\mu\nu} - \left(a_2 R^{(1)} + \frac{h}{2}\right)\eta_{\mu\nu}\\
-\overline{h} = -4a_2 R^{(1)} - h.
+\overline{h} = {} & -4a_2 R^{(1)} - h.
 \end{align}
 Let us now consider the Ricci scalar in this case, then from \eqnref{Scalar}
 \begin{align}
@@ -367,7 +368,7 @@ Having established two wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}
 \overline{h}_{\mu\nu} = {} & \Re\left\{\widehat{\overline{h}}_{\mu\nu}(k_\rho) \exp\left(ik_\rho x^\rho\right)\right\},\\
 R^{(1)} = {} & \Re\left\{\widehat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
 \end{align}
-where $k_\mu$ and $q_\mu$ are the 4-wavevectors of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave travelling along the $z$-axis
+where $k_\mu$ and $q_\mu$ are the 4-wavevectors of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave traveling along the $z$-axis
 \begin{equation}
 k^\mu = \frac{\omega}{c}(1, 0, 0, 1),
 \end{equation}
@@ -379,7 +380,7 @@ q^\mu = \left(\frac{\Omega}{c}, 0, 0, \sqrt{\frac{\Omega^2}{c^2} - \recip{\lambd
 for frequency $\Omega$, where we have introduced the reduced wavelength
 \begin{align}
 \lambdabar = {} & \frac{\hbar}{mc} \nonumber \\
- = {} \recip{\sqrt{-3a_2}}.
+ = {} & \recip{\sqrt{-3a_2}}.
 \end{align}
 These waves do not travel at $c$, but have a group velocity
 \begin{equation}
@@ -402,7 +403,7 @@ Let us now consider the implications of \eqnref{Box_h} using equations \eqref{eq
 \Box\left(4a_2R^{(1)} + h\right) = {} & 0 \nonumber \\
 \Box h = {} & -\frac{4}{3}R^{(1)}.
 \end{align}
-For non-zero $R^{(1)}$ (as required for the Ricci mode) there is no way we can make such that the trace $h$ will vanish\cite{Corda2008, Capozziello2008}. This is distinct from the case in GR. It is possible, however, to make a gauge choice such that the trace $\overline{h}$ will vanish. Consider a gauge transformation generated by $\xi_\mu$ which satisfies $\Box \xi_\mu = 0$, and so has a Fourier decomposition
+For non-zero $R^{(1)}$ (as required for the Ricci mode) there is no way we can make such that the trace $h$ will vanish\cite{Corda2007, Capozziello2008}. This is distinct from the case in GR. It is possible, however, to make a gauge choice such that the trace $\overline{h}$ will vanish. Consider a gauge transformation generated by $\xi_\mu$ which satisfies $\Box \xi_\mu = 0$, and so has a Fourier decomposition
 \begin{equation}
 \xi_\mu = \widehat{\xi}_\mu \exp\left(ik_\rho x^\rho\right).
 \end{equation}
@@ -454,7 +455,7 @@ It is important that our solutions reduce to those of GR in the event that $f(R)
 
 \section{Energy-momentum Tensor}
 
-We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point\cite{Misner1973, Hobson2006}. We will do nothing revolutionary here, but shall follow the approach of Isaacson\cite{Isaacaon1968, Isaacson1968a}. The full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
+We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point\cite{Misner1973, Hobson2006}. We will do nothing revolutionary here, but shall follow the approach of Isaacson\cite{Isaacson1968, Isaacson1968a}. The full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
 \begin{equation}
 \mathcal{G}_{\mu\nu} = {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} + {\mathcal{G}^{(1)}}_{\mu\nu} + {\mathcal{G}^{(2)}}_{\mu\nu} + \ldots
 \label{eq:G_exp}
@@ -471,7 +472,7 @@ By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we effectively
 \begin{equation}
 {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -\left\langle{\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle.
 \end{equation}
-By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnoe{Unfortunately we cannot formally demonstrate that the background curvature should vary on the scale of several wavelengths as Isaacson did\cite{Isaacson1968}, so we must rely entirely on this argument for justification.} The energy-momentum pseudotensor for the radiation may be identified as
+By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature. The energy-momentum pseudotensor for the radiation may be identified as
 \begin{equation}
 t_{\mu\nu} = -\frac{c^4}{8\pi G}\left\langle{\mathcal{G}^{(\mathrm{2})}}_{\mu\nu}\right\rangle.
 \end{equation}
@@ -480,7 +481,7 @@ Having made this provisional identification, we must now set about carefully eva
 \begin{equation}
 g_{\mu\nu} = \gamma_{\mu\nu} + h_{\mu\nu},
 \end{equation}
-where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our definition for $h_{\mu\nu}$: instead of it being the total perturbation from flat Minkowski, it is instead the dynamical part of the metric with which we associate radiative effects. Since we know that ${\mathcal{G}^{(\mathrm{B})}}_{\mu\nu}$ is $\order{\epsilon^2}$, we may decompose our background metric as
+where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our definition for $h_{\mu\nu}$: instead of it being the total perturbation from flat Minkowski, it is the dynamical part of the metric with which we associate radiative effects. Since we know that ${\mathcal{G}^{(\mathrm{B})}}_{\mu\nu}$ is $\order{\epsilon^2}$, we may decompose our background metric as
 \begin{equation}
 \gamma_{\mu\nu} = \eta_{\mu\nu} + j_{\mu\nu},
 \end{equation}
@@ -620,7 +621,7 @@ We see that our field equations are consistent.
 
 \section{Background \& Introduction}
 
-Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few millparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}: this latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
+Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few millparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
 
 An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted during each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to emit continuously significant gravitational radiation. The resulting waveforms are known as extreme mass ratio inspirals (EMRIs).
 
@@ -918,7 +919,7 @@ Using the high SNR limit approximation, this mean is just the maximum-likelihood
 \end{equation}
 is the Fisher information matrix. We see that it controls the variance of likelihood distribution.
 
-The form of the posterior distribution we depend upon the nature of the prior information. If we have an uninformative prior, such that $p(\boldsymbol{\lambda})$ is a constant, then the posterior distribution would be determined by the likelihood. In the high SNR limit, we would obtain a Gaussian with variance-covariance matrix
+The form of the posterior distribution will depend upon the nature of the prior information. If we have an uninformative prior, such that $p(\boldsymbol{\lambda})$ is a constant, then the posterior distribution would be determined by the likelihood. In the high SNR limit, we would obtain a Gaussian with variance-covariance matrix
 \begin{equation}
 \boldsymbol{\Sigma} = \boldsymbol{\Gamma}^{-1}.
 \end{equation}
@@ -931,7 +932,7 @@ As a first estimate of what we may learn from parabolic encounters we have only 
 
 \section{Energy Spectra}
 
-We may compare the energy spectrum calculated from the kludge waveform with that obtain from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis, however we do not expect an exact match because of the differing input physics and various approximations.
+We may compare the energy spectrum calculated from the kludge waveform with that obtained from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis; however we do not expect an exact match because of the differing input physics and various approximations.
 
 \subsection{Kludge Spectrum}
 

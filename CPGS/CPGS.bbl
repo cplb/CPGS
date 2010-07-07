@@ -31,6 +31,11 @@ Buchdahl, H.~A.; {Non-linear Lagrangians and cosmological theory};
   \textit{Monthly Notices of the Royal Astronomical Society};
   \textbf{150}:1--8, 1970.
 
+\bibitem{Park2010}
+Park, M., Zurek, K.~M. \& Watson, S.; {Unified approach to cosmic
+  acceleration}; \textit{Physical Review D}; \textbf{81}(12):124008(18), June
+  2010.
+
 \bibitem{Psaltis2008}
 Psaltis, D., Perrodin, D., Dienes, K.~R. \& Mocioiu, I.; {Kerr Black Holes Are
   Not Unique to General Relativity}; \textit{Physical Review Letters};
@@ -40,6 +45,74 @@ Psaltis, D., Perrodin, D., Dienes, K.~R. \& Mocioiu, I.; {Kerr Black Holes Are
 Exirifard, Q. \& Sheik-Jabbari, M.; {Lovelock gravity at the crossroads of
   Palatini and metric formulations}; \textit{Physics Letters B};
   \textbf{661}(2-3):158--161, March 2008.
+
+\bibitem{Sotiriou2007}
+Sotiriou, T. \& Liberati, S.; {Metric-affine \$f(R)\$ theories of gravity};
+  \textit{Annals of Physics}; \textbf{322}(4):935--966, April 2007.
+
+\bibitem{Sotiriou2007b}
+Sotiriou, T.~P. \& Liberati, S.; {The metric-affine formalism of \$f(R)\$
+  gravity}; \textit{Journal of Physics: Conference Series};
+  \textbf{68}:012022(7), May 2007.
+
+\bibitem{Barausse2008}
+Barausse, E. \& Sotiriou, T.~P.; {Perturbed Kerr Black Holes Can Probe
+  Deviations from General Relativity}; \textit{Physical Review Letters};
+  \textbf{101}(9):099001(1), August 2008.
+
+\bibitem{Barausse2008a}
+Barausse, E., Sotiriou, T.~P. \& Miller, J.~C.; {Curvature singularities, tidal
+  forces and the viability of Palatini \$f(R)\$ gravity}; \textit{Classical and
+  Quantum Gravity}; \textbf{25}(10):105008(15), May 2008.
+
+\bibitem{York1972}
+York, J., James~W.; {Role of Conformal Three-Geometry in the Dynamics of
+  Gravitation}; \textit{Physical Review Letters}; \textbf{28}(16):1082--1085,
+  April 1972.
+
+\bibitem{Gibbons1977}
+Gibbons, G.~W. \& Hawking, S.~W.; {Action integrals and partition functions in
+  quantum gravity}; \textit{Physical Review D}; \textbf{15}(10):2752--2756, May
+  1977.
+
+\bibitem{Madsen1989}
+Madsen, M.~S. \& Barrow, J.~D.; {De Sitter ground states and boundary terms in
+  generalised gravity}; \textit{Nuclear Physics B}; \textbf{323}(1):242--252,
+  August 1989.
+
+\bibitem{Schmidt1986}
+Schmidt, H.-J.; {The Newtonian limit of fourth-order gravity};
+  \textit{Astronomische Nachrichten: A Journal on all Fields of Astronomy};
+  \textbf{307}(5):339--340, 1986.
+
+\bibitem{Teyssandier1990}
+Teyssandier, P.; {New solutions in linearizedR+R2 gravity};
+  \textit{Astronomische Nachrichten: A Journal on all Fields of Astronomy};
+  \textbf{311}(4):209--212, 1990.
+
+\bibitem{Corda2007}
+Corda, C.; {Massive gravitational waves from the R\^{}2 theory of gravity:
+  production and response of interferometers}; \textit{International Journal of
+  Modern Physics A}; \textbf{23}(10):1521--1535, November 2007.
+
+\bibitem{Capozziello2008}
+Capozziello, S., Corda, C. \& {De Laurentis}, M.; {Massive gravitational waves
+  from \$f(R)\$ theories of gravity: Potential detection with LISA};
+  \textit{Physics Letters B}; \textbf{669}(5):255--259, November 2008.
+
+\bibitem{Hobson2006}
+Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
+  Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
+
+\bibitem{Isaacson1968}
+Isaacson, R.; {Gravitational Radiation in the Limit of High Frequency. I. The
+  Linear Approximation and Geometrical Optics}; \textit{Physical Review};
+  \textbf{166}(5):1263--1271, February 1968.
+
+\bibitem{Isaacson1968a}
+Isaacson, R.; {Gravitational Radiation in the Limit of High Frequency. II.
+  Nonlinear Terms and the Effective Stress Tensor}; \textit{Physical Review};
+  \textbf{166}(5):1272--1280, February 1968.
 
 \bibitem{Lynden-Bell1971}
 Lynden-Bell, D. \& Rees, M.~J.; {On quasars, dust and the galactic centre};
@@ -121,10 +194,6 @@ Kerr, R.; {Gravitational Field of a Spinning Mass as an Example of
 Boyer, R.~H. \& Lindquist, R.~W.; {Maximal Analytic Extension of the Kerr
   Metric}; \textit{Journal of Mathematical Physics}; \textbf{8}(2):265--281,
   February 1967.
-
-\bibitem{Hobson2006}
-Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
-  Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
 
 \bibitem{Carter1968}
 Carter, B.; {Global Structure of the Kerr Family of Gravitational Fields};
