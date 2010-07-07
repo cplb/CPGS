@@ -28,7 +28,7 @@
 %\usepackage{txfonts}
 \usepackage[numbers, sort&compress]{natbib}
 \renewcommand{\bibfont}{\footnotesize}
-\renewcommand\refname{References}
+\renewcommand{\bibname}{References}
 \setlength{\bibhang}{0pt} 
 
 
@@ -160,7 +160,7 @@ In $f(R)$ theory we make a simple modification of the action to include an arbit
 \begin{equation}
 S[g] = \frac{c^4}{16\pi G}\intd{}{}{f(R)\sqrt{-g}}{^4x}.
 \end{equation}
-We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Psaltis2008}
+Including the function $f(R)$ gives extra freedom in defining the behaviour of gravity; while this action may not encode the true theory of gravity it may at least contain sufficent information to act as an effective field theory, correctly describing phenomological behaviour\cite{Park2010}. We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Buchdahl1970, Psaltis2008}
 \begin{equation}
 f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
@@ -168,21 +168,15 @@ Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R
 
 The field equations are obtained by a variational principle; there are a number of choice for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations are those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equations, for an action that only depends on the metric and Reimann tensor, selects Lovelock gravity\cite{Exirifard2008}. GR is a special case of Lovelock gravity; $f(R)$ gravity only coincides with Lovelock gravity when it reduces back to GR (with or without a cosmological constant).}
 
-Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity. 
+Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007a, Sotiriou 2001b}. This goes beyond the Palantini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction or torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
-Varying the action with respect to the metric $g^{\mu\nu}$ produces
+We shall restrict our attention to only consider metric $f(R)$ gravity. The metric formalism is prefered as the Palantini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box - g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here certain assumptions regarding surface terms.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1988}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Sotiriou2010}. There is no well described perscription for this so we proceed directly to the field equations.
 
-Integrating by parts and assuming that the variation $\delta g^{\mu\nu}$ vanishes at infinity allows this to be rewritten as
-\begin{equation}
-\delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)R_{\mu\nu} - \nabla_\mu\nabla_\nu f'(R) + g_{\mu\nu}\Box f'(R) - f(R)\frac{1}{2}g_{\mu\nu}\right\}\delta g^{\mu\nu}\sqrt{-g}}{^4x}.
-\end{equation}
-For the action to be extremised for, $\delta S = 0$, for any variation $\delta g^{\mu\nu}$, the term in braces must vanish.
-
-Thus we obtain the vacuum field equation
+The vacuum field equation is
 \begin{equation}
 f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu} = 0.
 \label{eq:Field_eq}
@@ -204,6 +198,7 @@ a_0 = 0.
 In analogy to the Einstein tensor, we shall define
 \begin{equation}
 \mathcal{G}_{\mu\nu} = f'R_{\mu\nu} - \nabla_\mu\nabla_\nu f' + g_{\mu\nu}\Box f' - \frac{f}{2}g_{\mu\nu},
+label{eq:G_tensor}
 \end{equation}
 so that in a vacuum
 \begin{equation}
@@ -233,13 +228,13 @@ which is a useful geometric identity. Using this we find that
 \end{align}
 Consequently we see that energy-momentum is a conserved quantity in the same way as in GR, as may be expected from the symmetries of the action.
 
-\section{Linear Perturbations}\label{sec:Lin}
+\section{Linearized Theory}\label{sec:Lin}
 
 We will now consider the case that the metric is perturbed slightly from flat Minkowski such that
 \begin{equation}
-g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu},
+g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu};
 \end{equation}
-where more formally we mean that $h_{\mu\nu} = \epsilon H_{\mu\nu}$ for small parameter $\epsilon$. We will consider terms only to $\order{\epsilon}$. Thus, the inverse metric is
+where, more formally, we mean that $h_{\mu\nu} = \epsilon H_{\mu\nu}$ for small parameter $\epsilon$.\footnote{It is because we wish to perturb about flat spacetime that we have required $f(R)$ be analytic about $R = 0$.} We will consider terms only to $\order{\epsilon}$. Thus, the inverse metric is
 \begin{equation}
 g^{\mu\nu} = \eta^{\mu\nu} - h^{\mu\nu},
 \end{equation}
@@ -258,7 +253,7 @@ The linearized ($\order{\epsilon}$) connection coefficient is
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} = \frac{1}{2}\eta^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}).
 \label{eq:Lin_Gamma}
 \end{equation}
-The covariant derivative of any perturbed quantity will be the same as the partial derivative. The Riemann tensor is
+The covariant derivative of any perturbed quantity will be the same as the partial derivative to first order. The Riemann tensor is
 \begin{equation}
 {{R^{(1)}}^\lambda}_{\mu\nu\rho} = \frac{1}{2}(\partial_\mu\partial_\nu h^\lambda_\rho + \partial^\lambda\partial_\rho h_{\mu\nu} - \partial_\mu\partial_\rho h^\lambda_\nu - \partial^\lambda\partial_\nu h_{\mu\rho}),
 \label{eq:Lin_Riemann}
@@ -276,55 +271,51 @@ R^{(1)} = \partial_\mu\partial_\rho h^{\rho\mu} - \Box h.
 
 Since $R^{(1)}$ is $\order{\epsilon}$ we may write $f(R)$ as a Maclaurin series to first order such that
 \begin{align}
-f^{(1)}(R) = {} & a_0 + R^{(1)}\\
-{f'}^{(1)}(R) = {} & 1 + a_2 R^{(1)}.
+f(R) = {} & a_0 + R^{(1)}\\
+f'(R) = {} & 1 + a_2 R^{(1)}.
 \end{align}
-As we are perturbing from a flat Minkowski background where the Ricci scalar vanishes, we may use \eqnref{a_0} to set $a_0 = 0$. Inserting these into \eqnref{Field_eq} and retaining terms to first order we obtain
+As we are perturbing from a flat Minkowski background where the Ricci scalar vanishes, we may use \eqnref{a_0} to set $a_0 = 0$. Inserting these into \eqnref{G_tensor} and retaining terms to first order we obtain
 \begin{equation}
-{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R^{(1)}) + \eta_{\mu\nu}\Box(a_2 R^{(1)}) - \frac{R^{(1)}}{2}\eta_{\mu\nu} = 0.
+{\mathcal{G}^{(1)}}_{\mu\nu} = {R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R^{(1)}) + \eta_{\mu\nu}\Box(a_2 R^{(1)}) - \frac{R^{(1)}}{2}\eta_{\mu\nu}.
+\label{eq:Field}
 \end{equation}
-We see that we need to find a relation between $R^{(1)}$ and its derivatives. Let us consider the linearized \eqnref{Trace_eq}
+We see that we need to find a relation between $R^{(1)}$ and its derivatives. Let us consider the linearized trace equation, from \eqnref{Trace_eq}
 \begin{align}
-R^{(1)} + 3 \Box(a_2 R^{(1)}) - 2 R^{(1)} = {} & 0 \nonumber \\
-3a_2 \Box R^{(1)} - R^{(1)} = {} & 0
+\mathcal{G}^{(1)} = {} & R^{(1)} + 3 \Box(a_2 R^{(1)}) - 2 R^{(1)} \nonumber \\
+\mathcal{G}^{(1)} = {} & 3a_2 \Box R^{(1)} - R^{(1)},
 \label{eq:Box_R}
 \end{align}
-This is the massive Klein-Gordon equation
+where $\mathcal{G}^{(1)} = \eta^{\mu\nu}{\mathcal{G}^{(1)}}_{\mu\nu}$. This is the massive inhomogeneous Klein-Gordon equation. Setting $\mathcal{G} = 0$ as for a vacuum we obtain the standard Klein-Gordon equation
 \begin{equation}
-\Box R^{(1)} + m^2R^{(1)} = 0,
+\Box R^{(1)} + \frac{c^2m^2}{\hbar^2}R^{(1)} = 0,
 \end{equation}
 if we define mass
 \begin{equation}
-m^2 = -\recip{3a_2}.
+m^2 = -\frac{\hbar^2}{3c^2a_2}.
 \end{equation}
-For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$.\footnote{Use of the other sign convention for the metric would result in the reversal of this inequality.} Now substituting for $\Box R^{(1)}$ in the field equation gives
-\begin{align}
-{R^{(1)}}_{\mu\nu} - a_2 \partial_\mu\partial_\nu R^{(1)} + \frac{R^{(1)}}{3}\eta_{\mu\nu} - \frac{R^{(1)}}{2}\eta_{\mu\nu} = {} & 0 \nonumber \\
-{R^{(1)}}_{\mu\nu} - a_2\partial_\mu\partial_\nu R^{(1)} - \frac{R^{(1)}}{6}\eta_{\mu\nu} = {} & 0.
-\label{eq:Field}
-\end{align}
+For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Corda2008}.
 
-The next step is to substitute in $h_{\mu\nu}$ to try to find wave solutions. We hope to find a quantity $\overline{h}_{\mu\nu}$ that will satisfy a wave equation, where it is related to $h_{\mu\nu}$ by
+The next step is to substitute in $h_{\mu\nu}$ to try to find wave solutions. We hope to find a quantity $\overline{h}_{\mu\nu}$ that will satisfy a wave equation, related to $h_{\mu\nu}$ by
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} + A_{\mu\nu}.
 \end{equation}
-In GR we use the trace reversed form where $A_{\mu\nu} = -(h/2)\eta_{\mu\nu}$. This will not suffice here as we have additional terms, but let us look for a similar solution
+In GR we use the trace-reversed form where $A_{\mu\nu} = -(h/2)\eta_{\mu\nu}$. This will not suffice here as we have additional terms, but let us look for a similar solution
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} - \frac{h}{2}\eta_{\mu\nu} + B_{\mu\nu}.
 \end{equation}
-The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, $R_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate $R_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\epsilon}$. There are three scalar quantities that satisfy this: $h$, $R$ and $\Box R$; $h$ is used already and $\Box R$ is related to $R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
+The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, ${R^{(1)}}_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate ${R^{(1)}}_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\epsilon}$. There are three scalar quantities that satisfy this: $h$, $R^{(1)}$ and $\Box R^{(1)}$; $h$ is used already and $\Box R^{(1)}$ is related to $^{(1)}R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
 \begin{equation}
-\overline{h}_{\mu\nu} = h_{\mu\nu} + \left(b a_2 R - \frac{h}{2}\right)\eta_{\mu\nu}
+\overline{h}_{\mu\nu} = h_{\mu\nu} + \left(b a_2 R^{(1)} - \frac{h}{2}\right)\eta_{\mu\nu}
 \label{eq:Ansatz}
 \end{equation}
-where $a_2$ has been included to ensure dimensional consistency, and $b$ is a dimensionless number. Contracting with the background metric yields
+where $a_2$ has been included to ensure dimensional consistency and $b$ is a dimensionless number. Contracting with the background metric yields
 \begin{equation}
-\overline{h} = 4b a_2 R - h,
+\overline{h} = 4b a_2 R^{(1)} - h,
 \label{eq:h_trace}
 \end{equation}
 so we may eliminate $h$ in our definition of $\overline{h}_{\mu\nu}$ to give
 \begin{equation}
-h_{\mu\nu} = \overline{h}_{\mu\nu} + \left(b a_2 R -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}.
+h_{\mu\nu} = \overline{h}_{\mu\nu} + \left(b a_2 R^{(1)} -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}.
 \end{equation}
 We will assume a Lorenz, or de Donder, gauge choice such that
 \begin{equation}
@@ -336,29 +327,33 @@ to first order this gives
 \partial^\mu \overline{h}_{\mu\nu} = 0.
 \end{equation}
 Subject to this, the Ricci tensor is, from \eqnref{Ricci},
-\begin{align}
-R_{\mu\nu} = {} & \frac{1}{2}\left\{\partial_\nu\partial_\mu \left(b a_2 R -\frac{\overline{h}}{2}\right) + \partial_\mu\partial_\nu \left(b a_2 R -\frac{\overline{h}}{2}\right) \right. \nonumber \\
- & \left. - \Box \left[\overline{h}_{\mu\nu} + \left(b a_2 R -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}\right] - \partial_\mu\partial_\nu (4b a_2 R - \overline{h})\right\} \nonumber \\
- = {} & -\frac{1}{2}\left\{2b a_2 \partial_\mu\partial_\nu R + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) + \frac{b}{3}R\eta_{\mu\nu}\right\}.
-\end{align}
-Using this in our field equation \eqref{eq:Field} gives
 \begin{equation}
-\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\right) + (b + 1)\left(a_2\partial_\mu\partial_\nu R + \frac{R}{6}\eta_{\mu\nu}\right) = 0.
+{R^{(1)}}_{\mu\nu} = -\frac{1}{2}\left\{2b a_2 \partial_\mu\partial_\nu R^{(1)} + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) + \frac{b}{3}R^{(1)}\eta_{\mu\nu}\right\}.
 \end{equation}
-If we set $b = -1$, then the second term vanishes. Let us now consider the Ricci scalar in the case $b = -1$, then from \eqnref{Scalar}
+Using this together with \eqnref{Box_R} in our field equation \eqref{eq:Field} gives
+\begin{equation}
+-\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\right) - (b + 1)\left(a_2\partial_\mu\partial_\nu R + \frac{R}{6}\eta_{\mu\nu}\right) = {\mathcal{G}^{(1)}}_{\mu\nu} - \mathcal{G}^{(1)}\eta_{\mu\nu}.
+\label{eq:b_Field}
+\end{equation}
+If we pick $b = -1$, then the second term vanishes, thus we will set\cite{Corda2008, Capozziello2008}
 \begin{align}
-R = {} & \Box \left(a_2 R -\frac{\overline{h}}{2}\right) - \Box (-4 a_2 R - \overline{h}) \nonumber \\
- = {} & 3a_2 \Box R + \frac{1}{2}\Box \overline{h}.
+\overline{h}_{\mu\nu} = {} & h_{\mu\nu} - \left(a_2 R^{(1)} + \frac{h}{2}\right)\eta_{\mu\nu}\\
+\overline{h} = -4a_2 R^{(1)} - h.
+\end{align}
+Let us now consider the Ricci scalar in this case, then from \eqnref{Scalar}
+\begin{align}
+R^{(1)} = {} & \Box \left(a_2 R^{(1)} -\frac{\overline{h}}{2}\right) - \Box (-4 a_2 R^{(1)} - \overline{h}) \nonumber \\
+ = {} & 3a_2 \Box R^{(1)} + \frac{1}{2}\Box \overline{h}.
 \label{eq:Ricci_Box_h}
 \end{align}
 For consistency with \eqnref{Box_R}, we see that
 \begin{equation}
-\Box \overline{h} = 0.
+-\recip{2}\Box \overline{h} = \mathcal{G}^{(1)}.
 \label{eq:Box_h}
 \end{equation}
-This means finally that
+Inserting this into \eqnref{b_Field}, with $b = -1$, we see
 \begin{equation}
-\Box \overline{h}_{\mu\nu} = 0,
+-\recip{2}\Box \overline{h}_{\mu\nu} = {\mathcal{G}^{(1)}}_{\mu\nu};
 \label{eq:Box_hmunu}
 \end{equation}
 we have our wave equation and it is consistent.
@@ -367,25 +362,30 @@ Should $a_2$ be sufficiently small that it may be regarded an $\order{\epsilon}$
 
 \section{Gravitational Radiation}
 
-Having established two wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}, we may now investigate their solutions. We will use natural units $c = \hbar = 1$. Using a standard Fourier decomposition
+Having established two wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}, we may now investigate their solutions. We shall consider waves in a vacuum such that $\mathcal{G}_{\mu\nu} = 0$. Using a standard Fourier decomposition
 \begin{align}
 \overline{h}_{\mu\nu} = {} & \Re\left\{\widehat{\overline{h}}_{\mu\nu}(k_\rho) \exp\left(ik_\rho x^\rho\right)\right\},\\
-R = {} & \Re\left\{\widehat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
+R^{(1)} = {} & \Re\left\{\widehat{R}(q_\rho) \exp\left(iq_\rho x^\rho\right)\right\},
 \end{align}
-where $k_\mu$ and $q_\mu$ are the 4-wavevectors, or 4-momenta, of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave travelling along the $z$-axis
+where $k_\mu$ and $q_\mu$ are the 4-wavevectors of the waves. From \eqnref{Box_hmunu} we know that $k_\mu$ is a null vector, so for a wave travelling along the $z$-axis
 \begin{equation}
-k^\mu = \omega(1, 0, 0, 1),
+k^\mu = \frac{\omega}{c}(1, 0, 0, 1),
 \end{equation}
-where $\omega$ is the frequency. Similarly, from \eqnref{Box_R}
+where $\omega$ is the angular frequency. Similarly, from \eqnref{Box_R}
 \begin{equation}
-q^\mu = (\Omega, 0, 0, \sqrt{\Omega^2 - m^2}),
+q^\mu = \left(\frac{\Omega}{c}, 0, 0, \sqrt{\frac{\Omega^2}{c^2} - \recip{\lambdabar^2}}\right),
 \label{eq:Ricci_q}
 \end{equation}
-for frequency $\Omega$. This means that these waves do not travel at $c$, but have a group velocity
+for frequency $\Omega$, where we have introduced the reduced wavelength
+\begin{align}
+\lambdabar = {} & \frac{\hbar}{mc} \nonumber \\
+ = {} \recip{\sqrt{-3a_2}}.
+\end{align}
+These waves do not travel at $c$, but have a group velocity
 \begin{equation}
-v = \frac{\sqrt{\Omega^2 - m^2}}{\Omega}.
+v = \frac{c\sqrt{\Omega^2 - \nicefrac{c^2}{\lambdabar^2}}}{\Omega}.
 \end{equation}
-Provided that $m^2 > 0$, $v < c = 1$, but we do not get propagating modes for $\Omega^2 < m^2$.
+Provided that $\lambdabar^2 > 0$, $v < c$, but we do not get propagating modes for $\Omega < \Omega_0 = \nicefrac{c}{\lambdabar}$.
 
 From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\widehat{\overline{h}}_{\mu\nu}$,
 \begin{equation}
@@ -399,10 +399,10 @@ thus in this case
 
 Let us now consider the implications of \eqnref{Box_h} using equations \eqref{eq:h_trace} and \eqref{eq:Box_R},
 \begin{align}
-\Box\left(4a_2R + h\right) = {} & 0 \nonumber \\
-\Box h = {} & -\frac{4}{3}R.
+\Box\left(4a_2R^{(1)} + h\right) = {} & 0 \nonumber \\
+\Box h = {} & -\frac{4}{3}R^{(1)}.
 \end{align}
-For non-zero $R$ (as required for the Ricci mode) there is no way we can make such that the trace $h$ will vanish. This is distinct from the case in GR. It is possible, however, to make a gauge choice such that the trace $\overline{h}$ will vanish. Consider a gauge transformation generated by $\xi_\mu$ which satisfies $\Box \xi_\mu = 0$, and so has a Fourier decomposition
+For non-zero $R^{(1)}$ (as required for the Ricci mode) there is no way we can make such that the trace $h$ will vanish\cite{Corda2008, Capozziello2008}. This is distinct from the case in GR. It is possible, however, to make a gauge choice such that the trace $\overline{h}$ will vanish. Consider a gauge transformation generated by $\xi_\mu$ which satisfies $\Box \xi_\mu = 0$, and so has a Fourier decomposition
 \begin{equation}
 \xi_\mu = \widehat{\xi}_\mu \exp\left(ik_\rho x^\rho\right).
 \end{equation}
@@ -410,7 +410,7 @@ We see that a transformation
 \begin{equation}
 \overline{h}_{\mu\nu} \rightarrow \overline{h}_{\mu\nu} + \partial_\mu\xi_\nu + \partial_\nu\xi_\mu - \eta_{\mu\nu}\partial^\rho\xi_\rho,
 \end{equation}
-would ensure both conditions \eqref{eq:Lorenz} and \eqref{eq:Box_hmunu} are satisfied. Under such a transformation
+would ensure both conditions \eqref{eq:Lorenz} and \eqref{eq:Box_hmunu} are satisfied\cite{Misner1973}. Under such a transformation
 \begin{equation}
 \widehat{\overline{h}}_{\mu\nu} \rightarrow \widehat{\overline{h}}_{\mu\nu} + i\left(k_\mu\widehat{\xi}_\nu + k_\nu\widehat{\xi}_\mu - \eta_{\mu\nu}k^\rho\widehat{\xi}_\rho\right).
 \end{equation}
@@ -434,32 +434,32 @@ where $h_+$ and $h_\times$ are appropriate constants representing the amplitudes
 
 Using this choice of gauge we have
 \begin{align}
-h_{\mu\nu} = {} & \overline{h}_{\mu\nu} - a_2 R\eta_{\mu\nu},\\
-h = {} & -4a_2R.
+h_{\mu\nu} = {} & \overline{h}_{\mu\nu} - a_2 R^{(1)}\eta_{\mu\nu},\\
+h = {} & -4a_2R^{(1)}.
 \label{eq:gauge}
 \end{align}
-Combining both wave modes ($\overline{h}_{\mu\nu}$ and $R$) the perturbation to the flat background associated with our wave solutions looks like
+Combining both wave modes ($\overline{h}_{\mu\nu}$ and $R^{(1)}$) the perturbation to the flat background associated with our wave solutions looks like
 \begin{equation}
 \left[{h}_{\mu\nu}(z,t)\right] =
 \begin{bmatrix}
--a_2\widehat{R}(t - vz) & 0 & 0 & 0\\
-0 & h_+(t - z) + a_2\widehat{R}(t - vz) & h_\times(t - z) & 0\\
-0 & h_\times(t - z) & -h_+ + a_2\widehat{R}(t - vz) & 0\\
-0 & 0 & 0 & a_2\widehat{R}(t - vz)
+-a_2\widehat{R} & 0 & 0 & 0\\
+0 & h_+ + a_2\widehat{R} & h_\times & 0\\
+0 & h_\times & -h_+ + a_2\widehat{R} & 0\\
+0 & 0 & 0 & a_2\widehat{R}
 \end{bmatrix}.
 \end{equation}
-If we now assume that both are excited by the same source so that the frequencies will be equal $\omega = \Omega$.
+Hmm...
 
-It is important that our solutions reduce to those of GR in the event that $f(R) = R$. In this linearized approach this corresponds to $a_2 \rightarrow 0$, $m^2 \rightarrow \infty$. We see from \eqnref{Ricci_q} that in this limit it would take an infinite frequency to excite a propagating Ricci mode, and evanescent waves would decay away infinitely quickly. Therefore there would not be any detectable Ricci modes and we would only observe the two polarizations found in the analysis of GR. Additionally $\overline{h}_{\mu\nu}$ would simplify to its usual trace-reversed form.
+It is important that our solutions reduce to those of GR in the event that $f(R) = R$. In this linearized approach this corresponds to $a_2 \rightarrow 0$, $m^2 \rightarrow \infty$, $\lambdabar^2 \rightarrow 0$. We see from \eqnref{Ricci_q} that in this limit it would take an infinite frequency to excite a propagating Ricci mode, and evanescent waves would decay away infinitely quickly. Therefore there would not be any detectable Ricci modes and we would only observe the two polarizations found in the analysis of GR. Additionally $\overline{h}_{\mu\nu}$ would simplify to its usual trace-reversed form.
 
 \section{Energy-momentum Tensor}
 
-We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point. We see that the full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
+We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point\cite{Misner1973, Hobson2006}. We will do nothing revolutionary here, but shall follow the approach of Isaacson\cite{Isaacaon1968, Isaacson1968a}. The full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
 \begin{equation}
 \mathcal{G}_{\mu\nu} = {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} + {\mathcal{G}^{(1)}}_{\mu\nu} + {\mathcal{G}^{(2)}}_{\mu\nu} + \ldots
 \label{eq:G_exp}
 \end{equation}
-We use $(\mathrm{B})$ for the background term instead of $(0)$ to avoid confusion regarding its order in $\epsilon$. Our linearised equation would then read
+We use $(\mathrm{B})$ for the background term instead of $(0)$ to avoid confusion regarding its order in $\epsilon$. Our linearised vacuum equation would then read
 \begin{equation}
 {\mathcal{G}^{(1)}}_{\mu\nu} = 0.
 \end{equation}
@@ -467,11 +467,11 @@ So far we have assumed that our background is flat, however we can imagine that 
 \begin{equation}
 {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -{\mathcal{G}^{(2)}}_{\mu\nu}.
 \end{equation}
-By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we effectively create an energy-momentum tensor. As in GR we will average over several wavelengths, assuming that the background curvature is on a larger scale,
+By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we effectively create an energy-momentum tensor. As in GR we will average over several wavelengths, assuming that the background curvature is on a larger scale\cite{Misner1973},
 \begin{equation}
 {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -\left\langle{\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle.
 \end{equation}
-By doing this, we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature. The energy-momentum pseudotensor for the radiation may be identified as
+By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnoe{Unfortunately we cannot formally demonstrate that the background curvature should vary on the scale of several wavelengths as Isaacson did\cite{Isaacson1968}, so we must rely entirely on this argument for justification.} The energy-momentum pseudotensor for the radiation may be identified as
 \begin{equation}
 t_{\mu\nu} = -\frac{c^4}{8\pi G}\left\langle{\mathcal{G}^{(\mathrm{2})}}_{\mu\nu}\right\rangle.
 \end{equation}
@@ -486,16 +486,12 @@ where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our 
 \end{equation}
 where $j_{\mu\nu}$ is $\order{\epsilon^2}$ to ensure that ${{R^{(\mathrm{B})}}^\lambda}_{\mu\nu\rho}$ is also $\order{\epsilon^2}$. Therefore its introduction will make no difference to the linearized theory.
 
-We will consider terms only to $\order{\epsilon^2}$. The connection coefficient is
-\begin{equation}
-{\Gamma^\rho}_{\mu\nu} = {{\Gamma^{(\mathrm{B})}}^\rho}_{\mu\nu} + {{\Gamma^{(1)}}^\rho}_{\mu\nu} + {{\Gamma^{(2)}}^\rho}_{\mu\nu} + \ldots
-\end{equation}
-We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
+We will consider terms only to $\order{\epsilon^2}$. We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
 \begin{align}
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} = {} & \frac{1}{2}\gamma^{\rho\lambda}\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
   & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
 \end{align}
-where $R^{(1)}$ is the first order Ricci scalar, and
+and
 \begin{align}
 {{\Gamma^{(2)}}^\rho}_{\mu\nu} = {} & -\frac{1}{2}h^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}) \nonumber \\
  = {} & -\frac{1}{2}\left(\overline{h}^{\rho\lambda} - a_2 R^{(1)}\gamma^{\rho\lambda}\right)\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
@@ -509,29 +505,25 @@ We may use our expression from \eqnref{Lin_Riemann} for ${{R^{(1)}}^\lambda}_{\m
 \begin{equation}
 {R}_{\mu\nu} = {R^{(\mathrm{B})}}_{\mu\nu} + {R^{(1)}}_{\mu\nu} + {R^{(2)}}_{\mu\nu} + \ldots
 \end{equation}
-We may again use our linearized expression, \eqnref{Ricci}, for the first order term.
-\begin{align}
-{R^{(1)}}_{\mu\nu} = {} & \frac{1}{2}\left[\partial_\mu\partial_\rho \left(\overline{h}^\rho_\nu - a_2 R^{(1)}\gamma^\rho_\nu\right) + \partial_\nu\partial_\rho \left(\overline{h}^\rho_\mu - a_2 R^{(1)}\gamma^\rho_\mu\right) \right. \nonumber \\
- & - \left. \Box^{(\mathrm{B})} \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right) - \partial_\mu\partial_\nu \left(-4a_2 R\right)\right] \\ \nonumber
- = {} & 2 a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6} R^{(1)}\gamma_{\mu\nu},
-\end{align}
-Note that the d'Almebertian is now $\Box^{(\mathrm{B})} = \gamma^{\mu\nu}\partial_\mu\partial_\nu$. The next term is
+We may again use our linearized expression, \eqnref{Ricci}, for the first order term,
+\begin{equation}
+{R^{(1)}}_{\mu\nu} = 2 a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6} R^{(1)}\gamma_{\mu\nu}.
+\end{equation}
+The next term is
 \begin{align}
 {R^{(2)}}_{\mu\nu} = {} & \partial_\rho {{\Gamma^{(2)}}^\rho}_{\mu\nu} - \partial_\nu {{\Gamma^{(2)}}^\rho}_{\mu\rho} + {{\Gamma^{(1)}}^\rho}_{\mu\nu}{{\Gamma^{(1)}}^\sigma}_{\rho\sigma} - {{\Gamma^{(1)}}^\rho}_{\mu\sigma}{{\Gamma^{(1)}}^\sigma}_{\rho\nu} \nonumber \\
- = {} & \frac{1}{2}\left[\frac{1}{2}\partial_\mu h^{\rho\sigma}\partial_\nu h_{\rho\sigma} + h^{\sigma\rho}\left(\partial_\mu\partial_\nu h_{\rho\sigma} + \partial_\rho\partial_\sigma h_\mu\nu - \partial_\nu\partial_\rho h_{\mu\sigma} - \partial_\sigma\partial_\mu h_{\rho\nu}\right) \right. \nonumber \\
- & - \left. \left(\partial_\sigma h^{\sigma\rho} - \frac{1}{2}\partial^\rho h\right)\left(\partial_\mu h_{\rho\mu} + \partial_\nu h_{\mu\rho} - \partial_\rho h_{\mu\nu}\right) + \partial^\rho h^\sigma_\nu\left(\partial_\rho h_{\sigma\mu} - \partial_\sigma h_{\rho\mu}\right) \right] \nonumber \\
  = {} & \frac{1}{2}\left\{\recip{2}\partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\sigma\rho} + \overline{h}^{\sigma\rho}\left[\partial_\mu\partial_\nu\overline{h}_{\sigma\rho} + \partial_\sigma\partial_\rho\left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right) \right.\right. \nonumber \\
  & - \left.\left. \partial_\nu\partial_\rho\left(\overline{h}_{\sigma\mu} - a_2 R^{(1)} \gamma_{\sigma\mu}\right) - \partial_\mu\partial_\rho\left(\overline{h}_{\sigma\nu} - a_2 R^{(1)} \gamma_{\sigma\nu}\right)\right] \right. \nonumber \\
  & + \left. \partial^\rho\overline{h}^\sigma_\nu\left(\partial_\rho\overline{h}_{\sigma\mu} - \partial_\sigma\overline{h}_{\rho\mu}\right) - a_2 \partial^\sigma R^{(1)}\partial_\sigma\overline{h}_{\mu\mu} + {a_2}^2 \left[2R^{(1)}\partial_\mu\partial_\nu R^{(1)} \right.\right. \nonumber \\
  & + \left.\left. 3\partial_\mu R^{(1)}\partial_\nu R^{(1)} + R^{(1)} \Box^{(\mathrm{B})} R^{(1)} \gamma_{\mu\nu}\right]\right\}.
 \end{align}
+Note that the d'Almebertian is now $\Box^{(\mathrm{B})} = \gamma^{\mu\nu}\partial_\mu\partial_\nu$.
 
-To find the Ricci scalar we must contract the Ricci tensor, but we must decide which metric to use to do this. It is tempting to use the background metric, as we used this for raising the indices on $h_{\mu\nu}$, however this was just a notational convenience. The physical metric is the full metric, so we must use this to form $R$. Remembering that we are only considering terms to $\order{\epsilon^2}$, this gives
+To find the Ricci scalar we must contract the Ricci tensor, but we must decide which metric to use. It is tempting to use the background metric, as we used this for raising the indices on $h_{\mu\nu}$, however this was just a notational convenience. The physical metric is the full metric, so we must use this to form $R$. Remembering that we are only considering terms to $\order{\epsilon^2}$, this gives
 \begin{align}
 R^{(\mathrm{B})} = {} & \gamma^{\mu\nu} {R^{(\mathrm{B})}}_{\mu\nu} \\
 R^{(1)} = {} & \gamma^{\mu\nu} {R^{(1)}}_{\mu\nu} \\
 R^{(2)} = {} & \gamma^{\mu\nu} {R^{(2)}}_{\mu\nu} - h^{\mu\nu} {R^{(1)}}_{\mu\nu} \nonumber \\
- = {} & \gamma^{\mu\nu} {R^{(2)}}_{\mu\nu} - \overline{h}^{\mu\nu} {R^{(1)}}_{\mu\nu} + a_2 {R^{(1)}}^2 \nonumber \\
  = {} & \frac{3}{4}\partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\sigma\rho} - \recip{2} \partial^\rho\overline{h}^{\sigma\mu}\partial_\sigma\overline{h}_{\rho\mu} - 2a_2 \overline{h}^{\mu\nu}\partial_\mu\partial_\nu R^{(1)} \nonumber \\
  & + {} a_2 {R^{(1)}}^2 + \frac{3a_2}{2}\partial_\mu R^{(1)} \partial^\mu R^{(1)}.
 \end{align}
@@ -550,21 +542,17 @@ f'^{(2)} = {} & a_2 R^{(2)} + \frac{a_3}{2}{R^{(1)}}^2.
 \end{align}
 We list a zeroth order term here for clarity.
 
-Using all of these
+Combining all of these
 \begin{align}
 {\mathcal{G}^{(2)}}_{\mu\nu} = {} & {R^{(2)}}_{\mu\nu} + f'^{(1)}{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu f'^{(2)} + {{\Gamma^{(1)}}^\rho}_{\nu\mu}\partial_\rho f'^{(1)} + \gamma_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(2)} \nonumber \\
  & - {} \gamma_{\mu\nu}\gamma^{\rho\sigma}{{\Gamma^{(1)}}^\lambda}_{\sigma\rho}\partial_\lambda f'^{(1)} - \gamma_{\mu\nu}h^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} + h_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} \nonumber \\
  & - {} \recip{2}f^{(2)}\gamma_{\mu\nu} - \recip{2}f^{(1)}h_{\mu\nu} \nonumber \\
- = {} & {R^{(2)}}_{\mu\nu} + a_2R^{(1)}{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu \left(a_2R^{(2)} + \frac{a_3}{2}{R^{(1)}}^2\right) + {{\Gamma^{(1)}}^\rho}_{\nu\mu}\partial_\rho \left(a_2R^{(1)}\right) \nonumber \\
- & + {} \gamma_{\mu\nu}\Box^{(\mathrm{B})} \left(a_2R^{(2)} + \frac{a_3}{2}{R^{(1)}}^2\right) - \gamma_{\mu\nu}\gamma^{\rho\sigma}{{\Gamma^{(1)}}^\lambda}_{\sigma\rho}\partial_\lambda\left(a_2R^{(1)}\right) \nonumber \\
- & - {} \gamma_{\mu\nu}h^{\rho\sigma}\partial_\rho\partial_\sigma\left(a_2R^{(1)}\right) + h_{\mu\nu}\Box^{(\mathrm{B})}\left(a_2R^{(1)}\right) - \recip{2}\left(R^{(2)} + \frac{a_2}{2}{R^{(1)}}^2\right)\gamma_{\mu\nu} \nonumber \\
- & - {} \recip{2}R^{(1)}h_{\mu\nu} \nonumber \\
  = {} & {R^{(2)}}_{\mu\nu} + a_2\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right)R^{(2)} - \recip{2}R^{(2)}\gamma_{\mu\nu} + a_3\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right){R^{(1)}}^2 \nonumber \\
  & - {} \recip{6}\overline{h}_{\mu\nu}R^{(1)} - a_2\gamma_{\mu\nu}\overline{h}^{\sigma\rho}\partial_\sigma\partial_\rho R^{(1)} + \frac{a_2}{2} \partial^\rho R^{(1)} \left(\partial_\mu\overline{h}_{\rho\nu} + \partial_\nu\overline{h}_{\rho\mu} - \partial_\rho\overline{h}_{\mu\nu}\right) \nonumber \\
  & + {} a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) - {a_2}^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\
  & + \left. \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right)
 \end{align}
-It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point gradients average to zero
+It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point gradients average to zero\cite{Hobson2006}
 \begin{equation}
 \left\langle\partial_\mu V\right\rangle = 0.
 \end{equation}
@@ -573,18 +561,12 @@ As a corollary of this we have the relation
 \left\langle U\partial_\mu V\right\rangle = -\left\langle \partial_\mu U V\right\rangle.
 \end{equation}
 Repeated application of this, together with our gauge condition, \eqnref{Lorenz}, and wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}, allows us to eliminate many terms. Considering terms that do not trivially average to zero
-\begin{equation}
-\left\langle {R^{(2)}}_{\mu\nu} \right\rangle = \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + \frac{{a_2}^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \frac{a_2}{6}\gamma_{\mu\nu}R^{(1)} \right\rangle;
-\end{equation}
-\begin{equation}
-\left\langle R^{(2)} \right\rangle = \left\langle \frac{3a_2}{2}{R^{(1)}}^2 \right\rangle;
-\end{equation}
-\begin{equation}
-\left\langle \overline{h}_{\mu\nu}R^{(1)} \right\rangle = 0;
-\end{equation}
-\begin{equation}
-\left\langle R^{(1)}{R^{(1)}}_{\mu\nu} \right\rangle = \left\langle a_2 R^{(1)} \partial_\mu\partial_\nu R^{(1)} + \recip{6}\gamma_{\mu\nu}{R^{(1)}}^2\right\rangle.
-\end{equation}
+\begin{align}
+\left\langle {R^{(2)}}_{\mu\nu} \right\rangle = {} & \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + \frac{{a_2}^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \frac{a_2}{6}\gamma_{\mu\nu}R^{(1)} \right\rangle; \\
+\left\langle R^{(2)} \right\rangle = {} & \left\langle \frac{3a_2}{2}{R^{(1)}}^2 \right\rangle; \\
+\left\langle \overline{h}_{\mu\nu}R^{(1)} \right\rangle = {} & 0; \\
+\left\langle R^{(1)}{R^{(1)}}_{\mu\nu} \right\rangle = {} & \left\langle a_2 R^{(1)} \partial_\mu\partial_\nu R^{(1)} + \recip{6}\gamma_{\mu\nu}{R^{(1)}}^2\right\rangle.
+\end{align}
 Combining these gives
 \begin{equation}
 \left\langle {\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle = \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} - \frac{3{a_2}^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
@@ -593,10 +575,11 @@ Thus we obtain the result
 \begin{equation}
 t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + 6{a_2}^2\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
 \end{equation}
-In the limit of $a_2 \rightarrow 0$ we obtain the standard GR result as required. Note that the GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $m$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge}, we obtain
+In the limit of $a_2 \rightarrow 0$ we obtain the standard GR result as required. Note that the GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $\Omega_0$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge}, we obtain
 \begin{equation}
 t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial^\mu h^{\rho\sigma} + \recip{8}\partial_\mu h \partial_\nu h \right\rangle.
 \end{equation}
+Note that these results do not depend upon $a_3$ or higher order coefficients.
 
 \section{Radiation With A Source}
 
@@ -609,7 +592,7 @@ Again assuming a Minkowski background, our first order field equations are
 {\mathcal{G}^{(1)}}_{\mu\nu} = {} & {R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R^{(1)}) + \eta_{\mu\nu}\Box(a_2 R^{(1)}) - \frac{R^{(1)}}{2}\eta_{\mu\nu} \\
 \mathcal{G}^{(1)} = {} & 3a_2 \Box R^{(1)} - R^{(1)}
 \end{align}
-where $\mathcal{G}^{(1)} = \eta^{\mu\nu}{\mathcal{G}^{(1)}}_{\mu\nu}$. Will we again use our ansatz $\overline{h}_{\mu\nu}$ from \eqnref{Ansatz}, with $b = -1$. The Ricci tensor is
+. Will we again use our ansatz $\overline{h}_{\mu\nu}$ from \eqnref{Ansatz}, with $b = -1$. The Ricci tensor is
 \begin{equation}
 {R^{(1)}}_{\mu\nu} = \frac{1}{2}\left[2 a_2 \partial_\mu\partial_\nu R^{(1)} - \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) + \frac{a_2}{2}\Box R^{(1)}\eta_{\mu\nu}\right].
 \end{equation}
@@ -816,11 +799,11 @@ To define this, it is convenient to introduce angles
 \end{equation}
 The transformation matrix from the BH coordinates to the detector coordinates is
 \begin{equation}
-\left[A_{ij}\right] = \begin{pmatrix}
+\left[A_{ij}\right] = \begin{bmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
-\end{pmatrix};
+\end{bmatrix};
 \end{equation}
 the elements are
 \begin{align}
