@@ -171,7 +171,7 @@ The field equations are obtained by a variational principle; there are a number 
 
 Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palantini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction or torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
-We shall restrict our attention to only consider metric $f(R)$ gravity. The metric formalism is preferred as the Palantini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
+We shall restrict our attention to only consider metric $f(R)$ gravity. The metric formalism is preferred as the Palantini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
@@ -235,7 +235,7 @@ We will now consider the case that the metric is perturbed slightly from flat Mi
 \begin{equation}
 g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu};
 \end{equation}
-where, more formally, we mean that $h_{\mu\nu} = \epsilon H_{\mu\nu}$ for small parameter $\epsilon$.\footnote{It is because we wish to perturb about flat spacetime that we have required $f(R)$ be analytic about $R = 0$.} We will consider terms only to $\order{\epsilon}$. Thus, the inverse metric is
+where, more formally, we mean that $h_{\mu\nu} = \varepsilon H_{\mu\nu}$ for small parameter $\varepsilon$.\footnote{It is because we wish to perturb about flat spacetime that we have required $f(R)$ be analytic about $R = 0$.} We will consider terms only to $\order{\varepsilon}$. Thus, the inverse metric is
 \begin{equation}
 g^{\mu\nu} = \eta^{\mu\nu} - h^{\mu\nu},
 \end{equation}
@@ -247,9 +247,9 @@ Similarly, the trace $h$ is given by
 \begin{equation}
 h = \eta^{\mu\nu}h_{\mu\nu}.
 \end{equation}
-This means that all quantities denoted by ``$h$'' are strictly $\order{\epsilon}$. We will have to be careful later on to distinguish between quantities where the Minkowski metric has been used to raise indices and those where the full metric has been used.
+This means that all quantities denoted by ``$h$'' are strictly $\order{\varepsilon}$. We will have to be careful later on to distinguish between quantities where the Minkowski metric has been used to raise indices and those where the full metric has been used.
 
-The linearized ($\order{\epsilon}$) connection coefficient is
+The linearized ($\order{\varepsilon}$) connection coefficient is
 \begin{equation}
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} = \frac{1}{2}\eta^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}).
 \label{eq:Lin_Gamma}
@@ -270,7 +270,7 @@ R^{(1)} = \partial_\mu\partial_\rho h^{\rho\mu} - \Box h.
 \label{eq:Scalar}
 \end{equation}
 
-Since $R^{(1)}$ is $\order{\epsilon}$ we may write $f(R)$ as a Maclaurin series to first order such that
+Since $R^{(1)}$ is $\order{\varepsilon}$ we may write $f(R)$ as a Maclaurin series to first order such that
 \begin{align}
 f(R) = {} & a_0 + R^{(1)}\\
 f'(R) = {} & 1 + a_2 R^{(1)}.
@@ -288,13 +288,21 @@ We see that we need to find a relation between $R^{(1)}$ and its derivatives. Le
 \end{align}
 where $\mathcal{G}^{(1)} = \eta^{\mu\nu}{\mathcal{G}^{(1)}}_{\mu\nu}$. This is the massive inhomogeneous Klein-Gordon equation. Setting $\mathcal{G} = 0$ as for a vacuum we obtain the standard Klein-Gordon equation
 \begin{equation}
-\Box R^{(1)} + \frac{c^2m^2}{\hbar^2}R^{(1)} = 0,
+\Box R^{(1)} + \kappa^2 R^{(1)} = 0,
 \end{equation}
-if we define mass
+if we define inverse length scale
 \begin{equation}
-m^2 = -\frac{\hbar^2}{3c^2a_2}.
+\kappa^2 = -\recip{3a_2}.
 \end{equation}
-For a physically meaningful solution we require $m^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Corda2007}.
+For a physically meaningful solution we require $\kappa^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Corda2007}. From the inverse length scale $\kappa$ we may define a reduced Compton wavelength
+\begin{equation}
+\lambdabar = \recip{\kappa},
+\end{equation}
+and mass
+\begin{equation}
+m = \frac{\hbar\kappa}{c}
+\end{equation}
+associated with this scalar mode.
 
 The next step is to substitute in $h_{\mu\nu}$ to try to find wave solutions. We hope to find a quantity $\overline{h}_{\mu\nu}$ that will satisfy a wave equation, related to $h_{\mu\nu}$ by
 \begin{equation}
@@ -304,7 +312,7 @@ In GR we use the trace-reversed form where $A_{\mu\nu} = -(h/2)\eta_{\mu\nu}$. T
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} - \frac{h}{2}\eta_{\mu\nu} + B_{\mu\nu}.
 \end{equation}
-The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, ${R^{(1)}}_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate ${R^{(1)}}_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\epsilon}$. There are three scalar quantities that satisfy this: $h$, $R^{(1)}$ and $\Box R^{(1)}$; $h$ is used already and $\Box R^{(1)}$ is related to $^{(1)}R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
+The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, ${R^{(1)}}_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate ${R^{(1)}}_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\varepsilon}$. There are three scalar quantities that satisfy this: $h$, $R^{(1)}$ and $\Box R^{(1)}$; $h$ is used already and $\Box R^{(1)}$ is related to $^{(1)}R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} + \left(b a_2 R^{(1)} - \frac{h}{2}\right)\eta_{\mu\nu}
 \label{eq:Ansatz}
@@ -359,7 +367,7 @@ Inserting this into \eqnref{b_Field}, with $b = -1$, we see
 \end{equation}
 we have our wave equation and it is consistent.
 
-Should $a_2$ be sufficiently small that it may be regarded an $\order{\epsilon}$ quantity, we recover GR to leading order within our analysis.
+Should $a_2$ be sufficiently small that it may be regarded an $\order{\varepsilon}$ quantity, we recover GR to leading order within our analysis.
 
 \section{Gravitational Radiation}
 
@@ -374,19 +382,14 @@ k^\mu = \frac{\omega}{c}(1, 0, 0, 1),
 \end{equation}
 where $\omega$ is the angular frequency. Similarly, from \eqnref{Box_R}
 \begin{equation}
-q^\mu = \left(\frac{\Omega}{c}, 0, 0, \sqrt{\frac{\Omega^2}{c^2} - \recip{\lambdabar^2}}\right),
+q^\mu = \left(\frac{\Omega}{c}, 0, 0, \sqrt{\frac{\Omega^2}{c^2} - \kappa^2}\right),
 \label{eq:Ricci_q}
 \end{equation}
-for frequency $\Omega$, where we have introduced the reduced wavelength
-\begin{align}
-\lambdabar = {} & \frac{\hbar}{mc} \nonumber \\
- = {} & \recip{\sqrt{-3a_2}}.
-\end{align}
-These waves do not travel at $c$, but have a group velocity
+for frequency $\Omega$. These waves do not travel at $c$, but have a group velocity
 \begin{equation}
-v = \frac{c\sqrt{\Omega^2 - \nicefrac{c^2}{\lambdabar^2}}}{\Omega}.
+v = \frac{c\sqrt{\Omega^2 - c^2\kappa^2}}{\Omega}.
 \end{equation}
-Provided that $\lambdabar^2 > 0$, $v < c$, but we do not get propagating modes for $\Omega < \Omega_0 = \nicefrac{c}{\lambdabar}$.
+Provided that $\kappa^2 > 0$, $v < c$, but we do not get propagating modes for $\Omega < \Omega_0 = c\kappa$.
 
 From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\widehat{\overline{h}}_{\mu\nu}$,
 \begin{equation}
@@ -419,8 +422,12 @@ We may therefore impose four further constraints (one for each $\widehat{\xi}_\m
 \begin{equation}
 \widehat{\overline{h}}_{0\nu} = 0, \quad \widehat{\overline{h}} = 0.
 \end{equation}
-This may appear to be five constraints, however we have already imposed \eqref{eq:Transverse}, and so setting $\widehat{\overline{h}}_{00} = 0$ automatically implies $\widehat{\overline{h}}_{03} = 0$.
-
+This may appear to be five constraints, however we have already imposed \eqref{eq:Transverse}, and so setting $\widehat{\overline{h}}_{00} = 0$ automatically implies $\widehat{\overline{h}}_{03} = 0$. In this gauge we have
+\begin{align}
+h_{\mu\nu} = {} & \overline{h}_{\mu\nu} - a_2 R^{(1)}\eta_{\mu\nu},\\
+h = {} & -4a_2R^{(1)}.
+\label{eq:gauge}
+\end{align}
 We see that $\overline{h}_{\mu\nu}$ behaves just as its counterpart in GR so we may define
 \begin{equation}
 \left[\widehat{\overline{h}}_{\mu\nu}\right] =
@@ -433,24 +440,6 @@ We see that $\overline{h}_{\mu\nu}$ behaves just as its counterpart in GR so we 
 \end{equation}
 where $h_+$ and $h_\times$ are appropriate constants representing the amplitudes of the two transverse polarizations of gravitational radiation.
 
-Using this choice of gauge we have
-\begin{align}
-h_{\mu\nu} = {} & \overline{h}_{\mu\nu} - a_2 R^{(1)}\eta_{\mu\nu},\\
-h = {} & -4a_2R^{(1)}.
-\label{eq:gauge}
-\end{align}
-Combining both wave modes ($\overline{h}_{\mu\nu}$ and $R^{(1)}$) the perturbation to the flat background associated with our wave solutions looks like
-\begin{equation}
-\left[{h}_{\mu\nu}(z,t)\right] =
-\begin{bmatrix}
--a_2\widehat{R} & 0 & 0 & 0\\
-0 & h_+ + a_2\widehat{R} & h_\times & 0\\
-0 & h_\times & -h_+ + a_2\widehat{R} & 0\\
-0 & 0 & 0 & a_2\widehat{R}
-\end{bmatrix}.
-\end{equation}
-Hmm...
-
 It is important that our solutions reduce to those of GR in the event that $f(R) = R$. In this linearized approach this corresponds to $a_2 \rightarrow 0$, $m^2 \rightarrow \infty$, $\lambdabar^2 \rightarrow 0$. We see from \eqnref{Ricci_q} that in this limit it would take an infinite frequency to excite a propagating Ricci mode, and evanescent waves would decay away infinitely quickly. Therefore there would not be any detectable Ricci modes and we would only observe the two polarizations found in the analysis of GR. Additionally $\overline{h}_{\mu\nu}$ would simplify to its usual trace-reversed form.
 
 \section{Energy-momentum Tensor}
@@ -460,11 +449,11 @@ We expect that the gravitational field would carry energy-momentum. Unfortunatel
 \mathcal{G}_{\mu\nu} = {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} + {\mathcal{G}^{(1)}}_{\mu\nu} + {\mathcal{G}^{(2)}}_{\mu\nu} + \ldots
 \label{eq:G_exp}
 \end{equation}
-We use $(\mathrm{B})$ for the background term instead of $(0)$ to avoid confusion regarding its order in $\epsilon$. Our linearised vacuum equation would then read
+We use $(\mathrm{B})$ for the background term instead of $(0)$ to avoid confusion regarding its order in $\varepsilon$. Our linearised vacuum equation would then read
 \begin{equation}
 {\mathcal{G}^{(1)}}_{\mu\nu} = 0.
 \end{equation}
-So far we have assumed that our background is flat, however we can imagine that should the gravitational radiation carry energy-momentum then this would act as a source of curvature for the background. This is a second-order effect that may be encoded, to accuracy of $\order{\epsilon^2}$, as
+So far we have assumed that our background is flat, however we can imagine that should the gravitational radiation carry energy-momentum then this would act as a source of curvature for the background. This is a second-order effect that may be encoded, to accuracy of $\order{\varepsilon^2}$, as
 \begin{equation}
 {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -{\mathcal{G}^{(2)}}_{\mu\nu}.
 \end{equation}
@@ -472,7 +461,7 @@ By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we effectively
 \begin{equation}
 {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -\left\langle{\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle.
 \end{equation}
-By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature. The energy-momentum pseudotensor for the radiation may be identified as
+By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnote{By averaging we do not try to localise the energy of a wave to within a wavelength; for the massive Ricci scalar mode we always consider scales greater than $\lambdabar$.} The energy-momentum pseudotensor for the radiation may be identified as
 \begin{equation}
 t_{\mu\nu} = -\frac{c^4}{8\pi G}\left\langle{\mathcal{G}^{(\mathrm{2})}}_{\mu\nu}\right\rangle.
 \end{equation}
@@ -481,13 +470,13 @@ Having made this provisional identification, we must now set about carefully eva
 \begin{equation}
 g_{\mu\nu} = \gamma_{\mu\nu} + h_{\mu\nu},
 \end{equation}
-where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our definition for $h_{\mu\nu}$: instead of it being the total perturbation from flat Minkowski, it is the dynamical part of the metric with which we associate radiative effects. Since we know that ${\mathcal{G}^{(\mathrm{B})}}_{\mu\nu}$ is $\order{\epsilon^2}$, we may decompose our background metric as
+where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our definition for $h_{\mu\nu}$: instead of it being the total perturbation from flat Minkowski, it is the dynamical part of the metric with which we associate radiative effects. Since we know that ${\mathcal{G}^{(\mathrm{B})}}_{\mu\nu}$ is $\order{\varepsilon^2}$, we may decompose our background metric as
 \begin{equation}
 \gamma_{\mu\nu} = \eta_{\mu\nu} + j_{\mu\nu},
 \end{equation}
-where $j_{\mu\nu}$ is $\order{\epsilon^2}$ to ensure that ${{R^{(\mathrm{B})}}^\lambda}_{\mu\nu\rho}$ is also $\order{\epsilon^2}$. Therefore its introduction will make no difference to the linearized theory.
+where $j_{\mu\nu}$ is $\order{\varepsilon^2}$ to ensure that ${{R^{(\mathrm{B})}}^\lambda}_{\mu\nu\rho}$ is also $\order{\varepsilon^2}$. Therefore its introduction will make no difference to the linearized theory.
 
-We will consider terms only to $\order{\epsilon^2}$. We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
+We will consider terms only to $\order{\varepsilon^2}$. We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
 \begin{align}
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} = {} & \frac{1}{2}\gamma^{\rho\lambda}\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
   & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
@@ -520,7 +509,7 @@ The next term is
 \end{align}
 Note that the d'Almebertian is now $\Box^{(\mathrm{B})} = \gamma^{\mu\nu}\partial_\mu\partial_\nu$.
 
-To find the Ricci scalar we must contract the Ricci tensor, but we must decide which metric to use. It is tempting to use the background metric, as we used this for raising the indices on $h_{\mu\nu}$, however this was just a notational convenience. The physical metric is the full metric, so we must use this to form $R$. Remembering that we are only considering terms to $\order{\epsilon^2}$, this gives
+To find the Ricci scalar we must contract the Ricci tensor, but we must decide which metric to use. It is tempting to use the background metric, as we used this for raising the indices on $h_{\mu\nu}$, however this was just a notational convenience. The physical metric is the full metric, so we must use this to form $R$. Remembering that we are only considering terms to $\order{\varepsilon^2}$, this gives
 \begin{align}
 R^{(\mathrm{B})} = {} & \gamma^{\mu\nu} {R^{(\mathrm{B})}}_{\mu\nu} \\
 R^{(1)} = {} & \gamma^{\mu\nu} {R^{(1)}}_{\mu\nu} \\
@@ -550,8 +539,7 @@ Combining all of these
  & - {} \recip{2}f^{(2)}\gamma_{\mu\nu} - \recip{2}f^{(1)}h_{\mu\nu} \nonumber \\
  = {} & {R^{(2)}}_{\mu\nu} + a_2\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right)R^{(2)} - \recip{2}R^{(2)}\gamma_{\mu\nu} + a_3\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right){R^{(1)}}^2 \nonumber \\
  & - {} \recip{6}\overline{h}_{\mu\nu}R^{(1)} - a_2\gamma_{\mu\nu}\overline{h}^{\sigma\rho}\partial_\sigma\partial_\rho R^{(1)} + \frac{a_2}{2} \partial^\rho R^{(1)} \left(\partial_\mu\overline{h}_{\rho\nu} + \partial_\nu\overline{h}_{\rho\mu} - \partial_\rho\overline{h}_{\mu\nu}\right) \nonumber \\
- & + {} a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) - {a_2}^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\
- & + \left. \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right)
+ & + {} a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) - {a_2}^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right).
 \end{align}
 It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point gradients average to zero\cite{Hobson2006}
 \begin{equation}
@@ -582,36 +570,164 @@ t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial
 \end{equation}
 Note that these results do not depend upon $a_3$ or higher order coefficients.
 
-\section{Radiation With A Source}
+\section{$f(R)$ With A Source}
 
 Having consider radiation in a vacuum, we now move on to consider the case with a source term. We want a first order perturbation from our background metric so that the linearised field equation is
 \begin{equation}
 {\mathcal{G}^{(1)}}_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}.
 \end{equation}
-Again assuming a Minkowski background, our first order field equations are
+We will again assume a Minkowski background, considering terms to first order only. To solve the wave equations \eqref{eq:Box_R} and \eqref{eq:Box_hmunu} with this source term we may use a Green's function
+\begin{equation}
+\left(\Box + \kappa^2\right)\mathscr{G}_\kappa(x, x') = \delta(x - x'),
+\end{equation}
+where $\Box$ acts on $x$. The Green's function is familiar as the Klein-Gordon propagator (upto a factor of $-i$)\cite{Peskin1995}
+\begin{equation}
+\mathscr{G}_\kappa(x, x') = \int \frac{\dd^4 p}{(2\pi)^4} \frac{\exp\left[-ip\cdot(x-x')\right]}{\kappa^2 - p^2}.
+\end{equation}
+This may be evaluated by a suitable contour integral to give
+\begin{equation}
+\mathscr{G}_\kappa(x, x') =
+\begin{cases}
+\int \frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[i\sqrt{\nicefra{\omega^2}{c^2} - \kappa^2}r\right]}{4\pi r} & \omega^2 > c^2\kappa^2\\
+\int \frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[-\sqrt{\kappa^2 - \nicefra{\omega^2}{c^2}}r\right]}{4\pi r} & \omega^2 < c^2\kappa^2
+\end{cases}\, ,
+\label{eq:Green}
+\end{equation}
+where we have introduced $t = x^0$, $t' = x'^0$ and $r = |\boldsymbol{x} - \boldsymbol{x'}|$. For $\kappa = 0$
+\begin{equation}
+\mathscr{G}_0(x, x') = \frac{\delta(ct - ct' - r)}{4 \pi c r},
+\end{equation}
+the standard retarded time Green's function. We can use this to solve \eqnref{Box_hmunu}
 \begin{align}
-{\mathcal{G}^{(1)}}_{\mu\nu} = {} & {R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu(a_2 R^{(1)}) + \eta_{\mu\nu}\Box(a_2 R^{(1)}) - \frac{R^{(1)}}{2}\eta_{\mu\nu} \\
-\mathcal{G}^{(1)} = {} & 3a_2 \Box R^{(1)} - R^{(1)}
+\overline{h}_{\mu\nu}(x) = {} & -\frac{16 \pi G}{c^4}\int \dd^4 y \mathscr{G}_0(x, y) T_{\mu\nu}(x') \nonumber \\
+ = {} & -\frac{4 G}{c^4}\int \dd^3 x' \frac{T_{\mu\nu}(ct - r, \boldsymbol{x'})}{r}.
 \end{align}
-. Will we again use our ansatz $\overline{h}_{\mu\nu}$ from \eqnref{Ansatz}, with $b = -1$. The Ricci tensor is
+This is exactly as in GR, so we may use standard results.
+
+Solving the for scalar mode we find
 \begin{equation}
-{R^{(1)}}_{\mu\nu} = \frac{1}{2}\left[2 a_2 \partial_\mu\partial_\nu R^{(1)} - \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) + \frac{a_2}{2}\Box R^{(1)}\eta_{\mu\nu}\right].
+R^{(1)}(x) = -\frac{16 \pi G \kappa^2}{c^4}\int \dd^4 y \mathscr{G}_\kappa(x, x') T(x').
 \end{equation}
-Taking the traces gives
+To proceed further we must know the form of the trace $T(y)$. In general the form of $R^{(1)}(x)$ will be complicated.
+
+%For illustrative purposes, let us consider the Newtonian example of two equal mass particles in cicular orbits. Picking our coordinate origin at the centre of the circle, the trace of the stress-energy tensor is
+%\begin{equation}
+%T(x') = c^2M\left[\delta(x;^1 - a\cos\Omega t')\delta(x'^2 - a\sin\Omega t') + \delta(x'^1 + a\cos\Omega t')\delta(x'^2 + a\sin\Omega t')\right]\delta(x'^3),
+%\end{equation}
+%where $M$ is the mass, $a$ is the radius and $\Omega$ is the orbital frequency. Using this
+%\begin{equation}
+%R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\int \dd t' \int \frac{\dd \omega}{2\pi} \exp\left[-i\omega(t-t')\right]\left\[\frac{\exp\left(i\sqrt{\nicefra{\Omega^2}{c^2} - \kappa^2}r_+(t')\right)}{r_+(t')} + \right\frac{\exp\left(i\sqrt{\nicefra{\Omega^2}{c^2} - \kappa^2}r_-(t')\right)}{r_-(t')}},
+%\end{equation}
+%where we have introduced
+%\begin{equation}
+%r_\pm^2(t') = (x^1 \pm a\cos\Omega t')^2 + (x^2 \pm a\sin\Omega t')^2.
+%\end{equation}
+%We may easily evaluate this in the limit of $r \rightarrow \infty$ when we may approximate $r_\pm \simeq r_0 = |\boldsymbol{x}|$. In this limit
+%\begin{equation}
+%R^{(1)}(x) \simeq -\frac{8 G \kappa^2 M}{c^2}\frac{\exp\(- \kappa r_0)}{r_0}.
+%\end{equation}
+%We see that 
+
+\subsection{The Newtonian Limit}
+
+Let us consider the limiting case of a Newtonian source such that
 \begin{equation}
-R^{(1)} = 3a_2\Box R^{(1)} + \recip{2}\Box\overline{h}
+T_{00} = c^2\rho; \quad |T_{00}| \gg |T_{0i}|; \quad |T_{00}| \gg |T_{ij}|,
 \end{equation}
-just as in \eqnref{Ricci_Box_h}. Comparing this with the trace of the field equation yields
+with the the simplest mass distribution of a stationary point source
 \begin{equation}
--\recip{2}\Box\overline{h} = \mathcal{G}^{(1)}
+\rho = M\delta(\boldsymbol{x'}).
 \end{equation}
-Using this with our expression for the Ricci tensor in the field equation gives
+With this source we do not produce any radiation. As in GR we find
+\begin{equation}
+\overline{h}_00 = -\frac{4GM}{c^2r}; \quad \overline{h}_0i = \overline{h}_ij = 0.
+\end{equation}
+Solving for the Ricci scalar term gives
+\begin{equation}
+R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\frac{\exp\(- \kappa r)}{r}.
+\end{equation}
+Combining these, the first order perturbation to the metric is
 \begin{align}
-{\mathcal{G}^{(1)}}_{\mu\nu} = {} & a_2\partial_\mu\partial_\nu R^{(1)} - \recip{2}\Box\overline{h}_{\mu\nu} + \recip{2}\Box\left(\frac{\overline{h}}{2} + a_2 R^{(1)}\right)\eta_{\mu\nu} - a_2\partial_\mu\partial_\nu R^{(1)} \nonumber \\
- & + {} a_2\Box R^{(1)} \eta_{\mu\nu} - \recip{2}R^{(1)}\eta_{\mu\nu} \nonumber \\
- = {} & - \recip{2}\Box\overline{h}_{\mu\nu}.
+\left[h_{\mu\nu}\right] = {} & \left[\overline{h}_{\mu\nu} - \nicerecip{2}\overline{h}\eta_{\mu\nu} - a_2R^{(1)}\eta_{\mu\nu}\right] \nonumber \\
+ = {} & \begin{bmatrix}
+-\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 & 0 & 0 \\
+0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 & 0 \\
+0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 \\
+0 & 0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] \\
+\end{bmatix}.
 \end{align}
-We see that our field equations are consistent.
+Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Naf2010}
+\begin{equation}
+\dd s^2 = \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
+\label{eq:f(R)_Schw}
+\end{equation}
+This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007}. This metric has already been derived for the case of quadratic gravitaty, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1965, Stelle1977, Schmidt1986, Teyssandier1989}. In linearized thoery we see that our $f(R)$ is indistinguishable from $f(R) = R + a_2 R$.
+
+We may extend this result for a slowly rotating source with angular momentum $J$, then we have the additional term\cite{Hobson2006}
+\begin{equation}
+\overline{h}^{0i} = -\frac{2G}{c^2r^3} \epsilon^{ijk}J_j x_k,
+\end{equation}
+where $\epsilon^{ijk}$ is the alternating Levi-Civita tensor. This gives metric
+\begin{equation}
+\dd s^2 = \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}c^2\dd t^2 + \nicefrac{4GJ}{c^2r^3}\left(x\dd y - y\dd x\right)\dd t - \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right),
+\end{equation}
+where we have picked $z$ to be the axis of rotation. This is not the first order limit of the Kerr metric, aside from in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$.
+
+It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the black hole solutions of GR should also be solutions in $f(R)$\cite{Psaltis2007, Barausse2008}. However we see here that this is not the case: to have a black hole you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity. It should therefore be possible to distinguish between theories by observing the black holes that form.
+
+Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
+
+\subsection{The Weak Field Metric}
+
+To continue working with the weak field metric, \eqnref{f(R)_Schw}, it is useful to transform it to the more familiar form
+\begin{equation}
+\dd s^2 = A(r) c^2\dd t^2 - B(r)\dd r^2 + r^2 \dd \Omega^2.
+\end{equation}
+The coordinate $r$ is then a circumferal measure as in the Schwarzschild metric. To keep nomaclature consistent with the Schwarzschild metric, we shall relabel the $r$ used in preceeding sections, which is a radial distance, as $\widetilde{r}$. To simplify the algebra we shall also introduce the Schwarzschild radius
+\begin{equation}
+r\sub{S} = \frac{2GM}{c^2}.
+\end{equation}
+In the linearizes regine, we require that the new radial coordinate satisfies
+\begin{align}
+r^2 = {} & \left\{1 + \frac{r\sub{S}}{\widetilde{r}}\left[1 - \frac{\exp(-\kappa\widetilde{r})}{3}\right]\right\}\widetilde{r}^2 \\
+r = \widetilde{r} + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\kappa\widetilde{r})}{3}\right].
+\label{eq:r_tilde}
+\end{align}
+To first order in $\nicefrac{r\sub{S}}{\widetilde{r}}$
+\begin{equation}
+A(r) = 1 - \frac{r\sub{S}}{r}\left[1 + \frac{\exp(-\kappa\widetilde{r})}{3}\right].
+\end{equation}
+We see that the functional form of $g_{00}$ is almost unchanged upon substituting $r$ for $\widetilde{r}$; however we still have $\widetilde{r}$ in the exponential. This must be viewed as being implicitly defined in terms of $r$.
+
+To find $B(r)$ we consider, using \eqnref{r_tilde},
+\begin{align}
+\frac{\dd r}{r} = {} & \dd \ln r \nonumber \\
+ = {} & \frac{\dd \widetilde{r}}{r}\left\{\frac{1 + \nicefrca{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]\right\}.
+\end{align}
+Thus
+\begin{equation}
+\dd r^2 = \frac{r^2}{\widetilde{r}^2}\left\{\frac{1 + \nicefrca{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]\right\}.
+\end{equation}
+The term in braces is $\nicerecip{B(r)}$. To proceed further we must consider the size of $\kappa r\sub{S}\exp(-\kappa \widetilde{r})$. We are assuming that in the weak field
+\begin{equation}
+\varepsilon = \frac{r\sub{S}}\widetilde{r}}
+\end{equation}
+is small. Then the metric perturbations from Minkowski are small. Now
+\begin{align}
+\kappa r\sub{S}\exp(-\kappa \widetilde{r}) = {} & \widetilde{r}\varepsilon\kappa\exp(-\kappa \widetilde{r}) \nonumber \\
+ = {} \varepsilon\chi\exp(-\chi),
+\end{align}
+defining $\chi = \kappa\widetilde{r}$. THe function $\chi\exp(-\chi)$ has a maximum value when $\chi = 1$, hence
+\begin{equation}
+\kappa r\sub{S}\exp(-\kappa \widetilde{r}) \leq \varepsilon\exp(-1).
+\end{equation}
+So this term is also $\order{\varepsilon}$. We may thus expand to first order
+\begin{equation}
+B(r)  = 1 + \frac{r\sub{S}}{r}\left[1 + \frac{\exp(-\kappa\widetilde{r})}{3}\right] - \frac{\kappa r\sub{S} \exp(-\kappa r\sub{S})}{3}.
+\end{equation}
+
+
+\subsection{Epicyclic Frequencies}
 
 \section{Discussion \& Remaining Questions}
 
