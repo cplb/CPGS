@@ -53,8 +53,8 @@
 
 \newcommand{\sinc}{{\rm sinc}}
 
-\newcommand{\sub}[1]{\ensuremath{_\mathrm{#1}}}
-\newcommand{\super}[1]{\ensuremath{^\mathrm{#1}}}
+\newcommand{\sub}[1]{\ensuremath{_\text{#1}}}
+\newcommand{\super}[1]{\ensuremath{^\text{#1}}}
 
 \newcommand{\recip}[1]{\ensuremath{\frac{1}{#1}}}
 \newcommand{\nicerecip}[1]{\ensuremath{\nicefrac{1}{#1}}}
@@ -121,7 +121,7 @@
 
 \title{{\huge{}Exploring Strong Field Gravity}}
 \author{{\Large{}Christopher Berry}\vspace{3mm}\\Churchill College\vspace{0.5mm}\\and\vspace{0.5mm}\\Institute of Astronomy,\vspace{0.5mm}\\University of Cambridge\vspace{5mm}\\{\Large{}Supervisor: Jonathan Gair}\vspace{5mm}}
-\date{\includegraphics[width=0.25\textwidth]{../shield.eps}\vspace{9mm}\\{\LARGE{}Certificate of Postgraduate Study}\vspace{5mm}\\\today}
+\date{\includegraphics[width=0.25\textwidth]{../shield.eps}\vspace{11mm}\\{\LARGE{}Certificate of Postgraduate Study}\vspace{5mm}\\\today}
 \maketitle
 
 \begin{abstract}
@@ -580,7 +580,7 @@ We will again assume a Minkowski background, considering terms to first order on
 \begin{equation}
 \left(\Box + \kappa^2\right)\mathscr{G}_\kappa(x, x') = \delta(x - x'),
 \end{equation}
-where $\Box$ acts on $x$. The Green's function is familiar as the Klein-Gordon propagator (upto a factor of $-i$)\cite{Peskin1995}
+where $\Box$ acts on $x$. The Green's function is familiar as the Klein-Gordon propagator (upto a factor of $-i$)\cite{Peskin1995a}
 \begin{equation}
 \mathscr{G}_\kappa(x, x') = \int \frac{\dd^4 p}{(2\pi)^4} \frac{\exp\left[-ip\cdot(x-x')\right]}{\kappa^2 - p^2}.
 \end{equation}
@@ -588,8 +588,8 @@ This may be evaluated by a suitable contour integral to give
 \begin{equation}
 \mathscr{G}_\kappa(x, x') =
 \begin{cases}
-\int \frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[i\sqrt{\nicefra{\omega^2}{c^2} - \kappa^2}r\right]}{4\pi r} & \omega^2 > c^2\kappa^2\\
-\int \frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[-\sqrt{\kappa^2 - \nicefra{\omega^2}{c^2}}r\right]}{4\pi r} & \omega^2 < c^2\kappa^2
+{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[i\sqrt{\nicefrac{\omega^2}{c^2} - \kappa^2}r\right]}{4\pi r}}} & \omega^2 > c^2\kappa^2\vspace{0.8mm}\\
+{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[-\sqrt{\kappa^2 - \nicefrac{\omega^2}{c^2}}r\right]}{4\pi r}}} & \omega^2 < c^2\kappa^2\vspace{0.8mm}
 \end{cases}\, ,
 \label{eq:Green}
 \end{equation}
@@ -616,7 +616,7 @@ To proceed further we must know the form of the trace $T(y)$. In general the for
 %\end{equation}
 %where $M$ is the mass, $a$ is the radius and $\Omega$ is the orbital frequency. Using this
 %\begin{equation}
-%R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\int \dd t' \int \frac{\dd \omega}{2\pi} \exp\left[-i\omega(t-t')\right]\left\[\frac{\exp\left(i\sqrt{\nicefra{\Omega^2}{c^2} - \kappa^2}r_+(t')\right)}{r_+(t')} + \right\frac{\exp\left(i\sqrt{\nicefra{\Omega^2}{c^2} - \kappa^2}r_-(t')\right)}{r_-(t')}},
+%R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\int \dd t' \int \frac{\dd \omega}{2\pi} \exp\left[-i\omega(t-t')\right]\left\[\frac{\exp\left(i\sqrt{\nicefrac{\Omega^2}{c^2} - \kappa^2}r_+(t')\right)}{r_+(t')} + \right\frac{\exp\left(i\sqrt{\nicefrac{\Omega^2}{c^2} - \kappa^2}r_-(t')\right)}{r_-(t')}},
 %\end{equation}
 %where we have introduced
 %\begin{equation}
@@ -644,36 +644,36 @@ With this source we do not produce any radiation. As in GR we find
 \end{equation}
 Solving for the Ricci scalar term gives
 \begin{equation}
-R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\frac{\exp\(- \kappa r)}{r}.
+R^{(1)}(x) = -\frac{4 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}.
 \end{equation}
 Combining these, the first order perturbation to the metric is
 \begin{align}
 \left[h_{\mu\nu}\right] = {} & \left[\overline{h}_{\mu\nu} - \nicerecip{2}\overline{h}\eta_{\mu\nu} - a_2R^{(1)}\eta_{\mu\nu}\right] \nonumber \\
  = {} & \begin{bmatrix}
--\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 & 0 & 0 \\
-0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 & 0 \\
-0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] & 0 \\
-0 & 0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right] \\
-\end{bmatix}.
+-\nicefrac{2GM}{c^2r}\left[1 + \nicefrac{\exp(- \kappa r)}{3}\right] & 0 & 0 & 0 \\
+0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicefrac{\exp(- \kappa r)}{3}\right] & 0 & 0 \\
+0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicefrac{\exp(- \kappa r)}{3}\right] & 0 \\
+0 & 0 & 0 & -\nicefrac{2GM}{c^2r}\left[1 - \nicefrac{\exp(- \kappa r)}{3}\right] \\
+\end{bmatrix}.
 \end{align}
 Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Naf2010}
 \begin{equation}
-\dd s^2 = \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
+\dd s^2 = \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicefrac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicefrac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
 \end{equation}
-This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007}. This metric has already been derived for the case of quadratic gravitaty, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1965, Stelle1977, Schmidt1986, Teyssandier1989}. In linearized thoery we see that our $f(R)$ is indistinguishable from $f(R) = R + a_2 R$.
+This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory we see that our $f(R)$ is indistinguishable from $f(R) = R + a_2 R$.
 
 We may extend this result for a slowly rotating source with angular momentum $J$, then we have the additional term\cite{Hobson2006}
 \begin{equation}
 \overline{h}^{0i} = -\frac{2G}{c^2r^3} \epsilon^{ijk}J_j x_k,
 \end{equation}
 where $\epsilon^{ijk}$ is the alternating Levi-Civita tensor. This gives metric
-\begin{equation}
-\dd s^2 = \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}c^2\dd t^2 + \nicefrac{4GJ}{c^2r^3}\left(x\dd y - y\dd x\right)\dd t - \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicerfrac{\exp\(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right),
-\end{equation}
+\begin{align}
+\dd s^2 = {} & \left\{-\nicefrac{2GM}{c^2r}\left[1 + \nicefrac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 + \nicefrac{4GJ}{c^2r^3}\left(x\dd y - y\dd x\right)\dd t \nonumber \\ & - {} \left\{-\nicefrac{2GM}{c^2r}\left[1 - \nicefrac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right),
+\end{align}
 where we have picked $z$ to be the axis of rotation. This is not the first order limit of the Kerr metric, aside from in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$.
 
-It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the black hole solutions of GR should also be solutions in $f(R)$\cite{Psaltis2007, Barausse2008}. However we see here that this is not the case: to have a black hole you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity. It should therefore be possible to distinguish between theories by observing the black holes that form.
+It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the black hole solutions of GR should also be solutions in $f(R)$\cite{Psaltis2008, Barausse2008}. However we see here that this is not the case: to have a black hole you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity. It should therefore be possible to distinguish between theories by observing the black holes that form.
 
 Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
 
@@ -683,14 +683,14 @@ To continue working with the weak field metric, \eqnref{f(R)_Schw}, it is useful
 \begin{equation}
 \dd s^2 = A(r) c^2\dd t^2 - B(r)\dd r^2 + r^2 \dd \Omega^2.
 \end{equation}
-The coordinate $r$ is then a circumferal measure as in the Schwarzschild metric. To keep nomaclature consistent with the Schwarzschild metric, we shall relabel the $r$ used in preceeding sections, which is a radial distance, as $\widetilde{r}$. To simplify the algebra we shall also introduce the Schwarzschild radius
+The coordinate $r$ is then a circumferential measure as in the Schwarzschild metric. To keep nomenclature consistent with the Schwarzschild metric, we shall relabel the $r$ used in preceding sections, which is a radial distance, as $\widetilde{r}$. To simplify the algebra we shall also introduce the Schwarzschild radius
 \begin{equation}
 r\sub{S} = \frac{2GM}{c^2}.
 \end{equation}
-In the linearizes regine, we require that the new radial coordinate satisfies
+In the linearizes regime, we require that the new radial coordinate satisfies
 \begin{align}
 r^2 = {} & \left\{1 + \frac{r\sub{S}}{\widetilde{r}}\left[1 - \frac{\exp(-\kappa\widetilde{r})}{3}\right]\right\}\widetilde{r}^2 \\
-r = \widetilde{r} + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\kappa\widetilde{r})}{3}\right].
+r = {} & \widetilde{r} + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\kappa\widetilde{r})}{3}\right].
 \label{eq:r_tilde}
 \end{align}
 To first order in $\nicefrac{r\sub{S}}{\widetilde{r}}$
@@ -702,22 +702,22 @@ We see that the functional form of $g_{00}$ is almost unchanged upon substitutin
 To find $B(r)$ we consider, using \eqnref{r_tilde},
 \begin{align}
 \frac{\dd r}{r} = {} & \dd \ln r \nonumber \\
- = {} & \frac{\dd \widetilde{r}}{r}\left\{\frac{1 + \nicefrca{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]\right\}.
+ = {} & \frac{\dd \widetilde{r}}{r}\left\{\frac{1 + \nicefrac{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]}\right\}.
 \end{align}
 Thus
 \begin{equation}
-\dd r^2 = \frac{r^2}{\widetilde{r}^2}\left\{\frac{1 + \nicefrca{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]\right\}.
+\dd r^2 = \frac{r^2}{\widetilde{r}^2}\left\{\frac{1 + \nicefrac{\kappa r\sub{S}\widetilde{r}\exp(-\kappa \widetilde{r})}{6r}}{1 + \nicefrac{r\sub{S}}{2r}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]}\right\}.
 \end{equation}
 The term in braces is $\nicerecip{B(r)}$. To proceed further we must consider the size of $\kappa r\sub{S}\exp(-\kappa \widetilde{r})$. We are assuming that in the weak field
 \begin{equation}
-\varepsilon = \frac{r\sub{S}}\widetilde{r}}
+\varepsilon = \frac{r\sub{S}}{\widetilde{r}}
 \end{equation}
 is small. Then the metric perturbations from Minkowski are small. Now
 \begin{align}
 \kappa r\sub{S}\exp(-\kappa \widetilde{r}) = {} & \widetilde{r}\varepsilon\kappa\exp(-\kappa \widetilde{r}) \nonumber \\
- = {} \varepsilon\chi\exp(-\chi),
+ = {} & \varepsilon\chi\exp(-\chi),
 \end{align}
-defining $\chi = \kappa\widetilde{r}$. THe function $\chi\exp(-\chi)$ has a maximum value when $\chi = 1$, hence
+defining $\chi = \kappa\widetilde{r}$. The function $\chi\exp(-\chi)$ has a maximum value when $\chi = 1$, hence
 \begin{equation}
 \kappa r\sub{S}\exp(-\kappa \widetilde{r}) \leq \varepsilon\exp(-1).
 \end{equation}
@@ -737,7 +737,7 @@ B(r)  = 1 + \frac{r\sub{S}}{r}\left[1 + \frac{\exp(-\kappa\widetilde{r})}{3}\rig
 
 \section{Background \& Introduction}
 
-Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few millparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
+Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few milliparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
 
 An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted during each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to emit continuously significant gravitational radiation. The resulting waveforms are known as extreme mass ratio inspirals (EMRIs).
 
