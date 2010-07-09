@@ -131,8 +131,7 @@ This is exceedingly abstract
 \chapter{Introduction}\setcounter{page}{1}
 \section{Introduction}
 
-'Lo
-
+Welcome.
 \newpage
 
 \section{Structure}
@@ -153,9 +152,9 @@ Throughout this work we will use the the time-like sign convention of Landau and
 \end{enumerate}
 Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indices $i = \{1,2,3\}$. Uppercase Latin indices from the beginning of the alphabet will be used for the output of two LISA detector arms $A = \{\mathrm{I}, \mathrm{II}\}$, and lowercase Latin indices from the beginning of the alphabet are used for parameter space. Summation over repeated indices is assumed unless explicitly noted otherwise. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
 
-\chapter{Gravitational Radiation In $\boldsymbol{f(R)}$ Theory}
+\chapter{Gravitational Radiation In $f(R)$ Theory}
 
-\section{Introduction To $\boldsymbol{f(R)}$ Theory}
+\section{Introduction To $f(R)$ Theory}
 
 General relativity (GR) is a well tested theory of gravity\cite{Will2006}; however it is still interesting to explore alternate theories. This may be motivated by the need to explain dark matter and dark matter in cosmology, trying to formulate a quantizable theory of gravity or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR are the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
 
@@ -230,7 +229,7 @@ The second term contains the covariant derivative of the Einstein tensor and so 
 \left(\Box\nabla_\nu - \nabla_\nu\Box\right)f' = {} & g^{\mu\sigma}\left[\nabla_\mu\nabla_\sigma\nabla_\nu - \nabla_\nu\nabla_\mu\nabla_\sigma\right]f' \nonumber \\
  = {} & R_{\tau\nu}\nabla^\tau f',
 \end{align}
-which is a useful geometric identity\cite{Koivisto2006}. Using this we find that
+which is a useful geometric identity\cite{Koivisto2006a}. Using this we find that
 \begin{align}
 \frac{8\pi G}{c^4}\nabla^\mu T_{\mu\nu} = {} & R_{\mu\nu}\nabla^\mu f' - R_{\mu\nu}\nabla^\mu f' \nonumber \\
  = {} & 0.
@@ -302,7 +301,7 @@ if we define inverse length scale
 \begin{equation}
 \kappa^2 = -\recip{3a_2}.
 \end{equation}
-For a physically meaningful solution we require $\kappa^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Olmo2005, Corda2007}. From the inverse length scale $\kappa$ we may define a reduced Compton wavelength
+For a physically meaningful solution we require $\kappa^2 > 0$, thus we constrain $f(R)$ such that $a_2 < 0$\cite{Schmidt1986, Teyssandier1990, Olmo2005c, Corda2007}. From the inverse length scale $\kappa$ we may define a reduced Compton wavelength
 \begin{equation}
 \lambdabar = \recip{\kappa},
 \end{equation}
@@ -355,7 +354,7 @@ Using this together with \eqnref{Box_R} in our field equation \eqref{eq:Field} g
 If we pick $b = -1$, then the second term vanishes, thus we will set\cite{Corda2007, Capozziello2008}
 \begin{align}
 \overline{h}_{\mu\nu} = {} & h_{\mu\nu} - \left(a_2 R^{(1)} + \frac{h}{2}\right)\eta_{\mu\nu}\\
-h_{\mu\nu} = \overline{h}_{\mu\nu} - \left(a_2 R^{(1)} -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}.
+h_{\mu\nu} = {} & \overline{h}_{\mu\nu} - \left(a_2 R^{(1)} -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}.
 \label{eq:h_metric}
 \end{align}
 Let us now consider the Ricci scalar in this case, then from \eqnref{Scalar}
@@ -579,9 +578,9 @@ t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial
 \end{equation}
 Note that these results do not depend upon $a_3$ or higher order coefficients.
 
-\section{$\boldsymbol{f(R)}$ With A Source}
+\section{$f(R)$ With A Source}
 
-Having consider radiation in a vacuum, we now move on to consider the case with a source term. We want a first order perturbation from our background metric so that the linearised field equation is
+Having consider radiation in a vacuum, we now move on to consider the case with a source term. We want a first order perturbation from our background metric so that the linearized field equation is
 \begin{equation}
 {\mathcal{G}^{(1)}}_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}.
 \end{equation}
@@ -589,7 +588,7 @@ We will again assume a Minkowski background, considering terms to first order on
 \begin{equation}
 \left(\Box + \kappa^2\right)\mathscr{G}_\kappa(x, x') = \delta(x - x'),
 \end{equation}
-where $\Box$ acts on $x$. The Green's function is familiar as the Klein-Gordon propagator (upto a factor of $-i$)\cite{Peskin1995a}
+where $\Box$ acts on $x$. The Green's function is familiar as the Klein-Gordon propagator (up to a factor of $-i$)\cite{Peskin1995a}
 \begin{equation}
 \mathscr{G}_\kappa(x, x') = \int \frac{\dd^4 p}{(2\pi)^4} \frac{\exp\left[-ip\cdot(x-x')\right]}{\kappa^2 - p^2}.
 \end{equation}
@@ -655,9 +654,9 @@ Solving for the Ricci scalar term gives
 \begin{equation}
 R^{(1)} = -\frac{2 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}.
 \end{equation}
-Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero elelments 
+Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero elements 
 \begin{equation}
-h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no sum)}.
+h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no\space sum)}.
 \end{equation}
 Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Naf2010}
 \begin{equation}
@@ -676,22 +675,22 @@ where $\epsilon^{ijk}$ is the alternating Levi-Civita tensor. This gives metric
 \end{align}
 where we have picked $z$ to be the axis of rotation. This is not the first order limit of the Kerr metric, aside from in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$.
 
-It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the black hole solutions of GR should also be solutions in $f(R)$\cite{Psaltis2008, Barausse2008}. However we see here that this is not the case: to have a black hole you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity\cite{Olmo2007}. It should therefore be possible to distinguish between theories by observing the black holes that form.
+It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the black hole solutions of GR should also be solutions in $f(R)$\cite{Psaltis2008, Barausse2008}. However we see here that this is not the case: to have a black hole you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity\cite{Olmo2007c}. It should therefore be possible to distinguish between theories by observing the black holes that form.
 
 Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
 
 Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
 \begin{equation}
-\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_ij = 0.
+\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
 \end{equation}
 as in GR and for the point mass, but
 \begin{align}
 R^{(1)} = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\left[\frac{\kappa L\cosh(\kappa L) - \sinh(\kappa L)}{\kappa L^3}\right] \\
  = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\xi(L, \kappa),
 \end{align}
-defining $\xi(L, \kappa)$ in the last line.\footnote{Note that $\xi(0, \kappa) = \nicerecip{3}$.} The metric perturbation thus has non-zero first order elements\cite{Steele1978}
+defining $\xi(L, \kappa)$ in the last line.\footnote{Note that $\xi(0, \kappa) = \nicerecip{3}$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978}
 \begin{equation}
-h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\xi(L, \kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\xi(L, \kappa)\right] \quad \mathrm{(no sum)}.
+h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\xi(L, \kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\xi(L, \kappa)\right] \quad \mathrm{(no\space sum)}.
 \end{equation}
 At all stages we assumed that $r > L$.
 
@@ -700,8 +699,9 @@ At all stages we assumed that $r > L$.
 To continue working with the weak field metric, \eqnref{f(R)_Schw}, it is useful to transform it to the more familiar form
 \begin{equation}
 \dd s^2 = A(\widetilde{r}) c^2\dd t^2 - B(\widetilde{r})\dd \widetilde{r}^2 + \widetilde{r}^2 \dd \Omega^2.
+\label{eq:Sph_sym}
 \end{equation}
-The coordinate $\widetilde{r}$ is then a circumferential measure as in the Schwarzschild metric as opposed to $r$, used in preceding sections, which is a radial distance, an isotropic coordinate\cite{Misner1973, Olmo2007}. To simplify the algebra we shall also introduce the Schwarzschild radius
+The coordinate $\widetilde{r}$ is then a circumferential measure as in the Schwarzschild metric as opposed to $r$, used in preceding sections, which is a radial distance, an isotropic coordinate\cite{Misner1973, Olmo2007c}. To simplify the algebra we shall also introduce the Schwarzschild radius
 \begin{equation}
 r\sub{S} = \frac{2GM}{c^2}.
 \end{equation}
@@ -711,7 +711,7 @@ In the linearizes regime, we require that the new radial coordinate satisfies
 \widetilde{r} = {} & r + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\kappa r)}{3}\right].
 \label{eq:r_tilde}
 \end{align}
-To first order in $\nicefrac{r\sub{S}}{r}$\cite{Olmo2007}
+To first order in $\nicefrac{r\sub{S}}{r}$\cite{Olmo2007c}
 \begin{equation}
 A(\widetilde{r}) = 1 - \frac{r\sub{S}}{r}\left[1 + \frac{\exp(-\kappa r )}{3}\right].
 \end{equation}
@@ -739,7 +739,7 @@ defining $\chi = \kappa r$. The function $\chi\exp(-\chi)$ has a maximum value w
 \begin{equation}
 \kappa r\sub{S}\exp(-\kappa r) \leq \varepsilon\exp(-1).
 \end{equation}
-So this term is also $\order{\varepsilon}$. We may thus expand to first order\cite{Olmo2007}
+So this term is also $\order{\varepsilon}$. We may thus expand to first order\cite{Olmo2007c}
 \begin{equation}
 B(\widetilde{r})  = 1 + \frac{r\sub{S}}{\widetilde{r}}\left[1 + \frac{\exp(-\kappa r )}{3}\right] - \frac{\kappa r\sub{S} \exp(-\kappa r\sub{S})}{3}.
 \end{equation}
@@ -747,7 +747,7 @@ In the limit $\kappa \rightarrow \infty$ in which we recover GR, we see that $A(
 
 \subsection{Epicyclic Frequencies}\label{sec:Epicycle}
 
-One means of probing 
+One means of probing the nature a spacetime is through observations of orbital motions\cite{Gair2008a}. We will consider the epicyclic motion produced by perturbing a circular orbit. We will start by deriving a general result for any metric of the form of \eqnref{Sph_sym}, and then use this for our $f(R)$ solution.
 
 \section{Discussion \& Remaining Questions}
 

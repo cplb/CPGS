@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  9 JUL 2010 10:30
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  9 JUL 2010 18:47
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -680,26 +680,28 @@ Chapter 1.
 ] [2]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 148.
+(Font)              <24.88> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 148.
+(Font)              <20.74> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 148.
+(Font)              <17.28> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 150.
+(Font)              <14.4> on input line 157.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 150.
+(Font)              <10> on input line 157.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 150.
+(Font)              <7> on input line 157.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 170.
+(Font)              <9> on input line 177.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 170.
+(Font)              <5> on input line 177.
 [3
 
 ] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Overfull \hbox (124.6363pt too wide) in paragraph at lines 658--658
-[] 
+Overfull \hbox (3.97292pt too wide) detected at line 665
+\OT1/lmr/m/n/10.95 d\OML/lmm/m/it/10.95 s[] \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/
+it/10.95 c[]\OT1/lmr/m/n/10.95 d\OML/lmm/m/it/10.95 t[] \OMS/lmsy/m/n/10.95   [
+] [] \OML/lmm/m/it/10.95 :
  []
 
 [15] [16] [17] [18]
@@ -707,7 +709,7 @@ Chapter 3.
 [19
 
 ] [20] [21] [22]
-Underfull \hbox (badness 4168) in paragraph at lines 857--858
+Underfull \hbox (badness 4168) in paragraph at lines 877--878
 [][]\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-spa
 ce spher-i-cal po-lars
  []
@@ -719,20 +721,26 @@ Chapter 4.
 ] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [38]
 [39
 
-] [40]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 203.
+]
+Underfull \hbox (badness 1019) in paragraph at lines 154--156
+[][]\T1/lmr/m/n/9 Olmo, G. J.; Limit to gen-eral rel-a-tiv-ity in f(R) the-o-ri
+es of grav-ity; \T1/lmr/m/it/9 Phys-i-cal Re-view D\T1/lmr/m/n/9 ;
+ []
+
+[40]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 221.
 
  ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [41])
 [42] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 10454 strings out of 495286
- 150569 string characters out of 3179901
- 291131 words of memory out of 3000000
- 13389 multiletter control sequences out of 15000+200000
+ 10470 strings out of 495286
+ 150839 string characters out of 3179901
+ 291243 words of memory out of 3000000
+ 13405 multiletter control sequences out of 15000+200000
  159223 words of font info for 141 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,19n,66p,2088b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,16n,66p,2088b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (44 pages, 200520 bytes).
+Output written on CPGS.dvi (44 pages, 205960 bytes).
