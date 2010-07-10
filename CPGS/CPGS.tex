@@ -648,7 +648,7 @@ with the the simplest mass distribution of a stationary point source
 \end{equation}
 With this source we do not produce any radiation. As in GR we find
 \begin{equation}
-\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_ij = 0.
+\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
 \end{equation}
 Solving for the Ricci scalar term gives
 \begin{equation}
@@ -656,7 +656,7 @@ R^{(1)} = -\frac{2 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}.
 \end{equation}
 Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero elements 
 \begin{equation}
-h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no\space sum)}.
+h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
 Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Naf2010}
 \begin{equation}
@@ -686,11 +686,11 @@ Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric
 as in GR and for the point mass, but
 \begin{align}
 R^{(1)} = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\left[\frac{\kappa L\cosh(\kappa L) - \sinh(\kappa L)}{\kappa L^3}\right] \\
- = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\xi(L, \kappa),
+ = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\Xi(L\kappa),
 \end{align}
-defining $\xi(L, \kappa)$ in the last line.\footnote{Note that $\xi(0, \kappa) = \nicerecip{3}$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978}
+defining $\Xi(L\kappa)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(L\kappa)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978}
 \begin{equation}
-h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\xi(L, \kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\xi(L, \kappa)\right] \quad \mathrm{(no\space sum)}.
+h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\Xi(L\kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\Xi(L\kappa)\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
 At all stages we assumed that $r > L$.
 
@@ -747,8 +747,69 @@ In the limit $\kappa \rightarrow \infty$ in which we recover GR, we see that $A(
 
 \subsection{Epicyclic Frequencies}\label{sec:Epicycle}
 
-One means of probing the nature a spacetime is through observations of orbital motions\cite{Gair2008a}. We will consider the epicyclic motion produced by perturbing a circular orbit. We will start by deriving a general result for any metric of the form of \eqnref{Sph_sym}, and then use this for our $f(R)$ solution.
+One means of probing the nature a spacetime is through observations of orbital motions\cite{Gair2008a}. We will consider the epicyclic motion produced by perturbing a circular orbit. We will start by deriving a general result for any metric of the form of \eqnref{Sph_sym}, and then use this for our $f(R)$ solution. For this section we shall adopt units with $c = 1$.
 
+For any metric of the form of \eqnref{Sph_sym} there are three constants of motion: the orbiting particle's rest mass $\mu$, the energy (per unit mass) of the orbit $E$ and the angular momentum (per unit mass) $L$. Denoting differentiation with respect to an affine parameter, which we shall identify as proper time $\tau$ by an over-dot
+\begin{align}
+E = {} & A\dot{t}; \\
+L = {} & \widetilde{r}^2\sin^2\theta \dot{\phi}.
+\end{align}
+As a consequence of the spherical symmetry we may also confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. From the super-Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we obtain the equation of motion for massive particles
+\begin{equation}
+\dot{\widetilde{r}}^2 = \frac{E^2}{AB} - \recip{B}\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
+\label{eq:rdot}
+\end{equation}
+Hence for a circular orbit
+\begin{equation}
+E^2 = A\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
+\end{equation}
+Differentiating \eqnref{rdot} yields
+\begin{equation}
+\ddot{\widetilde{r}} = -\frac{E^2}{2AB}\left(\frac{A'}{A} + \frac{B'}{B}\right) + \frac{B'}{2B^2}\left(1 + \frac{L^2}{\widetilde{r}^2}\right) + \frac{L^2}{\widetilde{r}^3B},
+\label{eq:geodesic}
+\end{equation}
+where a prime signifies differentiation with respect to $\widetilde{r}$. For a circular orbit we find
+\begin{equation}
+0 = \frac{2L^2}{r^3} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
+\end{equation}
+Thus a circular orbit is defined by one of its energy, angular momentum or radius. We will consider a small perturbation to a circular orbit. Perturbations out of the plane will just redefine the orbital plane, and so are not of interest. A radial perturbation may be parameterized as
+\begin{equation}
+\widetilde{r} = \overline{r} + \delta,
+\end{equation}
+where $\overline{r}$ is the radius of our unperturbed orbit. We shall denote $A(\overline{r}) = \overline{A}$ and $B(\overline{r}) = \overline{B}$. Substituting into \eqnref{geodesic} and retaining terms to first order
+\begin{equation}
+\ddot{\delta} = - \frac{2\overline{A}^2L^2}{\overline{r}^3\overline{A}'\overline{B}}\left(\frac{\overline{A}''}{2\overline{A}^2} - \frac{{\overline{A}'}^2}{\overline{A}^3}\right)\delta + \frac{3L^2}{\overline{r}^4}\delta.
+\end{equation}
+Assuming a solution of form $\delta = \delta_0\cos(-i\Omega\tau)$,
+\begin{equation}
+\Omega^2 = \frac{L^2}{\overline{r}^3\overline{B}}\left(\frac{\overline{A}''}{\overline{A}'} - \frac{2\overline{A}'}{\overline{A}} + \frac{3}{\overline{r}}\right).
+\end{equation}
+We may rewrite the radial motion as
+\begin{equation}
+\widetilde{r} = \overline{r} + \delta_0\cos(-i\Omega\tau);
+\end{equation}
+if we compare this with an elliptic Keplerian orbit of small eccentricity $e$
+\begin{align}
+\widetilde{r} = {} & \frac{a(1 - e^2)}{1 + e\cos(\omega_0\tau)} \\
+ = {} & a\left[1 - e\cos(\omega_0\tau)\right]
+\end{align}
+to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency, we see we may identify our perturbed orbit with an elliptical orbit where
+\begin{equation}
+\overline{r} = a; \quad \delta_0 = -ea.
+\end{equation}
+The eccentricity is the small parameters $|e| = |\delta_0/r| \ll 1$. Notice to this accuracy one cannot distinguish between the $a$ and the seimlatus rectum $p$ as $p = a(1 - e^2)$.
+
+Unless $\omega_0 = \Omega$ the elliptical motion will be asynchronous with the orbital motion: there will be precession of the periapsis. The orbital frequency is
+\begin{equation}
+\omega_0^2 = \frac{L^2}{\overline{r}^4}.
+\end{equation}
+In one revolution the ellipse will precess about the focus by
+\begin{align}
+\Delta \phi = {} & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\
+ = {} & 2\pi\left(\frac{\omega_0}{\Omega} - 1\right)
+\end{align}
+The precession is cumulative, so a small deviation may be measurable over sufficient time.
+ 
 \section{Discussion \& Remaining Questions}
 
 
