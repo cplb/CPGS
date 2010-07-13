@@ -158,7 +158,7 @@ Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lo
 
 General relativity (GR) is a well tested theory of gravity\cite{Will2006}; however it is still interesting to explore alternative theories. This may be motivated by the need to explain dark matter and dark matter in cosmology, trying to formulate a quantizable theory of gravity or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR is the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
 
-\subsection{The Action \& Field Equations}
+\subsection{The Action \& Field Equations}\label{sec:Action}
 
 General relativity may be derived from the Einstein-Hilbert action\cite{Misner1973, Landau1975}
 \begin{equation}
@@ -182,7 +182,7 @@ We shall restrict our attention to consider only metric $f(R)$ gravity. The metr
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Dyer2009, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
 The vacuum field equation is
 \begin{equation}
@@ -397,7 +397,7 @@ for frequency $\Omega$. These waves do not travel at $c$, but have a group veloc
 \begin{equation}
 v = \frac{c\sqrt{\Omega^2 - c^2\kappa^2}}{\Omega}.
 \end{equation}
-Provided that $\kappa^2 > 0$, $v < c$, but we do not get propagating modes for $\Omega < \Omega_0 = c\kappa$.
+Provided that $\kappa^2 > 0$, $v < c$, but we do not get propagating modes for $\Omega < c\kappa$.
 
 From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\widehat{\overline{h}}_{\mu\nu}$,
 \begin{equation}
@@ -572,7 +572,7 @@ Thus we obtain the result
 \begin{equation}
 t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + 6{a_2}^2\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
 \end{equation}
-In the limit of $a_2 \rightarrow 0$ we obtain the standard GR result as required. Note that the GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $\Omega_0$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge}, we obtain
+In the limit of $a_2 \rightarrow 0$ we obtain the standard GR result as required. Note that the GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $c\kappa$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge}, we obtain
 \begin{equation}
 t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial^\mu h^{\rho\sigma} + \recip{8}\partial_\mu h \partial_\nu h \right\rangle.
 \end{equation}
@@ -596,8 +596,8 @@ This may be evaluated by a suitable contour integral to give
 \begin{equation}
 \mathscr{G}_\kappa(x, x') =
 \begin{cases}
-{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[i\sqrt{\nicefrac{\omega^2}{c^2} - \kappa^2}r\right]}{4\pi r}}} & \omega^2 > c^2\kappa^2\vspace{0.8mm}\\
-{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\frac{\exp\left[-\sqrt{\kappa^2 - \nicefrac{\omega^2}{c^2}}r\right]}{4\pi r}}} & \omega^2 < c^2\kappa^2\vspace{0.8mm}
+{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\recip{4\pi r}\exp\left[i\left(\frac{\omega^2}{c^2} - \kappa^2}\right)^{1/2}r\right]}} & \omega^2 > c^2\kappa^2\vspace{0.8mm}\\
+{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\recip{4\pi r}\exp\left[-\left(\kappa^2 - \frac{\omega^2}{c^2}\right)^{1/2}r\right]}} & \omega^2 < c^2\kappa^2\vspace{0.8mm}
 \end{cases}\, ,
 \label{eq:Green}
 \end{equation}
@@ -658,9 +658,9 @@ Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero e
 \begin{equation}
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
-Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Naf2010}
+Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Capozziello2009a, Naf2010}
 \begin{equation}
-\dd s^2 = \left\{-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{-\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
+\dd s^2 = \left\{1-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{1+\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
 \end{equation}
 This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory we see that our $f(R)$ is indistinguishable from $f(R) = R + a_2 R$.
@@ -671,7 +671,7 @@ We may extend this result for a slowly rotating source with angular momentum $J$
 \end{equation}
 where $\epsilon^{ijk}$ is the alternating Levi-Civita tensor. This gives metric
 \begin{align}
-\dd s^2 = {} & \left\{-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 + \frac{4GJ}{c^2r^3}\left(x\dd y - y\dd x\right)\dd t \nonumber \\ & - {} \left\{-\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right),
+\dd s^2 = {} & \left\{1-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 + \frac{4GJ}{c^2r^3}\left(x\dd y - y\dd x\right)\dd t \nonumber \\ & - {} \left\{1 +\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right),
 \end{align}
 where we have picked $z$ to be the axis of rotation. This is not the first order limit of the Kerr metric, aside from in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$.
 
@@ -679,7 +679,7 @@ It has been suggested that since $R = 0$ is a valid solution to the vacuum equat
 
 Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
 
-Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
+Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
 \begin{equation}
 \overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
 \end{equation}
@@ -688,7 +688,7 @@ as in GR and for the point mass, but
 R^{(1)} = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\left[\frac{\kappa L\cosh(\kappa L) - \sinh(\kappa L)}{\kappa L^3}\right] \\
  = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\Xi(L\kappa),
 \end{align}
-defining $\Xi(L\kappa)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(L\kappa)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978}
+defining $\Xi(L\kappa)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(L\kappa)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978, Capozziello2009b}
 \begin{equation}
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\Xi(L\kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\Xi(L\kappa)\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
@@ -711,22 +711,23 @@ In the linearizes regime, we require that the new radial coordinate satisfies
 \widetilde{r} = {} & r + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\kappa r)}{3}\right].
 \label{eq:r_tilde}
 \end{align}
-To first order in $\nicefrac{r\sub{S}}{r}$\cite{Olmo2007c}
+To first order in ${r\sub{S}}/{r}$\cite{Olmo2007c}
 \begin{equation}
 A(\widetilde{r}) = 1 - \frac{r\sub{S}}{r}\left[1 + \frac{\exp(-\kappa r )}{3}\right].
+\label{eq:A_metric}
 \end{equation}
 We see that the functional form of $g_{00}$ is almost unchanged upon substituting $\widetilde{r}$ for $r$; however we still have $r$ in the exponential. This must be viewed as being implicitly defined in terms of $\widetilde{r}$.
 
 To find $B(\widetilde{r})$ we consider, using \eqnref{r_tilde},
 \begin{align}
 \frac{\dd \widetilde{r}}{\widetilde{r}} = {} & \dd \ln \widetilde{r} \nonumber \\
- = {} & \left\{\frac{1 + \nicefrac{\kappa r\sub{S}r\exp(-\kappa r)}{6\widetilde{r}}}{1 + \nicefrac{r\sub{S}}{2\widetilde{r}}\left[1 - \nicefrac{\exp(-\kappa \widetilde{r})}{3}\right]}\right\}\frac{\dd r}{\widetilde{r}}.
+ = {} & \left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + {r\sub{S}}/{2\widetilde{r}}\left[1 - {\exp(-\kappa \widetilde{r})}/{3}\right]}\right\}\frac{\dd r}{\widetilde{r}}.
 \end{align}
 Thus
 \begin{equation}
-\dd \widetilde{r}^2 = \frac{\widetilde{r}^2}{r^2}\left\{\frac{1 + \nicefrac{\kappa r\sub{S}r\exp(-\kappa r)}{6\widetilde{r}}}{1 + \nicefrac{r\sub{S}}{2\widetilde{r}}\left[1 - \nicefrac{\exp(-\kappa r)}{3}\right]}\right\}\dd r^2.
+\dd \widetilde{r}^2 = \frac{\widetilde{r}^2}{r^2}\left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + {r\sub{S}}/{2\widetilde{r}}\left[1 - {\exp(-\kappa r)}/{3}\right]}\right\}\dd r^2.
 \end{equation}
-The term in braces is $\nicerecip{B(\widetilde{r})}$. To proceed further we must consider the size of $\kappa r\sub{S}\exp(-\kappa r)$. We are assuming that in the weak field
+The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must consider the size of $\kappa r\sub{S}\exp(-\kappa r)$. We are assuming that in the weak field
 \begin{equation}
 \varepsilon = \frac{r\sub{S}}{r}
 \end{equation}
@@ -742,6 +743,7 @@ defining $\chi = \kappa r$. The function $\chi\exp(-\chi)$ has a maximum value w
 So this term is also $\order{\varepsilon}$. We may thus expand to first order\cite{Olmo2007c}
 \begin{equation}
 B(\widetilde{r})  = 1 + \frac{r\sub{S}}{\widetilde{r}}\left[1 + \frac{\exp(-\kappa r )}{3}\right] - \frac{\kappa r\sub{S} \exp(-\kappa r\sub{S})}{3}.
+\label{eq:B_metric}
 \end{equation}
 In the limit $\kappa \rightarrow \infty$ in which we recover GR, we see that $A(\widetilde{r})$ and $B(\widetilde{r})$ tend to their Schwarzschild forms.
 
@@ -754,7 +756,7 @@ For any metric of the form of \eqnref{Sph_sym} there are three constants of moti
 E = {} & A\dot{t}; \\
 L = {} & \widetilde{r}^2\sin^2\theta \dot{\phi}.
 \end{align}
-As a consequence of the spherical symmetry we may also confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. From the super-Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we obtain the equation of motion for massive particles
+As a consequence of the spherical symmetry we may also confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. From the Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we obtain the equation of motion for massive particles
 \begin{equation}
 \dot{\widetilde{r}}^2 = \frac{E^2}{AB} - \recip{B}\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
 \label{eq:rdot}
@@ -768,9 +770,9 @@ Differentiating \eqnref{rdot} yields
 \ddot{\widetilde{r}} = -\frac{E^2}{2AB}\left(\frac{A'}{A} + \frac{B'}{B}\right) + \frac{B'}{2B^2}\left(1 + \frac{L^2}{\widetilde{r}^2}\right) + \frac{L^2}{\widetilde{r}^3B},
 \label{eq:geodesic}
 \end{equation}
-where a prime signifies differentiation with respect to $\widetilde{r}$. For a circular orbit we find
+where a prime signifies differentiation with respect to $\widetilde{r}$. For a circular orbit
 \begin{equation}
-0 = \frac{2L^2}{r^3} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
+0 = \frac{2L^2}{\widetilde{r}^3} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^2}\right).
 \end{equation}
 Thus a circular orbit is defined by one of its energy, angular momentum or radius. We will consider a small perturbation to a circular orbit. Perturbations out of the plane will just redefine the orbital plane, and so are not of interest. A radial perturbation may be parameterized as
 \begin{equation}
@@ -791,9 +793,9 @@ We may rewrite the radial motion as
 if we compare this with an elliptic Keplerian orbit of small eccentricity $e$
 \begin{align}
 \widetilde{r} = {} & \frac{a(1 - e^2)}{1 + e\cos(\omega_0\tau)} \\
- = {} & a\left[1 - e\cos(\omega_0\tau)\right]
+ = {} & a\left[1 - e\cos(\omega_0\tau) \ldots \right]
 \end{align}
-to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency, we see we may identify our perturbed orbit with an elliptical orbit where
+to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency; we see we may identify our perturbed orbit with an elliptical orbit where\cite{Kerner2001}
 \begin{equation}
 \overline{r} = a; \quad \delta_0 = -ea.
 \end{equation}
@@ -805,11 +807,21 @@ Unless $\omega_0 = \Omega$ the elliptical motion will be asynchronous with the o
 \end{equation}
 In one revolution the ellipse will precess about the focus by
 \begin{align}
-\Delta \phi = {} & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\
+\upDelta \phi = {} & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\
  = {} & 2\pi\left(\frac{\omega_0}{\Omega} - 1\right)
 \end{align}
 The precession is cumulative, so a small deviation may be measurable over sufficient time.
- 
+
+For the $f(R)$ metric defined by equations \eqref{eq:A_metric} and \eqref{ee:B_metric} the epicyclic frequency is
+\begin{equation}
+\Omega^2 = {} & \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\kappa,r\sub{S},\overline{r})\right],
+\end{equation}
+introducing function
+\begin{equation}
+\zeta(\kappa,r\sub{S},\overline{r}) = r\sub{S}\left(\recip{3\overline{r}} + \kappa\right)\exp(-\kappa r) + \frac{\kappa^2\overline{r}^2\exp(-\kappa r)}{3 + (1 + \kappa \overline{r})\exp(-\kappa r)}\left\{- \frac{r\sub{S}{\overline{r}\left[1 + \frac{\exp(-\kappa r)}{3}\right] - \frac{\kappa r\sub{S}\exp(-\kappa r)}{3}\right\}.
+\end{equation}
+This is the deviation from the Schwarzschild case.
+
 \section{Discussion \& Remaining Questions}
 
 
@@ -949,7 +961,7 @@ In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of 
 
 \subsection{Quadrupole-Octopole Formula}
 
-Now we have a flat-space particle trajectory ${x\sub{p}}^\mu(\tau)$, we may apply a flat-space wave generation formula. We shall use the quadrupole-octopole formula to calculate the gravitational strain\cite{Press1977, Bekenstein1973}
+Now we have a flat-space particle trajectory $x\sub{p}^\mu(\tau)$, we may apply a flat-space wave generation formula. We shall use the quadrupole-octopole formula to calculate the gravitational strain\cite{Press1977, Bekenstein1973}
 \begin{equation}
 h^{jk}(t, \boldsymbol{x}) = -\frac{2G}{c^6r}\left[\ddot{I}^{jk} - 2n_i\ddot{S}^{ijk} + n_i\dddot{M}^{ijk}\right]_{t' = t - cr}
 \label{eq:Octopole}
@@ -983,13 +995,13 @@ P_{ij} = \delta_{ij} - n_in_j.
 
 \section{Detection With LISA}
 
-The LISA detector is a three-arm, space-Borneo laser interferometer\cite{Bender1998, Danzmann2003}. The three arms form an equilateral triangle that rotates as the system's centre of mass follows a circular, heliocentric orbit, trailing $\ang{20}$ behind the Earth. To describe the detector configuration, and to transform from the MBH coordinate system to those of the detector, we will find it useful to define three coordinate systems: those of the BH at the galactic centre $x_\bullet^i$; ecliptic coordinates centred at the solar system barycentre $x_\odot^i$, and coordinates that co-rotate with the detector $x\sub{d}^i$. The currently envisioned mission geometry is depicted in figures (??). The coordinate systems are related by a series of angles: $\Theta$ and $\Phi$ give the orientation of the solar system in the MBH's coordinates. These define the orientation of the MBH's spin axis $z_\bullet$. $\overline{\Theta}$ and $\overline{\Phi}$ give the position of the galactic centre in ecliptic coordinates. $\overline{\phi}$ gives LISA's orbital phase and $\varphi$ gives the rotational phase of the detector arms. Both of these vary linearly with time
+The LISA detector is a three-arm, space-borne laser interferometer\cite{Bender1998, Danzmann2003}. The three arms form an equilateral triangle that rotates as the system's centre of mass follows a circular, heliocentric orbit, trailing $\ang{20}$ behind the Earth. To describe the detector configuration, and to transform from the MBH coordinate system to those of the detector, we will find it useful to define three coordinate systems: those of the BH at the galactic centre $x_\bullet^i$; ecliptic coordinates centred at the solar system barycentre $x_\odot^i$, and coordinates that co-rotate with the detector $x\sub{d}^i$. The currently envisioned mission geometry is depicted in figures (??). The coordinate systems are related by a series of angles: $\Theta$ and $\Phi$ give the orientation of the solar system in the MBH's coordinates. These define the orientation of the MBH's spin axis $z_\bullet$. $\overline{\Theta}$ and $\overline{\Phi}$ give the position of the galactic centre in ecliptic coordinates. $\overline{\phi}$ gives LISA's orbital phase and $\varphi$ gives the rotational phase of the detector arms. Both of these vary linearly with time
 \begin{equation}
 \overline{\phi}(t) = \omega_\oplus t + \overline{\phi}_0; \quad \varphi(t) = -\omega_\oplus t + \varphi_0;
 \end{equation}
 where $\omega_\oplus$ corresponds to one rotation per year. Finally, $\alpha = \ang{60}$ is the inclination of the detector plane. We have computed the waveforms in the MBH's coordinates, however it is simplest to describe the measured signal using the detector's coordinates. To transform between coordinates we will use the matrix $A_{ij}$:
 \begin{equation}
-x\sub{d}^i = A_{ij}x_\bullet^j; \quad h\sub{d}^{ij} = A_{ik}A_{jl}h_\bullet^{kl}.
+x\sub{d}^i = A^i_jx_\bullet^j; \quad h\sub{d}^{ij} = A^i_kA^j_lh_\bullet^{kl}.
 \end{equation}
 To define this, it is convenient to introduce angles
 \begin{equation}
@@ -997,7 +1009,7 @@ To define this, it is convenient to introduce angles
 \end{equation}
 The transformation matrix from the BH coordinates to the detector coordinates is
 \begin{equation}
-\left[A_{ij}\right] = \begin{bmatrix}
+\left[A^i_j\right] = \begin{bmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
@@ -1086,7 +1098,7 @@ There is one remaining complication regarding signal analysis. When we perform a
 \end{align}
 where $\tilde{h}(f) = \mathscr{F}\{h(t)\}$, is the unwindowed Fourier transform. This windowing of the data is an inherent problem in the method; it will be as much of a problem when analysing signals from LISA as it is computing waveforms here. Windowing causes spectral leakage, which means that a contribution from large amplitude spectral components leaks into other components (side lobes), obscuring and distorting the spectrum at these frequencies\cite{Jones1982}.
 
-Figure (??) shows the computed Fourier transforms for an example parabolic encounter. The waveforms have two distinct regions: a low-frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicefrac{1}{f}}$ behaviour of the sinc gives the shape of the tail. This has possibly been misidentified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
+Figure (??) shows the computed Fourier transforms for an example parabolic encounter. The waveforms have two distinct regions: a low-frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicerecip{f}}$ behaviour of the sinc gives the shape of the tail. This has possibly been misidentified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
 
 Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible to the reduce the amount of spectral leakage using apodization: to improve the frequency response of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse response in a prescribed way. The simplest window function is the rectangular (or Dirichlet) window; this is just the top hat described above. Other window functions are generally tapered. The introduction of a window function influences the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude side lobes. Choosing a window-function is a trade-off between these two sources of error.
 
@@ -1139,7 +1151,7 @@ T_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle\partial_\mu h_{ij} \partial_\nu h^{
 \end{equation}
 where $\langle\ldots\rangle$ indicates averaging over several wavelengths, or equivalently averaging over several periods. Thus, the flux of energy through a sphere of radius $r = R$ is
 \begin{equation}
-\diff{E}{t} = \frac{c^3}{32\pi G} R^2 \intd{}{}{}{\Omega}\left\langle\diff{h_{ij}}{t}\diff{h^{ij}}{t}\right\rangle,
+\diff{E}{t} = \frac{c^3}{32\pi G} R^2 \int{\dd\Omega}\left\langle\diff{h_{ij}}{t}\diff{h^{ij}}{t}\right\rangle,
 \end{equation}
 with $\intd{}{}{}{\Omega}$ representing integration over all solid angles. From \eqnref{Octopole} we see that the waves have a $\nicerecip{r}$ dependence, so if we define
 \begin{equation}
@@ -1147,21 +1159,21 @@ h_{ij} = \frac{H_{ij}}{r},
 \end{equation}
 we see that the flux is independent of $R$, as required for energy conservation,
 \begin{equation}
-\diff{E}{t} = \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\left\langle\diff{H_{ij}}{t}\diff{H^{ij}}{t}\right\rangle.
+\diff{E}{t} = \frac{c^3}{32\pi G} \int{\dd\Omega}\left\langle\diff{H_{ij}}{t}\diff{H^{ij}}{t}\right\rangle.
 \end{equation}
 If we now integrate to find the total energy emitted we obtain
 \begin{equation}
-E = \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\diff{H_{ij}}{t}\diff{H^{ij}}{t}.
+E = \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t}\diff{H_{ij}}{t}\diff{H^{ij}}{t}.
 \end{equation}
 Since we are considering all time, the localization of the energy is no longer of importance and so it is unnecessary to average over several periods. If we switch to Fourier representation $\widetilde{H}_{ij}(f) = \mathscr{F}\{H_{ij}(t)\}$, then
 \begin{align}
-E = {} & \frac{c^3}{32\pi G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{t}\intd{-\infty}{\infty}{}{f}2\pi i f \widetilde{H}_{ij}(f)e^{2\pi i f t}\intd{-\infty}{\infty}{}{f'}2\pi i f' \widetilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
- = {} & \frac{\pi c^3}{8 G} \intd{}{}{}{\Omega}\intd{-\infty}{\infty}{}{f} f^2 \widetilde{H}_{ij}(f)\widetilde{H}^{ij}(-f) \nonumber \\
- = {} & \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}\intd{0}{\infty}{}{f} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
+E = {} & \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t}\intd{-\infty}{\infty}{}{f} 2\pi i f \widetilde{H}_{ij}(f)e^{2\pi i f t}\int_{-\infty}^{\infty}{\dd f'} 2\pi i f' \widetilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
+ = {} & \frac{\pi c^3}{8 G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd f} f^2 \widetilde{H}_{ij}(f)\widetilde{H}^{ij}(-f) \nonumber \\
+ = {} & \frac{\pi c^3}{4 G} \int{\dd\Omega}\int_{0}^{\infty}{\dd f} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
 Here we have used that the signal is real so that $\widetilde{H}_{ij}^*(f) = \widetilde{H}_{ij}(-f)$. Using this we can identify the energy spectrum as
 \begin{align}
-\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega}f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
+\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
 
 \subsection{Peters \& Matthews Spectrum}
@@ -1197,9 +1209,9 @@ Using the above relations, and changing to linear frequency $2\pi f = \omega$, w
  = {} & \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r_p^2}\ell(n,e),
 \label{eq:PM_spectrum}
 \end{align}
-where we have defined the function $\ell(n,e)$ in the last line. For a parabolic orbit, we now have to take the limit of $\ell(n,e)$ as $e \rightarrow 1$.
+where we have defined the function $\ell(n,e)$ in the last line. For a parabolic orbit, we now have to take the limit of $\ell(n,e)$ as $e \rightarrow 1$. For this we shall use a number of properties of Bessel functions, and will make frequent reference to Watson\cite{Watson1995}.
 
-We shall simplify $\ell(n,e)$ using the recurrence formulae\cite{Watson1995}
+We shall simplify $\ell(n,e)$ using the recurrence formulae (Watson\cite{Watson1995} 2.12)
 \begin{align}
 J_{\nu-1}(z) + J_{\nu+1}(z) = {} & \frac{2\nu}{z}J_\nu(z)\\
 J_{\nu-1}(z) - J_{\nu+1}(z) = {} & 2J'_\nu(z).
@@ -1226,16 +1238,16 @@ A(\widetilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n}{(1-e)^{1/2}}\right\}; 
 \end{equation}
 To give a well defined energy spectrum, both of these must be finite. In this case we see that the second term in $\ell_2$ should go to zero.
 
-The Bessel function has an integral representation\cite{Watson1995}
+The Bessel function has an integral representation
 \begin{equation}
 J_\nu(z) = \recip{\pi}\intd{0}{\pi}{\cos(\nu\theta - z\sin\theta)}{\theta},
 \end{equation}
-we want the limit of this for $\nu \rightarrow \infty$, $z \rightarrow \infty$, with $z \leq \nu$. We will use the stationary phase approximation to argue that the predominant contribution to the integral comes from when the argument of the cosine is approximately zero, that is for small $\theta$. In this case we have\cite{Watson1995}
+we want the limit of this for $\nu \rightarrow \infty$, $z \rightarrow \infty$, with $z \leq \nu$. We will use the stationary phase approximation to argue that the predominant contribution to the integral comes from when the argument of the cosine is approximately zero, that is for small $\theta$ (Watson\cite{Watson1995} 8.2, 8.43). In this case we have
 \begin{align}
 J_\nu(z) \sim {} & \recip{\pi}\intd{0}{\pi}{\cos\left(\nu\theta - z\theta + \frac{z}{6}\theta^3\right)}{\theta}\\
  \sim {} & \recip{\pi}\intd{0}{\infty}{\cos\left(\nu\theta - z\theta + \frac{z}{6}\theta^3\right)}{\theta};
 \end{align}
-this last expression is an Airy integral. The Airy integral has a standard from\cite{Watson1995}
+this last expression is an Airy integral. The Airy integral has a standard from (Watson\cite{Watson1995} 6.4)
 \begin{equation}
 \intd{0}{\infty}{\cos(t^3 + xt)}{t} = \frac{\sqrt{x}}{3}K_{1/3}\left(\frac{2x^{3/2}}{3^{3/2}}\right),
 \end{equation}
@@ -1277,7 +1289,7 @@ J'_n(ne) \sim {} & \recip{2\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}\left\{\left[1 - \fr
  & \left. - \left[1 + \frac{(1-e)^{1/2}}{2\widetilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\widetilde{f}}\right]\right)\right]\nonumber \\
  \sim {} & \frac{-1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + \recip{\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right].
 \end{align}
-We may re-express the derivative using the recurrence formula\cite{Watson1995}
+We may re-express the derivative using the recurrence formula (Watson\cite{Watson1995} 3.71)
 \begin{equation}
 K_{\nu-1}(z) - K_{\nu+1}(z) = -2K'_\nu(z)
 \end{equation}
@@ -1393,11 +1405,26 @@ The total energy flux from the kludge waveform is larger than the Peters and Mat
 
 \chapter{Future Work}
 
+The work outlined in previous chapters should be largely completed by the end of 2010. It may be that further investigation reveals addition avenues to explore; however, it will be necessary to find new projects as well. Development of new areas of study will depend upon what is presented in the literature in the intervening time. Current ideas are discussed below.
+
+\section{Other Theories Of Gravity}
+
+Analysis similar to that discussed in chapter 1 for metric $f(R)$ gravity may be performed for other theories of modified gravity. This is a rapidly developing area incorporating ideas from quantum gravity and cosmology. Other theories to be investigated could include:
+\begin{itmemize}
+\item Metric-affine gravity\cite{Sotiriou2007, Sotiriou2007b}, as discussed in \secref{Action}. Since this is not a metric theory of gravity it may be possible to find observational tests that strongly constrain, or rule out this theory\cite{Will2006}.
+\item{} Generalised higher-order gravites which replace $R$ in the Einstein-Hilbert action with $f(R, R_{\mu\nu}R^{\mu\nu}, R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma})$\cite{Madsen1989}. We see that $f(R)$ is just a simplification of this case. Again we should recover the results of quadratic gravity in linearized theory\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990, Capozziello2009b}.
+\item{} Lovelock or Gauss-Bonnet gravity, which is a specific subclass of higher-order theory.
+\item{} Ho\v{r}ava-Lifshitz gravity\cite{Horava2009, Blas2010, Sotiriou2009c} which sacrifices spacetime covariance in favour of being renormalizable. A preferred foliation of space and time along the lines of the Arnowitt-Deser-Misner (ADM) formalism is adopted\cite{Arnowitt1962}, with Lorentz invariance being emergent at large distances. This removes many of the problems associated with time traditionally associated with trying to quantize GR.
+\end{itemize}
+Since there are so many ways to formulate an alternate theory of gravity, there are many opportunities for study in this area. It would be desirable to find tests that can distinguish these theories from each other and GR, strong field tests seem the most promising.
+
+\section{Observing Black Hole Shadows}
+
 \newpage
 
 \noindent
 \bibliographystyle{../physicsNEW}
-%\bibliographystyle{plain}
+
 \noindent
 \bibliography{../library}
 \noindent
