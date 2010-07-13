@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  12 JUL 2010 09:43
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  13 JUL 2010 21:37
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -697,50 +697,54 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 177.
 [3
 
-] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-Overfull \hbox (3.97292pt too wide) detected at line 665
-\OT1/lmr/m/n/10.95 d\OML/lmm/m/it/10.95 s[] \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/
-it/10.95 c[]\OT1/lmr/m/n/10.95 d\OML/lmm/m/it/10.95 t[] \OMS/lmsy/m/n/10.95   [
-] [] \OML/lmm/m/it/10.95 :
- []
-
-[15] [16] [17] [18] [19] [20]
+] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[19] [20]
 Chapter 3.
 [21
 
-] [22] [23] [24]
-Underfull \hbox (badness 4168) in paragraph at lines 938--939
+] [22] [23]
+File: ./Images/Triangle.eps Graphic file (type eps)
+ <./Images/Triangle.eps> [24]
+Underfull \hbox (badness 4168) in paragraph at lines 948--949
 [][]\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-spa
 ce spher-i-cal po-lars
  []
 
 [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
 Chapter 4.
-[39
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 1412
+.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1412.
 
-] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [40]
-[41
+ [39
+
+] [40]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [41] [42
 
 ]
-Underfull \hbox (badness 1019) in paragraph at lines 154--156
+Underfull \hbox (badness 1019) in paragraph at lines 164--166
 [][]\T1/lmr/m/n/9 Olmo, G. J.; Limit to gen-eral rel-a-tiv-ity in f(R) the-o-ri
 es of grav-ity; \T1/lmr/m/it/9 Phys-i-cal Re-view D\T1/lmr/m/n/9 ;
  []
 
-[42]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 221.
+[43]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 240.
 
  ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [43])
-[44] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
+) [44] [45])
+[46] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 10472 strings out of 495286
- 150861 string characters out of 3179901
- 291269 words of memory out of 3000000
- 13407 multiletter control sequences out of 15000+200000
+ 10519 strings out of 495286
+ 151735 string characters out of 3179901
+ 291435 words of memory out of 3000000
+ 13449 multiletter control sequences out of 15000+200000
  159223 words of font info for 141 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,16n,66p,2088b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,16n,66p,2088b,696s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (46 pages, 214872 bytes).
+Output written on CPGS.dvi (48 pages, 224364 bytes).

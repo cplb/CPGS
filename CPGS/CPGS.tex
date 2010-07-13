@@ -182,7 +182,7 @@ We shall restrict our attention to consider only metric $f(R)$ gravity. The metr
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Dyer2009, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
 The vacuum field equation is
 \begin{equation}
@@ -596,7 +596,7 @@ This may be evaluated by a suitable contour integral to give
 \begin{equation}
 \mathscr{G}_\kappa(x, x') =
 \begin{cases}
-{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\recip{4\pi r}\exp\left[i\left(\frac{\omega^2}{c^2} - \kappa^2}\right)^{1/2}r\right]}} & \omega^2 > c^2\kappa^2\vspace{0.8mm}\\
+{\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\recip{4\pi r}\exp\left[i\left(\frac{\omega^2}{c^2} - \kappa^2\right)^{1/2}r\right]}} & \omega^2 > c^2\kappa^2\vspace{0.8mm}\\
 {\displaystyle \int{\frac{\dd \omega}{2\pi c} \exp\left[-i\omega(t-t')\right]\recip{4\pi r}\exp\left[-\left(\kappa^2 - \frac{\omega^2}{c^2}\right)^{1/2}r\right]}} & \omega^2 < c^2\kappa^2\vspace{0.8mm}
 \end{cases}\, ,
 \label{eq:Green}
@@ -659,10 +659,11 @@ Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero e
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
 Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Capozziello2009a, Naf2010}
-\begin{equation}
-\dd s^2 = \left\{1-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 - \left\{1+\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
+\begin{align}
+\dd s^2 = & {} \left\{1-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \kappa r)}{3}\right]\right\}c^2\dd t^2 \nonumber \\
+ & - {} \left\{1+\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \kappa r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
-\end{equation}
+\end{align}
 This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\kappa \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory we see that our $f(R)$ is indistinguishable from $f(R) = R + a_2 R$.
 
 We may extend this result for a slowly rotating source with angular momentum $J$, then we have the additional term\cite{Hobson2006}
@@ -680,19 +681,24 @@ It has been suggested that since $R = 0$ is a valid solution to the vacuum equat
 Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
 
 Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
+%\begin{equation}
+%\rho(\boldsymbol{x}) = frac{3 M}{4 \pi L^3}\Theta(L - |\boldsymbol{x}|),
+%\end{equation}
+%where $\Theta$ is the Heaviside step function, 
 \begin{equation}
 \overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
 \end{equation}
 as in GR and for the point mass, but
 \begin{align}
-R^{(1)} = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\left[\frac{\kappa L\cosh(\kappa L) - \sinh(\kappa L)}{\kappa L^3}\right] \\
- = & {} -\frac{6 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\Xi(L\kappa),
+R^{(1)} = & {} -\frac{8 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\left[\frac{\kappa L\cosh(\kappa L) - \sinh(\kappa L)}{\kappa L^3}\right] \\
+ = & {} -\frac{8 G \kappa^2 M}{c^2}\frac{\exp(- \kappa r)}{r}\kappa^2\Xi(L\kappa),
 \end{align}
 defining $\Xi(L\kappa)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(L\kappa)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978, Capozziello2009b}
 \begin{equation}
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \kappa r)\Xi(L\kappa)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \kappa r)\Xi(L\kappa)\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
-At all stages we assumed that $r > L$.
+where we have assumed that $r > L$ at all stages.\footnote{Inside the source $R^{(1)} = -{8 G \kappa^2 M}/{c^2}\left[1 - (\kappa a + 1)\exp(-\kappa a)\sinh(\kappa r)/\kappa r\right]$.}
+
 
 \subsection{The Weak Field Metric}
 
@@ -721,11 +727,11 @@ We see that the functional form of $g_{00}$ is almost unchanged upon substitutin
 To find $B(\widetilde{r})$ we consider, using \eqnref{r_tilde},
 \begin{align}
 \frac{\dd \widetilde{r}}{\widetilde{r}} = {} & \dd \ln \widetilde{r} \nonumber \\
- = {} & \left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + {r\sub{S}}/{2\widetilde{r}}\left[1 - {\exp(-\kappa \widetilde{r})}/{3}\right]}\right\}\frac{\dd r}{\widetilde{r}}.
+ = {} & \left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\kappa \widetilde{r})}/{3}\right]}\right\}\frac{\dd r}{\widetilde{r}}.
 \end{align}
 Thus
 \begin{equation}
-\dd \widetilde{r}^2 = \frac{\widetilde{r}^2}{r^2}\left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + {r\sub{S}}/{2\widetilde{r}}\left[1 - {\exp(-\kappa r)}/{3}\right]}\right\}\dd r^2.
+\dd \widetilde{r}^2 = \frac{\widetilde{r}^2}{r^2}\left\{\frac{1 + {\kappa r\sub{S}r\exp(-\kappa r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\kappa r)}/{3}\right]}\right\}\dd r^2.
 \end{equation}
 The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must consider the size of $\kappa r\sub{S}\exp(-\kappa r)$. We are assuming that in the weak field
 \begin{equation}
@@ -754,7 +760,7 @@ One means of probing the nature of a spacetime is through observations of orbita
 For any metric of the form of \eqnref{Sph_sym} there are three constants of motion: the orbiting particle's rest mass $\mu$, the energy (per unit mass) of the orbit $E$ and the angular momentum (per unit mass) $L$. Denoting differentiation with respect to an affine parameter, which we shall identify as proper time $\tau$ by an over-dot
 \begin{align}
 E = {} & A\dot{t}; \\
-L = {} & \widetilde{r}^2\sin^2\theta \dot{\phi}.
+L = {} & \widetilde{r}^2\sin^2\theta\, \dot{\phi}.
 \end{align}
 As a consequence of the spherical symmetry we may also confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. From the Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we obtain the equation of motion for massive particles
 \begin{equation}
@@ -793,9 +799,9 @@ We may rewrite the radial motion as
 if we compare this with an elliptic Keplerian orbit of small eccentricity $e$
 \begin{align}
 \widetilde{r} = {} & \frac{a(1 - e^2)}{1 + e\cos(\omega_0\tau)} \\
- = {} & a\left[1 - e\cos(\omega_0\tau) \ldots \right]
+ = {} & a\left[1 - e\cos(\omega_0\tau) + \ldots \right]
 \end{align}
-to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency; we see we may identify our perturbed orbit with an elliptical orbit where\cite{Kerner2001}
+to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency; we see we may identify our perturbed orbit with an elliptical orbit where\cite{Kerner2001a}
 \begin{equation}
 \overline{r} = a; \quad \delta_0 = -ea.
 \end{equation}
@@ -812,14 +818,15 @@ In one revolution the ellipse will precess about the focus by
 \end{align}
 The precession is cumulative, so a small deviation may be measurable over sufficient time.
 
-For the $f(R)$ metric defined by equations \eqref{eq:A_metric} and \eqref{ee:B_metric} the epicyclic frequency is
+For the $f(R)$ metric defined by equations \eqref{eq:A_metric} and \eqref{eq:B_metric} the epicyclic frequency is
 \begin{equation}
-\Omega^2 = {} & \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\kappa,r\sub{S},\overline{r})\right],
+\Omega^2 = \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\kappa,r\sub{S},\overline{r})\right],
 \end{equation}
 introducing function
-\begin{equation}
-\zeta(\kappa,r\sub{S},\overline{r}) = r\sub{S}\left(\recip{3\overline{r}} + \kappa\right)\exp(-\kappa r) + \frac{\kappa^2\overline{r}^2\exp(-\kappa r)}{3 + (1 + \kappa \overline{r})\exp(-\kappa r)}\left\{- \frac{r\sub{S}{\overline{r}\left[1 + \frac{\exp(-\kappa r)}{3}\right] - \frac{\kappa r\sub{S}\exp(-\kappa r)}{3}\right\}.
-\end{equation}
+\begin{align}
+\zeta(\kappa,r\sub{S},\overline{r}) = {} & r\sub{S}\left(\recip{3\overline{r}} + \kappa\right)\exp(-\kappa r) + \frac{\kappa^2\overline{r}^2\exp(-\kappa r)}{3 + (1 + \kappa \overline{r})\exp(-\kappa r)}\left\{1 {\phantom{\frac{0}{0}}} \right. \nonumber \\
+ & - \left. \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\kappa r)}{3}\right] - \frac{\kappa r\sub{S}\exp(-\kappa r)}{3}\right\}.
+\end{align}
 This is the deviation from the Schwarzschild case.
 
 \section{Discussion \& Remaining Questions}
@@ -915,16 +922,7 @@ Note that only if $L_z = 0$ may we reach the poles\cite{Wilkins1972}. If we chan
 See \figref{L_triangle} for a geometrical visualization.
 \begin{figure}[htbp]
 \begin{center}
-%\begin{pspicture}(6,5)
-%\psset{PointSymbol=none}
-%\pstTriangle(0,3){A}(0,0){B}(4,0){C}
-%\pstRightAngle{C}{B}{A}
-%\pstMarkAngle{A}{C}{B}{$\iota$}
-%\pstMarkAngle{B}{A}{C}{$\theta_0$}
-%\pstMiddleAB{A}{B}{$\sqrt{Q}$}
-%\pstMiddleAB{C}{A}{$L_\infty$}
-%\pstMiddleAB{B}{C}{L_z}
-%\end{pspicture}
+\includegraphics[width=0.35\textwidth]{./Images/Triangle.eps}
     \caption{The angular momenta $L_\infty$, $L_z$ and $\sqrt{Q}$ define a right-angled triangle. The acute angles are $\theta_0$, the extremal value of the polar angle, and $\iota$, the orbital inclination\cite{Glampedakis2002a}.}
    \label{fig:L_triangle}
 \end{center}
@@ -1163,17 +1161,17 @@ we see that the flux is independent of $R$, as required for energy conservation,
 \end{equation}
 If we now integrate to find the total energy emitted we obtain
 \begin{equation}
-E = \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t}\diff{H_{ij}}{t}\diff{H^{ij}}{t}.
+E = \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t} \, \diff{H_{ij}}{t}\diff{H^{ij}}{t}.
 \end{equation}
 Since we are considering all time, the localization of the energy is no longer of importance and so it is unnecessary to average over several periods. If we switch to Fourier representation $\widetilde{H}_{ij}(f) = \mathscr{F}\{H_{ij}(t)\}$, then
 \begin{align}
-E = {} & \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t}\intd{-\infty}{\infty}{}{f} 2\pi i f \widetilde{H}_{ij}(f)e^{2\pi i f t}\int_{-\infty}^{\infty}{\dd f'} 2\pi i f' \widetilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
- = {} & \frac{\pi c^3}{8 G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd f} f^2 \widetilde{H}_{ij}(f)\widetilde{H}^{ij}(-f) \nonumber \\
- = {} & \frac{\pi c^3}{4 G} \int{\dd\Omega}\int_{0}^{\infty}{\dd f} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
+E = {} & \frac{c^3}{32\pi G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd t}\intd{-\infty}{\infty}{}{f} \, 2\pi i f \widetilde{H}_{ij}(f)e^{2\pi i f t}\int_{-\infty}^{\infty}{\dd f'} \, 2\pi i f' \widetilde{H}^{ij}(f')e^{2\pi i f' t} \nonumber \\
+ = {} & \frac{\pi c^3}{8 G} \int{\dd\Omega}\int_{-\infty}^{\infty}{\dd f} \, f^2 \widetilde{H}_{ij}(f)\widetilde{H}^{ij}(-f) \nonumber \\
+ = {} & \frac{\pi c^3}{4 G} \int{\dd\Omega}\int_{0}^{\infty}{\dd f} \, f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
 Here we have used that the signal is real so that $\widetilde{H}_{ij}^*(f) = \widetilde{H}_{ij}(-f)$. Using this we can identify the energy spectrum as
 \begin{align}
-\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega} f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
+\diff{E}{f} = \frac{\pi c^3}{4 G} \intd{}{}{}{\Omega} \, f^2 \widetilde{H}^{ij}(f)\widetilde{H}_{ij}^*(f).
 \end{align}
 
 \subsection{Peters \& Matthews Spectrum}
@@ -1410,11 +1408,11 @@ The work outlined in previous chapters should be largely completed by the end of
 \section{Other Theories Of Gravity}
 
 Analysis similar to that discussed in chapter 1 for metric $f(R)$ gravity may be performed for other theories of modified gravity. This is a rapidly developing area incorporating ideas from quantum gravity and cosmology. Other theories to be investigated could include:
-\begin{itmemize}
+\begin{itemize}
 \item Metric-affine gravity\cite{Sotiriou2007, Sotiriou2007b}, as discussed in \secref{Action}. Since this is not a metric theory of gravity it may be possible to find observational tests that strongly constrain, or rule out this theory\cite{Will2006}.
-\item{} Generalised higher-order gravites which replace $R$ in the Einstein-Hilbert action with $f(R, R_{\mu\nu}R^{\mu\nu}, R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma})$\cite{Madsen1989}. We see that $f(R)$ is just a simplification of this case. Again we should recover the results of quadratic gravity in linearized theory\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990, Capozziello2009b}.
+\item{} Generalised higher-order gravities which replace $R$ in the Einstein-Hilbert action with $f(R, R_{\mu\nu}R^{\mu\nu}, R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma})$\cite{Madsen1989}. We see that $f(R)$ is just a simplification of this case. Again we should recover the results of quadratic gravity in linearized theory\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990, Capozziello2009b}.
 \item{} Lovelock or Gauss-Bonnet gravity, which is a specific subclass of higher-order theory.
-\item{} Ho\v{r}ava-Lifshitz gravity\cite{Horava2009, Blas2010, Sotiriou2009c} which sacrifices spacetime covariance in favour of being renormalizable. A preferred foliation of space and time along the lines of the Arnowitt-Deser-Misner (ADM) formalism is adopted\cite{Arnowitt1962}, with Lorentz invariance being emergent at large distances. This removes many of the problems associated with time traditionally associated with trying to quantize GR.
+\item{} Ho\v{r}ava-Lifshitz gravity\cite{Horava2009, Blas2010a, Sotiriou2009c} which sacrifices spacetime covariance in favour of being renormalizable. A preferred foliation of space and time along the lines of the Arnowitt-Deser-Misner (ADM) formalism is adopted\cite{Arnowitt1962a}, with Lorentz invariance being emergent at large distances. This removes many of the problems associated with time traditionally associated with trying to quantize GR.
 \end{itemize}
 Since there are so many ways to formulate an alternate theory of gravity, there are many opportunities for study in this area. It would be desirable to find tests that can distinguish these theories from each other and GR, strong field tests seem the most promising.
 

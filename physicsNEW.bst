@@ -1250,7 +1250,8 @@ FUNCTION {inbook}
       if$
     }
   if$
-  format.btitle "title" output.check
+  format.title "title" output.check
+  format.in.ed.booktitle output
   format.edition output
   crossref missing$
     {

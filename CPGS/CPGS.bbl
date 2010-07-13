@@ -15,12 +15,12 @@ Will, C.~M.; {The Confrontation between General Relativity and Experiment};
   \textit{Living Reviews in Relativity}; \textbf{9}(3), 2006.
 
 \bibitem{Sotiriou2010}
-Sotiriou, T.~P. \& Faraoni, V.; {\$f(R)\$ theories of gravity}; \textit{Reviews
+Sotiriou, T.~P. \& Faraoni, V.; {$f(R)$ theories of gravity}; \textit{Reviews
   of Modern Physics}; \textbf{82}(1):451--497, March 2010.
 
 \bibitem{DeFelice2010}
-{De Felice}, A. \& Tsujikawa, S.; {\$f(R)\$ theories}; \textit{Living Reviews
-  in Relativity}; \textbf{13}(3), February 2010.
+{De Felice}, A. \& Tsujikawa, S.; {$f(R)$ theories}; \textit{Living Reviews in
+  Relativity}; \textbf{13}(3), February 2010.
 
 \bibitem{Misner1973}
 Misner, C.~W., Thorne, K.~S. \& Wheeler, J.~A.; \textit{{Gravitation}}; New
@@ -47,22 +47,22 @@ Exirifard, Q. \& Sheik-Jabbari, M.; {Lovelock gravity at the crossroads of
   \textbf{661}(2-3):158--161, March 2008.
 
 \bibitem{Sotiriou2007}
-Sotiriou, T. \& Liberati, S.; {Metric-affine \$f(R)\$ theories of gravity};
+Sotiriou, T. \& Liberati, S.; {Metric-affine $f(R)$ theories of gravity};
   \textit{Annals of Physics}; \textbf{322}(4):935--966, April 2007.
 
 \bibitem{Sotiriou2007b}
-Sotiriou, T.~P. \& Liberati, S.; {The metric-affine formalism of \$f(R)\$
+Sotiriou, T.~P. \& Liberati, S.; {The metric-affine formalism of $f(R)$
   gravity}; \textit{Journal of Physics: Conference Series};
   \textbf{68}:012022(7), May 2007.
 
 \bibitem{Barausse2008b}
 Barausse, E., Sotiriou, T.~P. \& Miller, J.~C.; {A no-go theorem for polytropic
-  spheres in Palatini \$f(R)\$ gravity}; \textit{Classical and Quantum
-  Gravity}; \textbf{25}(6):062001(7), March 2008.
+  spheres in Palatini $f(R)$ gravity}; \textit{Classical and Quantum Gravity};
+  \textbf{25}(6):062001(7), March 2008.
 
 \bibitem{Barausse2008a}
 Barausse, E., Sotiriou, T.~P. \& Miller, J.~C.; {Curvature singularities, tidal
-  forces and the viability of Palatini \$f(R)\$ gravity}; \textit{Classical and
+  forces and the viability of Palatini $f(R)$ gravity}; \textit{Classical and
   Quantum Gravity}; \textbf{25}(10):105008(15), May 2008.
 
 \bibitem{York1972}
@@ -79,6 +79,11 @@ Gibbons, G.~W. \& Hawking, S.~W.; {Action integrals and partition functions in
 Madsen, M.~S. \& Barrow, J.~D.; {De Sitter ground states and boundary terms in
   generalised gravity}; \textit{Nuclear Physics B}; \textbf{323}(1):242--252,
   August 1989.
+
+\bibitem{Dyer2009a}
+Dyer, E. \& Hinterbichler, K.; {Boundary terms, variational principles, and
+  higher derivative modified gravity}; \textit{Physical Review D};
+  \textbf{79}(2):024028, January 2009.
 
 \bibitem{Koivisto2006a}
 Koivisto, T.; {A note on covariant conservation of energy-momentum in modified
@@ -100,13 +105,13 @@ Olmo, G.~J.; {The Gravity Lagrangian According to Solar System Experiments};
   \textit{Physical Review Letters}; \textbf{95}(26):261102(4), December 2005.
 
 \bibitem{Corda2007}
-Corda, C.; {Massive gravitational waves from the R\^{}2 theory of gravity:
+Corda, C.; {Massive gravitational waves from the $R^2$ theory of gravity:
   production and response of interferometers}; \textit{International Journal of
   Modern Physics A}; \textbf{23}(10):1521--1535, November 2007.
 
 \bibitem{Capozziello2008}
 Capozziello, S., Corda, C. \& {De Laurentis}, M.; {Massive gravitational waves
-  from \$f(R)\$ theories of gravity: Potential detection with LISA};
+  from $f(R)$ theories of gravity: Potential detection with LISA};
   \textit{Physics Letters B}; \textbf{669}(5):255--259, November 2008.
 
 \bibitem{Hobson2006}
@@ -127,14 +132,19 @@ Isaacson, R.; {Gravitational Radiation in the Limit of High Frequency. II.
 Peskin, M.~E. \& Schroeder, D.~V.; \textit{{An Introduction to Quantum Field
   Theory}}; Boulder, Colorado: Westview Press, 1995.
 
+\bibitem{Capozziello2009a}
+Capozziello, S., Stabile, A. \& Troisi, A.; {A General Solution in the
+  Newtonian Limit of $f(R)$-gravity}; \textit{Modern Physics Letters A};
+  \textbf{24}(09):659--665, January 2009.
+
 \bibitem{Naf2010}
-N\"{a}f, J. \& Jetzer, P.; {On the \$1/c\$ expansion of \$f(R)\$ gravity};
+N\"{a}f, J. \& Jetzer, P.; {On the $1/c$ expansion of $f(R)$ gravity};
   \textit{Physical Review D}; \textbf{81}(10):104003(8), May 2010.
 
 \bibitem{Chiba2007a}
 Chiba, T., Smith, T. \& Erickcek, A.; {Solar System constraints to general
-  \$f(R)\$ gravity}; \textit{Physical Review D}; \textbf{75}(12):124014(7),
-  June 2007.
+  $f(R)$ gravity}; \textit{Physical Review D}; \textbf{75}(12):124014(7), June
+  2007.
 
 \bibitem{Pechlaner1966}
 Pechlaner, E. \& Sexl, R.; {On quadratic lagrangians in General Relativity};
@@ -154,10 +164,20 @@ Barausse, E. \& Sotiriou, T.~P.; {Perturbed Kerr Black Holes Can Probe
 Olmo, G.~J.; {Limit to general relativity in f(R) theories of gravity};
   \textit{Physical Review D}; \textbf{75}(2):023511(8), January 2007.
 
+\bibitem{Capozziello2009b}
+Capozziello, S. \& Stabile, A.; {The Newtonian limit of metric gravity theories
+  with quadratic Lagrangians}; \textit{Classical and Quantum Gravity};
+  \textbf{26}(8):085019(22), April 2009.
+
 \bibitem{Gair2008a}
 Gair, J., Li, C. \& Mandel, I.; {Observable properties of orbits in exact bumpy
   spacetimes}; \textit{Physical Review D}; \textbf{77}(2):024035(23), January
   2008.
+
+\bibitem{Kerner2001a}
+Kerner, R., van Holten, J.~W. \& Colistete, J., R.; {Relativistic epicycles:
+  another approach to geodesic deviations}; \textit{Classical and Quantum
+  Gravity}; \textbf{18}(22):4725--4742, 2001.
 
 \bibitem{Lynden-Bell1971}
 Lynden-Bell, D. \& Rees, M.~J.; {On quasars, dust and the galactic centre};
@@ -211,9 +231,8 @@ Bender, P., Brillet, A., Ciufolini, I. \textit{et~al.}; {LISA Pre-Phase A
   Report}, 1998.
 
 \bibitem{Danzmann2003}
-Danzmann, K. \& R$\backslash$"\{u\}diger, A.; {LISA technology concept, status,
-  prospects}; \textit{Classical and Quantum Gravity}; \textbf{20}(10):S1--S9,
-  May 2003.
+Danzmann, K. \& R\"{u}diger, A.; {LISA technology concept, status, prospects};
+  \textit{Classical and Quantum Gravity}; \textbf{20}(10):S1--S9, May 2003.
 
 \bibitem{Rubbo2006}
 Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{{Event Rate for
@@ -341,5 +360,24 @@ Gair, J.~R.; private communication, 2010.
 Watson, G.~N.; \textit{{A Treatise on the Theory of Bessel Functions}}; second
   edition; Cambridge Mathematical Library; Cambridge: Cambridge University
   Press, 1995.
+
+\bibitem{Horava2009}
+Ho\v{r}ava, P.; {Quantum gravity at a Lifshitz point}; \textit{Physical Review
+  D}; \textbf{79}(8):084008(15), April 2009.
+
+\bibitem{Blas2010a}
+Blas, D., Pujol\`{a}s, O. \& Sibiryakov, S.; {Consistent Extension of
+  Ho\v{r}ava Gravity}; \textit{Physical Review Letters};
+  \textbf{104}(18):181302(4), May 2010.
+
+\bibitem{Sotiriou2009c}
+Sotiriou, T.~P., Visser, M. \& Weinfurtner, S.; {Quantum gravity without
+  Lorentz invariance}; \textit{Journal of High Energy Physics};
+  \textbf{2009}(10):033(32), October 2009.
+
+\bibitem{Arnowitt1962a}
+Arnowitt, R., Deser, S. \& Misner, C.~W.; {The Dynamics of General Relativity};
+  in Witten, L. (editor), \textit{Gravitation: an introduction to current
+  research}; chapter~7, 227--264; New York: Wiley, 1962.
 
 \end{thebibliography}
