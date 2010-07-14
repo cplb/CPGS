@@ -129,10 +129,10 @@ This is exceedingly abstract
 \end{abstract}
 
 \chapter{Introduction}\setcounter{page}{1}
-\section{Introduction}
 
-Welcome.
-\newpage
+\section{Gravitation}
+
+Detecting gravitational waves (GWs) would allow us to probe gravitational interactions in regimes that are currently inaccessible using more traditional, electromagnetic observations. For example, encounters between compact objects, like black holes or neutron stars, create gravitational fields that are both intensely strong and highly dynamical, a domain where GR has yet to be tested.
 
 \section{Structure}
 
@@ -144,11 +144,11 @@ Finally in chapter 4 we outline further areas of interest that may be studied in
 
 \section{Conventions}
 
-Throughout this work we will use the the time-like sign convention of Landau and Lifshitz\cite{Landau1975}:
+Throughout this work we will use the time-like sign convention of Landau and Lifshitz\cite{Landau1975}:
 \begin{enumerate}
 \item The metric has signature $(+,-,-,-)$.
 \item The Reinann tensor is defined as ${R^\mu}_{\nu\sigma\rho} = \partial_\sigma {\Gamma^\mu}_{\nu\rho} - \partial_\rho {\Gamma^\mu}_{\nu\sigma} + {\Gamma^\mu}_{\lambda\sigma}{\Gamma^\lambda}_{\rho\nu} - {\Gamma^\mu}_{\lambda\rho}{\Gamma^\lambda}_{\sigma\nu}$.
-\item The Ricci tensor is defined as the contraction $R_{\mu\nu} = {R^\lambda}_{\mu\lambda\mu}$.
+\item The Ricci tensor is defined as the contraction $R_{\mu\nu} = {R^\lambda}_{\mu\lambda\nu}$.
 \end{enumerate}
 Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indices $i = \{1,2,3\}$. Uppercase Latin indices from the beginning of the alphabet will be used for the output of two LISA detector arms $A = \{\mathrm{I}, \mathrm{II}\}$, and lowercase Latin indices from the beginning of the alphabet are used for parameter space. Summation over repeated indices is assumed unless explicitly noted otherwise. Geometric units with $G = c = 1$ will be used where noted, but in general factors of $G$ and $c$ will be retained.
 
@@ -174,7 +174,7 @@ f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
 Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
-The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. GR is a special case of Lovelock gravity; $f(R)$ gravity only coincides with Lovelock gravity when it reduces back to GR (with or without a cosmological constant).}
+The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$ gravity. Following the Palantini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palantini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
 
 Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palantini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction or torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
@@ -182,7 +182,7 @@ We shall restrict our attention to consider only metric $f(R)$ gravity. The metr
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in doing so eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
 The vacuum field equation is
 \begin{equation}
@@ -642,7 +642,7 @@ Let us consider the limiting case of a Newtonian source such that
 \begin{equation}
 T_{00} = c^2\rho; \quad |T_{00}| \gg |T_{0i}|; \quad |T_{00}| \gg |T_{ij}|,
 \end{equation}
-with the the simplest mass distribution of a stationary point source
+with the simplest mass distribution of a stationary point source
 \begin{equation}
 \rho = M\delta(\boldsymbol{x'}).
 \end{equation}
@@ -824,8 +824,8 @@ For the $f(R)$ metric defined by equations \eqref{eq:A_metric} and \eqref{eq:B_m
 \end{equation}
 introducing function
 \begin{align}
-\zeta(\kappa,r\sub{S},\overline{r}) = {} & r\sub{S}\left(\recip{3\overline{r}} + \kappa\right)\exp(-\kappa r) + \frac{\kappa^2\overline{r}^2\exp(-\kappa r)}{3 + (1 + \kappa \overline{r})\exp(-\kappa r)}\left\{1 {\phantom{\frac{0}{0}}} \right. \nonumber \\
- & - \left. \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\kappa r)}{3}\right] - \frac{\kappa r\sub{S}\exp(-\kappa r)}{3}\right\}.
+\zeta(\kappa,r\sub{S},\overline{r}) = {} & r\sub{S}\left(\recip{3\overline{r}} + \kappa\right)\exp(-\kappa r) + \frac{\kappa^2\overline{r}^2\exp(-\kappa r)}{3 + (1 + \kappa \overline{r})\exp(-\kappa r)} \nonumber \\
+ & {} \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\kappa r)}{3}\right] - \frac{\kappa r\sub{S}\exp(-\kappa r)}{3}\right\}.
 \end{align}
 This is the deviation from the Schwarzschild case.
 
@@ -837,7 +837,7 @@ This is the deviation from the Schwarzschild case.
 
 \section{Background \& Introduction}
 
-Currently it is understood that many, if not all at some point, galactic nuclei harbour a black hole\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few milliparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
+Currently it is understood that many, if not all, galactic nuclei harboured a black hole at some point.\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = 4 M_\odot$ and a distance of only $R_0 = \SI{8}{\kilo\parsec}$. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we do not expect an astrophysical black hole to be charged)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its r\^{o}le in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few milliparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of for dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
 
 An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted during each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to emit continuously significant gravitational radiation. The resulting waveforms are known as extreme mass ratio inspirals (EMRIs).
 
@@ -953,7 +953,7 @@ Numerical kludge approximations aim to encapsulate the main characteristics of a
 \begin{equation}
 \boldsymbol{x} = \left(\sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\cos\phi\sub{ob}, \sqrt{{r\sub{ob}}^2 + a^2} \sin\theta\sub{ob}\sin\phi\sub{ob}, r\sub{ob} \cos\theta\sub{ob}\right).
 \end{equation}
-These are appealing because in the limit that $G \rightarrow 0$, so the gravitating mass goes to zero, the Kerr metric in Boyer-Lindquist coordinates reduces to the Minkowski metric in oblate spheroidal coordinates.\footnote{We must take the limit $G \rightarrow 0$, rather than $M_\bullet \rightarrow 0$ to avoid the problem of an over-extreme BH with $a > M_\bullet$.}
+These are appealing because in the limit that $G \rightarrow 0$, so the gravitating mass goes to zero, the Kerr metric in Boyer-Lindquist coordinates reduces to the Minkowski metric in oblate spheroidal coordinates.%\footnote{We must take the limit $G \rightarrow 0$, rather than $M_\bullet \rightarrow 0$ to avoid the problem of an over-extreme BH with $a > M_\bullet$.}
 \end{enumerate}
 In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of large $r\sub{BL}$. It must be stressed that there is no well motivated argument that either coordinate system must yield an accurate GW; their use is justified {\it post facto} by comparison with result obtained from more accurate, and computationally intensive, methods\cite{Gair2005, Babak2007}. This ambiguity in assigning flat-space coordinates reflects the inconsistency of the semi-relativistic approximation: the geodesic trajectory was calculated for the Kerr geometry; by moving to flat spacetime we lose the reason for its existence. However, this inconsistency should not be regarded as a major problem; it is just an artifact of the basic assumption that the shape of the trajectory is important for determining the character of the radiation, but the curvature of the spacetime in the vicinity of the source is not. By binding the particle to the exact geodesic, we ensure that the kludge waveform has spectral components at the correct frequencies, but by assuming flat spacetime for generation of GWs they will not have the correct amplitudes.
 
@@ -961,7 +961,7 @@ In the limit of $a \rightarrow 0$, the two coincide, as they do in the limit of 
 
 Now we have a flat-space particle trajectory $x\sub{p}^\mu(\tau)$, we may apply a flat-space wave generation formula. We shall use the quadrupole-octopole formula to calculate the gravitational strain\cite{Press1977, Bekenstein1973}
 \begin{equation}
-h^{jk}(t, \boldsymbol{x}) = -\frac{2G}{c^6r}\left[\ddot{I}^{jk} - 2n_i\ddot{S}^{ijk} + n_i\dddot{M}^{ijk}\right]_{t' = t - cr}
+h^{jk}(t, \boldsymbol{x}) = -\frac{2G}{c^6r}\left[\ddot{I}^{jk} - 2n_i\ddot{S}^{ijk} + n_i\dddot{M}^{ijk}\right]_{t'/, =/, t - cr}
 \label{eq:Octopole}
 \end{equation}
 where an overdot represents differentiation with respect to time $t$, $t'$ is the retarded time, $r = \left|\boldsymbol{x} - \boldsymbol{x}\sub{p}\right|$ is the radial distance, $\boldsymbol{n}$ is the radial unit vector, and the mass quadrupole ${I}^{jk}$, current quadrupole ${S}^{ijk}$ and mass octopole ${M}^{ijk}$ are defined by
@@ -1063,7 +1063,7 @@ Since we have assumed Gaussianity for the noise signal $n_A(t)$, each Fourier co
 \begin{equation}
 \left\langle\tilde{n}_A(f)\tilde{n}_B^*(f')\right\rangle_n = \recip{2}\delta(f - f')S_{AB}(f),
 \end{equation}
-where $\left\langle\ldots\right\rangle_n$ denotes the expectation value over the noise distribution, and $S_{AB}(f)$ is the (single-sided) noise spectral density. For simplicity, we may assume that the noise in the two detectors are uncorrelated, but share the same characterization so that\cite{Cutler1998}
+where $\left\langle\ldots\right\rangle_n$ denotes the expectation value over the noise distribution, and $S_{AB}(f)$ is the (single-sided) noise spectral density. For simplicity, we may assume that the noise in the two detectors is uncorrelated, but share the same characterization so that\cite{Cutler1998}
 \begin{equation}
 S_{AB}(f) = \delta_{AB}S_n(f).
 \end{equation}
@@ -1089,7 +1089,7 @@ LISA's noise has two sources: instrumental noise and confusion noise, primarily 
 
 \subsection{Window Functions}
 
-There is one remaining complication regarding signal analysis. When we perform a Fourier transform using a computer we must necessarily only transform a finite time-span (it is a discrete Fourier transform).\footnote{The time-span in this case is the length of time the trajectory was calculated for.} The effect of which is the same as transforming the true, infinite signal multiplied by a unit top hat function of width equal to the time-span. Fourier transforming this yields the true waveform convolved with a sinc. If $\tilde{h}'(f)$ is the computed Fourier transform then
+There is one remaining complication regarding signal analysis. When we perform a Fourier transform using a computer we must necessarily only transform a finite time-span (it is a discrete Fourier transform).\footnote{The time-span in this case is the length of time the trajectory was calculated for.} The effect of this is the same as transforming the true, infinite signal multiplied by a unit top hat function of width equal to the time-span. Fourier transforming this yields the true waveform convolved with a sinc. If $\tilde{h}'(f)$ is the computed Fourier transform then
 \begin{align}
 \tilde{h}'(f) = {} & \intd{0}{\tau}{h(t)e^{2\pi i ft}}{t} \\
  = {} & \left[\tilde{h}(f) \ast e^{-\pi if\tau}\tau \sinc(\pi f\tau)\right],
@@ -1362,45 +1362,6 @@ The total energy flux from the kludge waveform is larger than the Peters and Mat
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \chapter{Future Work}
 
 The work outlined in previous chapters should be largely completed by the end of 2010. It may be that further investigation reveals addition avenues to explore; however, it will be necessary to find new projects as well. Development of new areas of study will depend upon what is presented in the literature in the intervening time. Current ideas are discussed below.
@@ -1410,21 +1371,32 @@ The work outlined in previous chapters should be largely completed by the end of
 Analysis similar to that discussed in chapter 1 for metric $f(R)$ gravity may be performed for other theories of modified gravity. This is a rapidly developing area incorporating ideas from quantum gravity and cosmology. Other theories to be investigated could include:
 \begin{itemize}
 \item Metric-affine gravity\cite{Sotiriou2007, Sotiriou2007b}, as discussed in \secref{Action}. Since this is not a metric theory of gravity it may be possible to find observational tests that strongly constrain, or rule out this theory\cite{Will2006}.
-\item{} Generalised higher-order gravities which replace $R$ in the Einstein-Hilbert action with $f(R, R_{\mu\nu}R^{\mu\nu}, R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma})$\cite{Madsen1989}. We see that $f(R)$ is just a simplification of this case. Again we should recover the results of quadratic gravity in linearized theory\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990, Capozziello2009b}.
-\item{} Lovelock or Gauss-Bonnet gravity, which is a specific subclass of higher-order theory.
+\item{} Generalised higher-order gravities which replace $R$ in the Einstein-Hilbert action with $f(R, R_{\mu\nu}R^{\mu\nu}, R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma})$\cite{Farhoudi2006, Madsen1989}. We see that $f(R)$ is just a simplification of this case. Again we should recover the results of quadratic gravity in linearized theory\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990, Capozziello2009b}.
 \item{} Ho\v{r}ava-Lifshitz gravity\cite{Horava2009, Blas2010a, Sotiriou2009c} which sacrifices spacetime covariance in favour of being renormalizable. A preferred foliation of space and time along the lines of the Arnowitt-Deser-Misner (ADM) formalism is adopted\cite{Arnowitt1962a}, with Lorentz invariance being emergent at large distances. This removes many of the problems associated with time traditionally associated with trying to quantize GR.
 \end{itemize}
 Since there are so many ways to formulate an alternate theory of gravity, there are many opportunities for study in this area. It would be desirable to find tests that can distinguish these theories from each other and GR, strong field tests seem the most promising.
 
 \section{Observing Black Hole Shadows}
 
-\newpage
+Black holes are intriguing objects objects. It the next few years it is hoped that very long baseline interferometry (VLBI) will advance to the stage that it will be possible resolve features of the order of the event horizon\cite{Doeleman2008}. This would be the first direct evidence that these compact object are actually black holes as currently understood and not some other exotic compact object.
 
-\noindent
+One of the most outstanding issues is the actual nature of the final product of the gravitational collapse.
+Currently there are many known “black hole candidates”, but we do not know if these objects are really the black
+holes predicted by general relativity and, more in general, if they have an event horizon. At the observational level,
+the situation may however change soon: the capability of very long baseline interferometry (VLBI) has improved
+significantly at short wavelength and it is now widely believed that within 5-10 years it will be possible to observe
+the direct image of the accretion flow around a black hole with a resolution comparable to its event horizon [2, 3].
+Such observations will allow to test gravity in the strong field regime and investigate the nature of our black hole
+candidates.
+One of the main targets of these VLBI experiments is the observation of the black hole “shadow” [4–6], i.e. a
+dark area over a bright background. The exact shape and position of the shadow directly depend on the metric of
+the space-time very close to the massive object, being determined by the innermost photon orbits. In light of this,
+it is important to understand how to use future observations to test general relativity and what questions can be
+addressed.
+
+By measuring the shape of the shadow it may be possible to measure the spin and inclination of the BH\cite{Hoiki2009}, assuming it is Kerr, check whether it is an over-extreme Kerr black hole\cite{Bambi2009}, or even probe deviations from Kerr\cite{Johannsen2010a, Johannsen2010b}. It would be interesting to investigate the shape of the shadow in other spacetimes, for example Manko-Novikov\cite{Manko1992, Gair2008}. Observing deviations from Kerr would disprove the no hair theorem, possible admitting naked singularities, provide evidence for a non-GR theory of gravity, or both. In order to do so it will be necessary to find a contvenient parameterization to describe the shape of the shadow.
+
 \bibliographystyle{../physicsNEW}
-
-\noindent
 \bibliography{../library}
-\noindent
 
 \end{document}
