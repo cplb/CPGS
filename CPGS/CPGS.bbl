@@ -46,6 +46,18 @@ Exirifard, Q. \& Sheik-Jabbari, M.; {Lovelock gravity at the crossroads of
   Palatini and metric formulations}; \textit{Physics Letters B};
   \textbf{661}(2-3):158--161, March 2008.
 
+\bibitem{Lovelock1970}
+Lovelock, D.; {Divergence-free tensorial concomitants}; \textit{Aequationes
+  Mathematicae}; \textbf{4}(1-2):127--138, February 1970.
+
+\bibitem{Lovelock1971}
+Lovelock, D.; {The Einstein Tensor and Its Generalizations}; \textit{Journal of
+  Mathematical Physics}; \textbf{12}(3):498, 1971.
+
+\bibitem{Lovelock1972}
+Lovelock, D.; {The Four-Dimensionality of Space and the Einstein Tensor};
+  \textit{Journal of Mathematical Physics}; \textbf{13}(6):874, 1972.
+
 \bibitem{Sotiriou2007}
 Sotiriou, T. \& Liberati, S.; {Metric-affine $f(R)$ theories of gravity};
   \textit{Annals of Physics}; \textbf{322}(4):935--966, April 2007.
@@ -361,6 +373,11 @@ Watson, G.~N.; \textit{{A Treatise on the Theory of Bessel Functions}}; second
   edition; Cambridge Mathematical Library; Cambridge: Cambridge University
   Press, 1995.
 
+\bibitem{Farhoudi2006}
+Farhoudi, M.; {On higher order gravities, their analogy to GR, and dimensional
+  dependent version of Duff's trace anomaly relation}; \textit{General
+  Relativity and Gravitation}; \textbf{38}(8):1261--1284, July 2006.
+
 \bibitem{Horava2009}
 Ho\v{r}ava, P.; {Quantum gravity at a Lifshitz point}; \textit{Physical Review
   D}; \textbf{79}(8):084008(15), April 2009.
@@ -379,5 +396,35 @@ Sotiriou, T.~P., Visser, M. \& Weinfurtner, S.; {Quantum gravity without
 Arnowitt, R., Deser, S. \& Misner, C.~W.; {The Dynamics of General Relativity};
   in Witten, L. (editor), \textit{Gravitation: an introduction to current
   research}; chapter~7, 227--264; New York: Wiley, 1962.
+
+\bibitem{Doeleman2008}
+Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al.};
+  {Event-horizon-scale structure in the supermassive black hole candidate at
+  the Galactic Centre.}; \textit{Nature}; \textbf{455}(7209):78--80, September
+  2008.
+
+\bibitem{Hioki2009a}
+Hioki, K. \& Maeda, K.-i.; {Measurement of the Kerr spin parameter by
+  observation of a compact object's shadow}; \textit{Physical Review D};
+  \textbf{80}(2):024042(9), July 2009.
+
+\bibitem{Bambi2009}
+Bambi, C. \& Freese, K.; {Apparent shape of super-spinning black holes};
+  \textit{Physical Review D}; \textbf{79}(4):043002(7), February 2009.
+
+\bibitem{Johannsen2010a}
+Johannsen, T. \& Psaltis, D.; {Testing the No-hair Theorem with Observations in
+  the Electromagnetic Spectrum. I. Properties of a Quasi-Kerr Spacetime};
+  \textit{The Astrophysical Journal}; \textbf{716}(1):187--197, June 2010.
+
+\bibitem{Johannsen2010b}
+Johannsen, T. \& Psaltis, D.; {Testing the No-hair Theorem with Observations in
+  the Electromagnetic Spectrum. II. Black Hole Images}; \textit{The
+  Astrophysical Journal}; \textbf{718}(1):446--454, July 2010.
+
+\bibitem{Manko1992}
+Manko, V.~S. \& Novikov, I.~D.; {Generalizations of the Kerr and Kerr-Newman
+  metrics possessing an arbitrary set of mass-multipole moments};
+  \textit{Classical and Quantum Gravity}; \textbf{9}(11):2477, 1992.
 
 \end{thebibliography}
