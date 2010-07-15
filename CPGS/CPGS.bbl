@@ -1,4 +1,4 @@
-\noindent\begin{thebibliography}{10}
+\noindent\begin{thebibliography}{100}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\arXiv}[1]{\texttt{#1}}
@@ -180,6 +180,58 @@ Olmo, G.~J.; {Limit to general relativity in f(R) theories of gravity};
 Capozziello, S. \& Stabile, A.; {The Newtonian limit of metric gravity theories
   with quadratic Lagrangians}; \textit{Classical and Quantum Gravity};
   \textbf{26}(8):085019(22), April 2009.
+
+\bibitem{Adelberger2009}
+Adelberger, E., Gundlach, J., Heckel, B. \textit{et~al.}; {Torsion balance
+  experiments: A low-energy frontier of particle physics}; \textit{Progress in
+  Particle and Nuclear Physics}; \textbf{62}(1):102--134, January 2009.
+
+\bibitem{Adelberger2003}
+Adelberger, E., Heckel, B. \& Nelson, A.; {Tests Of The Gravitational
+  Inverse-Square Law}; \textit{Annual Review of Nuclear and Particle Science};
+  \textbf{53}(1):77--121, December 2003.
+
+\bibitem{Kapner2007a}
+Kapner, D., Cook, T., Adelberger, E. \textit{et~al.}; {Tests of the
+  Gravitational Inverse-Square Law below the Dark-Energy Length Scale};
+  \textit{Physical Review Letters}; \textbf{98}(2):021101, January 2007.
+
+\bibitem{Hoyle2004}
+Hoyle, C., Kapner, D., Heckel, B. \textit{et~al.}; {Submillimeter tests of the
+  gravitational inverse-square law}; \textit{Physical Review D};
+  \textbf{70}(4):042004(31), August 2004.
+
+\bibitem{Talmadge1988}
+Talmadge, C., Berthias, J., Hellings, R. \& Standish, E.; {Model-Independent
+  Constraints on Possible Modifications of Newtonian Gravity}; \textit{Physical
+  Review Letters}; \textbf{61}(10):1159--1162, September 1988.
+
+\bibitem{Everitt2009}
+Everitt, C. W.~F., Adams, M., Bencze, W. \textit{et~al.}; {Gravity Probe B Data
+  Analysis}; \textit{Space Science Reviews}; \textbf{148}(1-4):53--69, June
+  2009.
+
+\bibitem{Burgay2003}
+Burgay, M., D'Amico, N., Possenti, A. \textit{et~al.}; {An increased estimate
+  of the merger rate of double neutron stars from observations of a highly
+  relativistic system.}; \textit{Nature}; \textbf{426}(6966):531--533, December
+  2003.
+
+\bibitem{Lyne2006}
+Lyne, A.~G.; {A Review of The Double Pulsar - PSR J0737-3039}; \textit{Chinese
+  Journal of Astronomy and Astrophysics}; \textbf{6}(S2):162--168, October
+  2006.
+
+\bibitem{Breton2008}
+Breton, R.~P., Kaspi, V.~M., Kramer, M. \textit{et~al.}; {Relativistic spin
+  precession in the double pulsar.}; \textit{Science};
+  \textbf{321}(5885):104--107, July 2008.
+
+\bibitem{Hinshaw2009}
+Hinshaw, G., Weiland, J.~L., Hill, R.~S. \textit{et~al.}; {Five-Year Wilkinson
+  Microwave Anisotropy Probe Observations: Data Processing, Sky Maps, And Basic
+  Results}; \textit{The Astrophysical Journal Supplement Series};
+  \textbf{180}(2):225--245, February 2009.
 
 \bibitem{Gair2008a}
 Gair, J., Li, C. \& Mandel, I.; {Observable properties of orbits in exact bumpy
