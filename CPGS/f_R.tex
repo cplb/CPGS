@@ -26,7 +26,7 @@ Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravit
 
 We shall restrict our attention to consider only metric $f(R)$ gravity. The metric formalism is preferred as the Palatini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
-\delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2\sqrt{-g}}gg_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
+\delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
 where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action the surface terms gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. However, this is not the case for general $f(R)$\cite{Madsen1989}. It is argued that since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
@@ -572,14 +572,14 @@ While the laboratory bound on $\lambdabar_R$ maybe strict compared to astronomic
 
 To continue working with the weak field metric, \eqnref{f(R)_Schw}, it is useful to transform it to the more familiar form
 \begin{equation}
-\dd s^2 = A(\widetilde{r}) c^2\dd t^2 - B(\widetilde{r})\dd \widetilde{r}^2 + \widetilde{r}^2 \dd \Omega^2.
+\dd s^2 = A(\widetilde{r}) c^2\dd t^2 - B(\widetilde{r})\dd \widetilde{r}^2 - \widetilde{r}^2 \dd \Omega^2.
 \label{eq:Sph_sym}
 \end{equation}
 The coordinate $\widetilde{r}$ is then a circumferential measure as in the Schwarzschild metric as opposed to $r$, used in preceding sections, which is a radial distance, an isotropic coordinate\cite{Misner1973, Olmo2007c}. To simplify the algebra we shall also introduce the Schwarzschild radius
 \begin{equation}
 r\sub{S} = \frac{2GM}{c^2}.
 \end{equation}
-In the linearizes regime, we require that the new radial coordinate satisfies
+In the linearized regime, we require that the new radial coordinate satisfies
 \begin{align}
 \widetilde{r}^2 = {} & \left\{1 + \frac{r\sub{S}}{r}\left[1 - \frac{\exp(-\Upsilon r)}{3}\right]\right\}r^2 \\
 \widetilde{r} = {} & r + \frac{r\sub{S}}{2}\left[1 - \frac{\exp(-\Upsilon r)}{3}\right].
@@ -673,7 +673,7 @@ to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the or
 \begin{equation}
 \overline{r} = a; \quad \delta_0 = -ea.
 \end{equation}
-The eccentricity is the small parameters $|e| = |\delta_0/r| \ll 1$. Notice to this accuracy one cannot distinguish between the $a$ and the seimlatus rectum $p$ as $p = a(1 - e^2)$.
+The eccentricity is the small parameter $|e| = |\delta_0/r| \ll 1$. Notice to this accuracy one cannot distinguish between the $a$ and the semilatus rectum $p$ as $p = a(1 - e^2)$.
 
 Unless $\omega_0 = \Omega$ the elliptical motion will be asynchronous with the orbital motion: there will be precession of the periapsis. The orbital frequency is
 \begin{equation}
@@ -690,7 +690,7 @@ For the $f(R)$ metric defined by equations \eqref{eq:A_metric} and \eqref{eq:B_m
 \begin{equation}
 \Omega^2 = \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\Upsilon,r\sub{S},\overline{r})\right],
 \end{equation}
-introducing function
+defining the function
 \begin{align}
 \zeta(\Upsilon,r\sub{S},\overline{r}) = {} & r\sub{S}\left(\recip{3\overline{r}} + \Upsilon\right)\exp(-\Upsilon r) + \frac{\Upsilon^2\overline{r}^2\exp(-\Upsilon r)}{3 + (1 + \Upsilon \overline{r})\exp(-\Upsilon r)} \nonumber \\
  & {} \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\Upsilon r)}{3}\right] - \frac{\Upsilon r\sub{S}\exp(-\Upsilon r)}{3}\right\}.

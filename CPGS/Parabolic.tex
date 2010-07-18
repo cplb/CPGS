@@ -2,7 +2,7 @@
 
 \section{Background \& Introduction}
 
-Currently it is understood that many, if not all, galactic nuclei harboured a black hole at some point.\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = \num{4e6} M_\odot$ and a distance of only $R_0 = \SI{8.88}{\kilo\parsec}$\cite{Gillessen2009}. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we expect  the charge of an astrophysical black hole to be negligible)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its role in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few milliparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of the dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$, though this also uses observations of Galactic X-ray sources, containing solar mass BHs, to find a best-fit unique spin parameter for all BHs.
+Currently it is understood that many, if not all, galactic nuclei harboured a black hole at some point.\cite{Lynden-Bell1971, Rees1984}. The best opportunity to study these objects comes from the compact object in our own galactic centre, which is coincident with Sagittarius A*. This is identified as a massive black hole (MBH) of mass $M_\bullet = \num{4e6} M_\odot$ and a distance of only $R_0 = \SI{8.88}{\kilo\parsec}$\cite{Gillessen2009}. According to the no-hair theorem the MBH should be described completely by its mass $M_\bullet$ and spin $a$ (since we expect  the charge of an astrophysical black hole to be negligible)\cite{Israel1967, Israel1968, Carter1971, Hawking1972, Robinson1975, Chandrasekhar1998}. Consequently, measuring the spin is necessary to fully understand the MBH and its role in the evolution of the Galaxy. It has been suggested that the spin could be inferred from careful observation of the orbits of stars within a few milliparsecs of the Galactic centre\cite{Merritt2010}, although this is complicated because of perturbations due to other stars, or from observations of quasi-periodic oscillations (QPOs) of radio emissions\cite{Kato2010}. This latter method has produced a value of the dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$. However, to obtain this result Kato {\it et al.}\cite{Kato2010} have combined their observations of Sagittarius A* with observations of galactic X-ray sources containing solar mass BHs, to find a best-fit unique spin parameter for all BHs. This is somewhat unsatisfactory since it is not clear that all BHs should share the same value of the spin parameter, especially consider that the BHs considered here differ by six orders of magnitude with none in the intermediate range. Even if BH spin is determined by a universal process, we would expect some distribution of spin parameters. Thus we cannot accurately determine the spin of the galactic centre's MBH from an average including other BHs. While we can use the spin of other BHs as a prior, to inform us of what we should expect to measure for the MBH's spin, it is desirable to have an independent measurement.
 
 An exciting means of inferring information about the Galactic MBH is through gravitational waves (GWs) emitted when compact objects (COs), such as smaller BHs, neutron stars (NSs), white dwarfs (WDs) or low mass main sequence (MS) stars, pass close by. The planned NASA/ESA Laser Interferometer Space Antenna (LISA) is designed to be able to detect GWs in the frequency range of interest for these encounters\cite{Bender1998, Danzmann2003}. The identification of waves requires a set of accurate waveform templates covering parameter space. Much work has already been done on the waveforms generated when companion objects inspiral towards an MBH; as they orbit, the GWs carry away energy and angular momentum, causing the orbit to shrink until eventually the object plunges into the MBH. The initial orbits may be highly elliptical and a burst of radiation is emitted during each close encounter. These are known as extreme mass ratio bursts (EMRBs)\cite{Rubbo2006}. Assuming that the companion is not scattered from its orbit, and does not plunge straight into the MBH, its orbit will evolve, becoming more circular, and it will begin to emit continuously significant gravitational radiation in the LISA frequency range. The resulting signals are known as extreme mass ratio inspirals (EMRIs).
 
@@ -62,13 +62,13 @@ where $L_\infty$ is the total specific angular momentum at infinity, where the m
 In integrating the geodesic equations difficulties can arise because of the presence of turning points in the motion, when the sign of the $r$ or $\theta$ geodesic equation will change. The radial turning points are at the periapsis $r\sub{p}$ and at infinity. We may find the location of the periapsis by finding the roots of
 \begin{align}
 V_r = {} & 0 \nonumber \\
-2M_\bullet r^3 - \left(L_z^2+Q\right)r^2 + 2M_\bullet\left[\left(L_z - a\right)^2 + Q\right]r - a^2Q= {} & 0.
+2M_\bullet r^3 - \left(L_z^2+Q\right)r^2 + 2M_\bullet\left[\left(L_z - a\right)^2 + Q\right]r - a^2Q = {} & 0.
 \end{align}
 This has three roots, which we shall denote $\{r_1, r_2, r\sub{p}\}$; the periapsis $r\sub{p}$ is the largest real root. We do not find the apoapsis as a (fourth) root to this equation as we have removed it by taking $E = 1$ before solving: it is simple to show this is a turning point by setting the unconstrained expression for $V_r$ equal to zero, and then solving for $E(r)$; taking the limit $r \rightarrow \infty$ gives $E \rightarrow 1$, so parabolic orbits do have a stationary point at infinity\cite{Wilkins1972}. We may avoid the difficulties of the turning point by introducing an angular variable that always increases with proper time\cite{Drasco2004}: inspired by Keplerian orbits, we may parameterize our parabolic trajectory by
 \begin{equation}
 r = \frac{p}{1+e\cos\psi},
 \end{equation}
-where $e = 1$ is the eccentricity and $p = 2r\sub{p}$ is the semilatus rectum. As $\psi$ covers its full range from $0$ to $2\pi$, $r$ traces out one full orbit from infinity through the periapsis at $\psi = \pi$ back to infinity. The geodesic equation for $\psi$ is
+where $e = 1$ is the eccentricity and $p = 2r\sub{p}$ is the semilatus rectum. As $\psi$ covers its full range from $-\pi$ to $\pi$, $r$ traces out one full orbit from infinity through the periapsis at $\psi = 0$ back to infinity. The geodesic equation for $\psi$ is
 \begin{equation}
 \rho^2 \diff{\psi}{\tau} = \left\{M_\bullet\left[2r\sub{p} - \left(r_1 + r_2\right)\left(1 + \cos\psi\right) + \frac{r_1 r_2}{2r\sub{p}}\left(1 + \cos\psi\right)^2\right]\right\}^{1/2}.
 \end{equation}
@@ -237,6 +237,7 @@ The functional form of the noise spectral density $S_n(f)$ for LISA is discussed
 The properties of the noise allow us to define a natural inner product and associated distance on the space of signals\cite{Cutler1994}
 \begin{equation}
 \innerprod{\boldsymbol{g}}{\boldsymbol{k}} = 2\intd{0}{\infty}{\frac{\tilde{g}_A^*(f)\tilde{k}_A(f) + \tilde{g}_A(f)\tilde{k}_A^*(f)}{S_n(f)}}{f}.
+\label{eq:inner}
 \end{equation}
 Using this definition, the probability of a particular realization of noise $\boldsymbol{n}(t) = \boldsymbol{n}_0(t)$ is
 \begin{equation}
@@ -253,8 +254,8 @@ p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto \exp\left[-\recip{2}\innerprod{\b
 LISA's noise has two sources: instrumental noise and confusion noise, primarily from white dwarf binaries. The latter may be divided into contributions from galactic and extragalactic binaries. In this work we use the noise model of Barack and Cutler\cite{Barack2004}. The shape of the noise curve can be seen in \figref{Noise}. The instrumentatal noise dominates at both high and low frequencies. The confusion noise is important at intermediate frequencies, and is responsible for the cusp around $f = \SI{1e-3}{\Hz}$.
 \begin{figure}
 \begin{center}
-{\resizebox{0.4\textwidth}{!}{\import{./Images/}{Noise.tex}}}
-\caption{Approximate noise curve for LISA. The solid line includes both instrumental and confusion noise, while the dashed line shows only instrumental..}
+{\resizebox{0.7\textwidth}{!}{\import{./Images/}{Noise.tex}}}
+\caption{Approximate noise curve for LISA\cite{Barack2004}. The solid line includes both instrumental and confusion noise, while the dashed line shows only instrumental.}
 \label{fig:Noise}
 \end{center}
 \end{figure}
@@ -282,7 +283,7 @@ Here $p(\boldsymbol{s}(t)|\boldsymbol{\lambda})$ is the likelihood of the parame
 \begin{equation}
 p(\boldsymbol{s}(t)|\boldsymbol{\lambda}_0) \propto \exp\left[-\recip{2}\innerprod{\boldsymbol{s}-\boldsymbol{h}_0}{\boldsymbol{s}-\boldsymbol{h}_0}\right].
 \end{equation}
-If we were to define this as a probability distribution for the parameters $\boldsymbol{\lambda}$, then the modal values would be the maximum-likelihood parameters $\boldsymbol{\lambda}\sub{ML}$. The waveform $h(t; \boldsymbol{\lambda}\sub{ML})$ would be the signal closest to $\boldsymbol{s}(t)$ in the space of all signals, where distance is defined using the inner product\cite{Cutler1994}.
+If we were to define this as a probability distribution for the parameters $\boldsymbol{\lambda}$, then the modal values would be the maximum-likelihood parameters $\boldsymbol{\lambda}\sub{ML}$. The waveform $h(t; \boldsymbol{\lambda}\sub{ML})$ would be the signal closest to $\boldsymbol{s}(t)$ in the space of all signals, where distance is defined using the inner product \eqnref{inner}\cite{Cutler1994}.
 
 In the limit of a high signal-to-noise ratio (SNR), we may approximate this as\cite{Vallisneri2008}
 \begin{equation}
@@ -308,22 +309,38 @@ The Fisher information matrix gives the uncertainty associated with the estimate
 \end{equation}
 
 As a first estimate of what we may learn from parabolic encounters we have only looked at the Fisher information matrix elements. If these are large then we expect we would be able to precisely determine a parameter, whereas if they are small we would not be able to learn much more than we already believe from our prior knowledge. The input parameters for the model are:
-\begin{itemize}
-\item[1] The MBH's mass $M_\bullet$.
-\item[2] The spin parameter $a$.
-\item[3] The polar angle $\Theta$ defining the propagation direction.
-\item[4] The solar system-galactic centre distance $R_0$.
-\item[5,6] The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$.
-\item[7] The angular momentum of the orbit about the MBH's spin axis $L_z$.
-\item[8] The Carter's constant for the orbit $Q$.
-\item[9] The mass of the orbiting particle $\mu$.
-\item[10--12] The initial position of the particle $(x_0, y_0, z_0)$
-\end{itemize}
+%\begin{center}
+%\begin{enumerate}
+%\item[1.] The MBH's mass $M_\bullet$.
+%\item[2.] The spin parameter $a$.
+%\item[3.] The polar angle $\Theta$ defining the propagation direction.
+%\item[4.] The solar system-galactic centre distance $R_0$.
+%\item[5, 6.] The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$.
+%\item[7.] The angular momentum of the orbit about the MBH's spin axis $L_z$.
+%\item[8.] The Carter's constant for the orbit $Q$.
+%\item[9.] The mass of the orbiting particle $\mu$.
+%\item[10--12.] The initial position of the particle $(x_0, y_0, z_0)$
+%\end{enumerate}
+%\end{center}
+\begin{center}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}[0.85\textwidth]{r p{0.85\textwidth}}
+1. & The MBH's mass $M_\bullet$.\\
+2. & The spin parameter $a$.\\
+3. & The polar angle $\Theta$ defining the propagation direction.\\
+4. & The solar system-galactic centre distance $R_0$.\\
+5, 6. & The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$.\\
+7. & The angular momentum of the orbit about the MBH's spin axis $L_z$.\\
+8. & The Carter's constant for the orbit $Q$.\\
+9. & The mass of the orbiting particle $\mu$.\\
+10--12. & The initial position of the particle $(x_0, y_0, z_0)$\\
+\end{tabular}
+\end{center}
 The azimuthal angle $\Phi$ is omitted, since it arbitrarily defines the orientation of the MBH's $x$- and $y$-axes. We shall define it to be zero without loss of generality. The signal would also depend upon the orbital position of the LISA satellites, however this will be known for a given signal arrival time. We thus have a $12$-dimensional parameter space.
 
 \section{Energy Spectra}
 
-We may compare the energy spectrum calculated from the kludge waveform with that obtained from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. These calculate GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis; however we do not expect an exact match because of the differing input physics and various approximations.
+To check that the NK waveforms are sensible, we may compare the energy spectra calculated from these waveform with those obtained from the classic treatment of Peters and Matthews\cite{Peters1963, Peters1964}. This calculates GW emission for Keplerian orbits in flat spacetime, assuming only quadrupole radiation. The spectrum produced should be similar to that obtained from the NK in weak fields, that is for orbits with a large periapsis; however we do not expect an exact match because of the differing input physics and various approximations.  We do not intend to use the kludge waveforms to calculate an accurate energy flux: this would be inconsistent as we assume that the orbits do not evolve with time. We only calculate the energy flux as a sanity check; to check that the kludge approximation is consistent with other approaches.
 
 \subsection{Kludge Spectrum}
 
@@ -534,10 +551,10 @@ E\sub{int} = {} & \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r
 Two energy spectra are plotted in \figref{Energy} for orbits with a periapsis of $r\sub{p} = 35.0 r\sub{S}$, where $r\sub{S}$ is the MBH's Schwarzschild radius. For consistency with the approximation of Peters and Matthews the NK waveform has been calculated using only the quadrupole formula.
 \begin{figure}[htbp]
   \begin{center}
-   \subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{Catam_t.tex}}} \quad
-   \subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{Catam_r.tex}}} \\
+   %\subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{Catam_t.tex}}} \quad
+   %\subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{Catam_r.tex}}} \\
     \caption{Energy spectra for a parabolic orbit of a $\mu = \SI{1e31}{\kg} \simeq 5 M_\odot$ object about a $M_\bullet = \SI{8.6e36}{\kg} \simeq \num{4.3e6} M_\odot$ Schwarzschild MBH with $L_z = 12 M_\bullet$ and $Q = 0$; the periapse distance is $r\sub{p} = 69.9 M_\bullet$. The spectra calculated from a the NK waveform and the Peters and Matthews waveform. The NK waveform only uses the quadrupole formula.}
-    \label{fig1}
+    \label{fig:Energy}
   \end{center}
 \end{figure}
 The two spectra appear to be in good agreement, showing the same general shape. The NK spectrum is more tightly peaked, but is always within a factor of $2$ (ignoring the high-frequency tail). The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}.
