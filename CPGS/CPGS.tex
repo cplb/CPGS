@@ -15,11 +15,13 @@
 %\usepackage{tikz}
 %\usetikzlibrary{shapes,arrows}
 \usepackage{lmodern}
+\renewcommand{\sfdefault}{lmss}
+\renewcommand{\ttdefault}{lmtt}
 \usepackage{microtype}
 \usepackage{nicefrac}
 \usepackage[load=prefixed, load=abbr, alsoload=hep, alsoload=astro]{siunitx}
-\renewcommand{\sfdefault}{lmss}
-\renewcommand{\ttdefault}{lmtt}
+\renewcommande{\numrange}{\numrange[[tophrase=dash]}
+\renewcommande{\SIrange}{\SIrange[[tophrase=dash,repeatunits=false]}
 \usepackage[T1]{fontenc}
 \usepackage{braket}
 \usepackage{slashed}
@@ -118,7 +120,7 @@
 \renewcommand\bottomfraction{.8}
 \renewcommand\textfraction{.2}
 
-\title{{\huge{}Exploring Gravity\\\vspace{0.5mm}With Gravitational Waves \& Strong Field Tests}}
+\title{{\huge{}Exploring Gravity\\\vspace{0.5mm}With Gravitational Waves \& Strong-Field Tests}}
 \author{{\Large{}Christopher Berry}\vspace{3mm}\\Churchill College\vspace{0.5mm}\\and\vspace{0.5mm}\\Institute of Astronomy,\vspace{0.5mm}\\University of Cambridge\vspace{5mm}\\{\Large{}Supervisor: Jonathan Gair}\vspace{5mm}}
 \date{\includegraphics[width=0.25\textwidth]{../shield.eps}\vspace{11mm}\\{\LARGE{}Certificate of Postgraduate Study}\vspace{5mm}\\\today}
 \maketitle

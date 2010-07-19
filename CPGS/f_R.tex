@@ -20,11 +20,11 @@ f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
 Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
-The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$ gravity. Following the Palatini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palatini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
+The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$-gravity. Following the Palatini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palatini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
 
-Finally, there is a third version of $f(R)$ gravity: metric-affine $f(R)$ gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palatini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction of torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
+Finally, there is a third version of $f(R)$-gravity: metric-affine $f(R)$-gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palatini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction of torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
-We shall restrict our attention to consider only metric $f(R)$ gravity. The metric formalism is preferred as the Palatini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
+We shall restrict our attention to consider only metric $f(R)$-gravity. The metric formalism is preferred as the Palatini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
@@ -84,7 +84,9 @@ Consequently we see that energy-momentum is a conserved quantity in the same way
 
 \section{Linearized Theory}\label{sec:Lin}
 
-We will now consider the case that the metric is perturbed slightly from flat Minkowski space such that
+We will start our investigation of $f(R)$ by looking at linearized theory. This is a weak-field approximation that assumes only small deviations from a flat background, greatly simplifying the field equations. Just as in GR, the linearized framework provides a natural way to study gravitational radiation. We will see that the linearized field equations will reduce down to flat-space wave equations: gravitational waves are as much a part of $f(R)$-gravity as of GR.
+
+Consider the case that the metric is perturbed slightly from flat Minkowski space such that
 \begin{equation}
 g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu};
 \end{equation}
@@ -179,7 +181,7 @@ so we may eliminate $h$ in our definition of $\overline{h}_{\mu\nu}$ to give
 \begin{equation}
 h_{\mu\nu} = \overline{h}_{\mu\nu} + \left(b a_2 R^{(1)} -\frac{\overline{h}}{2}\right)\eta_{\mu\nu}.
 \end{equation}
-We will assume a Lorenz, or de Donder, gauge choice such that
+Just as in GR, we have the freedom to perform a gauge transformation\cite{Misner1973, Hobson2006}: the field equations are gauge invariant since we started with a function of the gauge invariant Ricci scalar. We will assume a Lorenz, or de Donder, gauge choice such that
 \begin{equation}
 \nabla^\mu \overline{h}_{\mu\nu} = 0,
 \label{eq:Lorenz}
@@ -506,13 +508,13 @@ Combining these in \eqnref{h_metric} gives a metric perturbation with non-zero e
 \begin{equation}
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \Upsilon r)}{3}\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right] \quad \mathrm{(no\: sum)}.
 \end{equation}
-Thus, to first order, the metric for a point mass in $f(R)$ gravity is\cite{Capozziello2009a, Naf2010}
+Thus, to first order, the metric for a point mass in $f(R)$-gravity is\cite{Capozziello2009a, Naf2010}
 \begin{align}
 \dd s^2 = & {} \left\{1-\frac{2GM}{c^2r}\left[1 + \frac{\exp(- \Upsilon r)}{3}\right]\right\}c^2\dd t^2 \nonumber \\
  & - {} \left\{1+\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
 \end{align}
-This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$ gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R$.
+This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole solution in $f(R)$-gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R$.
 
 We may extend this result for a slowly rotating source with angular momentum $J$, then we have the additional term\cite{Hobson2006}
 \begin{equation}
@@ -528,7 +530,7 @@ It has been suggested that since $R = 0$ is a valid solution to the vacuum equat
 
 Solving the full field equations to find the exact black hole metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations, but any solution must have the appropriate limiting form as given above.
 
-Additionally, in $f(R)$ gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
+Additionally, in $f(R)$-gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution. This is because the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find that
 %\begin{equation}
 %\rho(\boldsymbol{x}) = frac{3 M}{4 \pi L^3}\Theta(L - |\boldsymbol{x}|),
 %\end{equation}
@@ -566,11 +568,11 @@ Alternatively $\lambdabar_R$ could be large. Then the exponential would be effec
 
 This degeneracy may be broken using other tests. N\"{a}f and Jetzer\cite{Naf2010} consider the precession of orbiting gyroscopes: using the results of Gravity Probe B\cite{Everitt2009} they arrive at the bound $|a_2| \lesssim \SI{e11}{\metre^2}$, and using the double pulsar binary J0737-3039\cite{Burgay2003, Lyne2006, Breton2008} $|a_2| \lesssim \SI{4.6e11}{\metre^2}$. While these are much larger than the E\"{o}t-Wash experiments, they are sufficient to rule out the larger range for $\lambdabar_R$. From this we can conclude that the Ricci scalar mode is unlikely to be excited in astrophysically interesting situations. This unfortunately renders impotent the results of \secref{EM_tensor}.
 
-While the laboratory bound on $\lambdabar_R$ maybe strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the expected value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely a coincidence, since there is nothing fundamental about the level of current precision, however it would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
+While the laboratory bound on $\lambdabar_R$ may be strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the expected value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely a coincidence, since there is nothing fundamental about the level of current precision, however it would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
 
-\subsection{The Weak Field Metric}
+\subsection{The Weak-Field Metric}
 
-To continue working with the weak field metric, \eqnref{f(R)_Schw}, it is useful to transform it to the more familiar form
+To continue working with the weak-field metric, \eqnref{f(R)_Schw}, it is useful to transform it to the more familiar form
 \begin{equation}
 \dd s^2 = A(\widetilde{r}) c^2\dd t^2 - B(\widetilde{r})\dd \widetilde{r}^2 - \widetilde{r}^2 \dd \Omega^2.
 \label{eq:Sph_sym}
@@ -601,7 +603,7 @@ Thus
 \begin{equation}
 \dd \widetilde{r}^2 = \frac{\widetilde{r}^2}{r^2}\left\{\frac{1 + {\Upsilon r\sub{S}r\exp(-\Upsilon r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\Upsilon r)}/{3}\right]}\right\}\dd r^2.
 \end{equation}
-The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must consider the size of $\Upsilon r\sub{S}\exp(-\Upsilon r)$. We are assuming that in the weak field
+The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must consider the size of $\Upsilon r\sub{S}\exp(-\Upsilon r)$. We are assuming that in the weak-field
 \begin{equation}
 \varepsilon = \frac{r\sub{S}}{r}
 \end{equation}
@@ -699,4 +701,9 @@ This is the deviation from the Schwarzschild case.
 
 \section{Discussion \& Remaining Questions}
 
+We have seen that gravitational radiation is modified in $f(R)$-gravity, as the Ricci scalar is no longer constrained to be zero. In linearized theory find that there is an additional mode of oscillarion, that of the Ricci scalar. However, based upon constraints from fifth-force experiments; this mode seems unlikey to be excited in astrophysical processes. In $f(R)$ theory, the two transverse GW modes are modified from their GR counterparts to include a contribution from the Ricci scalar --- see \eqnref{h_metric}. This may allow us to probe the curvature of the strong-field regions from which GWs originate, however further study is need in order to understand how GW waves behave in a region with background curvature, in particular when $R$ is non-zero. This will be done in subsequent work.
 
+Gravitational radiation is not the only way we may test $f(R)$ theory. From linearized theory we have deduced the weak-field metrics for some simple mass distributions. These indicate that BH solutions are not the same as in GR. Using these weak-field results it is possible to constrain some parameters of $f(R)$. The strongest constraints come from fifth-force tests, but we have also derived the epicyclic frequency for near circular orbits. This may be useful as an independent measurement, perhaps to check $f(R)$ in a different regime.
+
+
+An obvious extension to the work presented here is to consider the case when $a_0$ is non-zero. We could then consider an expansion about (anti-)de Sitter space. This would be of interest since the current $\Lambda$CDM paradigm indicates that we live in a universe with a positive cosmolgical constant. 
