@@ -121,14 +121,14 @@ Corda, C.; {Massive gravitational waves from the $R^2$ theory of gravity:
   production and response of interferometers}; \textit{International Journal of
   Modern Physics A}; \textbf{23}(10):1521--1535, November 2007.
 
+\bibitem{Hobson2006}
+Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
+  Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
+
 \bibitem{Capozziello2008}
 Capozziello, S., Corda, C. \& {De Laurentis}, M.; {Massive gravitational waves
   from $f(R)$ theories of gravity: Potential detection with LISA};
   \textit{Physics Letters B}; \textbf{669}(5):255--259, November 2008.
-
-\bibitem{Hobson2006}
-Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
-  Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
 
 \bibitem{Isaacson1968}
 Isaacson, R.; {Gravitational Radiation in the Limit of High Frequency. I. The
@@ -304,9 +304,14 @@ Danzmann, K. \& R\"{u}diger, A.; {LISA technology concept, status, prospects};
   \textit{Classical and Quantum Gravity}; \textbf{20}(10):S1--S9, May 2003.
 
 \bibitem{Rubbo2006}
-Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{{Event Rate for
-  Extreme Mass Ratio Burst Signals in the LISA Band}}; AIP, 2006;
-  \urlprefix\url{http://arxiv.org/abs/astro-ph/0602445}.
+Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; {Event Rate for Extreme
+  Mass Ratio Burst Signals in the Laser Interferometer Space Antenna Band};
+  \textit{The Astrophysical Journal}; \textbf{649}(1):L25--L28, September 2006.
+
+\bibitem{Hopman2007}
+Hopman, C., Freitag, M. \& Larson, S.~L.; {Gravitational wave bursts from the
+  Galactic massive black hole}; \textit{Monthly Notices of the Royal
+  Astronomical Society}; \textbf{378}(1):129--136, June 2007.
 
 \bibitem{Kobayashi2004}
 Kobayashi, S., Laguna, P., Phinney, E.~S. \& Meszaros, P.; {Gravitational Waves
@@ -399,10 +404,25 @@ Barack, L. \& Cutler, C.; {LISA capture sources: Approximate waveforms,
 Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
   Engineering Series; Exeter: Peter Peregrinus, 1982.
 
+\bibitem{Harris1978}
+Harris, F.; {On the use of windows for harmonic analysis with the discrete
+  Fourier transform}; \textit{Proceedings of the IEEE}; \textbf{66}(1):51--83,
+  January 1978.
+
 \bibitem{Burko2007}
 Burko, L.~M. \& Khanna, G.; {Accurate time-domain gravitational waveforms for
   extreme-mass-ratio binaries}; \textit{Europhysics Letters (EPL)};
   \textbf{78}(6):60005, June 2007.
+
+\bibitem{Kaiser1980}
+Kaiser, J. \& Schafer, R.; {On the use of the I0-sinh window for spectrum
+  analysis}; \textit{Acoustics, Speech and Signal Processing, IEEE Transactions
+  on}; \textbf{28}(1):105--107, February 1980.
+
+\bibitem{Nuttall1981}
+Nuttall, A.; {Some windows with very good sidelobe behavior};
+  \textit{Acoustics, Speech and Signal Processing, IEEE Transactions on};
+  \textbf{29}(1):84--91, February 1981.
 
 \bibitem{Jaynes2003}
 Jaynes, E.~T.; \textit{{Probability Theory: The Logic of Science}}; Cambridge:
@@ -412,6 +432,12 @@ Jaynes, E.~T.; \textit{{Probability Theory: The Logic of Science}}; Cambridge:
 Vallisneri, M.; {Use and abuse of the Fisher information matrix in the
   assessment of gravitational-wave parameter-estimation prospects};
   \textit{Physical Review D}; \textbf{77}(4):042001(20), February 2008.
+
+\bibitem{Ghez2008}
+Ghez, A.~M., Salim, S., Weinberg, N.~N. \textit{et~al.}; {Measuring Distance
+  and Properties of the Milky Way's Central Supermassive Black Hole with
+  Stellar Orbits}; \textit{The Astrophysical Journal};
+  \textbf{689}(2):1044--1062, December 2008.
 
 \bibitem{Peters1963}
 Peters, P.~C. \& Mathews, J.; {Gravitational Radiation from Point Masses in a

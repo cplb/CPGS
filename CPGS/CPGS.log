@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  17 JUL 2010 11:44
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  19 JUL 2010 20:06
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -525,26 +525,26 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count143
 )
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 89.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -591,7 +591,7 @@ driver: dvips
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
 \c@lstlisting=\count144
-LaTeX Info: Redefining \microtypecontext on input line 89.
+LaTeX Info: Redefining \microtypecontext on input line 90.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -605,36 +605,36 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 )
 Package siunitx Info: xfrac package unavailable
 (siunitx)             using `fraction=sfrac' will fall back on
-(siunitx)             nicefrac-like method on input line 89.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 89.
+(siunitx)             nicefrac-like method on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 89.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 89.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 90.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 89.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 90.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 89.
+(Font)              <10.95> on input line 90.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 89.
+(Font)              <8> on input line 90.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 89.
-LaTeX Font Info:    Try loading font information for U+msa on input line 89.
+(Font)              <6> on input line 90.
+LaTeX Font Info:    Try loading font information for U+msa on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -642,7 +642,7 @@ File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 89.
+LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -650,25 +650,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 89.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 90.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 90.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 89.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 90.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 124.
+(Font)              <12> on input line 125.
 File: ../shield.eps Graphic file (type eps)
  <../shield.eps>
 [1
@@ -698,38 +698,77 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [3
 
 ] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-Overfull \hbox (1.12605pt too wide) detected at line 548
+Overfull \hbox (1.12605pt too wide) detected at line 550
 \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95  [] [] \OT1/lm
 r/m/n/10.95 ;  \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95
   [] []  []\OML/lmm/m/it/10.95 :
  []
 
-[17] [18] [19] [20])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [21]
+[17] [18] [19] [20] [21])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [22]
 Chapter 3.
-[22
+[23
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-[24] [25]
+] [24] [25] [26]
 File: ./Images/Triangle.eps Graphic file (type eps)
- <./Images/Triangle.eps> [26]
-Underfull \hbox (badness 4168) in paragraph at lines 113--114
+ <./Images/Triangle.eps> [27]
+Underfull \hbox (badness 4168) in paragraph at lines 115--116
 []\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-space
  spher-i-cal po-lars
  []
 
-[27] [28] [29] [30]
+[28] [29] [30] [31]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Noise.tex"
 File: ./Images/Noise.eps Graphic file (type eps)
 
 <psfrag:./Images/Noise.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Noise.eps>) [31] [32] [33] [34] [35] [36] [37] [38] [39])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [40]
-[41]
+<./Images/Noise.eps>) [32]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Rectangular.t
+ex"
+File: ./Images/h_I_Rectangular.eps Graphic file (type eps)
+ <psfrag:./Images/h_I_Rectangular.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/h_I_Rectangular.eps>)
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_II_Rectangular.
+tex"
+File: ./Images/h_II_Rectangular.eps Graphic file (type eps)
+ <psfrag:./Images/h_II_Rectangular.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/h_II_Rectangular.eps>) [33]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Nuttall_first
+_derivative.tex"
+File: ./Images/h_I_Nuttall_first_derivative.eps Graphic file (type eps)
+ <psfrag:./Images/h_I_Nuttall_first_derivative.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/h_I_Nuttall_first_derivative.eps>)
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_II_Nuttall_firs
+t_derivative.tex"
+File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
+ <psfrag:./Images/h_II_Nuttall_first_derivative.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/h_II_Nuttall_first_derivative.eps>) [34] [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37] [38] [39] [40] [41] [42]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex"
+File: ./Images/Loglog_E.eps Graphic file (type eps)
+
+<psfrag:./Images/Loglog_E.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/Loglog_E.eps>)
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglin_E.tex"
+File: ./Images/Loglin_E.eps Graphic file (type eps)
+
+<psfrag:./Images/Loglin_E.eps>
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
+<./Images/Loglin_E.eps>)
+
+LaTeX Warning: Float too large for page by 17.66016pt on input line 583.
+
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [43]
+[44]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
@@ -737,38 +776,32 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [42
+ [45
 
 ])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [43] [44
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [46] [47
 
 ]
-[45] [46]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 309.
-
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [47]
-[48]
-Underfull \hbox (badness 1931) in paragraph at lines 473--476
+[48] [49] [50] [51]
+Underfull \hbox (badness 1931) in paragraph at lines 499--502
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 478--481
+Underfull \hbox (badness 1931) in paragraph at lines 504--507
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-) [49] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
+) [52] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 10661 strings out of 495286
- 154555 string characters out of 3179901
- 294833 words of memory out of 3000000
- 13572 multiletter control sequences out of 15000+200000
- 159223 words of font info for 141 fonts, out of 3000000 for 9000
+ 10705 strings out of 495286
+ 156650 string characters out of 3179901
+ 299988 words of memory out of 3000000
+ 13584 multiletter control sequences out of 15000+200000
+ 166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 59i,17n,79p,2888b,762s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,20n,84p,2893b,766s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (51 pages, 252728 bytes).
+Output written on CPGS.dvi (54 pages, 284672 bytes).
