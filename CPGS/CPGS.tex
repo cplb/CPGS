@@ -12,6 +12,7 @@
 \usepackage{mathrsfs}
 %\usepackage{txfonts}
 \usepackage{listings}
+\usepackage{booktabs}
 %\usepackage{tikz}
 %\usetikzlibrary{shapes,arrows}
 \usepackage{lmodern}
@@ -22,8 +23,10 @@
 \usepackage[T1]{fontenc}
 \usepackage[load=prefixed, load=abbr, alsoload=hep, alsoload=astro]{siunitx}
 \newunit{\yr}{\ensuremath{\mathrm{yr}}}
+\newunit{\as}{\ensuremath{\mathrm{as}}}
 \usepackage{braket}
 \usepackage{slashed}
+\usepackage{longtabular}
 \usepackage{afterpage}
 \usepackage[latin9]{inputenc}
 \usepackage{fixmath}
@@ -63,8 +66,8 @@
 
 \newcommand{\innerprod}[2]{\ensuremath{\left({#1}\middle|{#2}\right)}}
 
-\newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{0}{I}\slashed{I}}}
-\newcommand{\lambdabar}{{\declareslashed{}{\text{--}}{0.04}{0}{\lambda}\slashed{\lambda}}}
+\newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{-0.1}{I}\slashed{I}}}
+\newcommand{\lambdabar}{{\declareslashed{}{\text{--}}{0.04}{-0.02}{\lambda}\slashed{\lambda}}}
 
 % Define differential operators
 \newcommand{\dd}{\ensuremath{\mathrm{d}}}
