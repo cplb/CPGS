@@ -334,134 +334,129 @@ The Fisher information matrix gives the uncertainty associated with the estimate
 From this the inverse Fisher matrix $\boldsymbol{\Gamma}^{-1}$ is a lower bound on the size of the covariance matrix.\footnote{It may also be shown to be the Cram\'{e}r-Rao bound on the error covariance of an unbiased estimator\cite{Cutler1994, Vallisneri2008}. Thus it represents the frequentist error: the lower bound on the covariance for an unbiased parameter estimator $\boldsymbol{\lambda}\sub{est}$ calculated from an infinite set of experiments with the same signal $\boldsymbol{h}(t)$ but different realizations of the noise $\boldsymbol{n}(t)$.}
 
 As a first estimate of what we may learn from parabolic encounters we have only looked at the Fisher information matrix elements. If these are large then we expect we would be able to precisely determine a parameter, whereas if they are small we would not be able to learn much more than we already believe from our prior knowledge. The input parameters for the model are:
-%\begin{center}
-%\begin{enumerate}
-%\item[1.] The MBH's mass $M_\bullet$.
-%\item[2.] The spin parameter $a$.
-%\item[3.] The polar angle $\Theta$ defining the propagation direction.
-%\item[4.] The solar system-galactic centre distance $R_0$.
-%\item[5, 6.] The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$.
-%\item[7.] The angular momentum of the orbit about the MBH's spin axis $L_z$.
-%\item[8.] The Carter's constant for the orbit $Q$.
-%\item[9.] The mass of the orbiting particle $\mu$.
-%\item[10--12.] The initial position of the particle $(x_0, y_0, z_0)$
-%\end{enumerate}
-%\end{center}
 \begin{center}
 \setlength{\tabcolsep}{3pt}
-\begin{longtabular}[0.85\textwidth]{r p{0.85\textwidth}}
+\begin{longtable}[0.85\textwidth]{r p{0.85\textwidth}}
 1. & The MBH's mass $M_\bullet$. This is currently well constrained by the observation of stellar orbits about Sgr A*\cite{Ghez2008, Gillessen2009}, with the best estimate being $M_\bullet = (4.31 \pm 0.36) \times 10^6 M_\odot$. However this depends upon the galactic centre distance $R_0$ being accurately known. If the uncertainty in this is included $M_\bullet = (3.95 \pm 0.06|\sub{stat} \pm 0.18|_{R_0, \, \mathrm{stat}} \pm  0.31|_{R_0, \, \mathrm{sys}}) \times 10^6 M_\odot (R_0 / \SI{8}{\kilo\parsec})^{2.19}$, where the errors are statistical independent of $R_0$, statistical from the determination of $R_0$, and systematic from $R_0$.\\
-2. & The spin parameter $a$. Naively we may expect this to be anywhere in the range $|a| < M_\bullet$, however the spin parameter may be limited by the accretion history. Considering the torque from radiation emitted by an accretion disc and swallowed by the BH it may be argued that $|a| \lesssim 0.998 M_\bullet$\cite{Thorne1978}. If the MBH grew via a series of randomly orientated accretion events, then the spin parameter can be low, and we would expect an average value $|a| \sim \numrange[tophrase=dash]{0.1}{0.3} M_\bullet$\cite{King2006, King2008}.\\
+2. & The spin parameter $a$. Naively we may expect this to be anywhere in the range $|a| < M_\bullet$, however the spin parameter may be limited by the accretion history. Considering the torque from radiation emitted by an accretion disc and swallowed by the BH it may be argued that $|a| \lesssim 0.998 M_\bullet$\cite{Thorne1974}. If the MBH grew via a series of randomly orientated accretion events, then the spin parameter can be low, and we would expect an average value $|a| \sim \numrange[tophrase=dash]{0.1}{0.3} M_\bullet$\cite{King2006, King2008}.\\
 3. & The polar angle $\Theta$ defining the propagation direction.\\
 4. & The solar system-galactic centre distance $R_0$. As for $M_\bullet$, this is constrained by stellar orbits, the best estimate is\cite{Gillessen2009} $R_0 = \SI[seperr]{8.33(35)}{\kilo\parsec}$.\\
-5, 6. & The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$. These may be taken as the coordinates of Sgr A*, as the radio source is expected to be withinten Schwarzscild radii of the MBH\cite{Reid2003}. At the epoch J2000.0\cite{Reid1999} $\overline{\Theta} = \ang{95.607669}$, $\overline{\Phi} = \ang{266.851760}$. This will change with time due to the rotation of the solar system about the galactic centre, the proper motion is about $\SI{6}{\milli\as\per\yr}$, mostly in the plane of the galaxy\cite{Reid1999, Backer1999, Reid2003}.\\
+5, 6. & The coordinates of the MBH from the solar system barycentre $\overline{\Theta}$ and $\overline{\Phi}$. These may be taken as the coordinates of Sgr A*, as the radio source is expected to be within ten Schwarzscild radii of the MBH\cite{Reid2003}. At the epoch J2000.0\cite{Reid1999} $\overline{\Theta} = \ang{95.607669}$, $\overline{\Phi} = \ang{266.851760}$. This will change with time due to the rotation of the solar system about the galactic centre, the proper motion is about $\SI{6}{\milli\as\per\yr}$, mostly in the plane of the galaxy\cite{Reid1999, Backer1999, Reid2003}.\\
 7. & The angular momentum of the orbit about the MBH's spin axis $L_z$.\\
 8. & The Carter's constant for the orbit $Q$.\\
 9. & The mass of the orbiting particle $\mu$. This will depend upon the type of object: whether it is a MS star, WD, NS or BH.\\
 10--12. & The initial position of the particle $(x_0, y_0, z_0)$. For given values of $Q$ and $L_z$ there is a definite upper limit on $|z_0|$ given by the size of $\theta_0$ from \eqnref{theta_0}.\\
-\end{longtabular}
+\end{longtable}
 \end{center}
 The azimuthal angle $\Phi$ is omitted, since it arbitrarily defines the orientation of the MBH's $x$- and $y$-axes. We shall define it to be zero without loss of generality. The signal would also depend upon the orbital position of the LISA satellites, however this will be known for a given signal arrival time. We thus have a $12$-dimensional parameter space.
 
 Calculating the inverse Fisher matrix for example orbits, we find that there is a large degeneracy between the mass $\mu$ and the distance $R_0$. This is not surprising since primarily role of both is determining the amplitude of the waveform in \eqnref{Octopole}. This is the only place that $\mu$ appears. We will not be able to determine both from an EMRB. Unless we can determine the mass of the object by other means, which seems unlikely, it appears that we must give up on determining $R_0$. Instead we should accept our prior value and remove $R_0$ from our parameter set. The inverse Fisher matrix's elements for some example orbits are tabulated in \tabref{}. For the values presented here the parameters are normalised with respect to their maximum likelihood values $\widehat{\lambda}^a = \lambda^a/\lambda\sub{ML}^a$; the Fisher matrices are calculated by differentiating with respect to these parameters so that $\boldsymbol{\Gamma}^{-1}$ gives the relative variance-covariance.
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{8.7657e-12} & xqnum{1.6933e-13} & xqnum{4.4325e-15} & xqnum{8.6152e-14} & xqnum{1.653e-14} & xqnum{4.9477e-17} & xqnum{-1.8248e-12} & xqnum{-4.7969e-15} & xqnum{-8.5691e-12} & xqnum{1.4307e-16} & xqnum{9.0984e-13}\\
-a & xqnum{1.6933e-13} & xqnum{5.2839e-08} & xqnum{5.9774e-10} & xqnum{2.5696e-08} & xqnum{4.9457e-09} & xqnum{6.529e-11} & xqnum{-5.4228e-07} & xqnum{4.4962e-09} & xqnum{-6.8912e-13} & xqnum{6.8668e-14} & xqnum{2.6846e-07}\\
-\Theta & xqnum{4.4325e-15} & xqnum{5.9774e-10} & xqnum{6.295e-11} & xqnum{3.3514e-10} & xqnum{6.8721e-11} & xqnum{-4.8672e-12} & xqnum{-6.2982e-09} & xqnum{9.6747e-11} & xqnum{-1.5967e-14} & xqnum{1.2203e-15} & xqnum{3.012e-09}\\
-\overline{\Theta} & xqnum{8.6152e-14} & xqnum{2.5696e-08} & xqnum{3.3514e-10} & xqnum{1.7594e-08} & xqnum{2.575e-09} & xqnum{1.9694e-11} & xqnum{-2.6975e-07} & xqnum{7.7382e-09} & xqnum{-3.4386e-13} & xqnum{3.2956e-14} & xqnum{1.3405e-07}\\
-\overline{\Phi} & xqnum{1.653e-14} & xqnum{4.9457e-09} & xqnum{6.8721e-11} & xqnum{2.575e-09} & xqnum{6.8512e-10} & xqnum{2.2773e-12} & xqnum{-5.2313e-08} & xqnum{1.3173e-11} & xqnum{-6.5644e-14} & xqnum{6.3074e-15} & xqnum{2.5793e-08}\\
-L_z & xqnum{4.9477e-17} & xqnum{6.529e-11} & xqnum{-4.8672e-12} & xqnum{1.9694e-11} & xqnum{2.2773e-12} & xqnum{7.8084e-12} & xqnum{-4.1858e-10} & xqnum{8.1739e-11} & xqnum{-5.1722e-16} & xqnum{1.0149e-16} & xqnum{1.7151e-10}\\
-Q & xqnum{-1.8248e-12} & xqnum{-5.4228e-07} & xqnum{-6.2982e-09} & xqnum{-2.6975e-07} & xqnum{-5.2313e-08} & xqnum{-4.1858e-10} & xqnum{5.705e-06} & xqnum{-3.5981e-09} & xqnum{7.2507e-12} & xqnum{-6.9507e-13} & xqnum{-2.8446e-06}\\
-\mu & xqnum{-4.7969e-15} & xqnum{4.4962e-09} & xqnum{9.6747e-11} & xqnum{7.7382e-09} & xqnum{1.3173e-11} & xqnum{8.1739e-11} & xqnum{-3.5981e-09} & xqnum{2.945e-08} & xqnum{-4.5587e-14} & xqnum{1.4106e-14} & xqnum{-4.8589e-09}\\
-x_0 & xqnum{-8.5691e-12} & xqnum{-6.8912e-13} & xqnum{-1.5967e-14} & xqnum{-3.4386e-13} & xqnum{-6.5644e-14} & xqnum{-5.1722e-16} & xqnum{7.2507e-12} & xqnum{-4.5587e-14} & xqnum{3.231e-11} & xqnum{-1.1961e-15} & xqnum{-3.5953e-12}\\
-y_0 & xqnum{1.4307e-16} & xqnum{6.8668e-14} & xqnum{1.2203e-15} & xqnum{3.2956e-14} & xqnum{6.3074e-15} & xqnum{1.0149e-16} & xqnum{-6.9507e-13} & xqnum{1.4106e-14} & xqnum{-1.1961e-15} & xqnum{2.4471e-11} & xqnum{3.4158e-13}\\
-z_0 & xqnum{9.0984e-13} & xqnum{2.6846e-07} & xqnum{3.012e-09} & xqnum{1.3405e-07} & xqnum{2.5793e-08} & xqnum{1.7151e-10} & xqnum{-2.8446e-06} & xqnum{-4.8589e-09} & xqnum{-3.5953e-12} & xqnum{3.4158e-13} & xqnum{1.4224e-06}\\
+\begin{table}
+\begin{tabular}{cccccccccccc}
+  & $M_\bullet $ & $a $ & $\Theta $ & $\overline{\Theta} $ & $\overline{\Phi} $ & $L_z $ & $Q $ & $\mu $ & $x_0 $ & $y_0 $ & $z_0$ \\ \midrule
+$M_\bullet $ & $\num{8.7657e-12} $ & $\num{1.6933e-13} $ & $\num{4.4325e-15} $ & $\num{8.6152e-14} $ & $\num{1.653e-14} $ & $\num{4.9477e-17} $ & $\num{-1.8248e-12} $ & $\num{-4.7969e-15} $ & $\num{-8.5691e-12} $ & $\num{1.4307e-16} $ & $\num{9.0984e-13}$\\
+$a$ & $\num{1.6933e-13} $ & $\num{5.2839e-08} $ & $\num{5.9774e-10} $ & $\num{2.5696e-08} $ & $\num{4.9457e-09} $ & $\num{6.529e-11} $ & $\num{-5.4228e-07} $ & $\num{4.4962e-09} $ & $\num{-6.8912e-13} $ & $\num{6.8668e-14} $ & $\num{2.6846e-07}$\\
+$\Theta $ & $\num{4.4325e-15} $ & $\num{5.9774e-10} $ & $\num{6.295e-11} $ & $\num{3.3514e-10} $ & $\num{6.8721e-11} $ & $\num{-4.8672e-12} $ & $\num{-6.2982e-09} $ & $\num{9.6747e-11} $ & $\num{-1.5967e-14} $ & $\num{1.2203e-15} $ & $\num{3.012e-09}$\\
+$\overline{\Theta} $ & $\num{8.6152e-14} $ & $\num{2.5696e-08} $ & $\num{3.3514e-10} $ & $\num{1.7594e-08} $ & $\num{2.575e-09} $ & $\num{1.9694e-11} $ & $\num{-2.6975e-07} $ & $\num{7.7382e-09} $ & $\num{-3.4386e-13} $ & $\num{3.2956e-14} $ & $\num{1.3405e-07}$\\
+$\overline{\Phi} $ & $\num{1.653e-14} $ & $\num{4.9457e-09} $ & $\num{6.8721e-11} $ & $\num{2.575e-09} $ & $\num{6.8512e-10} $ & $\num{2.2773e-12} $ & $\num{-5.2313e-08} $ & $\num{1.3173e-11} $ & $\num{-6.5644e-14} $ & $\num{6.3074e-15} $ & $\num{2.5793e-08}$\\
+$L_z $ & $\num{4.9477e-17} $ & $\num{6.529e-11} $ & $\num{-4.8672e-12} $ & $\num{1.9694e-11} $ & $\num{2.2773e-12} $ & $\num{7.8084e-12} $ & $\num{-4.1858e-10} $ & $\num{8.1739e-11} $ & $\num{-5.1722e-16} $ & $\num{1.0149e-16} $ & $\num{1.7151e-10}$\\
+$Q $ & $\num{-1.8248e-12} $ & $\num{-5.4228e-07} $ & $\num{-6.2982e-09} $ & $\num{-2.6975e-07} $ & $\num{-5.2313e-08} $ & $\num{-4.1858e-10} $ & $\num{5.705e-06} $ & $\num{-3.5981e-09} $ & $\num{7.2507e-12} $ & $\num{-6.9507e-13} $ & $\num{-2.8446e-06}$\\
+$\mu $ & $\num{-4.7969e-15} $ & $\num{4.4962e-09} $ & $\num{9.6747e-11} $ & $\num{7.7382e-09} $ & $\num{1.3173e-11} $ & $\num{8.1739e-11} $ & $\num{-3.5981e-09} $ & $\num{2.945e-08} $ & $\num{-4.5587e-14} $ & $\num{1.4106e-14} $ & $\num{-4.8589e-09}$\\
+$x_0 $ & $\num{-8.5691e-12} $ & $\num{-6.8912e-13} $ & $\num{-1.5967e-14} $ & $\num{-3.4386e-13} $ & $\num{-6.5644e-14} $ & $\num{-5.1722e-16} $ & $\num{7.2507e-12} $ & $\num{-4.5587e-14} $ & $\num{3.231e-11} $ & $\num{-1.1961e-15} $ & $\num{-3.5953e-12}$\\
+$y_0 $ & $\num{1.4307e-16} $ & $\num{6.8668e-14} $ & $\num{1.2203e-15} $ & $\num{3.2956e-14} $ & $\num{6.3074e-15} $ & $\num{1.0149e-16} $ & $\num{-6.9507e-13} $ & $\num{1.4106e-14} $ & $\num{-1.1961e-15} $ & $\num{2.4471e-11} $ & $\num{3.4158e-13}$\\
+$z_0 $ & $\num{9.0984e-13} $ & $\num{2.6846e-07} $ & $\num{3.012e-09} $ & $\num{1.3405e-07} $ & $\num{2.5793e-08} $ & $\num{1.7151e-10} $ & $\num{-2.8446e-06} $ & $\num{-4.8589e-09} $ & $\num{-3.5953e-12} $ & $\num{3.4158e-13} $ & $\num{1.4224e-06}$\end{tabular}
 \caption{Inverse Fisher matrix elements for orbit 1. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_1}
-\end{array}
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{1.0914e-07} & xqnum{7.414e-09} & xqnum{2.9678e-09} & xqnum{1.0315e-09} & xqnum{4.3989e-09} & xqnum{2.8342e-09} & xqnum{6.9064e-09} & xqnum{3.8603e-09} & xqnum{-2.7774e-08} & xqnum{-1.1975e-08} & xqnum{-6.8751e-10}\\
-a & xqnum{7.414e-09} & xqnum{2.7842e-05} & xqnum{2.0793e-07} & xqnum{1.1299e-07} & xqnum{-6.8095e-08} & xqnum{-1.8785e-08} & xqnum{2.8485e-05} & xqnum{3.858e-06} & xqnum{-4.6642e-09} & xqnum{-9.1608e-10} & xqnum{-1.0211e-05}\\
-\Theta & xqnum{2.9678e-09} & xqnum{2.0793e-07} & xqnum{5.1899e-07} & xqnum{-1.0135e-07} & xqnum{1.4569e-07} & xqnum{3.188e-07} & xqnum{4.5949e-08} & xqnum{1.427e-07} & xqnum{-1.3258e-09} & xqnum{-5.0283e-10} & xqnum{-3.3404e-07}\\
-\overline{\Theta} & xqnum{1.0315e-09} & xqnum{1.1299e-07} & xqnum{-1.0135e-07} & xqnum{1.6664e-05} & xqnum{1.9921e-07} & xqnum{-2.0635e-07} & xqnum{5.5793e-07} & xqnum{2.7862e-05} & xqnum{-7.0936e-10} & xqnum{-2.7631e-10} & xqnum{8.3794e-07}\\
-\overline{\Phi} & xqnum{4.3989e-09} & xqnum{-6.8095e-08} & xqnum{1.4569e-07} & xqnum{1.9921e-07} & xqnum{1.0977e-06} & xqnum{-1.54e-07} & xqnum{-2.6509e-07} & xqnum{-1.3382e-07} & xqnum{-2.2935e-09} & xqnum{-8.7094e-10} & xqnum{8.8735e-07}\\
-L_z & xqnum{2.8342e-09} & xqnum{-1.8785e-08} & xqnum{3.188e-07} & xqnum{-2.0635e-07} & xqnum{-1.54e-07} & xqnum{3.3069e-07} & xqnum{2.053e-08} & xqnum{1.2263e-08} & xqnum{-9.1375e-10} & xqnum{-3.3502e-10} & xqnum{-9.4523e-08}\\
-Q & xqnum{6.9064e-09} & xqnum{2.8485e-05} & xqnum{4.5949e-08} & xqnum{5.5793e-07} & xqnum{-2.6509e-07} & xqnum{2.053e-08} & xqnum{5.0385e-05} & xqnum{6.7817e-06} & xqnum{-4.4482e-09} & xqnum{-6.9192e-10} & xqnum{1.5154e-05}\\
-\mu & xqnum{3.8603e-09} & xqnum{3.858e-06} & xqnum{1.427e-07} & xqnum{2.7862e-05} & xqnum{-1.3382e-07} & xqnum{1.2263e-08} & xqnum{6.7817e-06} & xqnum{6.825e-05} & xqnum{-2.1644e-09} & xqnum{-8.061e-10} & xqnum{2.4153e-06}\\
-x_0 & xqnum{-2.7774e-08} & xqnum{-4.6642e-09} & xqnum{-1.3258e-09} & xqnum{-7.0936e-10} & xqnum{-2.2935e-09} & xqnum{-9.1375e-10} & xqnum{-4.4482e-09} & xqnum{-2.1644e-09} & xqnum{1.3512e-07} & xqnum{-5.0502e-08} & xqnum{3.0807e-10}\\
-y_0 & xqnum{-1.1975e-08} & xqnum{-9.1608e-10} & xqnum{-5.0283e-10} & xqnum{-2.7631e-10} & xqnum{-8.7094e-10} & xqnum{-3.3502e-10} & xqnum{-6.9192e-10} & xqnum{-8.061e-10} & xqnum{-5.0502e-08} & xqnum{1.2814e-07} & xqnum{-1.13e-10}\\
-z_0 & xqnum{-6.8751e-10} & xqnum{-1.0211e-05} & xqnum{-3.3404e-07} & xqnum{8.3794e-07} & xqnum{8.8735e-07} & xqnum{-9.4523e-08} & xqnum{1.5154e-05} & xqnum{2.4153e-06} & xqnum{3.0807e-10} & xqnum{-1.13e-10} & xqnum{6.1453e-05}\\
+\end{table}
+\begin{table}
+\begin{tabular}{cccccccccccc}
+ & $M_\bullet$ & $a$ & $\Theta$ & $\overline{\Theta}$ & $\overline{\Phi}$ & $L_z$ & $Q$ & $\mu$ & $x_0$ & $y_0$ & $z_0$ \\ \midrule
+$M_\bullet$ & $\num{1.0914e-07}$ & $\num{7.414e-09}$ & $\num{2.9678e-09}$ & $\num{1.0315e-09}$ & $\num{4.3989e-09}$ & $\num{2.8342e-09}$ & $\num{6.9064e-09}$ & $\num{3.8603e-09}$ & $\num{-2.7774e-08}$ & $\num{-1.1975e-08}$ & $\num{-6.8751e-10}$\\
+$a$ & $\num{7.414e-09}$ & $\num{2.7842e-05}$ & $\num{2.0793e-07}$ & $\num{1.1299e-07}$ & $\num{-6.8095e-08}$ & $\num{-1.8785e-08}$ & $\num{2.8485e-05}$ & $\num{3.858e-06}$ & $\num{-4.6642e-09}$ & $\num{-9.1608e-10}$ & $\num{-1.0211e-05}$\\
+$\Theta$ & $\num{2.9678e-09}$ & $\num{2.0793e-07}$ & $\num{5.1899e-07}$ & $\num{-1.0135e-07}$ & $\num{1.4569e-07}$ & $\num{3.188e-07}$ & $\num{4.5949e-08}$ & $\num{1.427e-07}$ & $\num{-1.3258e-09}$ & $\num{-5.0283e-10}$ & $\num{-3.3404e-07}$\\
+$\overline{\Theta}$ & $\num{1.0315e-09}$ & $\num{1.1299e-07}$ & $\num{-1.0135e-07}$ & $\num{1.6664e-05}$ & $\num{1.9921e-07}$ & $\num{-2.0635e-07}$ & $\num{5.5793e-07}$ & $\num{2.7862e-05}$ & $\num{-7.0936e-10}$ & $\num{-2.7631e-10}$ & $\num{8.3794e-07}$\\
+$\overline{\Phi}$ & $\num{4.3989e-09}$ & $\num{-6.8095e-08}$ & $\num{1.4569e-07}$ & $\num{1.9921e-07}$ & $\num{1.0977e-06}$ & $\num{-1.54e-07}$ & $\num{-2.6509e-07}$ & $\num{-1.3382e-07}$ & $\num{-2.2935e-09}$ & $\num{-8.7094e-10}$ & $\num{8.8735e-07}$\\
+$L_z$ & $\num{2.8342e-09}$ & $\num{-1.8785e-08}$ & $\num{3.188e-07}$ & $\num{-2.0635e-07}$ & $\num{-1.54e-07}$ & $\num{3.3069e-07}$ & $\num{2.053e-08}$ & $\num{1.2263e-08}$ & $\num{-9.1375e-10}$ & $\num{-3.3502e-10}$ & $\num{-9.4523e-08}$\\
+$Q$ & $\num{6.9064e-09}$ & $\num{2.8485e-05}$ & $\num{4.5949e-08}$ & $\num{5.5793e-07}$ & $\num{-2.6509e-07}$ & $\num{2.053e-08}$ & $\num{5.0385e-05}$ & $\num{6.7817e-06}$ & $\num{-4.4482e-09}$ & $\num{-6.9192e-10}$ & $\num{1.5154e-05}$\\
+$\mu$ & $\num{3.8603e-09}$ & $\num{3.858e-06}$ & $\num{1.427e-07}$ & $\num{2.7862e-05}$ & $\num{-1.3382e-07}$ & $\num{1.2263e-08}$ & $\num{6.7817e-06}$ & $\num{6.825e-05}$ & $\num{-2.1644e-09}$ & $\num{-8.061e-10}$ & $\num{2.4153e-06}$\\
+$x_0$ & $\num{-2.7774e-08}$ & $\num{-4.6642e-09}$ & $\num{-1.3258e-09}$ & $\num{-7.0936e-10}$ & $\num{-2.2935e-09}$ & $\num{-9.1375e-10}$ & $\num{-4.4482e-09}$ & $\num{-2.1644e-09}$ & $\num{1.3512e-07}$ & $\num{-5.0502e-08}$ & $\num{3.0807e-10}$\\
+$y_0$ & $\num{-1.1975e-08}$ & $\num{-9.1608e-10}$ & $\num{-5.0283e-10}$ & $\num{-2.7631e-10}$ & $\num{-8.7094e-10}$ & $\num{-3.3502e-10}$ & $\num{-6.9192e-10}$ & $\num{-8.061e-10}$ & $\num{-5.0502e-08}$ & $\num{1.2814e-07}$ & $\num{-1.13e-10}$\\
+$z_0$ & $\num{-6.8751e-10}$ & $\num{-1.0211e-05}$ & $\num{-3.3404e-07}$ & $\num{8.3794e-07}$ & $\num{8.8735e-07}$ & $\num{-9.4523e-08}$ & $\num{1.5154e-05}$ & $\num{2.4153e-06}$ & $\num{3.0807e-10}$ & $\num{-1.13e-10}$ & $\num{6.1453e-05}$
+\end{tabular}
 \caption{Inverse Fisher matrix elements for orbit 2. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_2}
-\end{array}
-\end{array}
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{0.00026867} & xqnum{-1.2191e-05} & xqnum{-7.9111e-06} & xqnum{9.4332e-05} & xqnum{3.7957e-05} & xqnum{3.6052e-05} & xqnum{5.0196e-06} & xqnum{0.00074878} & xqnum{2.7983e-05} & xqnum{0.00018994} & xqnum{-1.8918e-05}\\
-a & xqnum{-1.2191e-05} & xqnum{0.0018947} & xqnum{-0.00046826} & xqnum{0.00055609} & xqnum{-0.00034431} & xqnum{-1.4984e-05} & xqnum{0.00011026} & xqnum{0.00030812} & xqnum{9.9203e-06} & xqnum{8.1508e-06} & xqnum{-0.0001466}\\
-\Theta & xqnum{-7.9111e-06} & xqnum{-0.00046826} & xqnum{0.00074276} & xqnum{-0.00026906} & xqnum{0.00012038} & xqnum{9.7231e-05} & xqnum{-0.00028012} & xqnum{0.00067466} & xqnum{-1.204e-05} & xqnum{-9.387e-06} & xqnum{-1.3117e-05}\\
-\overline{\Theta} & xqnum{9.4332e-05} & xqnum{0.00055609} & xqnum{-0.00026906} & xqnum{0.014912} & xqnum{-0.00058705} & xqnum{2.4675e-05} & xqnum{-0.00015977} & xqnum{0.028231} & xqnum{-2.2376e-05} & xqnum{0.00013587} & xqnum{4.3118e-05}\\
-\overline{\Phi} & xqnum{3.7957e-05} & xqnum{-0.00034431} & xqnum{0.00012038} & xqnum{-0.00058705} & xqnum{0.0010817} & xqnum{-0.00017208} & xqnum{-9.024e-05} & xqnum{-0.0016248} & xqnum{1.3103e-05} & xqnum{-6.858e-05} & xqnum{-2.232e-05}\\
-L_z & xqnum{3.6052e-05} & xqnum{-1.4984e-05} & xqnum{9.7231e-05} & xqnum{2.4675e-05} & xqnum{-0.00017208} & xqnum{0.00017391} & xqnum{-1.9102e-05} & xqnum{0.00082525} & xqnum{3.7926e-05} & xqnum{-1.8694e-06} & xqnum{-6.2733e-06}\\
-Q & xqnum{5.0196e-06} & xqnum{0.00011026} & xqnum{-0.00028012} & xqnum{-0.00015977} & xqnum{-9.024e-05} & xqnum{-1.9102e-05} & xqnum{0.00094102} & xqnum{-0.00017808} & xqnum{-2.7519e-06} & xqnum{1.4784e-05} & xqnum{-0.00064196}\\
-\mu & xqnum{0.00074878} & xqnum{0.00030812} & xqnum{0.00067466} & xqnum{0.028231} & xqnum{-0.0016248} & xqnum{0.00082525} & xqnum{-0.00017808} & xqnum{0.080893} & xqnum{0.00012525} & xqnum{0.00056465} & xqnum{-0.00046963}\\
-x_0 & xqnum{2.7983e-05} & xqnum{9.9203e-06} & xqnum{-1.204e-05} & xqnum{-2.2376e-05} & xqnum{1.3103e-05} & xqnum{3.7926e-05} & xqnum{-2.7519e-06} & xqnum{0.00012525} & xqnum{0.00023781} & xqnum{-0.00015357} & xqnum{1.0923e-05}\\
-y_0 & xqnum{0.00018994} & xqnum{8.1508e-06} & xqnum{-9.387e-06} & xqnum{0.00013587} & xqnum{-6.858e-05} & xqnum{-1.8694e-06} & xqnum{1.4784e-05} & xqnum{0.00056465} & xqnum{-0.00015357} & xqnum{0.00037969} & xqnum{-1.5616e-05}\\
-z_0 & xqnum{-1.8918e-05} & xqnum{-0.0001466} & xqnum{-1.3117e-05} & xqnum{4.3118e-05} & xqnum{-2.232e-05} & xqnum{-6.2733e-06} & xqnum{-0.00064196} & xqnum{-0.00046963} & xqnum{1.0923e-05} & xqnum{-1.5616e-05} & xqnum{0.0010638}\\
+\end{table}
+\begin{table}
+\begin{tabular}{cccccccccccc}
+ & $M_\bullet$ & $a$ & $\Theta$ & $\overline{\Theta}$ & $\overline{\Phi}$ & $L_z$ & $Q$ & $\mu$ & $x_0$ & $y_0$ & $z_0$ \\ \midrule
+$M_\bullet$ & $\num{0.00026867}$ & $\num{-1.2191e-05}$ & $\num{-7.9111e-06}$ & $\num{9.4332e-05}$ & $\num{3.7957e-05}$ & $\num{3.6052e-05}$ & $\num{5.0196e-06}$ & $\num{0.00074878}$ & $\num{2.7983e-05}$ & $\num{0.00018994}$ & $\num{-1.8918e-05}$\\
+$a$ & $\num{-1.2191e-05}$ & $\num{0.0018947}$ & $\num{-0.00046826}$ & $\num{0.00055609}$ & $\num{-0.00034431}$ & $\num{-1.4984e-05}$ & $\num{0.00011026}$ & $\num{0.00030812}$ & $\num{9.9203e-06}$ & $\num{8.1508e-06}$ & $\num{-0.0001466}$\\
+$\Theta$ & $\num{-7.9111e-06}$ & $\num{-0.00046826}$ & $\num{0.00074276}$ & $\num{-0.00026906}$ & $\num{0.00012038}$ & $\num{9.7231e-05}$ & $\num{-0.00028012}$ & $\num{0.00067466}$ & $\num{-1.204e-05}$ & $\num{-9.387e-06}$ & $\num{-1.3117e-05}$\\
+$\overline{\Theta}$ & $\num{9.4332e-05}$ & $\num{0.00055609}$ & $\num{-0.00026906}$ & $\num{0.014912}$ & $\num{-0.00058705}$ & $\num{2.4675e-05}$ & $\num{-0.00015977}$ & $\num{0.028231}$ & $\num{-2.2376e-05}$ & $\num{0.00013587}$ & $\num{4.3118e-05}$\\
+$\overline{\Phi}$ & $\num{3.7957e-05}$ & $\num{-0.00034431}$ & $\num{0.00012038}$ & $\num{-0.00058705}$ & $\num{0.0010817}$ & $\num{-0.00017208}$ & $\num{-9.024e-05}$ & $\num{-0.0016248}$ & $\num{1.3103e-05}$ & $\num{-6.858e-05}$ & $\num{-2.232e-05}$\\
+$L_z$ & $\num{3.6052e-05}$ & $\num{-1.4984e-05}$ & $\num{9.7231e-05}$ & $\num{2.4675e-05}$ & $\num{-0.00017208}$ & $\num{0.00017391}$ & $\num{-1.9102e-05}$ & $\num{0.00082525}$ & $\num{3.7926e-05}$ & $\num{-1.8694e-06}$ & $\num{-6.2733e-06}$\\
+$Q$ & $\num{5.0196e-06}$ & $\num{0.00011026}$ & $\num{-0.00028012}$ & $\num{-0.00015977}$ & $\num{-9.024e-05}$ & $\num{-1.9102e-05}$ & $\num{0.00094102}$ & $\num{-0.00017808}$ & $\num{-2.7519e-06}$ & $\num{1.4784e-05}$ & $\num{-0.00064196}$\\
+$\mu$ & $\num{0.00074878}$ & $\num{0.00030812}$ & $\num{0.00067466}$ & $\num{0.028231}$ & $\num{-0.0016248}$ & $\num{0.00082525}$ & $\num{-0.00017808}$ & $\num{0.080893}$ & $\num{0.00012525}$ & $\num{0.00056465}$ & $\num{-0.00046963}$\\
+$x_0$ & $\num{2.7983e-05}$ & $\num{9.9203e-06}$ & $\num{-1.204e-05}$ & $\num{-2.2376e-05}$ & $\num{1.3103e-05}$ & $\num{3.7926e-05}$ & $\num{-2.7519e-06}$ & $\num{0.00012525}$ & $\num{0.00023781}$ & $\num{-0.00015357}$ & $\num{1.0923e-05}$\\
+$y_0$ & $\num{0.00018994}$ & $\num{8.1508e-06}$ & $\num{-9.387e-06}$ & $\num{0.00013587}$ & $\num{-6.858e-05}$ & $\num{-1.8694e-06}$ & $\num{1.4784e-05}$ & $\num{0.00056465}$ & $\num{-0.00015357}$ & $\num{0.00037969}$ & $\num{-1.5616e-05}$\\
+$z_0$ & $\num{-1.8918e-05}$ & $\num{-0.0001466}$ & $\num{-1.3117e-05}$ & $\num{4.3118e-05}$ & $\num{-2.232e-05}$ & $\num{-6.2733e-06}$ & $\num{-0.00064196}$ & $\num{-0.00046963}$ & $\num{1.0923e-05}$ & $\num{-1.5616e-05}$ & $\num{0.0010638}$
+\end{tabular}
 \caption{Inverse Fisher matrix elements for orbit 3. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_3}
-\end{array}
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{0.00057459} & xqnum{-8.8878e-05} & xqnum{-2.6583e-06} & xqnum{2.7635e-05} & xqnum{-2.9795e-05} & xqnum{8.5603e-05} & xqnum{-1.6599e-05} & xqnum{0.0015065} & xqnum{0.00010182} & xqnum{0.00038711} & xqnum{-1.9973e-06}\\
-a & xqnum{-8.8878e-05} & xqnum{0.041293} & xqnum{-0.0010487} & xqnum{-0.0025001} & xqnum{-0.00090422} & xqnum{1.4159e-05} & xqnum{-0.0021899} & xqnum{-0.0013009} & xqnum{5.935e-05} & xqnum{-0.00020678} & xqnum{7.8526e-06}\\
-\Theta & xqnum{-2.6583e-06} & xqnum{-0.0010487} & xqnum{0.001465} & xqnum{0.0020064} & xqnum{1.4792e-06} & xqnum{8.0118e-06} & xqnum{-0.00020211} & xqnum{0.0030929} & xqnum{7.5504e-05} & xqnum{-8.8031e-05} & xqnum{-0.00028355}\\
-\overline{\Theta} & xqnum{2.7635e-05} & xqnum{-0.0025001} & xqnum{0.0020064} & xqnum{0.14885} & xqnum{0.00056679} & xqnum{0.00050234} & xqnum{1.3345e-05} & xqnum{0.18051} & xqnum{0.00024265} & xqnum{-6.0704e-05} & xqnum{-0.00021085}\\
-\overline{\Phi} & xqnum{-2.9795e-05} & xqnum{-0.00090422} & xqnum{1.4792e-06} & xqnum{0.00056679} & xqnum{0.0013188} & xqnum{0.00011039} & xqnum{-7.6711e-05} & xqnum{0.00042715} & xqnum{-8.6577e-06} & xqnum{3.4287e-05} & xqnum{0.00010429}\\
-L_z & xqnum{8.5603e-05} & xqnum{1.4159e-05} & xqnum{8.0118e-06} & xqnum{0.00050234} & xqnum{0.00011039} & xqnum{0.00029412} & xqnum{9.7581e-05} & xqnum{0.0017793} & xqnum{0.00010537} & xqnum{-3.963e-05} & xqnum{-0.00016186}\\
-Q & xqnum{-1.6599e-05} & xqnum{-0.0021899} & xqnum{-0.00020211} & xqnum{1.3345e-05} & xqnum{-7.6711e-05} & xqnum{9.7581e-05} & xqnum{0.0020381} & xqnum{0.00029266} & xqnum{1.8877e-05} & xqnum{-2.9853e-05} & xqnum{-0.0013189}\\
-\mu & xqnum{0.0015065} & xqnum{-0.0013009} & xqnum{0.0030929} & xqnum{0.18051} & xqnum{0.00042715} & xqnum{0.0017793} & xqnum{0.00029266} & xqnum{0.27445} & xqnum{0.00088229} & xqnum{0.00054805} & xqnum{-0.0018364}\\
-x_0 & xqnum{0.00010182} & xqnum{5.935e-05} & xqnum{7.5504e-05} & xqnum{0.00024265} & xqnum{-8.6577e-06} & xqnum{0.00010537} & xqnum{1.8877e-05} & xqnum{0.00088229} & xqnum{0.00066214} & xqnum{-0.00041333} & xqnum{1.9247e-05}\\
-y_0 & xqnum{0.00038711} & xqnum{-0.00020678} & xqnum{-8.8031e-05} & xqnum{-6.0704e-05} & xqnum{3.4287e-05} & xqnum{-3.963e-05} & xqnum{-2.9853e-05} & xqnum{0.00054805} & xqnum{-0.00041333} & xqnum{0.00084029} & xqnum{-2.7671e-05}\\
-z_0 & xqnum{-1.9973e-06} & xqnum{7.8526e-06} & xqnum{-0.00028355} & xqnum{-0.00021085} & xqnum{0.00010429} & xqnum{-0.00016186} & xqnum{-0.0013189} & xqnum{-0.0018364} & xqnum{1.9247e-05} & xqnum{-2.7671e-05} & xqnum{0.00211}\\
+\end{table}
+\begin{table}
+\begin{tabular}{cccccccccccc}
+ & $M_\bullet$ & $a$ & $\Theta$ & $\overline{\Theta}$ & $\overline{\Phi}$ & $L_z$ & $Q$ & $\mu$ & $x_0$ & $y_0$ & $z_0$ \\ \midrule
+$M_\bullet$ & $\num{0.00057459}$ & $\num{-8.8878e-05}$ & $\num{-2.6583e-06}$ & $\num{2.7635e-05}$ & $\num{-2.9795e-05}$ & $\num{8.5603e-05}$ & $\num{-1.6599e-05}$ & $\num{0.0015065}$ & $\num{0.00010182}$ & $\num{0.00038711}$ & $\num{-1.9973e-06}$\\
+$a$ & $\num{-8.8878e-05}$ & $\num{0.041293}$ & $\num{-0.0010487}$ & $\num{-0.0025001}$ & $\num{-0.00090422}$ & $\num{1.4159e-05}$ & $\num{-0.0021899}$ & $\num{-0.0013009}$ & $\num{5.935e-05}$ & $\num{-0.00020678}$ & $\num{7.8526e-06}$\\
+$\Theta$ & $\num{-2.6583e-06}$ & $\num{-0.0010487}$ & $\num{0.001465}$ & $\num{0.0020064}$ & $\num{1.4792e-06}$ & $\num{8.0118e-06}$ & $\num{-0.00020211}$ & $\num{0.0030929}$ & $\num{7.5504e-05}$ & $\num{-8.8031e-05}$ & $\num{-0.00028355}$\\
+$\overline{\Theta}$ & $\num{2.7635e-05}$ & $\num{-0.0025001}$ & $\num{0.0020064}$ & $\num{0.14885}$ & $\num{0.00056679}$ & $\num{0.00050234}$ & $\num{1.3345e-05}$ & $\num{0.18051}$ & $\num{0.00024265}$ & $\num{-6.0704e-05}$ & $\num{-0.00021085}$\\
+$\overline{\Phi}$ & $\num{-2.9795e-05}$ & $\num{-0.00090422}$ & $\num{1.4792e-06}$ & $\num{0.00056679}$ & $\num{0.0013188}$ & $\num{0.00011039}$ & $\num{-7.6711e-05}$ & $\num{0.00042715}$ & $\num{-8.6577e-06}$ & $\num{3.4287e-05}$ & $\num{0.00010429}$\\
+$L_z$ & $\num{8.5603e-05}$ & $\num{1.4159e-05}$ & $\num{8.0118e-06}$ & $\num{0.00050234}$ & $\num{0.00011039}$ & $\num{0.00029412}$ & $\num{9.7581e-05}$ & $\num{0.0017793}$ & $\num{0.00010537}$ & $\num{-3.963e-05}$ & $\num{-0.00016186}$\\
+$Q$ & $\num{-1.6599e-05}$ & $\num{-0.0021899}$ & $\num{-0.00020211}$ & $\num{1.3345e-05}$ & $\num{-7.6711e-05}$ & $\num{9.7581e-05}$ & $\num{0.0020381}$ & $\num{0.00029266}$ & $\num{1.8877e-05}$ & $\num{-2.9853e-05}$ & $\num{-0.0013189}$\\
+$\mu$ & $\num{0.0015065}$ & $\num{-0.0013009}$ & $\num{0.0030929}$ & $\num{0.18051}$ & $\num{0.00042715}$ & $\num{0.0017793}$ & $\num{0.00029266}$ & $\num{0.27445}$ & $\num{0.00088229}$ & $\num{0.00054805}$ & $\num{-0.0018364}$\\
+$x_0$ & $\num{0.00010182}$ & $\num{5.935e-05}$ & $\num{7.5504e-05}$ & $\num{0.00024265}$ & $\num{-8.6577e-06}$ & $\num{0.00010537}$ & $\num{1.8877e-05}$ & $\num{0.00088229}$ & $\num{0.00066214}$ & $\num{-0.00041333}$ & $\num{1.9247e-05}$\\
+$y_0$ & $\num{0.00038711}$ & $\num{-0.00020678}$ & $\num{-8.8031e-05}$ & $\num{-6.0704e-05}$ & $\num{3.4287e-05}$ & $\num{-3.963e-05}$ & $\num{-2.9853e-05}$ & $\num{0.00054805}$ & $\num{-0.00041333}$ & $\num{0.00084029}$ & $\num{-2.7671e-05}$\\
+$z_0$ & $\num{-1.9973e-06}$ & $\num{7.8526e-06}$ & $\num{-0.00028355}$ & $\num{-0.00021085}$ & $\num{0.00010429}$ & $\num{-0.00016186}$ & $\num{-0.0013189}$ & $\num{-0.0018364}$ & $\num{1.9247e-05}$ & $\num{-2.7671e-05}$ & $\num{0.00211}$
+\end{tabular}
 \caption{Inverse Fisher matrix elements for orbit 5. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_5}
-\end{array}
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{9.2661e-06} & xqnum{-3.5322e-08} & xqnum{-4.7416e-07} & xqnum{-1.072e-07} & xqnum{3.1583e-07} & xqnum{6.091e-07} & xqnum{9.1093e-08} & xqnum{9.0197e-07} & xqnum{-1.0628e-06} & xqnum{1.6327e-06} & xqnum{8.1368e-06}\\
-a & xqnum{-3.5322e-08} & xqnum{2.2638e-05} & xqnum{-1.0796e-06} & xqnum{-7.491e-08} & xqnum{-2.6389e-06} & xqnum{-6.1791e-07} & xqnum{2.9903e-06} & xqnum{1.4466e-06} & xqnum{5.7817e-08} & xqnum{-1.2118e-07} & xqnum{9.0749e-08}\\
-\Theta & xqnum{-4.7416e-07} & xqnum{-1.0796e-06} & xqnum{9.7743e-06} & xqnum{1.167e-06} & xqnum{2.8319e-06} & xqnum{-9.5851e-06} & xqnum{-3.4211e-06} & xqnum{-3.3084e-05} & xqnum{1.1762e-06} & xqnum{-7.932e-07} & xqnum{-2.0303e-07}\\
-\overline{\Theta} & xqnum{-1.072e-07} & xqnum{-7.491e-08} & xqnum{1.167e-06} & xqnum{0.00016037} & xqnum{-4.2488e-06} & xqnum{-1.9959e-06} & xqnum{1.187e-06} & xqnum{0.0002939} & xqnum{-1.1845e-08} & xqnum{1.0112e-07} & xqnum{-1.6771e-07}\\
-\overline{\Phi} & xqnum{3.1583e-07} & xqnum{-2.6389e-06} & xqnum{2.8319e-06} & xqnum{-4.2488e-06} & xqnum{1.6021e-05} & xqnum{2.4462e-06} & xqnum{-1.5798e-06} & xqnum{-4.9085e-06} & xqnum{1.9027e-08} & xqnum{2.8271e-09} & xqnum{-7.0535e-08}\\
-L_z & xqnum{6.091e-07} & xqnum{-6.1791e-07} & xqnum{-9.5851e-06} & xqnum{-1.9959e-06} & xqnum{2.4462e-06} & xqnum{1.7091e-05} & xqnum{-6.5982e-06} & xqnum{4.948e-05} & xqnum{-6.7705e-07} & xqnum{5.0601e-07} & xqnum{5.2103e-07}\\
-Q & xqnum{9.1093e-08} & xqnum{2.9903e-06} & xqnum{-3.4211e-06} & xqnum{1.187e-06} & xqnum{-1.5798e-06} & xqnum{-6.5982e-06} & xqnum{2.566e-05} & xqnum{-5.5757e-06} & xqnum{-5.5756e-07} & xqnum{3.3484e-07} & xqnum{-1.925e-07}\\
-\mu & xqnum{9.0197e-07} & xqnum{1.4466e-06} & xqnum{-3.3084e-05} & xqnum{0.0002939} & xqnum{-4.9085e-06} & xqnum{4.948e-05} & xqnum{-5.5757e-06} & xqnum{0.00094972} & xqnum{-3.9962e-06} & xqnum{3.0586e-06} & xqnum{1.7637e-09}\\
-x_0 & xqnum{-1.0628e-06} & xqnum{5.7817e-08} & xqnum{1.1762e-06} & xqnum{-1.1845e-08} & xqnum{1.9027e-08} & xqnum{-6.7705e-07} & xqnum{-5.5756e-07} & xqnum{-3.9962e-06} & xqnum{8.2193e-06} & xqnum{-8.6528e-06} & xqnum{2.257e-06}\\
-y_0 & xqnum{1.6327e-06} & xqnum{-1.2118e-07} & xqnum{-7.932e-07} & xqnum{1.0112e-07} & xqnum{2.8271e-09} & xqnum{5.0601e-07} & xqnum{3.3484e-07} & xqnum{3.0586e-06} & xqnum{-8.6528e-06} & xqnum{1.0898e-05} & xqnum{-2.8139e-06}\\
-z_0 & xqnum{8.1368e-06} & xqnum{9.0749e-08} & xqnum{-2.0303e-07} & xqnum{-1.6771e-07} & xqnum{-7.0535e-08} & xqnum{5.2103e-07} & xqnum{-1.925e-07} & xqnum{1.7637e-09} & xqnum{2.257e-06} & xqnum{-2.8139e-06} & xqnum{1.009e-05}\\
-\caption{Inverse Fisher matrix elements for orbit 5. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
+\end{table}
+\begin{table}
+\begin{tabular}{cccccccccccc} & $M_\bullet$ & $a$ & $\Theta$ & $\overline{\Theta}$ & $\overline{\Phi}$ & $L_z$ & $Q$ & $\mu$ & $x_0$ & $y_0$ & $z_0$ \\ \midrule
+$M_\bullet$ & $\num{9.2661e-06}$ & $\num{-3.5322e-08}$ & $\num{-4.7416e-07}$ & $\num{-1.072e-07}$ & $\num{3.1583e-07}$ & $\num{6.091e-07}$ & $\num{9.1093e-08}$ & $\num{9.0197e-07}$ & $\num{-1.0628e-06}$ & $\num{1.6327e-06}$ & $\num{8.1368e-06}$\\
+$a$ & $\num{-3.5322e-08}$ & $\num{2.2638e-05}$ & $\num{-1.0796e-06}$ & $\num{-7.491e-08}$ & $\num{-2.6389e-06}$ & $\num{-6.1791e-07}$ & $\num{2.9903e-06}$ & $\num{1.4466e-06}$ & $\num{5.7817e-08}$ & $\num{-1.2118e-07}$ & $\num{9.0749e-08}$\\
+$\Theta$ & $\num{-4.7416e-07}$ & $\num{-1.0796e-06}$ & $\num{9.7743e-06}$ & $\num{1.167e-06}$ & $\num{2.8319e-06}$ & $\num{-9.5851e-06}$ & $\num{-3.4211e-06}$ & $\num{-3.3084e-05}$ & $\num{1.1762e-06}$ & $\num{-7.932e-07}$ & $\num{-2.0303e-07}$\\
+$\overline{\Theta}$ & $\num{-1.072e-07}$ & $\num{-7.491e-08}$ & $\num{1.167e-06}$ & $\num{0.00016037}$ & $\num{-4.2488e-06}$ & $\num{-1.9959e-06}$ & $\num{1.187e-06}$ & $\num{0.0002939}$ & $\num{-1.1845e-08}$ & $\num{1.0112e-07}$ & $\num{-1.6771e-07}$\\
+$\overline{\Phi}$ & $\num{3.1583e-07}$ & $\num{-2.6389e-06}$ & $\num{2.8319e-06}$ & $\num{-4.2488e-06}$ & $\num{1.6021e-05}$ & $\num{2.4462e-06}$ & $\num{-1.5798e-06}$ & $\num{-4.9085e-06}$ & $\num{1.9027e-08}$ & $\num{2.8271e-09}$ & $\num{-7.0535e-08}$\\
+$L_z$ & $\num{6.091e-07}$ & $\num{-6.1791e-07}$ & $\num{-9.5851e-06}$ & $\num{-1.9959e-06}$ & $\num{2.4462e-06}$ & $\num{1.7091e-05}$ & $\num{-6.5982e-06}$ & $\num{4.948e-05}$ & $\num{-6.7705e-07}$ & $\num{5.0601e-07}$ & $\num{5.2103e-07}$\\
+$Q$ & $\num{9.1093e-08}$ & $\num{2.9903e-06}$ & $\num{-3.4211e-06}$ & $\num{1.187e-06}$ & $\num{-1.5798e-06}$ & $\num{-6.5982e-06}$ & $\num{2.566e-05}$ & $\num{-5.5757e-06}$ & $\num{-5.5756e-07}$ & $\num{3.3484e-07}$ & $\num{-1.925e-07}$\\
+$\mu$ & $\num{9.0197e-07}$ & $\num{1.4466e-06}$ & $\num{-3.3084e-05}$ & $\num{0.0002939}$ & $\num{-4.9085e-06}$ & $\num{4.948e-05}$ & $\num{-5.5757e-06}$ & $\num{0.00094972}$ & $\num{-3.9962e-06}$ & $\num{3.0586e-06}$ & $\num{1.7637e-09}$\\
+$x_0$ & $\num{-1.0628e-06}$ & $\num{5.7817e-08}$ & $\num{1.1762e-06}$ & $\num{-1.1845e-08}$ & $\num{1.9027e-08}$ & $\num{-6.7705e-07}$ & $\num{-5.5756e-07}$ & $\num{-3.9962e-06}$ & $\num{8.2193e-06}$ & $\num{-8.6528e-06}$ & $\num{2.257e-06}$\\
+$y_0$ & $\num{1.6327e-06}$ & $\num{-1.2118e-07}$ & $\num{-7.932e-07}$ & $\num{1.0112e-07}$ & $\num{2.8271e-09}$ & $\num{5.0601e-07}$ & $\num{3.3484e-07}$ & $\num{3.0586e-06}$ & $\num{-8.6528e-06}$ & $\num{1.0898e-05}$ & $\num{-2.8139e-06}$\\
+$z_0$ & $\num{8.1368e-06}$ & $\num{9.0749e-08}$ & $\num{-2.0303e-07}$ & $\num{-1.6771e-07}$ & $\num{-7.0535e-08}$ & $\num{5.2103e-07}$ & $\num{-1.925e-07}$ & $\num{1.7637e-09}$ & $\num{2.257e-06}$ & $\num{-2.8139e-06}$ & $\num{1.009e-05}$
+\end{tabular}
+\caption{Inverse Fisher matrix elements for orbit 6. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_6}
-\end{array}
-\end{array}
-\begin{array}{c||ccccccccccc}
- & M_\bullet & a & \Theta & \overline{\Theta} & \overline{\Phi} & L_z & Q & \mu & x_0 & y_0 & z_0 \\ \hline\hline
-M_\bullet & xqnum{0.11036} & xqnum{0.039568} & xqnum{0.00066402} & xqnum{-0.053532} & xqnum{-0.044364} & xqnum{0.021832} & xqnum{0.011173} & xqnum{-0.27983} & xqnum{0.0031914} & xqnum{0.011364} & xqnum{0.0083009}\\
-a & xqnum{0.039568} & xqnum{5.2756} & xqnum{0.16152} & xqnum{0.34148} & xqnum{-0.37946} & xqnum{-0.02862} & xqnum{-0.0066052} & xqnum{0.16661} & xqnum{0.046545} & xqnum{-0.0093101} & xqnum{0.008765}\\
-\Theta & xqnum{0.00066402} & xqnum{0.16152} & xqnum{0.15329} & xqnum{0.035583} & xqnum{0.0051096} & xqnum{-0.017537} & xqnum{0.025084} & xqnum{-0.25054} & xqnum{0.02045} & xqnum{-0.00083746} & xqnum{-0.0050044}\\
-\overline{\Theta} & xqnum{-0.053532} & xqnum{0.34148} & xqnum{0.035583} & xqnum{8.8603} & xqnum{-0.2836} & xqnum{0.022709} & xqnum{0.0084786} & xqnum{15.923} & xqnum{-0.0022206} & xqnum{-0.010049} & xqnum{-0.032782}\\
-\overline{\Phi} & xqnum{-0.044364} & xqnum{-0.37946} & xqnum{0.0051096} & xqnum{-0.2836} & xqnum{0.44556} & xqnum{0.0208} & xqnum{-0.0020175} & xqnum{-0.39471} & xqnum{0.014708} & xqnum{0.013431} & xqnum{0.010567}\\
-L_z & xqnum{0.021832} & xqnum{-0.02862} & xqnum{-0.017537} & xqnum{0.022709} & xqnum{0.0208} & xqnum{0.12813} & xqnum{0.0009769} & xqnum{0.39248} & xqnum{0.0094456} & xqnum{-0.0055042} & xqnum{-0.0018176}\\
-Q & xqnum{0.011173} & xqnum{-0.0066052} & xqnum{0.025084} & xqnum{0.0084786} & xqnum{-0.0020175} & xqnum{0.0009769} & xqnum{0.13987} & xqnum{-0.072871} & xqnum{-0.0065657} & xqnum{-0.00038537} & xqnum{0.030163}\\
-\mu & xqnum{-0.27983} & xqnum{0.16661} & xqnum{-0.25054} & xqnum{15.923} & xqnum{-0.39471} & xqnum{0.39248} & xqnum{-0.072871} & xqnum{42.77} & xqnum{0.052667} & xqnum{-0.059053} & xqnum{-0.050792}\\
-x_0 & xqnum{0.0031914} & xqnum{0.046545} & xqnum{0.02045} & xqnum{-0.0022206} & xqnum{0.014708} & xqnum{0.0094456} & xqnum{-0.0065657} & xqnum{0.052667} & xqnum{0.14281} & xqnum{-0.0026959} & xqnum{0.0052173}\\
-y_0 & xqnum{0.011364} & xqnum{-0.0093101} & xqnum{-0.00083746} & xqnum{-0.010049} & xqnum{0.013431} & xqnum{-0.0055042} & xqnum{-0.00038537} & xqnum{-0.059053} & xqnum{-0.0026959} & xqnum{0.023407} & xqnum{-0.0016153}\\
-z_0 & xqnum{0.0083009} & xqnum{0.008765} & xqnum{-0.0050044} & xqnum{-0.032782} & xqnum{0.010567} & xqnum{-0.0018176} & xqnum{0.030163} & xqnum{-0.050792} & xqnum{0.0052173} & xqnum{-0.0016153} & xqnum{0.1478}\\
-\caption{Inverse Fisher matrix elements for orbit 5. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
+\end{table}
+\begin{table}
+\begin{tabular}{cccccccccccc}
+ & $M_\bullet$ & $a$ & $\Theta$ & $\overline{\Theta}$ & $\overline{\Phi}$ & $L_z$ & $Q$ & $\mu$ & $x_0$ & $y_0$ & $z_0$ \\ \midrule
+$M_\bullet$ & $\num{0.11036}$ & $\num{0.039568}$ & $\num{0.00066402}$ & $\num{-0.053532}$ & $\num{-0.044364}$ & $\num{0.021832}$ & $\num{0.011173}$ & $\num{-0.27983}$ & $\num{0.0031914}$ & $\num{0.011364}$ & $\num{0.0083009}$\\
+$a$ & $\num{0.039568}$ & $\num{5.2756}$ & $\num{0.16152}$ & $\num{0.34148}$ & $\num{-0.37946}$ & $\num{-0.02862}$ & $\num{-0.0066052}$ & $\num{0.16661}$ & $\num{0.046545}$ & $\num{-0.0093101}$ & $\num{0.008765}$\\
+$\Theta$ & $\num{0.00066402}$ & $\num{0.16152}$ & $\num{0.15329}$ & $\num{0.035583}$ & $\num{0.0051096}$ & $\num{-0.017537}$ & $\num{0.025084}$ & $\num{-0.25054}$ & $\num{0.02045}$ & $\num{-0.00083746}$ & $\num{-0.0050044}$\\
+$\overline{\Theta}$ & $\num{-0.053532}$ & $\num{0.34148}$ & $\num{0.035583}$ & $\num{8.8603}$ & $\num{-0.2836}$ & $\num{0.022709}$ & $\num{0.0084786}$ & $\num{15.923}$ & $\num{-0.0022206}$ & $\num{-0.010049}$ & $\num{-0.032782}$\\
+$\overline{\Phi}$ & $\num{-0.044364}$ & $\num{-0.37946}$ & $\num{0.0051096}$ & $\num{-0.2836}$ & $\num{0.44556}$ & $\num{0.0208}$ & $\num{-0.0020175}$ & $\num{-0.39471}$ & $\num{0.014708}$ & $\num{0.013431}$ & $\num{0.010567}$\\
+$L_z$ & $\num{0.021832}$ & $\num{-0.02862}$ & $\num{-0.017537}$ & $\num{0.022709}$ & $\num{0.0208}$ & $\num{0.12813}$ & $\num{0.0009769}$ & $\num{0.39248}$ & $\num{0.0094456}$ & $\num{-0.0055042}$ & $\num{-0.0018176}$\\
+$Q$ & $\num{0.011173}$ & $\num{-0.0066052}$ & $\num{0.025084}$ & $\num{0.0084786}$ & $\num{-0.0020175}$ & $\num{0.0009769}$ & $\num{0.13987}$ & $\num{-0.072871}$ & $\num{-0.0065657}$ & $\num{-0.00038537}$ & $\num{0.030163}$\\
+$\mu$ & $\num{-0.27983}$ & $\num{0.16661}$ & $\num{-0.25054}$ & $\num{15.923}$ & $\num{-0.39471}$ & $\num{0.39248}$ & $\num{-0.072871}$ & $\num{42.77}$ & $\num{0.052667}$ & $\num{-0.059053}$ & $\num{-0.050792}$\\
+$x_0$ & $\num{0.0031914}$ & $\num{0.046545}$ & $\num{0.02045}$ & $\num{-0.0022206}$ & $\num{0.014708}$ & $\num{0.0094456}$ & $\num{-0.0065657}$ & $\num{0.052667}$ & $\num{0.14281}$ & $\num{-0.0026959}$ & $\num{0.0052173}$\\
+$y_0$ & $\num{0.011364}$ & $\num{-0.0093101}$ & $\num{-0.00083746}$ & $\num{-0.010049}$ & $\num{0.013431}$ & $\num{-0.0055042}$ & $\num{-0.00038537}$ & $\num{-0.059053}$ & $\num{-0.0026959}$ & $\num{0.023407}$ & $\num{-0.0016153}$\\
+$z_0$ & $\num{0.0083009}$ & $\num{0.008765}$ & $\num{-0.0050044}$ & $\num{-0.032782}$ & $\num{0.010567}$ & $\num{-0.0018176}$ & $\num{0.030163}$ & $\num{-0.050792}$ & $\num{0.0052173}$ & $\num{-0.0016153}$ & $\num{0.1478}$
+\end{tabular}
+\caption{Inverse Fisher matrix elements for orbit 7. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ of $\SI{1}{\percent}$.}
 \label{tab:Fisher_7}
-\end{array}
+\end{table}
 
 \section{Energy Spectra}
 
@@ -694,9 +689,9 @@ where $\dddot{\Ibar}^{ij}$ is the reduced quadrupole moment. Integrating this ov
 \begin{equation}
 E = \frac{G}{5c^9}\int \dd t \dddot{\Ibar}_{ij}\dddot{\Ibar}^{ij}.
 \end{equation}
-Evaluating this should be more accurate than relying upon integrating \eqnref{NK_dEdf} since it is not necessary to Fourier transform, use window functions or integrate over all solid angles. For the orbit shown in \figref{Energy} integrating the NK spectrum gives $E\sub{\widetilde{H}(f)} = \SI{5.936e36}{\joule}$ and using the quadrupolar formula gives $E_\Ibar = \SI{5.945e36}{\joule}$. The two are consistent to $\SI{1.5}{\percent}$. The largest source of error may be from the use of the the window function, especially if it is not perfectly centred; however, the integration over all angles will also contribute since it may introduce an error of the order of a percent. From the level of this agrrement we may infer that the numerical error made in calculating $\Widetilde{H}_{ij}$ is less than a percent, which should be adequate for our purposes. The Peters and Matthews total energy is $E\sub{PM} = \SI{5.747e36}{\joule}$. The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}. From the level of agreement we may be confident that the NK waveforms are a reasonable approximation.
+Evaluating this should be more accurate than relying upon integrating \eqnref{NK_dEdf} since it is not necessary to Fourier transform, use window functions or integrate over all solid angles. For the orbit shown in \figref{Energy} integrating the NK spectrum gives $E\sub{\widetilde{H}(f)} = \SI{5.936e36}{\joule}$ and using the quadrupolar formula gives $E_\Ibar = \SI{5.945e36}{\joule}$. The two are consistent to $\SI{1.5}{\percent}$. The largest source of error may be from the use of the the window function, especially if it is not perfectly centred; however, the integration over all angles will also contribute since it may introduce an error of the order of a percent. From the level of this agrrement we may infer that the numerical error made in calculating $\widetilde{H}_{ij}$ is less than a percent, which should be adequate for our purposes. The Peters and Matthews total energy is $E\sub{PM} = \SI{5.747e36}{\joule}$. The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}. From the level of agreement we may be confident that the NK waveforms are a reasonable approximation.
 
-Introducing the octopole moments makes a small change to the energy spectrum, as seen in \fegref{Energy_oct}.
+Introducing the octopole moments makes a small change to the energy spectrum, as seen in \figref{Energy_oct}.
 \begin{figure}[htbp]
   \begin{center}
    \subfigure[]{\resizebox{0.7\textwidth}{!}{\import{./Images/}{loglog_E_oct.tex}}} \\
