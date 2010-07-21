@@ -7,6 +7,7 @@
 \usepackage{import}
 \usepackage{graphicx}
 \usepackage{subfigure}
+\usepackage{rotating}
 \usepackage{amssymb,amstext,amsfonts} %% ... with default font
 \usepackage{amsmath}
 \usepackage{mathrsfs}
@@ -54,7 +55,7 @@
 \newcommand{\figref}[1]{figure~\ref{fig:#1}}
 \newcommand{\Figref}[1]{Figure~\ref{fig:#1}}
 
-\newcommand{\sinc}{{\rm sinc}}
+\DeclareMathOperator{\sinc}{sinc}
 
 \newcommand{\sub}[1]{\ensuremath{_\mathrm{#1}}}
 \newcommand{\super}[1]{\ensuremath{^\mathrm{#1}}}
@@ -66,7 +67,7 @@
 
 \newcommand{\innerprod}[2]{\ensuremath{\left({#1}\middle|{#2}\right)}}
 
-\newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{-0.1}{I}\slashed{I}}}
+\newcommand{\Ibar}{{\declareslashed{}{\text{-}}{0.04}{-0.2}{I}\slashed{I}}}
 \newcommand{\lambdabar}{{\declareslashed{}{\text{--}}{0.04}{-0.02}{\lambda}\slashed{\lambda}}}
 
 % Define differential operators
@@ -141,5 +142,7 @@ This is exceedingly abstract
 
 \bibliographystyle{../physicsNEW}
 \bibliography{../library}
+
+\input{./Fisher.tex}
 
 \end{document}
