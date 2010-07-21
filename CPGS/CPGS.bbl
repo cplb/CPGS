@@ -429,15 +429,6 @@ Nuttall, A.; {Some windows with very good sidelobe behavior};
   \textit{Acoustics, Speech and Signal Processing, IEEE Transactions on};
   \textbf{29}(1):84--91, February 1981.
 
-\bibitem{Jaynes2003}
-Jaynes, E.~T.; \textit{{Probability Theory: The Logic of Science}}; Cambridge:
-  Cambridge University Press, 2003.
-
-\bibitem{Vallisneri2008}
-Vallisneri, M.; {Use and abuse of the Fisher information matrix in the
-  assessment of gravitational-wave parameter-estimation prospects};
-  \textit{Physical Review D}; \textbf{77}(4):042001(20), February 2008.
-
 \bibitem{Ghez2008}
 Ghez, A.~M., Salim, S., Weinberg, N.~N. \textit{et~al.}; {Measuring Distance
   and Properties of the Milky Way's Central Supermassive Black Hole with
@@ -467,6 +458,15 @@ Reid, M.~J., Readhead, A. C.~S., Vermeulen, R.~C. \& Treuhaft, R.~N.; {The
 Backer, D.~C. \& Sramek, R.~A.; {Proper Motion of the Compact, Nonthermal Radio
   Source in the Galactic Center, Sagittarius A*}; \textit{The Astrophysical
   Journal}; \textbf{524}(2):805--815, October 1999.
+
+\bibitem{Jaynes2003}
+Jaynes, E.~T.; \textit{{Probability Theory: The Logic of Science}}; Cambridge:
+  Cambridge University Press, 2003.
+
+\bibitem{Vallisneri2008}
+Vallisneri, M.; {Use and abuse of the Fisher information matrix in the
+  assessment of gravitational-wave parameter-estimation prospects};
+  \textit{Physical Review D}; \textbf{77}(4):042001(20), February 2008.
 
 \bibitem{Peters1963}
 Peters, P.~C. \& Mathews, J.; {Gravitational Radiation from Point Masses in a
