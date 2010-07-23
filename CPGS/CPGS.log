@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  23 JUL 2010 09:22
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  23 JUL 2010 19:31
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -329,25 +329,50 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2009/05/18 v2.2 Customized lists
+\enit@toks=\toks30
+\labelindent=\skip65
+\enit@outerparindent=\dimen138
+\enitdp@desc=\count130
+)
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen138
-\lightrulewidth=\dimen139
-\cmidrulewidth=\dimen140
-\belowrulesep=\dimen141
-\belowbottomsep=\dimen142
-\aboverulesep=\dimen143
-\abovetopsep=\dimen144
-\cmidrulesep=\dimen145
-\cmidrulekern=\dimen146
-\defaultaddspace=\dimen147
-\@cmidla=\count130
-\@cmidlb=\count131
-\@aboverulesep=\dimen148
-\@belowrulesep=\dimen149
-\@thisruleclass=\count132
-\@lastruleclass=\count133
-\@thisrulewidth=\dimen150
+\heavyrulewidth=\dimen139
+\lightrulewidth=\dimen140
+\cmidrulewidth=\dimen141
+\belowrulesep=\dimen142
+\belowbottomsep=\dimen143
+\aboverulesep=\dimen144
+\abovetopsep=\dimen145
+\cmidrulesep=\dimen146
+\cmidrulekern=\dimen147
+\defaultaddspace=\dimen148
+\@cmidla=\count131
+\@cmidlb=\count132
+\@aboverulesep=\dimen149
+\@belowrulesep=\dimen150
+\@thisruleclass=\count133
+\@lastruleclass=\count134
+\@thisrulewidth=\dimen151
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count135
+\LTcapwidth=\dimen152
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count136
+\LT@rows=\count137
+\c@LT@tables=\count138
+\c@LT@chunks=\count139
+\LT@p@ftn=\toks31
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -386,13 +411,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.sty"
 Package: microtype 2009/11/09 v2.3e Micro-typography with pdfTeX (RS)
-\MT@toks=\toks30
-\MT@count=\count134
+\MT@toks=\toks32
+\MT@count=\count140
 LaTeX Info: Redefining \lsstyle on input line 1617.
 LaTeX Info: Redefining \lslig on input line 1617.
-\MT@outer@space=\skip65
+\MT@outer@space=\skip70
 LaTeX Info: Redefining \textls on input line 1625.
-\MT@outer@kern=\dimen151
+\MT@outer@kern=\dimen153
 LaTeX Info: Redefining \textmicrotypecontext on input line 2176.
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -401,9 +426,9 @@ File: microtype.cfg 2009/11/09 v2.3e microtype main configuration file (RS)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip66
-\L@UnitsRaiseTextstyle=\skip67
-\L@UnitsRaiseScriptstyle=\skip68
+\L@UnitsRaiseDisplaystyle=\skip71
+\L@UnitsRaiseTextstyle=\skip72
+\L@UnitsRaiseScriptstyle=\skip73
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -417,52 +442,52 @@ Package: siunitx 2009/10/24 v1.3d A comprehensive (SI) units package
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen152
-\extrarowheight=\dimen153
-\NC@list=\toks31
-\extratabsurround=\skip69
-\backup@length=\skip70
+\col@sep=\dimen154
+\extrarowheight=\dimen155
+\NC@list=\toks33
+\extratabsurround=\skip74
+\backup@length=\skip75
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\xspace.sty"
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
-\si@tempboxa=\box34
-\si@tempboxb=\box35
-\si@tempboxc=\box36
-\si@tempboxd=\box37
-\si@temptoks=\toks32
-\si@tab@mantprecnt=\count135
-\si@tab@mantpostcnt=\count136
-\si@tab@expprecnt=\count137
-\si@tab@exppostcnt=\count138
-\si@num@dp=\count139
-\si@num@sf=\count140
-\si@eVcorra=\skip71
-\si@eVcorrb=\skip72
-\si@frc@displen=\skip73
-\si@frc@textlen=\skip74
-\si@frc@suplen=\skip75
-\si@frc@ssuplen=\skip76
-\si@num@rndtarget=\count141
-\si@tab@toks=\toks33
-\si@tab@pretoks=\toks34
-\si@tab@posttoks=\toks35
-\si@tempcnta=\count142
-\si@tempcntb=\count143
-\si@tab@prebox=\box38
-\si@tab@midbox=\box39
-\si@tab@postbox=\box40
-\si@tab@expbox=\box41
-\si@tab@predim=\dimen154
-\si@tab@postdim=\dimen155
-\si@tab@expdim=\dimen156
-\si@tempdima=\dimen157
-\si@tempdimb=\dimen158
-\si@unt@unitcnta=\count144
-\si@unt@unitcntb=\count145
-\si@unt@depthcnt=\count146
-\si@unt@prefixcnt=\count147
-\si@unt@powerdim=\dimen159
+\si@tempboxa=\box38
+\si@tempboxb=\box39
+\si@tempboxc=\box40
+\si@tempboxd=\box41
+\si@temptoks=\toks34
+\si@tab@mantprecnt=\count141
+\si@tab@mantpostcnt=\count142
+\si@tab@expprecnt=\count143
+\si@tab@exppostcnt=\count144
+\si@num@dp=\count145
+\si@num@sf=\count146
+\si@eVcorra=\skip76
+\si@eVcorrb=\skip77
+\si@frc@displen=\skip78
+\si@frc@textlen=\skip79
+\si@frc@suplen=\skip80
+\si@frc@ssuplen=\skip81
+\si@num@rndtarget=\count147
+\si@tab@toks=\toks35
+\si@tab@pretoks=\toks36
+\si@tab@posttoks=\toks37
+\si@tempcnta=\count148
+\si@tempcntb=\count149
+\si@tab@prebox=\box42
+\si@tab@midbox=\box43
+\si@tab@postbox=\box44
+\si@tab@expbox=\box45
+\si@tab@predim=\dimen156
+\si@tab@postdim=\dimen157
+\si@tab@expdim=\dimen158
+\si@tempdima=\dimen159
+\si@tempdimb=\dimen160
+\si@unt@unitcnta=\count150
+\si@unt@unitcntb=\count151
+\si@unt@depthcnt=\count152
+\si@unt@prefixcnt=\count153
+\si@unt@powerdim=\dimen161
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-abbr.cfg"
 File: si-abbr.cfg 2009/10/24 v1.3d siunitx: Abbreviated units
@@ -485,40 +510,28 @@ File: si-hep.cfg 2009/10/24 v1.3d siunitx: Units for high-energy physics
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-astro.cfg"
 File: si-astro.cfg 2009/10/24 v1.3d siunitx: Units for astronomy
 ))
-Package siunitx Info: Redefining unit \as on input line 27.
+Package siunitx Info: Redefining unit \as on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\braket.sty")
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\carlisle\slashed.sty"
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\longtable.sty"
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip77
-\LTright=\skip78
-\LTpre=\skip79
-\LTpost=\skip80
-\LTchunksize=\count148
-\LTcapwidth=\dimen160
-\LT@head=\box42
-\LT@firsthead=\box43
-\LT@foot=\box44
-\LT@lastfoot=\box45
-\LT@cols=\count149
-\LT@rows=\count150
-\c@LT@tables=\count151
-\c@LT@chunks=\count152
-\LT@p@ftn=\toks36
-)
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\afterpage.sty"
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
-\AP@output=\toks37
+\AP@output=\toks38
 \AP@partial=\box46
 \AP@footins=\box47
 )
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count154
+\c@@ppsavesec=\count155
+\c@@ppsaveapp=\count156
+)
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks38
-\inpenc@posthook=\toks39
+\inpenc@prehook=\toks39
+\inpenc@posthook=\toks40
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latin9.def"
 File: latin9.def 2008/03/30 v1.1d Input encoding file
@@ -568,32 +581,32 @@ LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 66.
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\natbib\natbib.sty"
 Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip81
-\bibsep=\skip82
+\bibhang=\skip82
+\bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count153
+\c@NAT@ctr=\count157
 )
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -639,8 +652,8 @@ driver: dvips
 \@twosidetrue \@mparswitchtrue 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-\c@lstlisting=\count154
-LaTeX Info: Redefining \microtypecontext on input line 94.
+\c@lstlisting=\count158
+LaTeX Info: Redefining \microtypecontext on input line 95.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -654,36 +667,36 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 )
 Package siunitx Info: xfrac package unavailable
 (siunitx)             using `fraction=sfrac' will fall back on
-(siunitx)             nicefrac-like method on input line 94.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 94.
+(siunitx)             nicefrac-like method on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 94.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 94.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 94.
+(Font)              <10.95> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 94.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 94.
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+(Font)              <6> on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -691,7 +704,7 @@ File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -699,25 +712,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 94.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 95.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 95.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 95.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 129.
+(Font)              <12> on input line 130.
 File: ../shield.eps Graphic file (type eps)
  <../shield.eps>
 [1
@@ -800,7 +813,12 @@ File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
 Underfull \vbox (badness 1975) has occurred while \output is active []
 
  [34]
-[35] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_1.tex"
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_1.tex"
 File: ./Images/h_I_1.eps Graphic file (type eps)
 
 <psfrag:./Images/h_I_1.eps>
@@ -859,7 +877,11 @@ File: ./Images/h_II_7.eps Graphic file (type eps)
 
 <psfrag:./Images/h_II_7.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_7.eps>) [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
+<./Images/h_II_7.eps>) [36] [37] [38] [39] [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42] [43] [44] [45] [46]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
 
@@ -871,7 +893,7 @@ File: ./Images/Loglin_E.eps Graphic file (type eps)
 
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [46] [47]
+<./Images/Loglin_E.eps>) [47] [48]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E_oct.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglog_E.eps>
@@ -881,9 +903,8 @@ File: ./Images/Loglog_E.eps Graphic file (type eps)
 File: ./Images/Loglin_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>))
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [48]
-[49]
+<./Images/Loglin_E.eps>) [49] [50])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [51]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
@@ -891,7 +912,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [50
+ [52
 
 ]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Shadow_2-psfrag.t
@@ -942,55 +963,64 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
  <psfrag:./Images/Shadow_998_6-psfrag.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Shadow_998_6-psfrag.eps>))
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [51] [52]
-[53
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [53] [54]
+[55
 
-] [54] [55] [56] [57]
+] [56] [57] [58] [59]
 Underfull \hbox (badness 1931) in paragraph at lines 546--549
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-[58]
+[60]
 Underfull \hbox (badness 1931) in paragraph at lines 551--554
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex"
-Overfull \hbox (108.46pt too wide) in paragraph at lines 5--18
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex" [61]
+Appendix A.
+
+Overfull \hbox (180.46pt too wide) in paragraph at lines 7--20
  [][][] 
  []
 
 
-Overfull \hbox (108.46pt too wide) in paragraph at lines 23--37
+Overfull \hbox (180.46pt too wide) in paragraph at lines 25--39
  [][][] 
  []
 
 
-Overfull \hbox (97.4792pt too wide) in paragraph at lines 42--56
+Overfull \hbox (169.4792pt too wide) in paragraph at lines 44--58
  [][][] 
  []
 
 
-Overfull \hbox (92.8542pt too wide) in paragraph at lines 61--75
+Overfull \hbox (164.8542pt too wide) in paragraph at lines 63--77
  [][][] 
  []
 
 
-Overfull \hbox (108.46pt too wide) in paragraph at lines 80--93
+Overfull \hbox (180.46pt too wide) in paragraph at lines 82--95
  [][][] 
  []
 
-) [59] [60] [61] [62] [63] [64] [65]
+
+Overfull \hbox (66.35176pt too wide) in paragraph at lines 100--114
+ [][][] 
+ []
+
+) [62
+
+] [63] [64] [65] [66] [67] [68]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11109 strings out of 495286
- 166708 string characters out of 3179901
- 362837 words of memory out of 3000000
- 13875 multiletter control sequences out of 15000+200000
+ 11357 strings out of 495286
+ 170602 string characters out of 3179901
+ 365160 words of memory out of 3000000
+ 14116 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,19n,91p,2908b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,91p,2917b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (67 pages, 401000 bytes).
+Output written on CPGS.dvi (70 pages, 412356 bytes).
