@@ -88,7 +88,7 @@ Note that only if $L_z = 0$ may we reach the poles\cite{Wilkins1972}. If we chan
  = {} & \frac{Q}{L_\infty^2}.
 \end{align}
 See \figref{L_triangle} for a geometrical visualization.
-\begin{figure}[tbhp]
+\begin{figure}[tbp]
 \begin{center}
 \includegraphics[width=0.35\textwidth]{./Images/Triangle.eps}
     \caption{The angular momenta $L_\infty$, $L_z$ and $\sqrt{Q}$ define a right-angled triangle. The acute angles are $\theta_0$, the extremal value of the polar angle, and $\iota$, the orbital inclination\cite{Glampedakis2002a}.}
@@ -161,7 +161,31 @@ P_{ij} = \delta_{ij} - n_in_j.
 
 \section{Detection With LISA}
 
-The LISA detector is a three-arm, space-borne laser interferometer\cite{Bender1998, Danzmann2003}. The three arms form an equilateral triangle that rotates as the system's centre of mass follows a circular, heliocentric orbit, trailing $\ang{20}$ behind the Earth. To describe the detector configuration, and to transform from the MBH coordinate system to those of the detector, we will find it useful to define three coordinate systems: those of the BH at the galactic centre $x_\bullet^i$; ecliptic coordinates centred at the solar system barycentre $x_\odot^i$, and coordinates that co-rotate with the detector $x\sub{d}^i$. The currently envisioned mission geometry is depicted in figures (??). The coordinate systems are related by a series of angles: $\Theta$ and $\Phi$ give the orientation of the solar system in the MBH's coordinates. These define the orientation of the MBH's spin axis $z_\bullet$. $\overline{\Theta}$ and $\overline{\Phi}$ give the position of the galactic centre in ecliptic coordinates. $\overline{\phi}$ gives LISA's orbital phase and $\varphi$ gives the rotational phase of the detector arms. Both of these vary linearly with time
+The LISA detector is a three-arm, space-borne laser interferometer\cite{Bender1998, Danzmann2003}. The three arms form an equilateral triangle that rotates as the system's centre of mass follows a circular, heliocentric orbit, trailing $\ang{20}$ behind the Earth. To describe the detector configuration, and to transform from the MBH coordinate system to those of the detector, we will find it useful to define three coordinate systems: those of the BH at the galactic centre $x_\bullet^i$; ecliptic coordinates centred at the solar system barycentre $x_\odot^i$, and coordinates that co-rotate with the detector $x\sub{d}^i$. The MBH's coordinate system and the solar system coordinate system are depicted in \figref{BH_SS}.
+\begin{figure}[tbhp]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{./Images/BH_SS.eps}
+    \caption{The relationship between the MBH's coordinate system $x_\bullet^i$ and the solar system coordinate system $x_\odot^i$. The MBH's spin axis is aligned with the $z_\bullet$-axis.}
+   \label{fig:BH_SS}
+\end{center}
+\end{figure}
+The currently envisioned LISA mission geometry is shown in \figref{SS_LISA}.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{./Images/SS_LISA.eps}
+    \caption{The relationship between the detector coordinates $x\sub{d}^i$ and the ecliptic coordinates of the solar system $x_\odot^i$\cite{Bender1998}.}
+   \label{fig:SS_LISA}
+\end{center}
+\end{figure}
+We define the detector coordinates such that the detector-arms lie in the $x\sub{d}$-$y\sub{d}$ as shown in \figref{LISA_arms}.
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=0.35\textwidth]{./Images/LISA_arms.eps}
+    \caption{The alignment of the three detector arms, with lengths $L_1$, $L_2$ and $L_3$, within the $x\sub{d}$-$y\sub{d}$ plane\cite{Cutler1998}.}
+   \label{fig:LISA_arms}
+\end{center}
+\end{figure}
+The coordinate systems are related by a series of angles: $\Theta$ and $\Phi$ give the orientation of the solar system in the MBH's coordinates. These define the orientation of the MBH's spin axis $z_\bullet$. $\overline{\Theta}$ and $\overline{\Phi}$ give the position of the galactic centre in ecliptic coordinates. $\overline{\phi}$ gives LISA's orbital phase and $\varphi$ gives the rotational phase of the detector arms. Both of these vary linearly with time
 \begin{equation}
 \overline{\phi}(t) = \omega_\oplus t + \overline{\phi}_0; \quad \varphi(t) = -\omega_\oplus t + \varphi_0;
 \end{equation}
@@ -257,7 +281,7 @@ p(\boldsymbol{s}(t)|\boldsymbol{h}(t)) \propto \exp\left[-\recip{2}\innerprod{\b
 LISA's noise has two sources: instrumental noise and confusion noise, primarily from white dwarf binaries. The latter may be divided into contributions from galactic and extragalactic binaries. In this work we use the noise model of Barack and Cutler\cite{Barack2004}. The shape of the noise curve can be seen in \figref{Noise}. The instrumental noise dominates at both high and low frequencies. The confusion noise is important at intermediate frequencies, and is responsible for the cusp around $f = \SI{1e-3}{\Hz}$.
 \begin{figure}
 \begin{center}
-{\resizebox{0.7\textwidth}{!}{\import{./Images/}{Noise.tex}}}
+{\resizebox{0.65\textwidth}{!}{\import{./Images/}{Noise.tex}}}
 \caption{Approximate noise curve for LISA\cite{Barack2004}. The solid line includes both instrumental and confusion noise, while the dashed line shows only instrumental.}
 \label{fig:Noise}
 \end{center}
@@ -629,8 +653,8 @@ E\sub{int} = {} & \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r
 Two energy spectra are plotted in \figref{Energy} for orbits with a periapsis of $r\sub{p} = 35.0 r\sub{S}$, where $r\sub{S}$ is the MBH's Schwarzschild radius. For consistency with the approximation of Peters and Matthews the NK waveform has been calculated using only the quadrupole formula.
 \begin{figure}[htbp]
   \begin{center}
-   \subfigure[]{\resizebox{0.7\textwidth}{!}{\import{./Images/}{loglog_E.tex}}} \\
-   \subfigure[]{\resizebox{0.7\textwidth}{!}{\import{./Images/}{loglin_E.tex}}}
+   \subfigure[]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglog_E.tex}}} \\
+   \subfigure[]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglin_E.tex}}}
     \caption{Energy spectra for a parabolic orbit of a $\mu = \SI{1e31}{\kg} \simeq 5 M_\odot$ object about a $M_\bullet = \SI{8.6e36}{\kg} \simeq \num{4.3e6} M_\odot$ Schwarzschild MBH with $L_z = 12 M_\bullet$ and $Q = 0$; the periapse distance is $r\sub{p} = 69.9 M_\bullet$. The spectra calculated from a the NK waveform is shown by the solid line and the Peters and Matthews flux is indicated by the dashed line. The NK waveform only uses the quadrupole formula.}
     \label{fig:Energy}
   \end{center}
@@ -650,8 +674,8 @@ Evaluating this should be more accurate than relying upon integrating \eqnref{NK
 Introducing the octopole moments makes a small change to the energy spectrum, as seen in \figref{Energy_oct}.
 \begin{figure}[htbp]
   \begin{center}
-   \subfigure[]{\resizebox{0.7\textwidth}{!}{\import{./Images/}{loglog_E_oct.tex}}} \\
-   \subfigure[]{\resizebox{0.7\textwidth}{!}{\import{./Images/}{loglin_E_oct.tex}}}
+   \subfigure[]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglog_E_oct.tex}}} \\
+   \subfigure[]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglin_E_oct.tex}}}
     \caption{Energy spectra for the same orbit as shown in \figref{Energy}. The spectra calculated from a the NK waveform is shown by the solid line and the Peters and Matthews flux is indicated by the dashed line. The NK waveform includes contributions from the current quadrupole and mass octople as given by \eqnref{Octopole}.}
     \label{fig:Energy_oct}
   \end{center}
@@ -664,6 +688,8 @@ We have outlined an approximate method of generating gravitational waveforms for
 
 Using the NK waveforms we have conducted a trial investigation, using Fisher matrix analysis, into how accurately we could infer parameters of the galactic centre's MBH should such an EMRB be observed. Potentially, it is possible to very precisely determine the key parameters defining the MBH's mass and spin, if the orbit get close enough to the black hole. Unfortunately it does not appear possible to infer the distance to the galactic centre.
 
-Before we can quote results for how accurately we can determine various parameters, it will be necessary to consider how probable a particular orbit will be. This work would build upon the earlier results of Rubbo {\it et al.}\cite{Rubbo2006} and Hopman {\it et al.}\cite{Hopman2007}, who only considered the probability for a signal to be detectable. To calculate these probabilities it will be necessary to assume a particular dynamical model for the galactic centre so that we can define distributions for angular momenta $L_z$ and $Q$, mass $\mu$ and initial position. It will also be necessary to consider on which orbits MS stars would survive without being tidally disrupted\cite{Kobayashi2004}. Once the distribution of orbit parameters is known, it will be possible to assign probabilities to being able to infer parameters to a level of accuracy, for example there may be a probability $p = 0.05$ of constraining $M_\bullet$ to within $\SI{0.01}{\percent}$ and a probability $p = 0.25$ of constraining $M_\bullet$ to within $\SI{1}{\percent}$. This could be done using a Monte Carlo method to sample the distribution of orbits, and calculating the variance-covariance matrix for the inferred parameters for each sample orbit. We could extend the simple Fisher matrix analysis performed here to a full Bayesian analysis with the distributions for $L_z$, $Q$, $\mu$, $x_0$, $y_0$ and $z_0$ serving as priors. However this may be too computationally expensive to justify implementing. From our preliminary investigation it appears that we can get good results from a single EMRB with periapsis of $r\sub{p} = 50 M_\bullet$. This translates to a distance of $\SI{e11}{\metre}$ or $\SI{e-5}{\parsec}$, and therefore may be unlikely to occur within the lifetime of LISA.
+Before we can quote results for how accurately we can determine various parameters, it will be necessary to consider how probable a particular orbit will be. This work would build upon the earlier results of Rubbo {\it et al.}\cite{Rubbo2006} and Hopman {\it et al.}\cite{Hopman2007}, who only considered the probability for a signal to be detectable. To calculate these probabilities it will be necessary to assume a particular dynamical model for the galactic centre so that we can define distributions for angular momenta $L_z$ and $Q$, mass $\mu$ and initial position. It will also be necessary to consider on which orbits MS stars would survive without being tidally disrupted\cite{Kobayashi2004}. Once the distribution of orbit parameters is known, it will be possible to assign probabilities to being able to infer parameters to a level of accuracy, for example there may be a probability $p = 0.05$ of constraining $M_\bullet$ to within $\SI{0.01}{\percent}$ and a probability $p = 0.25$ of constraining $M_\bullet$ to within $\SI{1}{\percent}$. This could be done using a Monte Carlo method to sample the distribution of orbits, and calculating the variance-covariance matrix for the inferred parameters for each sample orbit. We could extend the simple Fisher matrix analysis performed here to a full Bayesian analysis with the distributions for $L_z$, $Q$, $\mu$, $x_0$, $y_0$ and $z_0$ serving as priors. However this may be too computationally expensive to justify implementing. From our preliminary investigation, which uses an extremely restricted sample of parameter space, it appears that we can get good results from a single EMRB with periapsis of $r\sub{p} = 50 M_\bullet$. This translates to a distance of $\SI{e11}{\metre}$ or $\SI{e-5}{\parsec}$, and therefore may be unlikely to occur within the lifetime of LISA.
+
+Some consideration should also be given to methods of fitting a waveform to an observed signal. Given an input signal, what is the best algorithm for finding the optimal set of parameters to characterize the observed waveform? It is necessary to consider this to check whether if there are degenerate combinations of parameters that produce similar waveforms, but are sufficiently distinct in parameter space that we would not be aware of them only consider the region immediately about the ML point. Note that we do not intend to use NK waveforms to actually identify real GWs: more accurate methods should be employed for that; the point of this study would be to identify potential pitfalls that could be encountered when using accurate waveforms
 
 A natural continuation of this work would be to consider EMRBs from other MBHs. LISA should be able to detect EMRBs originating from the Virgo cluster\cite{Rubbo2006}, however the detectable rate may be only $\SI{1e-4}{\yr^{-1}}$ per galaxy\cite{Hopman2007}. It would be interesting to check what we could expect to infer about MBHs in other galaxies from gravitational waves.

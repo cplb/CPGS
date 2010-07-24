@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  23 JUL 2010 19:31
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  24 JUL 2010 14:37
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -779,13 +779,20 @@ Underfull \hbox (badness 4168) in paragraph at lines 116--117
  spher-i-cal po-lars
  []
 
-[28] [29] [30] [31]
+[28]
+File: ./Images/BH_SS.eps Graphic file (type eps)
+ <./Images/BH_SS.eps>
+File: ./Images/SS_LISA.eps Graphic file (type eps)
+ <./Images/SS_LISA.eps>
+File: ./Images/LISA_arms.eps Graphic file (type eps)
+ <./Images/LISA_arms.eps>
+[29] [30] [31] [32]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Noise.tex"
 File: ./Images/Noise.eps Graphic file (type eps)
 
 <psfrag:./Images/Noise.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Noise.eps>) [32]
+<./Images/Noise.eps>) [33]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Rectangular.t
 ex"
 File: ./Images/h_I_Rectangular.eps Graphic file (type eps)
@@ -797,7 +804,7 @@ tex"
 File: ./Images/h_II_Rectangular.eps Graphic file (type eps)
  <psfrag:./Images/h_II_Rectangular.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Rectangular.eps>) [33]
+<./Images/h_II_Rectangular.eps>) [34]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Nuttall_first
 _derivative.tex"
 File: ./Images/h_I_Nuttall_first_derivative.eps Graphic file (type eps)
@@ -809,12 +816,8 @@ t_derivative.tex"
 File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
  <psfrag:./Images/h_II_Nuttall_first_derivative.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Nuttall_first_derivative.eps>)
-Underfull \vbox (badness 1975) has occurred while \output is active []
-
- [34]
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+<./Images/h_II_Nuttall_first_derivative.eps>) [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
@@ -877,15 +880,11 @@ File: ./Images/h_II_7.eps Graphic file (type eps)
 
 <psfrag:./Images/h_II_7.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_7.eps>) [36] [37] [38] [39] [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-[42] [43] [44] [45] [46]
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex"
+<./Images/h_II_7.eps>) [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex
+"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
-
-<psfrag:./Images/Loglog_E.eps>
+ <psfrag:./Images/Loglog_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Loglog_E.eps>)
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglin_E.tex"
@@ -893,7 +892,7 @@ File: ./Images/Loglin_E.eps Graphic file (type eps)
 
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [47] [48]
+<./Images/Loglin_E.eps>) [48] [49]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E_oct.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglog_E.eps>
@@ -903,8 +902,8 @@ File: ./Images/Loglog_E.eps Graphic file (type eps)
 File: ./Images/Loglin_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [49] [50])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [51]
+<./Images/Loglin_E.eps>) [50] [51])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [52]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
@@ -912,7 +911,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [52
+ [53
 
 ]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Shadow_2-psfrag.t
@@ -963,22 +962,22 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
  <psfrag:./Images/Shadow_998_6-psfrag.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Shadow_998_6-psfrag.eps>))
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [53] [54]
-[55
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [54] [55]
+[56
 
-] [56] [57] [58] [59]
+] [57] [58] [59] [60]
 Underfull \hbox (badness 1931) in paragraph at lines 546--549
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-[60]
+[61]
 Underfull \hbox (badness 1931) in paragraph at lines 551--554
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex" [61]
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex" [62]
 Appendix A.
 
 Overfull \hbox (180.46pt too wide) in paragraph at lines 7--20
@@ -1010,17 +1009,17 @@ Overfull \hbox (66.35176pt too wide) in paragraph at lines 100--114
  [][][] 
  []
 
-) [62
+) [63
 
-] [63] [64] [65] [66] [67] [68]
+] [64] [65] [66] [67] [68] [69]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11357 strings out of 495286
- 170602 string characters out of 3179901
- 365160 words of memory out of 3000000
- 14116 multiletter control sequences out of 15000+200000
+ 11366 strings out of 495286
+ 170734 string characters out of 3179901
+ 366793 words of memory out of 3000000
+ 14122 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,18n,91p,2917b,834s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,91p,2917b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (70 pages, 412356 bytes).
+Output written on CPGS.dvi (71 pages, 416284 bytes).
