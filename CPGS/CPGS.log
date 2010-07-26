@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  26 JUL 2010 09:27
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  26 JUL 2010 19:58
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -374,6 +374,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count139
 \LT@p@ftn=\toks31
 )
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\dcolumn.sty"
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen153
+\extrarowheight=\dimen154
+\NC@list=\toks32
+\extratabsurround=\skip70
+\backup@length=\skip71
+))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -411,13 +422,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.sty"
 Package: microtype 2009/11/09 v2.3e Micro-typography with pdfTeX (RS)
-\MT@toks=\toks32
+\MT@toks=\toks33
 \MT@count=\count140
 LaTeX Info: Redefining \lsstyle on input line 1617.
 LaTeX Info: Redefining \lslig on input line 1617.
-\MT@outer@space=\skip70
+\MT@outer@space=\skip72
 LaTeX Info: Redefining \textls on input line 1625.
-\MT@outer@kern=\dimen153
+\MT@outer@kern=\dimen155
 LaTeX Info: Redefining \textmicrotypecontext on input line 2176.
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -426,9 +437,9 @@ File: microtype.cfg 2009/11/09 v2.3e microtype main configuration file (RS)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip71
-\L@UnitsRaiseTextstyle=\skip72
-\L@UnitsRaiseScriptstyle=\skip73
+\L@UnitsRaiseDisplaystyle=\skip73
+\L@UnitsRaiseTextstyle=\skip74
+\L@UnitsRaiseScriptstyle=\skip75
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -440,14 +451,6 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\siunitx.sty"
 Package: siunitx 2009/10/24 v1.3d A comprehensive (SI) units package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen154
-\extrarowheight=\dimen155
-\NC@list=\toks33
-\extratabsurround=\skip74
-\backup@length=\skip75
-)
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\xspace.sty"
 Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
@@ -737,9 +740,9 @@ File: ../shield.eps Graphic file (type eps)
 
 ] [1] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Introduction.tex"
 Chapter 1.
-) [1
+[1
 
-] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\f_R.tex" [2]
+]) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\f_R.tex" [2]
 Chapter 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <24.88> on input line 1.
@@ -766,33 +769,33 @@ r/m/n/10.95 ;  \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95
   [] []  []\OML/lmm/m/it/10.95 :
  []
 
-[17] [18] [19] [20] [21])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [22]
+[17] [18] [19] [20] [21] [22] [23])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [24]
 Chapter 3.
-[23
+[25
 
-] [24] [25] [26]
+] [26] [27] [28]
 File: ./Images/Triangle.eps Graphic file (type eps)
- <./Images/Triangle.eps> [27]
+ <./Images/Triangle.eps> [29]
 Underfull \hbox (badness 4168) in paragraph at lines 116--117
 []\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-space
  spher-i-cal po-lars
  []
 
-[28]
+[30]
 File: ./Images/BH_SS.eps Graphic file (type eps)
  <./Images/BH_SS.eps>
 File: ./Images/SS_LISA.eps Graphic file (type eps)
  <./Images/SS_LISA.eps>
 File: ./Images/LISA_arms.eps Graphic file (type eps)
  <./Images/LISA_arms.eps>
-[29] [30] [31] [32]
+[31] [32] [33] [34]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Noise.tex"
 File: ./Images/Noise.eps Graphic file (type eps)
 
 <psfrag:./Images/Noise.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Noise.eps>) [33]
+<./Images/Noise.eps>) [35]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Rectangular.t
 ex"
 File: ./Images/h_I_Rectangular.eps Graphic file (type eps)
@@ -804,7 +807,7 @@ tex"
 File: ./Images/h_II_Rectangular.eps Graphic file (type eps)
  <psfrag:./Images/h_II_Rectangular.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Rectangular.eps>) [34]
+<./Images/h_II_Rectangular.eps>) [36]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Nuttall_first
 _derivative.tex"
 File: ./Images/h_I_Nuttall_first_derivative.eps Graphic file (type eps)
@@ -816,7 +819,7 @@ t_derivative.tex"
 File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
  <psfrag:./Images/h_II_Nuttall_first_derivative.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Nuttall_first_derivative.eps>) [35] [36]
+<./Images/h_II_Nuttall_first_derivative.eps>) [37] [38]
 Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
@@ -880,8 +883,8 @@ File: ./Images/h_II_7.eps Graphic file (type eps)
 
 <psfrag:./Images/h_II_7.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_7.eps>) [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
-[47] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex
+<./Images/h_II_7.eps>) [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex
 "
 File: ./Images/Loglog_E.eps Graphic file (type eps)
  <psfrag:./Images/Loglog_E.eps>
@@ -892,7 +895,7 @@ File: ./Images/Loglin_E.eps Graphic file (type eps)
 
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [48] [49]
+<./Images/Loglin_E.eps>) [50] [51]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E_oct.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglog_E.eps>
@@ -902,8 +905,8 @@ File: ./Images/Loglog_E.eps Graphic file (type eps)
 File: ./Images/Loglin_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [50] [51])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [52]
+<./Images/Loglin_E.eps>) [52] [53])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [54]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
@@ -911,7 +914,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [53
+ [55
 
 ]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Shadow_2-psfrag.t
@@ -962,22 +965,22 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
  <psfrag:./Images/Shadow_998_6-psfrag.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Shadow_998_6-psfrag.eps>))
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [54] [55]
-[56
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [56] [57]
+[58
 
-] [57] [58] [59] [60]
-Underfull \hbox (badness 1931) in paragraph at lines 546--549
+] [59] [60] [61] [62] [63]
+Underfull \hbox (badness 1931) in paragraph at lines 556--559
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-[61]
-Underfull \hbox (badness 1931) in paragraph at lines 551--554
+
+Underfull \hbox (badness 1931) in paragraph at lines 561--564
 [][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
 ith Ob-ser-va-tions in the
  []
 
-) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex" [62]
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher.tex" [64]
 Appendix A.
 
 Overfull \hbox (180.46pt too wide) in paragraph at lines 7--20
@@ -1009,17 +1012,17 @@ Overfull \hbox (66.35176pt too wide) in paragraph at lines 100--114
  [][][] 
  []
 
-) [63
+) [65
 
-] [64] [65] [66] [67] [68] [69]
+] [66] [67] [68] [69] [70] [71]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11366 strings out of 495286
- 170734 string characters out of 3179901
- 366793 words of memory out of 3000000
- 14122 multiletter control sequences out of 15000+200000
+ 11390 strings out of 495286
+ 171122 string characters out of 3179901
+ 367200 words of memory out of 3000000
+ 14143 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,18n,91p,2917b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,23n,91p,2917b,846s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (71 pages, 416288 bytes).
+Output written on CPGS.dvi (73 pages, 430056 bytes).

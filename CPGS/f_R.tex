@@ -704,40 +704,40 @@ defining the function
  & {} \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\Upsilon r)}{3}\right] - \frac{\Upsilon r\sub{S}\exp(-\Upsilon r)}{3}\right\}.
 \end{align}
 This characterises the deviation from the Schwarzschild case: the change in the precession per orbit relative to Schwarzschild is
-\begin{array}
+\begin{align}
 \upDelta \varpi = {} & \varpi - \varpi\sub{S} \\
  = {} & \pi\zeta(\Upsilon,r\sub{S},\overline{r}),
-\end{array}
+\end{align}
 using the subscript $\mathrm{S}$ to denote the Schwarzschild value. To obtain the last line we have expanded to lowest order, assuming that $\zeta$ is small.\footnote{There is one term in $\zeta$ that is not explicitly first order in $\varepsilon$. Numerical evaluation shows that that this is $< 0.6$ for the applicable range of parameters.} Note that since $\zeta \geq 0$, the precession rate is enhanced relative to GR.
 
-Let us now apply this to the classic test of planetary precession in the solar system. \Tabref{Precess} shows the orbtial properties of planets in the solar system, we hope to use the deviation in perihelion precession rate from the GR prediction to constrain the value of $\zeta$, and hence $\Upslion$ and $a_2$.
-\begin{table}[htbp]
+Let us now apply this to the classic test of planetary precession in the solar system. \Tabref{Precess} shows the orbtial properties of planets in the solar system, we hope to use the deviation in perihelion precession rate from the GR prediction to constrain the value of $\zeta$, and hence $\Upsilon$ and $a_2$.
+\begin{table}[htbp]\footnotesize
 \centering
-\begin{tabular}{l D{.}{.}{4.6} D{.}{.}{3.8} D{.}{.}{3.3}@{$\,\pm\,$}D{.}{.}{2.3} D{.}{.}{1.8}}
+\begin{tabular}{l D{.}{.}{4.6} D{.}{.}{3.8} r @{$\,\pm\,$} l D{.}{.}{1.8}}
 \toprule
-Planet & \multicolumn{1}{c}{Semimajor orbital axis\cite{Cox2000}} & & \multicolumn{1}{c}{Orbital period\cite{Cox2000}} & \multicolumn{2}{c}{Deviation from GR precession rate\cite{Pitjeva2009}} & \multicolumn{1}{c}{Orbital eccentricity\cite{Cox2000}} \\
- & \multicolumn{1}{c}{$r/\SI{e9}{\metre}$} & \multicolumn{1}{c}{$\omega_0/\si{\yr}$} & \multicolumn{2}{c}{$\upDelta \varpi \pm \simga_{\upDelta \varpi}/\si{\milli\as\per\yr}$} & \multicolumn{1}{c}{$e$} \\
+ & \multicolumn{1}{c}{Semimajor axis\cite{Cox2000}} & \multicolumn{1}{c}{Orbital period\cite{Cox2000}} & \multicolumn{2}{c}{Precession rate\cite{Pitjeva2009a}} & \multicolumn{1}{c}{Eccentricity\cite{Cox2000}} \\
+Planet & \multicolumn{1}{c}{$r/\SI{e9}{\metre}$} & \multicolumn{1}{c}{$\omega_0/\si{\yr}$} & \multicolumn{2}{c}{$\upDelta \varpi \pm \sigma_{\upDelta \varpi}/\si{\milli\as\per\yr}$} & \multicolumn{1}{c}{$e$} \\
 \midrule
-Mercury & 57.909175 & 0.24084445 & -0.040 & 0.050 & 0.20563069 \\
-Venus & 108.20893 & 0.61518257 & 0.24 & 0.33 & 0.00677323 \\
-Earth & 149.59789 & 0.99997862 & 0.06 & 0.07 & 0.01671022 \\
-Mars & 227.93664 & 1.88071105 & -0.07 & 0.07 & 0.09341233 \\
-Jupiter & 778.41202 & 11.85652502 & 0.67 & 0.93 & 0.04839266 \\
-Saturn & 1426.7254 & 29.42351935 & -0.10 & 0.15 & 0.05415060 \\
-Uranus & 2870.9722 & 83.74740682 & -38.9 & 39.0 & 0.04716771 \\
-Neptune & 4498.2529 & 163.723204 & -44.4 & 54.0 & 0.00858587 \\
-Pluto & 5906.3762 & 248.0208 & 28.4 & 25.1 & 0.24880766 \\
+Mercury & 57.909175 & 0.24084445 & $-0.040$ & $\phantom{0}0.050$ & 0.20563069 \\
+Venus & 108.20893 & 0.61518257 & $0.24\phantom{0}$ & $\phantom{0}0.33$ & 0.00677323 \\
+Earth & 149.59789 & 0.99997862 & $0.06\phantom{0}$ & $\phantom{0}0.07$ & 0.01671022 \\
+Mars & 227.93664 & 1.88071105 & $-0.07\phantom{0}$ & $\phantom{0}0.07$ & 0.09341233 \\
+Jupiter & 778.41202 & 11.85652502 & $0.67\phantom{0}$ & $\phantom{0}0.93$ & 0.04839266 \\
+Saturn & 1426.7254 & 29.42351935 & $-0.10\phantom{0}$ & $\phantom{0}0.15$ & 0.05415060 \\
+Uranus & 2870.9722 & 83.74740682 & $-38.9\phantom{00}$ & $39.0$ & 0.04716771 \\
+Neptune & 4498.2529 & 163.723204 & $-44.4\phantom{00}$ & $54.0$ & 0.00858587 \\
+Pluto & 5906.3762 & 248.0208 & $28.4\phantom{00}$ & $25.1$ & 0.24880766 \\
 \bottomrule
 \end{tabular}
 \caption{Orbital properties of the eight major planets and Pluto. We take the semimajor orbital axis to be the flatspace distance $r$, not the coordinate $\widetilde{r}$. The eccentricity is not used in calculations, but is given to asses the accuracy of neglecting terms $\order{e}$.}
 \label{tab:Precess}
 \end{table}
-All of the precession rates are consistent with the GR prediction within their uncertainties. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_3$ obtained by fitting to the deviation in precession rate $\upDelta \varpi$, the deviation plus its uncertainty $\upDelta \varpi + \simga_{\upDelta \varpi}$, and the devaition plus two times its uncertainty $\upDelta \varpi + 2\simga_{\upDelta \varpi}$.
-\begin{table}[htbp]
+All of the precession rates are consistent with the GR prediction within their uncertainties. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_3$ obtained by fitting to the deviation in precession rate $\upDelta \varpi$, the deviation plus its uncertainty $\upDelta \varpi + \sigma_{\upDelta \varpi}$, and the devaition plus two times its uncertainty $\upDelta \varpi + 2\sigma_{\upDelta \varpi}$.
+\begin{table}[htbp]\footnotesize
 \centering
 \begin{tabular}{l D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1}}
 \toprule
- & \multicolumn{2}{c}{Using $\upDelta \varpi$} & & \multicolumn{2}{c}{Using $\upDelta \varpi + \simga_{\upDelta \varpi}$} & \multicolumn{2}{c}{Using $\upDelta \varpi + 2\simga_{\upDelta \varpi}$} \\
+ & \multicolumn{2}{c}{Using $\upDelta \varpi$} & \multicolumn{2}{c}{Using $\upDelta \varpi + \sigma_{\upDelta \varpi}$} & \multicolumn{2}{c}{Using $\upDelta \varpi + 2\sigma_{\upDelta \varpi}$} \\
 Planet & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} \\
 \midrule
 Mercury & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.56 & 1.1 & 0.52 & 1.2 \\
@@ -752,7 +752,7 @@ Pluto & 0.0027 & 46000 & 0.0025 & 53000 & 0.0024 & 58000 \\
 \bottomrule
 \end{tabular}
 \caption{Bounds calculated using planetary perihelion precession rates. $\Upsilon$ must be greater than or equal to the tabulated value, $|a_2|$ must be less than or equal to the tabulated value.}
-\label{tab:Precess}
+\label{tab:Constraint}
 \end{table}
 Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity. Even when we adopt a precession rate of the deviation plus the uncertainty Mars still has a precession rate of zero, which cannot be explained by $f(R)$ corrections. Of course, since the uncertainty is relatively quite large this could just mean that the correction is too small to be measured: a deviation of $\upDelta \varpi = \SI{0.001}{\milli\as\per\yr}$ translates to $\Upsilon = \SI{0.12e-9}{\per\metre}$.
 
