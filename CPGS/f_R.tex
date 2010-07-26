@@ -468,7 +468,7 @@ R^{(1)}(x) = -\frac{8 \pi G \Upsilon^2}{c^4}\int \dd^4 y\, \mathscr{G}_\Upsilon(
 \end{equation}
 To proceed further we must know the form of the trace $T(y)$. In general the form of $R^{(1)}(x)$ will be complicated.
 
-%For illustrative purposes, let us consider the Newtonian example of two equal mass particles in cicular orbits. Picking our coordinate origin at the centre of the circle, the trace of the stress-energy tensor is
+%For illustrative purposes, let us consider the Newtonian example of two equal mass particles in circular orbits. Picking our coordinate origin at the centre of the circle, the trace of the stress-energy tensor is
 %\begin{equation}
 %T(x') = c^2M\left[\delta(x;^1 - a\cos\Omega t')\delta(x'^2 - a\sin\Omega t') + \delta(x'^1 + a\cos\Omega t')\delta(x'^2 + a\sin\Omega t')\right]\delta(x'^3),
 %\end{equation}
@@ -570,7 +570,7 @@ This degeneracy may be broken using other tests. From \eqnref{f(R)_Schw} we can 
 \begin{equation}
 \gamma = \frac{3 - \exp(-\Upsilon r)}{3 + \exp(-\Upsilon r)}.
 \end{equation}
-Note that as $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. As this is a function of position it is not immediately obvious how to apply this to standard tests; however it is clear that to be consistent with the current observational values of $1 + (2.1 \pm 2.3) \times 10^{-5}$\cite{Will2006, Bertotti2003} we must require $\Upsilon r \gg 1$ on solar system scales. This excludes the larger range for $\lambdabar_R$.
+Note that as $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. To be consistent with the current observational values of $\gamma = 1 + (2.1 \pm 2.3) \times 10^{-5}$\cite{Will2006, Bertotti2003} we must require $\Upsilon r \gg 1$ on solar system scales. This excludes the larger range for $\lambdabar_R$. Note that this value of $\gamma$ was derived assuming that it was independet of position,
 
 Additionally, N\"{a}f and Jetzer\cite{Naf2010} consider the precession of orbiting gyroscopes: using the results of Gravity Probe B\cite{Everitt2009} they arrive at the bound $|a_2| \lesssim \SI{e11}{\metre^2}$, and using the double pulsar binary J0737-3039\cite{Burgay2003, Lyne2006, Breton2008} $|a_2| \lesssim \SI{4.6e11}{\metre^2}$. While these are much larger than the E\"{o}t-Wash experiments, they are sufficient to rule out the larger range for $\lambdabar_R$. From this we can conclude that the Ricci scalar mode is unlikely to be excited in astrophysically interesting situations. This unfortunately renders impotent the results of \secref{EM_tensor}.
 
@@ -689,7 +689,7 @@ Unless $\omega_0 = \Omega$ the elliptical motion will be asynchronous with the o
 \end{equation}
 In one revolution the ellipse will precess about the focus by
 \begin{align}
-\upDelta \phi = {} & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\
+\varpi = {} & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\
  = {} & 2\pi\left(\frac{\omega_0}{\Omega} - 1\right)
 \end{align}
 The precession is cumulative, so a small deviation may be measurable over sufficient time.
@@ -703,13 +703,66 @@ defining the function
 \zeta(\Upsilon,r\sub{S},\overline{r}) = {} & r\sub{S}\left(\recip{3\overline{r}} + \Upsilon\right)\exp(-\Upsilon r) + \frac{\Upsilon^2\overline{r}^2\exp(-\Upsilon r)}{3 + (1 + \Upsilon \overline{r})\exp(-\Upsilon r)} \nonumber \\
  & {} \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\Upsilon r)}{3}\right] - \frac{\Upsilon r\sub{S}\exp(-\Upsilon r)}{3}\right\}.
 \end{align}
-This characterises the deviation from the Schwarzschild case.
+This characterises the deviation from the Schwarzschild case: the change in the precession per orbit relative to Schwarzschild is
+\begin{array}
+\upDelta \varpi = {} & \varpi - \varpi\sub{S} \\
+ = {} & \pi\zeta(\Upsilon,r\sub{S},\overline{r}),
+\end{array}
+using the subscript $\mathrm{S}$ to denote the Schwarzschild value. To obtain the last line we have expanded to lowest order, assuming that $\zeta$ is small.\footnote{There is one term in $\zeta$ that is not explicitly first order in $\varepsilon$. Numerical evaluation shows that that this is $< 0.6$ for the applicable range of parameters.} Note that since $\zeta \geq 0$, the precession rate is enhanced relative to GR.
+
+Let us now apply this to the classic test of planetary precession in the solar system. \Tabref{Precess} shows the orbtial properties of planets in the solar system, we hope to use the deviation in perihelion precession rate from the GR prediction to constrain the value of $\zeta$, and hence $\Upslion$ and $a_2$.
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l D{.}{.}{4.6} D{.}{.}{3.8} D{.}{.}{3.3}@{$\,\pm\,$}D{.}{.}{2.3} D{.}{.}{1.8}}
+\toprule
+Planet & \multicolumn{1}{c}{Semimajor orbital axis\cite{Cox2000}} & & \multicolumn{1}{c}{Orbital period\cite{Cox2000}} & \multicolumn{2}{c}{Deviation from GR precession rate\cite{Pitjeva2009}} & \multicolumn{1}{c}{Orbital eccentricity\cite{Cox2000}} \\
+ & \multicolumn{1}{c}{$r/\SI{e9}{\metre}$} & \multicolumn{1}{c}{$\omega_0/\si{\yr}$} & \multicolumn{2}{c}{$\upDelta \varpi \pm \simga_{\upDelta \varpi}/\si{\milli\as\per\yr}$} & \multicolumn{1}{c}{$e$} \\
+\midrule
+Mercury & 57.909175 & 0.24084445 & -0.040 & 0.050 & 0.20563069 \\
+Venus & 108.20893 & 0.61518257 & 0.24 & 0.33 & 0.00677323 \\
+Earth & 149.59789 & 0.99997862 & 0.06 & 0.07 & 0.01671022 \\
+Mars & 227.93664 & 1.88071105 & -0.07 & 0.07 & 0.09341233 \\
+Jupiter & 778.41202 & 11.85652502 & 0.67 & 0.93 & 0.04839266 \\
+Saturn & 1426.7254 & 29.42351935 & -0.10 & 0.15 & 0.05415060 \\
+Uranus & 2870.9722 & 83.74740682 & -38.9 & 39.0 & 0.04716771 \\
+Neptune & 4498.2529 & 163.723204 & -44.4 & 54.0 & 0.00858587 \\
+Pluto & 5906.3762 & 248.0208 & 28.4 & 25.1 & 0.24880766 \\
+\bottomrule
+\end{tabular}
+\caption{Orbital properties of the eight major planets and Pluto. We take the semimajor orbital axis to be the flatspace distance $r$, not the coordinate $\widetilde{r}$. The eccentricity is not used in calculations, but is given to asses the accuracy of neglecting terms $\order{e}$.}
+\label{tab:Precess}
+\end{table}
+All of the precession rates are consistent with the GR prediction within their uncertainties. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_3$ obtained by fitting to the deviation in precession rate $\upDelta \varpi$, the deviation plus its uncertainty $\upDelta \varpi + \simga_{\upDelta \varpi}$, and the devaition plus two times its uncertainty $\upDelta \varpi + 2\simga_{\upDelta \varpi}$.
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1}}
+\toprule
+ & \multicolumn{2}{c}{Using $\upDelta \varpi$} & & \multicolumn{2}{c}{Using $\upDelta \varpi + \simga_{\upDelta \varpi}$} & \multicolumn{2}{c}{Using $\upDelta \varpi + 2\simga_{\upDelta \varpi}$} \\
+Planet & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} \\
+\midrule
+Mercury & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.56 & 1.1 & 0.52 & 1.2 \\
+Venus & 0.26 & 5.1 & 0.25 & 5.4 & 0.24 & 5.6 \\
+Earth & 0.19 & 9.0 & 0.19 & 9.6 & 0.18 & 9.9 \\
+Mars & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.12 & 22 \\
+Jupiter & 0.030 & 370 & 0.029 & 400 & 0.028 & 420 \\
+Saturn & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.018 & 1100 & 0.017 & 1200 \\
+Uranus & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.0081 & 5000 &  0.0058 & 9800 \\
+Neptune & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.0039 & 22000 & 0.0034 & 28000 \\
+Pluto & 0.0027 & 46000 & 0.0025 & 53000 & 0.0024 & 58000 \\
+\bottomrule
+\end{tabular}
+\caption{Bounds calculated using planetary perihelion precession rates. $\Upsilon$ must be greater than or equal to the tabulated value, $|a_2|$ must be less than or equal to the tabulated value.}
+\label{tab:Precess}
+\end{table}
+Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity. Even when we adopt a precession rate of the deviation plus the uncertainty Mars still has a precession rate of zero, which cannot be explained by $f(R)$ corrections. Of course, since the uncertainty is relatively quite large this could just mean that the correction is too small to be measured: a deviation of $\upDelta \varpi = \SI{0.001}{\milli\as\per\yr}$ translates to $\Upsilon = \SI{0.12e-9}{\per\metre}$.
+
+While the presence of negative deviations is evidence against $f(R)$-gravity, the tightest numerical constraint, obtained from the orbit of Mercury, is many orders of magnitude worse than obtained from laboratory tests in \secref{Fifth}. In fact, this bound is less stringent than the requirement that $\Upsilon r \ll 1$ over solar system scales. This is not surprising: for there to be a measurable precession effect the $f(R)$ modification to gravity must be significant, this implies that $\exp(-\Upsilon r)$ cannot be neglibly small.
 
 \section{Discussion \& Remaining Questions}
 
 We have seen that gravitational radiation is modified in $f(R)$-gravity, as the Ricci scalar is no longer constrained to be zero. In linearized theory find that there is an additional mode of oscillation, that of the Ricci scalar. However, based upon constraints from fifth-force experiments. This mode seems unlikely to be excited in astrophysical processes. In $f(R)$ theory, the two transverse GW modes are modified from their GR counterparts to include a contribution from the Ricci scalar --- see \eqnref{h_metric}. This may allow us to probe the curvature of the strong-field regions from which GWs originate, however further study is need in order to understand how GW waves behave in a region with background curvature, in particular when $R$ is non-zero. This will be done in subsequent work.
 
-Gravitational radiation is not the only way we may test $f(R)$ theory. From linearized theory we have deduced the weak-field metrics for some simple mass distributions. These indicate that BH solutions are not the same as in GR. Using these weak-field results it is possible to constrain some parameters of $f(R)$. The strongest constraints come from fifth-force tests, but we have also derived the epicyclic frequency for near circular orbits. This may be useful as an independent measurement, perhaps to check $f(R)$ in a different regime.
+Gravitational radiation is not the only way we may test $f(R)$ theory. From linearized theory we have deduced the weak-field metrics for some simple mass distributions. These indicate that BH solutions are not the same as in GR. Using these weak-field results it is possible to constrain some parameters of $f(R)$. The strongest constraints come from fifth-force tests, but we have also derived the epicyclic frequency for near circular orbits. This is as an independent measurement, perhaps to check $f(R)$ in a different regime. We conclude that deviations in planetary precession rates from GR predictions cannot be explained by $f(R)$ modifications, either as that would require $a_2$ to be unreasonably large, or because the devaition is negative, which cannot be achieved with $f(R)$ corrections. Since all of the deviations are consistent with zero, we cannot use these as proof against $f(R)$, just that it does not modify gravity on solar system scales.
 
 It is possible that $f(R)$-gravity is not universal --- that it is different in different regions of space. This could occur if $f(R)$ is just an approximate effective theory, then the range of a particular parametrization's applicability could be limited to a specific domain. For example, we could imagine that the effective theory is different in the vicinity of a massive black hole where the curvature is large and in the solar system where curvature is small; alternatively $f(R)$ could evolve with cosmological epoch so that it varies with redshift.
 
