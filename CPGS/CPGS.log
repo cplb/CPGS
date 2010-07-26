@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  24 JUL 2010 14:37
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  26 JUL 2010 09:27
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -817,7 +817,7 @@ File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
  <psfrag:./Images/h_II_Nuttall_first_derivative.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/h_II_Nuttall_first_derivative.eps>) [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
@@ -1022,4 +1022,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  69i,18n,91p,2917b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (71 pages, 416284 bytes).
+Output written on CPGS.dvi (71 pages, 416288 bytes).
