@@ -5,14 +5,50 @@
 \providecommand{\arXivprefix}{\texttt{arXiv: }}
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem{Landau1975}
-Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
-  fourth edition; Course of Theoretical Physics; Oxford: Butterworth-Heinemann,
-  1975.
+\bibitem{Misner1973}
+Misner, C.~W., Thorne, K.~S. \& Wheeler, J.~A.; \textit{{Gravitation}}; New
+  York: W. H. Freeman, 1973.
 
 \bibitem{Will2006}
 Will, C.~M.; {The Confrontation between General Relativity and Experiment};
   \textit{Living Reviews in Relativity}; \textbf{9}(3), 2006.
+
+\bibitem{Stairs2003}
+Stairs, I.~H.; {Testing General Relativity with Pulsar Timing}; \textit{Living
+  Reviews in Relativity}; \textbf{6}(5), 2003.
+
+\bibitem{Abramovici1992}
+Abramovici, A., Althouse, W.~E., Drever, R. W.~P. \textit{et~al.}; {LIGO: The
+  Laser Interferometer Gravitational-Wave Observatory.}; \textit{Science};
+  \textbf{256}(5055):325--333, April 1992.
+
+\bibitem{Abbott2009}
+Abbott, B.~P., Abbott, R., Adhikari, R. \textit{et~al.}; {LIGO: the Laser
+  Interferometer Gravitational-Wave Observatory}; \textit{Reports on Progress
+  in Physics}; \textbf{72}(7):076901(25), July 2009.
+
+\bibitem{Accadia2010}
+Accadia, T., Acernese, F., Antonucci, F. \textit{et~al.}; {Status and
+  perspectives of the Virgo gravitational wave detector}; \textit{Journal of
+  Physics: Conference Series}; \textbf{203}(1):012074, January 2010.
+
+\bibitem{Bender1998}
+Bender, P., Brillet, A., Ciufolini, I. \textit{et~al.}; {LISA Pre-Phase A
+  Report}, 1998.
+
+\bibitem{Danzmann2003}
+Danzmann, K. \& R\"{u}diger, A.; {LISA technology concept, status, prospects};
+  \textit{Classical and Quantum Gravity}; \textbf{20}(10):S1--S9, May 2003.
+
+\bibitem{Psaltis2008}
+Psaltis, D., Perrodin, D., Dienes, K.~R. \& Mocioiu, I.; {Kerr Black Holes Are
+  Not Unique to General Relativity}; \textit{Physical Review Letters};
+  \textbf{100}(9):091101(4), March 2008.
+
+\bibitem{Landau1975}
+Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
+  fourth edition; Course of Theoretical Physics; Oxford: Butterworth-Heinemann,
+  1975.
 
 \bibitem{Sotiriou2010}
 Sotiriou, T.~P. \& Faraoni, V.; {$f(R)$ theories of gravity}; \textit{Reviews
@@ -21,10 +57,6 @@ Sotiriou, T.~P. \& Faraoni, V.; {$f(R)$ theories of gravity}; \textit{Reviews
 \bibitem{DeFelice2010}
 {De Felice}, A. \& Tsujikawa, S.; {$f(R)$ theories}; \textit{Living Reviews in
   Relativity}; \textbf{13}(3), February 2010.
-
-\bibitem{Misner1973}
-Misner, C.~W., Thorne, K.~S. \& Wheeler, J.~A.; \textit{{Gravitation}}; New
-  York: W. H. Freeman, 1973.
 
 \bibitem{Buchdahl1970}
 Buchdahl, H.~A.; {Non-linear Lagrangians and cosmological theory};
@@ -35,11 +67,6 @@ Buchdahl, H.~A.; {Non-linear Lagrangians and cosmological theory};
 Park, M., Zurek, K.~M. \& Watson, S.; {Unified approach to cosmic
   acceleration}; \textit{Physical Review D}; \textbf{81}(12):124008(18), June
   2010.
-
-\bibitem{Psaltis2008}
-Psaltis, D., Perrodin, D., Dienes, K.~R. \& Mocioiu, I.; {Kerr Black Holes Are
-  Not Unique to General Relativity}; \textit{Physical Review Letters};
-  \textbf{100}(9):091101(4), March 2008.
 
 \bibitem{Exirifard2008}
 Exirifard, Q. \& Sheik-Jabbari, M.; {Lovelock gravity at the crossroads of
@@ -323,14 +350,6 @@ Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al.}; {Measuring spin of a
 King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; {The evolution of black hole
   mass and spin in active galactic nuclei}; \textit{Monthly Notices of the
   Royal Astronomical Society}; \textbf{385}(3):1621--1627, April 2008.
-
-\bibitem{Bender1998}
-Bender, P., Brillet, A., Ciufolini, I. \textit{et~al.}; {LISA Pre-Phase A
-  Report}, 1998.
-
-\bibitem{Danzmann2003}
-Danzmann, K. \& R\"{u}diger, A.; {LISA technology concept, status, prospects};
-  \textit{Classical and Quantum Gravity}; \textbf{20}(10):S1--S9, May 2003.
 
 \bibitem{Rubbo2006}
 Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; {Event Rate for Extreme
