@@ -20,7 +20,7 @@ f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
 Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
-The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$-gravity. Following the Palatini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Imposing that the metric and Palatini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
+The field equations are obtained by a variational principle; there are a number of choices for achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they now yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric (or second order) formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being those for metric $f(R)$-gravity. Following the Palatini (or first order) formalism one varies the action with respect both to the metric $g^{\mu\nu}$ and to the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Cevita metric connection.\footnote{Requiring that the metric and Palatini formalisms produce the same field equations, assuming an action that only depends on the metric and Reimann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
 
 Finally, there is a third version of $f(R)$-gravity: metric-affine $f(R)$-gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palatini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction of torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
@@ -183,7 +183,7 @@ h_{\mu\nu} = \overline{h}_{\mu\nu} + \left(b a_2 R^{(1)} -\frac{\overline{h}}{2}
 \end{equation}
 Just as in GR, we have the freedom to perform a gauge transformation\cite{Misner1973, Hobson2006}: the field equations are gauge invariant since we started with a function of the gauge invariant Ricci scalar. We will assume a Lorenz, or de Donder, gauge choice such that
 \begin{equation}
-\nabla^\mu \overline{h}_{\mu\nu} = 0,
+\nabla^\mu \overline{h}_{\mu\nu} = 0;
 \label{eq:Lorenz}
 \end{equation}
 to first order this gives
@@ -245,7 +245,7 @@ for frequency $\Omega$. These waves do not travel at $c$, but have a group veloc
 \begin{equation}
 v = \frac{c\sqrt{\Omega^2 - c^2\Upsilon^2}}{\Omega},
 \end{equation}
-provided that $\Upsilon^2 > 0$, $v < c$. We do not get propagating modes for $\Omega < \Omega_R = c\Upsilon$, instead we will get an evanescent decay.
+provided that $\Upsilon^2 > 0$, $v < c$. Instead of a propagating mode for $\Omega < \Omega_R = c\Upsilon$ we will find an evanescently decaying wave.
 
 From the condition \eqref{eq:Lorenz} we find that $k^\mu$ is orthogonal to $\widehat{\overline{h}}_{\mu\nu}$,
 \begin{equation}
@@ -536,16 +536,16 @@ Additionally, in $f(R)$-gravity Birkhoff's theorem no longer applies: the metric
 %\end{equation}
 %where $\Theta$ is the Heaviside step function, 
 \begin{equation}
-\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
+\overline{h}_{00} = -\frac{4GM}{c^2r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0,
 \end{equation}
-as in GR and for the point mass, but
+as in GR, and for the point mass, but
 \begin{align}
 R^{(1)} = & {} -\frac{6 G M}{c^2}\frac{\exp(- \Upsilon r)}{r}\left[\frac{\Upsilon L\cosh(\Upsilon L) - \sinh(\Upsilon L)}{\Upsilon L^3}\right] \\
- = & {} -\frac{6 G M}{c^2}\frac{\exp(- \Upsilon r)}{r}\Upsilon^2\Xi(L\Upsilon),
+ = & {} -\frac{6 G M}{c^2}\frac{\exp(- \Upsilon r)}{r}\Upsilon^2\Xi(\Upsilon L),
 \end{align}
-defining $\Xi(L\Upsilon)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(L\Upsilon)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978, Capozziello2009b}
+defining $\Xi(\Upsilon L)$ in the last line.\footnote{Note that $\Xi(0) = \nicerecip{3}$ is the minimum of $\Xi(\Upsilon >)$.} The metric perturbation thus has non-zero first order elements\cite{Stelle1978, Capozziello2009b}
 \begin{equation}
-h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \Upsilon r)\Xi(L\Upsilon)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \Upsilon r)\Xi(L\Upsilon)\right] \quad \mathrm{(no\: sum)}.
+h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \Upsilon r)\Xi(\Upsilon L)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \Upsilon r)\Xi(\Upsilon L)\right] \quad \mathrm{(no\: sum)}.
 \label{eq:Uniform}
 \end{equation}
 where we have assumed that $r > L$ at all stages.\footnote{Inside the source $R^{(1)} = -{6 G \Upsilon^2 M}/{c^2}\left[1 - (\Upsilon a + 1)\exp(-\Upsilon a)\sinh(\Upsilon r)/\Upsilon r\right]$.}
@@ -562,19 +562,19 @@ U(r) = \frac{GM}{r}\left[1 + \alpha\exp\left(-\frac{r}{\lambdabar}\right)\right]
 \end{equation}
 We are able to put strict constraints upon our length-scale $\lambdabar_R$, and hence $a_2$, since our coupling constant $\alpha_R = \nicerecip{3}$ is relatively large. Note that we would expect this coupling constant to be larger for extended sources: comparison with \eqnref{Uniform} shows that for a uniform sphere $\alpha_R = \Xi(\Upsilon L) \geq \nicerecip{3}$.
 
-The best constraints at short distances come from the E\"{o}t-Wash experiments, which use torsion balances\cite{Kapner2007a, Hoyle2004}. These constrain $\lambdabar_R \lesssim \SI{8e{-5}}{\metre}$. Hence we determine $|a_2| \lesssim \SI{2e-9}{\metre}$. A similar result is obtained by N\"{a}f and Jetzer\cite{Naf2010}. This would mean that the cut-off frequency for a propagating scalar mode would be $\Omega_R \gtrsim \SI{4e12}{\Sec^{-1}}$. This is much higher than we would expect for astrophysical objects.
+The best constraints at short distances come from the E\"{o}t-Wash experiments, which use torsion balances\cite{Kapner2007a, Hoyle2004}. These constrain $\lambdabar_R \lesssim \SI{8e{-5}}{\metre}$. Hence we determine $|a_2| \lesssim \SI{2e-9}{\metre^2}$. A similar result is obtained by N\"{a}f and Jetzer\cite{Naf2010}. This would mean that the cut-off frequency for a propagating scalar mode would be $\Omega_R \gtrsim \SI{4e12}{\Sec^{-1}}$. This is much higher than we would expect for astrophysical objects.
 
 Alternatively $\lambdabar_R$ could be large. Then the exponential would be effectively constant, and we would have to redefine the gravitational constant such that the measured value of Newton's constant is $G\sub{N} \simeq 4G/3$, where $G$ is the bare constant used in the above expressions. Since $\Upsilon$ would be small, the Ricci scalar would also be small and spacetime would be nearly flat.. The best constraints come from planetary precession calculated from Keplerian orbits\cite{Talmadge1988, Adelberger2003}. Extrapolating from these results, for $\alpha \geq \nicerecip{3}$, we must have a minimum length-scale of $\SIrange[tophrase=dash,repeatunits=false]{e15}{e16}{\metre}$. This would impose the constraint $|a_2| \gtrsim \SI{e30}{\metre^2}$. The cut-off frequency would be $\Omega_R \lesssim \SI{e-7}{\Sec^{-1}}$. The scalar mode could be excited by a variety of astrophysical processes and be detected in the LISA frequency band\cite{Capozziello2008}.
 
-This degeneracy may be broken using other tests. From \eqnref{f(R)_Schw} we can calculate the post-Newtonian parameter $\gamma$, which measures the space-curvature produced by unit rest mass\cite{Will2006}, we find\cite{Olmo2007c, DeFelice2010}
+This degeneracy may be broken using other tests. From \eqnref{f(R)_Schw}, calculating the post-Newtonian parameter $\gamma$, which measures the space-curvature produced by unit rest mass\cite{Will2006}, we find\cite{Olmo2007c, DeFelice2010}
 \begin{equation}
 \gamma = \frac{3 - \exp(-\Upsilon r)}{3 + \exp(-\Upsilon r)}.
 \end{equation}
-Note that as $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. To be consistent with the current observational values of $\gamma = 1 + (2.1 \pm 2.3) \times 10^{-5}$\cite{Will2006, Bertotti2003} we must require $\Upsilon r \gg 1$ on solar system scales. This excludes the larger range for $\lambdabar_R$. Note that this value of $\gamma$ was derived assuming that it was independet of position,
+Note that as $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. To be consistent with the current observational values of $\gamma = 1 + (2.1 \pm 2.3) \times 10^{-5}$\cite{Will2006, Bertotti2003} we must require $\Upsilon r \gg 1$ on solar system scales. This excludes the larger range for $\lambdabar_R$. Note that this value of $\gamma$ was derived assuming that it was independet of position. We will see that the large range for $\lambdabar_R$ is excluded by considering planetary perihelion precession in \secref{Epicyclic}.
 
 Additionally, N\"{a}f and Jetzer\cite{Naf2010} consider the precession of orbiting gyroscopes: using the results of Gravity Probe B\cite{Everitt2009} they arrive at the bound $|a_2| \lesssim \SI{e11}{\metre^2}$, and using the double pulsar binary J0737-3039\cite{Burgay2003, Lyne2006, Breton2008} $|a_2| \lesssim \SI{4.6e11}{\metre^2}$. While these are much larger than the E\"{o}t-Wash experiments, they are sufficient to rule out the larger range for $\lambdabar_R$. From this we can conclude that the Ricci scalar mode is unlikely to be excited in astrophysically interesting situations. This unfortunately renders impotent the results of \secref{EM_tensor}.
 
-While the laboratory bound on $\lambdabar_R$ may be strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the expected value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely to be a coincidence, since there is nothing fundamental about the level of current precision, however it would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
+While the laboratory bound on $\lambdabar_R$ may be strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the expected value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we see that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely to be a coincidence, since there is nothing fundamental about the level of current precision, however it would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
 
 \subsection{The Weak-Field Metric}
 
@@ -706,27 +706,27 @@ defining the function
 This characterises the deviation from the Schwarzschild case: the change in the precession per orbit relative to Schwarzschild is
 \begin{align}
 \upDelta \varpi = {} & \varpi - \varpi\sub{S} \\
- = {} & \pi\zeta(\Upsilon,r\sub{S},\overline{r}),
+ = {} & \pi\zeta,
 \end{align}
 using the subscript $\mathrm{S}$ to denote the Schwarzschild value. To obtain the last line we have expanded to lowest order, assuming that $\zeta$ is small.\footnote{There is one term in $\zeta$ that is not explicitly first order in $\varepsilon$. Numerical evaluation shows that that this is $< 0.6$ for the applicable range of parameters.} Note that since $\zeta \geq 0$, the precession rate is enhanced relative to GR.
 
 Let us now apply this to the classic test of planetary precession in the solar system. \Tabref{Precess} shows the orbtial properties of planets in the solar system, we hope to use the deviation in perihelion precession rate from the GR prediction to constrain the value of $\zeta$, and hence $\Upsilon$ and $a_2$.
 \begin{table}[htbp]\footnotesize
 \centering
-\begin{tabular}{l D{.}{.}{4.6} D{.}{.}{3.8} r @{$\,\pm\,$} l D{.}{.}{1.8}}
+\begin{tabular}{l D{.}{.}{2.8} D{.}{.}{3.8} r @{$\:\pm\:$} l D{.}{.}{1.8}}
 \toprule
  & \multicolumn{1}{c}{Semimajor axis\cite{Cox2000}} & \multicolumn{1}{c}{Orbital period\cite{Cox2000}} & \multicolumn{2}{c}{Precession rate\cite{Pitjeva2009a}} & \multicolumn{1}{c}{Eccentricity\cite{Cox2000}} \\
-Planet & \multicolumn{1}{c}{$r/\SI{e9}{\metre}$} & \multicolumn{1}{c}{$\omega_0/\si{\yr}$} & \multicolumn{2}{c}{$\upDelta \varpi \pm \sigma_{\upDelta \varpi}/\si{\milli\as\per\yr}$} & \multicolumn{1}{c}{$e$} \\
+Planet & \multicolumn{1}{c}{$r/\SI{e11}{\metre}$} & \multicolumn{1}{c}{$\omega_0/\si{\yr}$} & \multicolumn{2}{c}{$\upDelta \varpi \pm \sigma_{\upDelta \varpi}/\si{\milli\as\per\yr}$} & \multicolumn{1}{c}{$e$} \\
 \midrule
-Mercury & 57.909175 & 0.24084445 & $-0.040$ & $\phantom{0}0.050$ & 0.20563069 \\
-Venus & 108.20893 & 0.61518257 & $0.24\phantom{0}$ & $\phantom{0}0.33$ & 0.00677323 \\
-Earth & 149.59789 & 0.99997862 & $0.06\phantom{0}$ & $\phantom{0}0.07$ & 0.01671022 \\
-Mars & 227.93664 & 1.88071105 & $-0.07\phantom{0}$ & $\phantom{0}0.07$ & 0.09341233 \\
-Jupiter & 778.41202 & 11.85652502 & $0.67\phantom{0}$ & $\phantom{0}0.93$ & 0.04839266 \\
-Saturn & 1426.7254 & 29.42351935 & $-0.10\phantom{0}$ & $\phantom{0}0.15$ & 0.05415060 \\
-Uranus & 2870.9722 & 83.74740682 & $-38.9\phantom{00}$ & $39.0$ & 0.04716771 \\
-Neptune & 4498.2529 & 163.723204 & $-44.4\phantom{00}$ & $54.0$ & 0.00858587 \\
-Pluto & 5906.3762 & 248.0208 & $28.4\phantom{00}$ & $25.1$ & 0.24880766 \\
+Mercury & 0.57909175 & 0.24084445 & $-0.040$ & $\phantom{0}0.050$ & 0.20563069 \\
+Venus & 1.0820893 & 0.61518257 & $0.24\phantom{0}$ & $\phantom{0}0.33$ & 0.00677323 \\
+Earth & 1.4959789 & 0.99997862 & $0.06\phantom{0}$ & $\phantom{0}0.07$ & 0.01671022 \\
+Mars & 2.2793664 & 1.88071105 & $-0.07\phantom{0}$ & $\phantom{0}0.07$ & 0.09341233 \\
+Jupiter & 7.7841202 & 11.85652502 & $0.67\phantom{0}$ & $\phantom{0}0.93$ & 0.04839266 \\
+Saturn & 14.267254 & 29.42351935 & $-0.10\phantom{0}$ & $\phantom{0}0.15$ & 0.05415060 \\
+Uranus & 28.709722 & 83.74740682 & $-38.9\phantom{00}$ & $39.0$ & 0.04716771 \\
+Neptune & 44.982529 & 163.723204 & $-44.4\phantom{00}$ & $54.0$ & 0.00858587 \\
+Pluto & 59.063762 & 248.0208 & $28.4\phantom{00}$ & $25.1$ & 0.24880766 \\
 \bottomrule
 \end{tabular}
 \caption{Orbital properties of the eight major planets and Pluto. We take the semimajor orbital axis to be the flatspace distance $r$, not the coordinate $\widetilde{r}$. The eccentricity is not used in calculations, but is given to asses the accuracy of neglecting terms $\order{e}$.}
@@ -735,32 +735,32 @@ Pluto & 5906.3762 & 248.0208 & $28.4\phantom{00}$ & $25.1$ & 0.24880766 \\
 All of the precession rates are consistent with the GR prediction within their uncertainties. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_3$ obtained by fitting to the deviation in precession rate $\upDelta \varpi$, the deviation plus its uncertainty $\upDelta \varpi + \sigma_{\upDelta \varpi}$, and the devaition plus two times its uncertainty $\upDelta \varpi + 2\sigma_{\upDelta \varpi}$.
 \begin{table}[htbp]\footnotesize
 \centering
-\begin{tabular}{l D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1} D{.}{.}{1.4} D{.}{.}{5.1}}
+\begin{tabular}{l D{.}{.}{2.2} D{.}{.}{5.1} D{.}{.}{2.2} D{.}{.}{5.1} D{.}{.}{2.2} D{.}{.}{5.1}}
 \toprule
  & \multicolumn{2}{c}{Using $\upDelta \varpi$} & \multicolumn{2}{c}{Using $\upDelta \varpi + \sigma_{\upDelta \varpi}$} & \multicolumn{2}{c}{Using $\upDelta \varpi + 2\sigma_{\upDelta \varpi}$} \\
-Planet & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-9}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} \\
+Planet & \multicolumn{1}{c}{$\Upsilon/\SI{e-11}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-11}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/\SI{e-11}{\per\metre}$} & \multicolumn{1}{c}{$|a_2|/\SI{e18}{\metre^2}$} \\
 \midrule
-Mercury & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.56 & 1.1 & 0.52 & 1.2 \\
-Venus & 0.26 & 5.1 & 0.25 & 5.4 & 0.24 & 5.6 \\
-Earth & 0.19 & 9.0 & 0.19 & 9.6 & 0.18 & 9.9 \\
-Mars & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.12 & 22 \\
-Jupiter & 0.030 & 370 & 0.029 & 400 & 0.028 & 420 \\
-Saturn & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.018 & 1100 & 0.017 & 1200 \\
-Uranus & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.0081 & 5000 &  0.0058 & 9800 \\
-Neptune & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.0039 & 22000 & 0.0034 & 28000 \\
-Pluto & 0.0027 & 46000 & 0.0025 & 53000 & 0.0024 & 58000 \\
+Mercury & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 56 & 1.1 & 52 & 1.2 \\
+Venus & 26 & 5.1 & 25 & 5.4 & 24 & 5.6 \\
+Earth & 19 & 9.0 & 19 & 9.6 & 18 & 9.9 \\
+Mars & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 12 & 22 \\
+Jupiter & 3.0 & 370 & 2.9 & 400 & 2.8 & 420 \\
+Saturn & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 1.8 & 1100 & 1.7 & 1200 \\
+Uranus & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.81 & 5000 &  0.58 & 9800 \\
+Neptune & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & 0.39 & 22000 & 0.34 & 28000 \\
+Pluto & 0.27 & 46000 & 0.25 & 53000 & 0.24 & 58000 \\
 \bottomrule
 \end{tabular}
 \caption{Bounds calculated using planetary perihelion precession rates. $\Upsilon$ must be greater than or equal to the tabulated value, $|a_2|$ must be less than or equal to the tabulated value.}
 \label{tab:Constraint}
 \end{table}
-Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity. Even when we adopt a precession rate of the deviation plus the uncertainty Mars still has a precession rate of zero, which cannot be explained by $f(R)$ corrections. Of course, since the uncertainty is relatively quite large this could just mean that the correction is too small to be measured: a deviation of $\upDelta \varpi = \SI{0.001}{\milli\as\per\yr}$ translates to $\Upsilon = \SI{0.12e-9}{\per\metre}$.
+Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity. Even when we adopt a precession rate of the deviation plus the uncertainty Mars still has a precession rate of zero, which cannot be explained by $f(R)$ corrections. Of course, since the uncertainty is relatively quite large this could just mean that the correction is too small to be measured: a deviation of $\upDelta \varpi = \SI{0.001}{\milli\as\per\yr}$ translates to $\Upsilon = \SI{12e-11}{\per\metre}$.
 
-While the presence of negative deviations is evidence against $f(R)$-gravity, the tightest numerical constraint, obtained from the orbit of Mercury, is many orders of magnitude worse than obtained from laboratory tests in \secref{Fifth}. In fact, this bound is less stringent than the requirement that $\Upsilon r \ll 1$ over solar system scales. This is not surprising: for there to be a measurable precession effect the $f(R)$ modification to gravity must be significant, this implies that $\exp(-\Upsilon r)$ cannot be neglibly small.
+While the presence of negative deviations is evidence against $f(R)$-gravity, the tightest numerical constraint, obtained from the orbit of Mercury, is many orders of magnitude worse than obtained from laboratory tests in \secref{Fifth}. This bound is not much more stringent than the requirement that $\Upsilon r \gg 1$ over solar system scales. This is not surprising: for there to be a measurable precession effect the $f(R)$ modification to gravity must be significant, this implies that $\exp(-\Upsilon r)$ cannot be neglibly small.
 
 \section{Discussion \& Remaining Questions}
 
-We have seen that gravitational radiation is modified in $f(R)$-gravity, as the Ricci scalar is no longer constrained to be zero. In linearized theory find that there is an additional mode of oscillation, that of the Ricci scalar. However, based upon constraints from fifth-force experiments. This mode seems unlikely to be excited in astrophysical processes. In $f(R)$ theory, the two transverse GW modes are modified from their GR counterparts to include a contribution from the Ricci scalar --- see \eqnref{h_metric}. This may allow us to probe the curvature of the strong-field regions from which GWs originate, however further study is need in order to understand how GW waves behave in a region with background curvature, in particular when $R$ is non-zero. This will be done in subsequent work.
+We have seen that gravitational radiation is modified in $f(R)$-gravity, as the Ricci scalar is no longer constrained to be zero. In linearized theory find that there is an additional mode of oscillation, that of the Ricci scalar. However, based upon constraints from fifth-force experiments this mode seems unlikely to be excited in astrophysical processes. In $f(R)$ theory, the two transverse GW modes are modified from their GR counterparts to include a contribution from the Ricci scalar --- see \eqnref{h_metric}. This may allow us to probe the curvature of the strong-field regions from which GWs originate, however further study is needed in order to understand how GW waves behave in a region with background curvature, in particular when $R$ is non-zero. This will be done in subsequent work.
 
 Gravitational radiation is not the only way we may test $f(R)$ theory. From linearized theory we have deduced the weak-field metrics for some simple mass distributions. These indicate that BH solutions are not the same as in GR. Using these weak-field results it is possible to constrain some parameters of $f(R)$. The strongest constraints come from fifth-force tests, but we have also derived the epicyclic frequency for near circular orbits. This is as an independent measurement, perhaps to check $f(R)$ in a different regime. We conclude that deviations in planetary precession rates from GR predictions cannot be explained by $f(R)$ modifications, either as that would require $a_2$ to be unreasonably large, or because the devaition is negative, which cannot be achieved with $f(R)$ corrections. Since all of the deviations are consistent with zero, we cannot use these as proof against $f(R)$, just that it does not modify gravity on solar system scales.
 
@@ -768,4 +768,4 @@ It is possible that $f(R)$-gravity is not universal --- that it is different in 
 
 Another possibility is that $f(R)$-gravity is modified in the presence of matter via the chameleon mechanism\cite{Khoury2004, Khoury2004a}. In metric $f(R)$ this corresponds to a nonlinear effect arising from a large departure of the Ricci scalar from its background value\cite{DeFelice2010}. The mass of the effective scalar degree of freedom then depends upon the density of its environment. In a region of high matter density, such as the Earth, the deviations from standard gravity would be exponentially suppressed due to a large effective $\Upsilon$; while on cosmological scales, where the density is low, the scalar would have a small $\Upsilon$, perhaps of the order $H_0/c$\cite{Khoury2004, Khoury2004a}. The chameleon mechanism allows $f(R)$ gravity to pass solar system tests while remaining of interest on a cosmological scale. In the context of gravitational radiation, this would mean that the Ricci scalar mode could freely propagate on cosmological scales. Unfortunately, since the chameleon mechanism suppresses the effects of $f(R)$ in the presence of matter, this mode would have to be excited by something other than the movement of matter.
 
-An obvious extension to the work presented here is to consider the case when $a_0$ is non-zero. We could then consider an expansion about (anti-)de Sitter space. This would be of interest since the current $\Lambda$CDM paradigm indicates that we live in a universe with a positive cosmological constant. 
+An obvious extension to the work presented here is to consider the case when $a_0$ is non-zero. We could then consider an expansion about (anti-)de Sitter space. This would be of interest since the current $\Lambda$CDM paradigm indicates that we live in a universe with a positive cosmological constant\cite{Hinshaw2009}. 
