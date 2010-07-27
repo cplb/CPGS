@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  27 JUL 2010 17:49
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  27 JUL 2010 21:04
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -767,18 +767,8 @@ r/m/n/10.95 ;  \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95
   [] []  []\OML/lmm/m/it/10.95 :
  []
 
-[17]
-
-LaTeX Warning: Reference `sec:Epicyclic' on page 18 undefined on input line 573
-.
-
-[18] [19] [20] [21]
-Overfull \hbox (6.68892pt too wide) in paragraph at lines 738--754
- [][][] 
- []
-
-[22] [23]) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex
-" [24]
+[17] [18] [19] [20] [21] [22] [23])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [24]
 Chapter 3.
 [25
 
@@ -991,54 +981,50 @@ Underfull \hbox (badness 1931) in paragraph at lines 580--583
 ith Ob-ser-va-tions in the
  []
 
-) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_new.tex"
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newer.tex"
 [64]
 Appendix A.
 
-Overfull \hbox (64.70636pt too wide) in paragraph at lines 9--25
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 11--27
  [][][] 
  []
 
 
-Overfull \hbox (61.04482pt too wide) in paragraph at lines 30--46
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 32--48
  [][][] 
  []
 
 
-Overfull \hbox (61.04482pt too wide) in paragraph at lines 51--67
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 53--69
  [][][] 
  []
 
 
-Overfull \hbox (61.04482pt too wide) in paragraph at lines 72--88
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 74--90
  [][][] 
  []
 
 
-Overfull \hbox (61.04482pt too wide) in paragraph at lines 93--109
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 95--111
  [][][] 
  []
 
 
-Overfull \hbox (61.04482pt too wide) in paragraph at lines 114--130
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 116--132
  [][][] 
  []
 
 ) [65
 
 ] [66] [67] [68] [69] [70] [71]
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11403 strings out of 495286
- 171380 string characters out of 3179901
- 370815 words of memory out of 3000000
- 14156 multiletter control sequences out of 15000+200000
+ 11402 strings out of 495286
+ 171371 string characters out of 3179901
+ 360779 words of memory out of 3000000
+ 14155 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,23n,91p,2917b,848s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (73 pages, 436620 bytes).
+Output written on CPGS.dvi (73 pages, 426064 bytes).
