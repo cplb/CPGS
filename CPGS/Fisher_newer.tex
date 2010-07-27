@@ -1,0 +1,134 @@
+\appendix
+
+\renewcommand{\chaptername}{Appendix}
+
+\chapter{Inverse Fisher Matrix Elements}
+
+The following tables give the inverse Fisher matrix elements for a small selection of example orbits. The values are normalised with respect to their maximum-likelihood values, thus $\Gamma^{-1}_{aa} = \num{1e-4}$ indicates that the uncertainty in parameter $\lambda^a$ is $\SI{1}{\percent}$. The inverve Fisher matrix elements only use information from the gravitational wave. They do not make use of any other prior information, such as results from other observations. They are therefore an upper bound on the size of the posterior variance: we will be able to infer parameters more accurately if we combine all the information we have regarding them.
+
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 2.7E$-$04 & $-$1.2E$-$05 & $-$7.9E$-$06 & 9.4E$-$05 & 3.8E$-$05 & 3.6E$-$05 & 5.0E$-$06 & 7.5E$-$04 & 2.8E$-$05 & 1.9E$-$04 & $-$1.9E$-$05 \\
+$a$ & $-$1.2E$-$05 & 1.9E$-$03 & $-$4.7E$-$04 & 5.6E$-$04 & $-$3.4E$-$04 & $-$1.5E$-$05 & 1.1E$-$04 & 3.1E$-$04 & 9.9E$-$06 & 8.2E$-$06 & $-$1.5E$-$04 \\
+$\Theta$ & $-$7.9E$-$06 & $-$4.7E$-$04 & 7.4E$-$04 & $-$2.7E$-$04 & 1.2E$-$04 & 9.7E$-$05 & $-$2.8E$-$04 & 6.7E$-$04 & $-$1.2E$-$05 & $-$9.4E$-$06 & $-$1.3E$-$05 \\
+$\overline{\Theta}$ & 9.4E$-$05 & 5.6E$-$04 & $-$2.7E$-$04 & 1.5E$-$02 & $-$5.9E$-$04 & 2.5E$-$05 & $-$1.6E$-$04 & 2.8E$-$02 & $-$2.2E$-$05 & 1.4E$-$04 & 4.3E$-$05 \\
+$\overline{\Phi}$ & 3.8E$-$05 & $-$3.4E$-$04 & 1.2E$-$04 & $-$5.9E$-$04 & 1.1E$-$03 & $-$1.7E$-$04 & $-$9.0E$-$05 & $-$1.6E$-$03 & 1.3E$-$05 & $-$6.9E$-$05 & $-$2.2E$-$05 \\
+$L_z$ & 3.6E$-$05 & $-$1.5E$-$05 & 9.7E$-$05 & 2.5E$-$05 & $-$1.7E$-$04 & 1.7E$-$04 & $-$1.9E$-$05 & 8.3E$-$04 & 3.8E$-$05 & $-$1.9E$-$06 & $-$6.3E$-$06 \\
+$Q$ & 5.0E$-$06 & 1.1E$-$04 & $-$2.8E$-$04 & $-$1.6E$-$04 & $-$9.0E$-$05 & $-$1.9E$-$05 & 9.4E$-$04 & $-$1.8E$-$04 & $-$2.8E$-$06 & 1.5E$-$05 & $-$6.4E$-$04 \\
+$\mu$ & 7.5E$-$04 & 3.1E$-$04 & 6.7E$-$04 & 2.8E$-$02 & $-$1.6E$-$03 & 8.3E$-$04 & $-$1.8E$-$04 & 8.1E$-$02 & 1.3E$-$04 & 5.6E$-$04 & $-$4.7E$-$04 \\
+$x_0$ & 2.8E$-$05 & 9.9E$-$06 & $-$1.2E$-$05 & $-$2.2E$-$05 & 1.3E$-$05 & 3.8E$-$05 & $-$2.8E$-$06 & 1.3E$-$04 & 2.4E$-$04 & $-$1.5E$-$04 & 1.1E$-$05 \\
+$y_0$ & 1.9E$-$04 & 8.2E$-$06 & $-$9.4E$-$06 & 1.4E$-$04 & $-$6.9E$-$05 & $-$1.9E$-$06 & 1.5E$-$05 & 5.6E$-$04 & $-$1.5E$-$04 & 3.8E$-$04 & $-$1.6E$-$05 \\
+$z_0$ & $-$1.9E$-$05 & $-$1.5E$-$04 & $-$1.3E$-$05 & 4.3E$-$05 & $-$2.2E$-$05 & $-$6.3E$-$06 & $-$6.4E$-$04 & $-$4.7E$-$04 & 1.1E$-$05 & $-$1.6E$-$05 & 1.1E$-$03 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Nuttal}. The periapsis is $r\sub{p} = 52.7M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_3}
+\end{sidewaystable}
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 8.8E$-$12 & 1.7E$-$13 & 4.4E$-$15 & 8.6E$-$14 & 1.7E$-$14 & 4.9E$-$17 & $-$1.8E$-$12 & $-$4.8E$-$15 & $-$8.6E$-$12 & 1.4E$-$16 & 9.1E$-$13 \\
+$a$ & 1.7E$-$13 & 5.3E$-$08 & 6.0E$-$10 & 2.6E$-$08 & 4.9E$-$09 & 6.5E$-$11 & $-$5.4E$-$07 & 4.5E$-$09 & $-$6.9E$-$13 & 6.9E$-$14 & 2.7E$-$07 \\
+$\Theta $ & 4.4E$-$15 & 6.0E$-$10 & 6.3E$-$11 & 3.4E$-$10 & 6.9E$-$11 & $-$4.9E$-$12 & $-$6.3E$-$09 & 9.7E$-$11 & $-$1.6E$-$14 & 1.2E$-$15 & 3.0E$-$09 \\
+$\overline{\Theta}$ & 8.6E$-$14 & 2.6E$-$08 & 3.4E$-$10 & 1.8E$-$08 & 2.6E$-$09 & 2.0E$-$11 & $-$2.7E$-$07 & 7.7E$-$09 & $-$3.4E$-$13 & 3.3E$-$14 & 1.3E$-$07 \\
+$\overline{\Phi}$ & 1.7E$-$14 & 4.9E$-$09 & 6.9E$-$11 & 2.6E$-$09 & 6.9E$-$10 & 2.3E$-$12 & $-$5.2E$-$08 & 1.3E$-$11 & $-$6.6E$-$14 & 6.3E$-$15 & 2.6E$-$08 \\
+$L_z $ & 4.9E$-$17 & 6.5E$-$11 & $-$4.9E$-$12 & 2.0E$-$11 & 2.3E$-$12 & 7.8E$-$12 & $-$4.2E$-$10 & 8.2E$-$11 & $-$5.2E$-$16 & 1.0E$-$16 & 1.7E$-$10 \\
+$Q $ & $-$1.8E$-$12 & $-$5.4E$-$07 & $-$6.3E$-$09 & $-$2.7E$-$07 & $-$5.2E$-$08 & $-$4.2E$-$10 & 5.7E$-$06 & $-$3.6E$-$09 & 7.3E$-$12 & $-$7.0E$-$13 & $-$2.8E$-$06 \\
+$\mu $ & $-$4.8E$-$15 & 4.5E$-$09 & 9.7E$-$11 & 7.7E$-$09 & 1.3E$-$11 & 8.2E$-$11 & $-$3.6E$-$09 & 2.9E$-$08 & $-$4.6E$-$14 & 1.4E$-$14 & $-$4.9E$-$09 \\
+$x_0 $ & $-$8.6E$-$12 & $-$6.9E$-$13 & $-$1.6E$-$14 & $-$3.4E$-$13 & $-$6.6E$-$14 & $-$5.2E$-$16 & 7.3E$-$12 & $-$4.6E$-$14 & 3.2E$-$11 & $-$1.2E$-$15 & $-$3.6E$-$12 \\
+$y_0 $ & 1.4E$-$16 & 6.9E$-$14 & 1.2E$-$15 & 3.3E$-$14 & 6.3E$-$15 & 1.0E$-$16 & $-$7.0E$-$13 & 1.4E$-$14 & $-$1.2E$-$15 & 2.4E$-$11 & 3.4E$-$13 \\
+$z_0 $ & 9.1E$-$13 & 2.7E$-$07 & 3.0E$-$09 & 1.3E$-$07 & 2.6E$-$08 & 1.7E$-$10 & $-$2.8E$-$06 & $-$4.9E$-$09 & $-$3.6E$-$12 & 3.4E$-$13 & 1.4E$-$06 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Orbit_1}. The periapsis is $r\sub{p} = 4.67M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_1}
+\end{sidewaystable}
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 1.1E$-$07 & 7.4E$-$09 & 3.0E$-$09 & 1.0E$-$09 & 4.4E$-$09 & 2.8E$-$09 & 6.9E$-$09 & 3.9E$-$09 & $-$2.8E$-$08 & $-$1.2E$-$08 & $-$6.9E$-$10 \\
+$a$ & 7.4E$-$09 & 2.8E$-$05 & 2.1E$-$07 & 1.1E$-$07 & $-$6.8E$-$08 & $-$1.9E$-$08 & 2.8E$-$05 & 3.9E$-$06 & $-$4.7E$-$09 & $-$9.2E$-$10 & $-$1.0E$-$05 \\
+$\Theta$ & 3.0E$-$09 & 2.1E$-$07 & 5.2E$-$07 & $-$1.0E$-$07 & 1.5E$-$07 & 3.2E$-$07 & 4.6E$-$08 & 1.4E$-$07 & $-$1.3E$-$09 & $-$5.0E$-$10 & $-$3.3E$-$07 \\
+$\overline{\Theta}$ & 1.0E$-$09 & 1.1E$-$07 & $-$1.0E$-$07 & 1.7E$-$05 & 2.0E$-$07 & $-$2.1E$-$07 & 5.6E$-$07 & 2.8E$-$05 & $-$7.1E$-$10 & $-$2.8E$-$10 & 8.4E$-$07 \\
+$\overline{\Phi}$ & 4.4E$-$09 & $-$6.8E$-$08 & 1.5E$-$07 & 2.0E$-$07 & 1.1E$-$06 & $-$1.5E$-$07 & $-$2.7E$-$07 & $-$1.3E$-$07 & $-$2.3E$-$09 & $-$8.7E$-$10 & 8.9E$-$07 \\
+$L_z$ & 2.8E$-$09 & $-$1.9E$-$08 & 3.2E$-$07 & $-$2.1E$-$07 & $-$1.5E$-$07 & 3.3E$-$07 & 2.1E$-$08 & 1.2E$-$08 & $-$9.1E$-$10 & $-$3.4E$-$10 & $-$9.5E$-$08 \\
+$Q$ & 6.9E$-$09 & 2.8E$-$05 & 4.6E$-$08 & 5.6E$-$07 & $-$2.7E$-$07 & 2.1E$-$08 & 5.0E$-$05 & 6.8E$-$06 & $-$4.4E$-$09 & $-$6.9E$-$10 & 1.5E$-$05 \\
+$\mu$ & 3.9E$-$09 & 3.9E$-$06 & 1.4E$-$07 & 2.8E$-$05 & $-$1.3E$-$07 & 1.2E$-$08 & 6.8E$-$06 & 6.8E$-$05 & $-$2.2E$-$09 & $-$8.1E$-$10 & 2.4E$-$06 \\
+$x_0$ & $-$2.8E$-$08 & $-$4.7E$-$09 & $-$1.3E$-$09 & $-$7.1E$-$10 & $-$2.3E$-$09 & $-$9.1E$-$10 & $-$4.4E$-$09 & $-$2.2E$-$09 & 1.4E$-$07 & $-$5.1E$-$08 & 3.1E$-$10 \\
+$y_0$ & $-$1.2E$-$08 & $-$9.2E$-$10 & $-$5.0E$-$10 & $-$2.8E$-$10 & $-$8.7E$-$10 & $-$3.4E$-$10 & $-$6.9E$-$10 & $-$8.1E$-$10 & $-$5.1E$-$08 & 1.3E$-$07 & $-$1.1E$-$10 \\
+$z_0$ & $-$6.9E$-$10 & $-$1.0E$-$05 & $-$3.3E$-$07 & 8.4E$-$07 & 8.9E$-$07 & $-$9.5E$-$08 & 1.5E$-$05 & 2.4E$-$06 & 3.1E$-$10 & $-$1.1E$-$10 & 6.1E$-$05 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Orbit_2}. The periapsis is $r\sub{p} = 11.77M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_2}
+\end{sidewaystable}
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 5.7E$-$04 & $-$8.9E$-$05 & $-$2.7E$-$06 & 2.8E$-$05 & $-$3.0E$-$05 & 8.6E$-$05 & $-$1.7E$-$05 & 1.5E$-$03 & 1.0E$-$04 & 3.9E$-$04 & $-$2.0E$-$06 \\
+$a$ & $-$8.9E$-$05 & 4.1E$-$02 & $-$1.0E$-$03 & $-$2.5E$-$03 & $-$9.0E$-$04 & 1.4E$-$05 & $-$2.2E$-$03 & $-$1.3E$-$03 & 5.9E$-$05 & $-$2.1E$-$04 & 7.9E$-$06 \\
+$\Theta$ & $-$2.7E$-$06 & $-$1.0E$-$03 & 1.5E$-$03 & 2.0E$-$03 & 1.5E$-$06 & 8.0E$-$06 & $-$2.0E$-$04 & 3.1E$-$03 & 7.6E$-$05 & $-$8.8E$-$05 & $-$2.8E$-$04 \\
+$\overline{\Theta}$ & 2.8E$-$05 & $-$2.5E$-$03 & 2.0E$-$03 & 1.5E$-$01 & 5.7E$-$04 & 5.0E$-$04 & 1.3E$-$05 & 1.8E$-$01 & 2.4E$-$04 & $-$6.1E$-$05 & $-$2.1E$-$04 \\
+$\overline{\Phi}$ & $-$3.0E$-$05 & $-$9.0E$-$04 & 1.5E$-$06 & 5.7E$-$04 & 1.3E$-$03 & 1.1E$-$04 & $-$7.7E$-$05 & 4.3E$-$04 & $-$8.7E$-$06 & 3.4E$-$05 & 1.0E$-$04 \\
+$L_z$ & 8.6E$-$05 & 1.4E$-$05 & 8.0E$-$06 & 5.0E$-$04 & 1.1E$-$04 & 2.9E$-$04 & 9.8E$-$05 & 1.8E$-$03 & 1.1E$-$04 & $-$4.0E$-$05 & $-$1.6E$-$04 \\
+$Q$ & $-$1.7E$-$05 & $-$2.2E$-$03 & $-$2.0E$-$04 & 1.3E$-$05 & $-$7.7E$-$05 & 9.8E$-$05 & 2.0E$-$03 & 2.9E$-$04 & 1.9E$-$05 & $-$3.0E$-$05 & $-$1.3E$-$03 \\
+$\mu$ & 1.5E$-$03 & $-$1.3E$-$03 & 3.1E$-$03 & 1.8E$-$01 & 4.3E$-$04 & 1.8E$-$03 & 2.9E$-$04 & 2.7E$-$01 & 8.8E$-$04 & 5.5E$-$04 & $-$1.8E$-$03 \\
+$x_0$ & 1.0E$-$04 & 5.9E$-$05 & 7.6E$-$05 & 2.4E$-$04 & $-$8.7E$-$06 & 1.1E$-$04 & 1.9E$-$05 & 8.8E$-$04 & 6.6E$-$04 & $-$4.1E$-$04 & 1.9E$-$05 \\
+$y_0$ & 3.9E$-$04 & $-$2.1E$-$04 & $-$8.8E$-$05 & $-$6.1E$-$05 & 3.4E$-$05 & $-$4.0E$-$05 & $-$3.0E$-$05 & 5.5E$-$04 & $-$4.1E$-$04 & 8.4E$-$04 & $-$2.8E$-$05 \\
+$z_0$ & $-$2.0E$-$06 & 7.9E$-$06 & $-$2.8E$-$04 & $-$2.1E$-$04 & 1.0E$-$04 & $-$1.6E$-$04 & $-$1.3E$-$03 & $-$1.8E$-$03 & 1.9E$-$05 & $-$2.8E$-$05 & 2.1E$-$03 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Orbit_5}. The periapsis is $r\sub{p} = 53.7M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_5}
+\end{sidewaystable}
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 9.3E$-$06 & $-$3.5E$-$08 & $-$4.7E$-$07 & $-$1.1E$-$07 & 3.2E$-$07 & 6.1E$-$07 & 9.1E$-$08 & 9.0E$-$07 & $-$1.1E$-$06 & 1.6E$-$06 & 8.1E$-$06 \\
+$a$ & $-$3.5E$-$08 & 2.3E$-$05 & $-$1.1E$-$06 & $-$7.5E$-$08 & $-$2.6E$-$06 & $-$6.2E$-$07 & 3.0E$-$06 & 1.4E$-$06 & 5.8E$-$08 & $-$1.2E$-$07 & 9.1E$-$08 \\
+$\Theta$ & $-$4.7E$-$07 & $-$1.1E$-$06 & 9.8E$-$06 & 1.2E$-$06 & 2.8E$-$06 & $-$9.6E$-$06 & $-$3.4E$-$06 & $-$3.3E$-$05 & 1.2E$-$06 & $-$7.9E$-$07 & $-$2.0E$-$07 \\
+$\overline{\Theta}$ & $-$1.1E$-$07 & $-$7.5E$-$08 & 1.2E$-$06 & 1.6E$-$04 & $-$4.2E$-$06 & $-$2.0E$-$06 & 1.2E$-$06 & 2.9E$-$04 & $-$1.2E$-$08 & 1.0E$-$07 & $-$1.7E$-$07 \\
+$\overline{\Phi}$ & 3.2E$-$07 & $-$2.6E$-$06 & 2.8E$-$06 & $-$4.2E$-$06 & 1.6E$-$05 & 2.4E$-$06 & $-$1.6E$-$06 & $-$4.9E$-$06 & 1.9E$-$08 & 2.8E$-$09 & $-$7.1E$-$08 \\
+$L_z$ & 6.1E$-$07 & $-$6.2E$-$07 & $-$9.6E$-$06 & $-$2.0E$-$06 & 2.4E$-$06 & 1.7E$-$05 & $-$6.6E$-$06 & 4.9E$-$05 & $-$6.8E$-$07 & 5.1E$-$07 & 5.2E$-$07 \\
+$Q$ & 9.1E$-$08 & 3.0E$-$06 & $-$3.4E$-$06 & 1.2E$-$06 & $-$1.6E$-$06 & $-$6.6E$-$06 & 2.6E$-$05 & $-$5.6E$-$06 & $-$5.6E$-$07 & 3.3E$-$07 & $-$1.9E$-$07 \\
+$\mu$ & 9.0E$-$07 & 1.4E$-$06 & $-$3.3E$-$05 & 2.9E$-$04 & $-$4.9E$-$06 & 4.9E$-$05 & $-$5.6E$-$06 & 9.5E$-$04 & $-$4.0E$-$06 & 3.1E$-$06 & 1.8E$-$09 \\
+$x_0$ & $-$1.1E$-$06 & 5.8E$-$08 & 1.2E$-$06 & $-$1.2E$-$08 & 1.9E$-$08 & $-$6.8E$-$07 & $-$5.6E$-$07 & $-$4.0E$-$06 & 8.2E$-$06 & $-$8.7E$-$06 & 2.3E$-$06 \\
+$y_0$ & 1.6E$-$06 & $-$1.2E$-$07 & $-$7.9E$-$07 & 1.0E$-$07 & 2.8E$-$09 & 5.1E$-$07 & 3.3E$-$07 & 3.1E$-$06 & $-$8.7E$-$06 & 1.1E$-$05 & $-$2.8E$-$06 \\
+$z_0$ & 8.1E$-$06 & 9.1E$-$08 & $-$2.0E$-$07 & $-$1.7E$-$07 & $-$7.1E$-$08 & 5.2E$-$07 & $-$1.9E$-$07 & 1.8E$-$09 & 2.3E$-$06 & $-$2.8E$-$06 & 1.0E$-$05 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Orbit_6}. The periapsis is $r\sub{p} = 22.7M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_6}
+\end{sidewaystable}
+\begin{sidewaystable}[htbp]\footnotesize
+\centering
+\begin{tabular}{crrrrrrrrrrr}
+\toprule
+& \multicolumn{1}{c}{$M_\bullet$} & \multicolumn{1}{c}{$a$} & \multicolumn{1}{c}{$\Theta$} & \multicolumn{1}{c}{$\overline{\Theta}$} & \multicolumn{1}{c}{$\overline{\Phi}$} & \multicolumn{1}{c}{$L_z$} & \multicolumn{1}{c}{$Q$} & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$x_0$} & \multicolumn{1}{c}{$y_0$} & \multicolumn{1}{c}{$z_0$} \\ \midrule
+$M_\bullet$ & 1.1E$-$01 & 4.0E$-$02 & 6.6E$-$04 & $-$5.4E$-$02 & $-$4.4E$-$02 & 2.2E$-$02 & 1.1E$-$02 & $-$2.8E$-$01 & 3.2E$-$03 & 1.1E$-$02 & 8.3E$-$03 \\
+$a$ & 4.0E$-$02 & 5.3E$+$00 & 1.6E$-$01 & 3.4E$-$01 & $-$3.8E$-$01 & $-$2.9E$-$02 & $-$6.6E$-$03 & 1.7E$-$01 & 4.7E$-$02 & $-$9.3E$-$03 & 8.8E$-$03 \\
+$\Theta$ & 6.6E$-$04 & 1.6E$-$01 & 1.5E$-$01 & 3.6E$-$02 & 5.1E$-$03 & $-$1.8E$-$02 & 2.5E$-$02 & $-$2.5E$-$01 & 2.0E$-$02 & $-$8.4E$-$04 & $-$5.0E$-$03 \\
+$\overline{\Theta}$ & $-$5.4E$-$02 & 3.4E$-$01 & 3.6E$-$02 & 8.9E$+$00 & $-$2.8E$-$01 & 2.3E$-$02 & 8.5E$-$03 & 1.6E$+$01 & $-$2.2E$-$03 & $-$1.0E$-$02 & $-$3.3E$-$02 \\
+$\overline{\Phi}$ & $-$4.4E$-$02 & $-$3.8E$-$01 & 5.1E$-$03 & $-$2.8E$-$01 & 4.5E$-$01 & 2.1E$-$02 & $-$2.0E$-$03 & $-$3.9E$-$01 & 1.5E$-$02 & 1.3E$-$02 & 1.1E$-$02 \\
+$L_z$ & 2.2E$-$02 & $-$2.9E$-$02 & $-$1.8E$-$02 & 2.3E$-$02 & 2.1E$-$02 & 1.3E$-$01 & 9.8E$-$04 & 3.9E$-$01 & 9.4E$-$03 & $-$5.5E$-$03 & $-$1.8E$-$03 \\
+$Q$ & 1.1E$-$02 & $-$6.6E$-$03 & 2.5E$-$02 & 8.5E$-$03 & $-$2.0E$-$03 & 9.8E$-$04 & 1.4E$-$01 & $-$7.3E$-$02 & $-$6.6E$-$03 & $-$3.9E$-$04 & 3.0E$-$02 \\
+$\mu$ & $-$2.8E$-$01 & 1.7E$-$01 & $-$2.5E$-$01 & 1.6E$+$01 & $-$3.9E$-$01 & 3.9E$-$01 & $-$7.3E$-$02 & 4.3E$+$01 & 5.3E$-$02 & $-$5.9E$-$02 & $-$5.1E$-$02 \\
+$x_0$ & 3.2E$-$03 & 4.7E$-$02 & 2.0E$-$02 & $-$2.2E$-$03 & 1.5E$-$02 & 9.4E$-$03 & $-$6.6E$-$03 & 5.3E$-$02 & 1.4E$-$01 & $-$2.7E$-$03 & 5.2E$-$03 \\
+$y_0$ & 1.1E$-$02 & $-$9.3E$-$03 & $-$8.4E$-$04 & $-$1.0E$-$02 & 1.3E$-$02 & $-$5.5E$-$03 & $-$3.9E$-$04 & $-$5.9E$-$02 & $-$2.7E$-$03 & 2.3E$-$02 & $-$1.6E$-$03 \\
+$z_0$ & 8.3E$-$03 & 8.8E$-$03 & $-$5.0E$-$03 & $-$3.3E$-$02 & 1.1E$-$02 & $-$1.8E$-$03 & 3.0E$-$02 & $-$5.1E$-$02 & 5.2E$-$03 & $-$1.6E$-$03 & 1.5E$-$01 \\
+\bottomrule
+\end{tabular}
+\caption{Inverse Fisher matrix elements for the orbit specified in \figref{Orbit_7}. The periapsis is $r\sub{p} = 148M_\bullet$, the SNR is $\rho = $.}
+\label{tab:Fisher_7}
+\end{sidewaystable}
