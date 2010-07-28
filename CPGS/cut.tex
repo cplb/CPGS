@@ -1,0 +1,391 @@
+\section{Energy-momentum Tensor}\label{sec:EM_tensor}
+
+We expect that the gravitational field would carry energy-momentum. Unfortunately it is difficult to define a proper energy-momentum tensor for a gravitational field: as a consequence of the equivalence principle it is possible to transform to a freely falling frame, eliminating the gravitational field and any associated energy density for a given event, although we may still define curvature in the neighbourhood of this point\cite{Misner1973, Hobson2006}. We will do nothing revolutionary here, but shall follow the approach of Isaacson\cite{Isaacson1968, Isaacson1968a}. The full field equation, \eqnref{Field_eq}, has no energy-momentum tensor for the gravitational field on the right-hand side. However, by expanding beyond the linear terms we may find a suitable energy-momentum pseudotensor for gravitational radiation. We may expand $\mathcal{G}_{\mu\nu}$ in orders of $h_{\mu\nu}$
+\begin{equation}
+\mathcal{G}_{\mu\nu} = {\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} + {\mathcal{G}^{(1)}}_{\mu\nu} + {\mathcal{G}^{(2)}}_{\mu\nu} + \ldots
+\label{eq:G_exp}
+\end{equation}
+We use $(\mathrm{B})$ for the background term instead of $(0)$ to avoid confusion regarding its order in $\varepsilon$. Our linearized vacuum equation would then read
+\begin{equation}
+{\mathcal{G}^{(1)}}_{\mu\nu} = 0.
+\end{equation}
+So far we have assumed that our background is flat, however we can imagine that should the gravitational radiation carry energy-momentum then this would act as a source of curvature for the background. This is a second-order effect that may be encoded, to accuracy of $\order{\varepsilon^2}$, as
+\begin{equation}
+{\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -{\mathcal{G}^{(2)}}_{\mu\nu}.
+\end{equation}
+By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we effectively create an energy-momentum tensor. As in GR we will average over several wavelengths, assuming that the background curvature is on a larger scale\cite{Misner1973},
+\begin{equation}
+{\mathcal{G}^{(\mathrm{B})}}_{\mu\nu} = -\left\langle{\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle.
+\end{equation}
+By averaging we may probe the curvature in a macroscopic region about a given point in spacetime. This gives a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnote{By averaging we do not try to localise the energy of a wave to within a wavelength; for the massive Ricci scalar mode we always consider scales greater than $\lambdabar_R$.} The energy-momentum pseudotensor for the radiation may be identified as
+\begin{equation}
+t_{\mu\nu} = -\frac{c^4}{8\pi G}\left\langle{\mathcal{G}^{(\mathrm{2})}}_{\mu\nu}\right\rangle.
+\end{equation}
+
+Having made this provisional identification, we must now set about carefully evaluating the various terms in \eqnref{G_exp}. We begin as in \secref{Lin} by defining a total metric
+\begin{equation}
+g_{\mu\nu} = \gamma_{\mu\nu} + h_{\mu\nu},
+\end{equation}
+where $\gamma_{\mu\nu}$ is our background metric. This is changing slightly our definition for $h_{\mu\nu}$: instead of it being the total perturbation from flat Minkowski, it is the dynamical part of the metric with which we associate radiative effects. Since we know that ${\mathcal{G}^{(\mathrm{B})}}_{\mu\nu}$ is $\order{\varepsilon^2}$, we may decompose our background metric as
+\begin{equation}
+\gamma_{\mu\nu} = \eta_{\mu\nu} + j_{\mu\nu},
+\end{equation}
+where $j_{\mu\nu}$ is $\order{\varepsilon^2}$ to ensure that ${{R^{(\mathrm{B})}}^\lambda}_{\mu\nu\rho}$ is also $\order{\varepsilon^2}$. Therefore its introduction will make no difference to the linearized theory.
+
+We will consider terms only to $\order{\varepsilon^2}$. We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with the background metric. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\mathrm{B})}}_\mu$, the covariant derivative for the background metric: note that to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\mathrm{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
+\begin{align}
+{{\Gamma^{(1)}}^\rho}_{\mu\nu} = {} & \frac{1}{2}\gamma^{\rho\lambda}\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
+  & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
+\end{align}
+and
+\begin{align}
+{{\Gamma^{(2)}}^\rho}_{\mu\nu} = {} & -\frac{1}{2}h^{\rho\lambda}(\partial_\mu h_{\lambda\nu} + \partial_\nu h_{\lambda\mu} - \partial_\lambda h_{\mu\nu}) \nonumber \\
+ = {} & -\frac{1}{2}\left(\overline{h}^{\rho\lambda} - a_2 R^{(1)}\gamma^{\rho\lambda}\right)\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} - a_2 R^{(1)}\gamma_{\lambda\mu}\right) \right. \nonumber \\
+ & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right].
+\end{align}
+The Riemann tensor is
+\begin{equation}
+{R^\lambda}_{\mu\nu\rho} = {{R^{(\mathrm{B})}}^\lambda}_{\mu\nu\rho} + {{R^{(1)}}^\lambda}_{\mu\nu\rho} + {{R^{(2)}}^\lambda}_{\mu\nu\rho} + \ldots
+\end{equation}
+We may use our expression from \eqnref{Lin_Riemann} for ${{R^{(1)}}^\lambda}_{\mu\nu\rho}$. Contracting gives the Ricci tensor
+\begin{equation}
+{R}_{\mu\nu} = {R^{(\mathrm{B})}}_{\mu\nu} + {R^{(1)}}_{\mu\nu} + {R^{(2)}}_{\mu\nu} + \ldots
+\end{equation}
+We may again use our linearized expression, \eqnref{Ricci}, for the first order term,
+\begin{equation}
+{R^{(1)}}_{\mu\nu} = 2 a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6} R^{(1)}\gamma_{\mu\nu}.
+\end{equation}
+The next term is
+\begin{align}
+{R^{(2)}}_{\mu\nu} = {} & \partial_\rho {{\Gamma^{(2)}}^\rho}_{\mu\nu} - \partial_\nu {{\Gamma^{(2)}}^\rho}_{\mu\rho} + {{\Gamma^{(1)}}^\rho}_{\mu\nu}{{\Gamma^{(1)}}^\sigma}_{\rho\sigma} - {{\Gamma^{(1)}}^\rho}_{\mu\sigma}{{\Gamma^{(1)}}^\sigma}_{\rho\nu} \nonumber \\
+ = {} & \frac{1}{2}\left\{\recip{2}\partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\sigma\rho} + \overline{h}^{\sigma\rho}\left[\partial_\mu\partial_\nu\overline{h}_{\sigma\rho} + \partial_\sigma\partial_\rho\left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right) \right.\right. \nonumber \\
+ & - \left.\left. \partial_\nu\partial_\rho\left(\overline{h}_{\sigma\mu} - a_2 R^{(1)} \gamma_{\sigma\mu}\right) - \partial_\mu\partial_\rho\left(\overline{h}_{\sigma\nu} - a_2 R^{(1)} \gamma_{\sigma\nu}\right)\right] \right. \nonumber \\
+ & + \left. \partial^\rho\overline{h}^\sigma_\nu\left(\partial_\rho\overline{h}_{\sigma\mu} - \partial_\sigma\overline{h}_{\rho\mu}\right) - a_2 \partial^\sigma R^{(1)}\partial_\sigma\overline{h}_{\mu\mu} + {a_2}^2 \left[2R^{(1)}\partial_\mu\partial_\nu R^{(1)} \right.\right. \nonumber \\
+ & + \left.\left. 3\partial_\mu R^{(1)}\partial_\nu R^{(1)} + R^{(1)} \Box^{(\mathrm{B})} R^{(1)} \gamma_{\mu\nu}\right]\right\}.
+\end{align}
+Note that the d'Alembertian is now $\Box^{(\mathrm{B})} = \gamma^{\mu\nu}\partial_\mu\partial_\nu$.
+
+To find the Ricci scalar we must contract the Ricci tensor, but we must decide which metric to use. It is tempting to use the background metric, as we used this for raising the indices on $h_{\mu\nu}$, however this was just a notational convenience. The physical metric is the full metric, so we must use this to form $R$. Remembering that we are only considering terms to $\order{\varepsilon^2}$, this gives
+\begin{align}
+R^{(\mathrm{B})} = {} & \gamma^{\mu\nu} {R^{(\mathrm{B})}}_{\mu\nu} \\
+R^{(1)} = {} & \gamma^{\mu\nu} {R^{(1)}}_{\mu\nu} \\
+R^{(2)} = {} & \gamma^{\mu\nu} {R^{(2)}}_{\mu\nu} - h^{\mu\nu} {R^{(1)}}_{\mu\nu} \nonumber \\
+ = {} & \frac{3}{4}\partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\sigma\rho} - \recip{2} \partial^\rho\overline{h}^{\sigma\mu}\partial_\sigma\overline{h}_{\rho\mu} - 2a_2 \overline{h}^{\mu\nu}\partial_\mu\partial_\nu R^{(1)} \nonumber \\
+ & + {} a_2 {R^{(1)}}^2 + \frac{3a_2}{2}\partial_\mu R^{(1)} \partial^\mu R^{(1)}.
+\end{align}
+Using these
+\begin{align}
+f^{(\mathrm{B})} = {} & R^{(\mathrm{B})} \\
+f^{(1)} = {} & R^{(1)} \\
+f^{(2)} = {} & R^{(2)} + \frac{a_2}{2}{R^{(1)}}^2,
+\end{align}
+and
+\begin{align}
+f'^{(\mathrm{B})} = {} & a_2 R^{(\mathrm{B})} \\
+f'^{(0)} = {} & 1 \\
+f'^{(1)} = {} & a_2 R^{(1)} \\
+f'^{(2)} = {} & a_2 R^{(2)} + \frac{a_3}{2}{R^{(1)}}^2.
+\end{align}
+We list a zeroth order term here for clarity.
+
+Combining all of these
+\begin{align}
+{\mathcal{G}^{(2)}}_{\mu\nu} = {} & {R^{(2)}}_{\mu\nu} + f'^{(1)}{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu f'^{(2)} + {{\Gamma^{(1)}}^\rho}_{\nu\mu}\partial_\rho f'^{(1)} + \gamma_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(2)} \nonumber \\
+ & - {} \gamma_{\mu\nu}\gamma^{\rho\sigma}{{\Gamma^{(1)}}^\lambda}_{\sigma\rho}\partial_\lambda f'^{(1)} - \gamma_{\mu\nu}h^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} + h_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} \nonumber \\
+ & - {} \recip{2}f^{(2)}\gamma_{\mu\nu} - \recip{2}f^{(1)}h_{\mu\nu} \nonumber \\
+ = {} & {R^{(2)}}_{\mu\nu} + a_2\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right)R^{(2)} - \recip{2}R^{(2)}\gamma_{\mu\nu} + a_3\left(\gamma_{\mu\nu}\Box^{(\mathrm{B})} - \partial_\mu\partial_\nu\right){R^{(1)}}^2 \nonumber \\
+ & - {} \recip{6}\overline{h}_{\mu\nu}R^{(1)} - a_2\gamma_{\mu\nu}\overline{h}^{\sigma\rho}\partial_\sigma\partial_\rho R^{(1)} + \frac{a_2}{2} \partial^\rho R^{(1)} \left(\partial_\mu\overline{h}_{\rho\nu} + \partial_\nu\overline{h}_{\rho\mu} - \partial_\rho\overline{h}_{\mu\nu}\right) \nonumber \\
+ & + {} a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) - {a_2}^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right).
+\end{align}
+It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point gradients average to zero\cite{Hobson2006}
+\begin{equation}
+\left\langle\partial_\mu V\right\rangle = 0.
+\end{equation}
+As a corollary of this we have the relation
+\begin{equation}
+\left\langle U\partial_\mu V\right\rangle = -\left\langle \partial_\mu U V\right\rangle.
+\end{equation}
+Repeated application of this, together with our gauge condition, \eqnref{Lorenz}, and wave equations, \eqref{eq:Box_R} and \eqref{eq:Box_hmunu}, allows us to eliminate many terms. Considering terms that do not trivially average to zero
+\begin{align}
+\left\langle {R^{(2)}}_{\mu\nu} \right\rangle = {} & \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + \frac{{a_2}^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \frac{a_2}{6}\gamma_{\mu\nu}R^{(1)} \right\rangle; \\
+\left\langle R^{(2)} \right\rangle = {} & \left\langle \frac{3a_2}{2}{R^{(1)}}^2 \right\rangle; \\
+\left\langle \overline{h}_{\mu\nu}R^{(1)} \right\rangle = {} & 0; \\
+\left\langle R^{(1)}{R^{(1)}}_{\mu\nu} \right\rangle = {} & \left\langle a_2 R^{(1)} \partial_\mu\partial_\nu R^{(1)} + \recip{6}\gamma_{\mu\nu}{R^{(1)}}^2\right\rangle.
+\end{align}
+Combining these gives
+\begin{equation}
+\left\langle {\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle = \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} - \frac{3{a_2}^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
+\end{equation}
+Thus we obtain the result
+\begin{equation}
+t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + 6{a_2}^2\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
+\end{equation}
+In the limit of $a_2 \rightarrow 0$ we obtain the standard GR result as required. Note that the GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $\Omega_R$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge}, we obtain
+\begin{equation}
+t_{\mu\nu} = \frac{c^4}{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial^\mu h^{\rho\sigma} + \recip{8}\partial_\mu h \partial_\nu h \right\rangle.
+\end{equation}
+Note that these results do not depend upon $a_3$ or higher order coefficients.
+
+It might be hoped that these formulae could be used to constrain the parameter $a_2$ through observation of the energy and momentum carried away by gravitational radiation, see \secref{Fifth} for further discussion.
+
+\section{Fifth-force tests}
+
+Alternatively $\lambdabar_R$ could be large. Then the exponential would be effectively constant, and we would have to redefine the gravitational constant such that the measured value of Newton's constant is $G\sub{N} \simeq 4G/3$, where $G$ is the bare constant used in the above expressions. Since $\Upsilon$ would be small, the Ricci scalar would also be small and spacetime would be nearly flat. The best constraints come from planetary precession calculated from Keplerian orbits\cite{Talmadge1988, Adelberger2003}. Extrapolating from these results, for $\alpha \geq \nicerecip{3}$, we must have a minimum length-scale of $\SIrange[tophrase=dash,repeatunits=false]{e15}{e16}{\metre}$. This would impose the constraint $|a_2| \gtrsim \SI{e30}{\metre^2}$. The cut-off frequency would be $\Omega_R \lesssim \SI{e-7}{\Sec^{-1}}$. The scalar mode could be excited by a variety of astrophysical processes and be detected in the LISA frequency band\cite{Capozziello2008}.
+
+Additionally, N\"{a}f and Jetzer\cite{Naf2010} consider the precession of orbiting gyroscopes: using the results of Gravity Probe B\cite{Everitt2009} they arrive at the bound $|a_2| \lesssim \SI{e11}{\metre^2}$, and using the double pulsar binary J0737-3039\cite{Burgay2003, Lyne2006, Breton2008} $|a_2| \lesssim \SI{4.6e11}{\metre^2}$. While these are much larger than the E\"{o}t-Wash experiments, they are sufficient to rule out the larger range for $\lambdabar_R$. From this we can conclude that the Ricci scalar mode is unlikely to be excited in astrophysically interesting situations. This unfortunately renders impotent the results of \secref{EM_tensor}.
+
+\section{Chameleon}
+
+The Ricci mode may be excited by radiation (electromagnetic or gravitational), but since the energy densities of these are comparatively small, we do not expect the amplitude of the mode to be significant. Note that to be able to detect the Ricci mode we must observe it well away from any matter, which would cause it to become evanescent: a spaceborne detector such as LISA would be our only hope.
+
+\section{QPO}
+
+This latter method has produced a value of the dimensionless spin, $a_\ast = Jc/GM_\bullet^2$ where $J$ is the MBH's angular momentum, of $a_\ast = 0.44 \pm 0.08$. However, to obtain this result Kato {\it et al.}\cite{Kato2010} have combined their observations of Sgr A* with observations of galactic X-ray sources containing solar mass BHs, to find a best-fit unique spin parameter for all BHs. This is somewhat unsatisfactory since it is not clear that all BHs should share the same value of the spin parameter; especially considering that the BHs considered here differ by six orders of magnitude, with none in the intermediate range. Even if BH spin is determined by a universal process, we would expect some distribution of spin parameters\cite{King2008}. Thus we cannot accurately determine the spin of the galactic centre's MBH from an average including other BHs. While we can use the spin of other BHs as a prior, to inform us of what we should expect to measure for the MBH's spin, it is desirable to have an independent measurement.
+
+\section{Derivatives}
+
+To evaluate \eqnref{Octopole} we need up to the third time derivative of the position. The velocity $\boldsymbol{v}\sub{p} = \dot{\boldsymbol{x}}\sub{p}$ can be calculated from the geodesic equations: dividing by $\linediff{t}{\tau}$ gives $\dot{r}$, $\dot{\theta}$ and $\dot{\phi}$ which can then be transformed to the Cartesian velocities assuming either the spherical or oblate spheroidal coordinate system.\footnote{There is again the problem of the sign of the geodesic equations; this is simply solved by taking the sign as calculated by finite differencing of the trajectory.} Expressions for the acceleration $\boldsymbol{a}\sub{p} = \ddot{\boldsymbol{x}}\sub{p}$ and the jerk $\boldsymbol{j}\sub{p} = \dddot{\boldsymbol{x}}\sub{p}$ are more involved, so these derivatives are found numerically using a simple difference formula to approximate the derivative as
+\begin{equation}
+\left.\diff{f}{t}\right|_{t_1} \approx \recip{2}\left[\frac{f(t_1) - f(t_0)}{t_1 - t_0} + \frac{f(t_2) - f(t_1)}{t_2 - t_1}\right],
+\end{equation}
+where $t_0$, $t_1$ and $t_2$ are subsequent (not necessarily uniformly spaced) time-steps.
+
+\subsection{Window Functions}
+
+There is one remaining complication regarding signal analysis. When we perform a Fourier transform using a computer we must necessarily only transform a finite time-span (it is a discrete Fourier transform).\footnote{The time-span in this case is the length of time the trajectory was calculated for.} The effect of this is the same as transforming the true, infinite signal multiplied by a unit top hat function of width equal to the time-span. Fourier transforming this yields the true waveform convolved with a $\sinc$. If $\tilde{h}'(f)$ is the computed Fourier transform then
+\begin{align}
+\tilde{h}'(f) = {} & \intd{0}{\tau}{h(t)e^{2\pi i ft}}{t} \\
+ = {} & \left[\tilde{h}(f) \ast e^{-\pi if\tau}\tau \sinc(\pi f\tau)\right],
+\end{align}
+where $\tilde{h}(f) = \mathscr{F}\{h(t)\}$, is the unwindowed Fourier transform. This windowing of the data is an inherent problem in the method; it will be as much of a problem when analysing signals from LISA as it is computing waveforms here. Windowing causes spectral leakage, which means that a contribution from large amplitude spectral components leaks into other components (sidelobes), obscuring and distorting the spectrum at these frequencies\cite{Jones1982,Harris1978}.
+
+\Figref{Rectangular} shows the computed Fourier transforms for an example parabolic encounter.
+\begin{figure}[htbp]
+  \begin{center} \subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_I_Rectangular.tex}}} \quad
+\subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_II_Rectangular.tex}}} \\
+    \caption{Example spectra calculated using a rectangular window.  The high-frequency tail is the result of spectral leakage. The input parameters are: $M_\bullet = \num{4.3e6} M_\odot$, $a = 0.5 M_\bullet$, $\Theta = \pi/3$, $\Phi = 0$, $R_0 = \SI{8.33}{\kilo\parsec}$, $\overline{\Theta} = \ang{95.607669}$, $\overline{\Phi} = \ang{266.851760}$, $\overline{\phi}_0 = 0$, $\varphi_0 = 0$, $L_z = 10.44 M_\bullet$, $Q = 0.055 M_\bullet^2$, $\mu = 5 M_\odot$, $x_0 = \SI{3.5e12}{\metre}$, $y_0 = \SI{3.0e12}{\metre}$, $z_0 = \SI{1.0e11}{\metre}$; see \secref{Parameters} for a discussion of these parameters. The periapse distance is $r\sub{p} = 52.7 M_\bullet$. The high-frequency tail is the result of spectral leakage. The level of the LISA noise curve is indicated by the dashed line. The calculated SNR is $\rho = 11$.}
+    \label{fig:Rectangular}
+  \end{center}
+\end{figure}
+The waveforms have two distinct regions: a low-frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. The $\order{\nicerecip{f}}$ behaviour of the $\sinc$ gives the shape of the tail. This has possibly been misidentified by Burko and Khanna\cite{Burko2007} as the characteristic strain for parabolic encounters.
+
+Despite being many orders of magnitude below the peak level, the high-frequency tail is still well above the noise curve for a wide range of frequencies. It will therefore contribute to the evaluation of any inner products, and may mask interesting features. Unfortunately this is a fundamental problem that cannot be resolved completely. However, it is possible to reduce the amount of spectral leakage using apodization: to improve the frequency response of a finite time series one can use a number of weighting window functions $w(t)$ which modify the impulse response in a prescribed way. The simplest window function is the rectangular (or Dirichlet) window; this is just the top hat described above. Other window functions are generally tapered. The introduction of a window function influences the spectrum in a manner dependent upon its precise shape; there are two distinct distortions: local smearing due to the finite width of the centre lobe, and distant leakage due to finite amplitude sidelobes. Choosing a window function is a trade-off between these two sources of error.
+
+There is a wide range of window functions described in the literature\cite{Harris1978,Kaiser1980,Nuttall1981}. Since we are interested in a large dynamic range, it is necessary to pick a windowing function with exceptionally low sidelobes. We have opted for the Nuttall 4-term window with continuous first derivative\cite{Nuttall1981}.\footnote{The Blackman-Harris minimum 4-term window\cite{Harris1978, Nuttall1981}, and the Kaiser-Bessel window\cite{Harris1978, Kaiser1980} give almost identical results.} This has low peak sidelobe and asymptotically decays away as $\nicerecip{f^3}$. \Figref{Nuttall} shows the waveform obtained using this window.
+\begin{figure}[htbp]
+  \begin{center}
+   \subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_I_Nuttall_first_derivative.tex}}} \quad
+   \subfigure[]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_II_Nuttall_first_derivative.tex}}} \\
+    \caption{Example spectra calculated using Nuttall's 4-term window with continuous first derivative\cite{Nuttall1981}. The input parameters are identical to those used for \figref{Rectangular}. Although this window has good sidelobe behaviour, it is still not enough to suppress spectral leakage below the LISA noise level, the dashed line, at all frequencies. The SNR is $\rho = 4.6$.}
+    \label{fig:Nuttall}
+  \end{center}
+\end{figure}
+The spectral leakage is greatly reduced.
+
+When using a tapered window function it is important to ensure that the window is centred upon the signal; otherwise the calculated transform will have a reduced amplitude.
+
+\subsection{Peters \& Matthews Spectrum}
+
+To calculate the energy spectrum for a parabolic orbit, we follow the derivation of Gair\cite{Gair2010}. Peters and Matthews\cite{Peters1963} give the power radiated into the $n$th harmonic of the orbital angular frequency as
+\begin{equation}
+P(n) = \frac{32}{5}\frac{G^4}{c^5}\frac{M_\bullet^2\mu^2(M_\bullet + \mu)(1-e)^5}{r\sub{p}^5}g(n,e)
+\label{eq:PM_P}
+\end{equation}
+where the function $g(n,e)$ is defined in terms of Bessel functions of the first kind
+\begin{align}
+g(n,e) = {} & \frac{n^4}{32}\left\{\left[J_{n-2}(ne) - 2eJ_{n-1}(ne) + \frac{2}{n}J_n(ne) + 2eJ_{n+1}(ne) - J_{n+2}(ne)\right]^2 \right. \nonumber \\
+ & + \left. \left(1 - e^2\right)\left[J_{n-2}(ne) - 2J_n(ne) + J_{n+2}(ne)\right]^2 + \frac{4}{3n^2}\left[J_n(ne)\right]^2\right\}.
+\end{align}
+The Keplerian orbital frequency is
+\begin{align}
+{\omega_0}^2 = {} & \frac{G(M_\bullet + \mu)(1-e)^3}{r\sub{p}^3}\\
+ = {} & (1-e)^3{\omega\sub{c}}^2,
+\label{eq:Kepler_freq}
+\end{align}
+where $\omega\sub{c}$ is defined as the orbital angular frequency of a circular orbit of radius equal to $r\sub{p}$. The total energy radiated into the $n$th harmonic, that is at frequency $\omega_n = n\omega_0$, is the power multiplied by the orbital period
+\begin{equation}
+E(n) = \frac{2\pi}{\omega_0}P(n);
+\label{eq:E(n)}
+\end{equation}
+as $e \rightarrow 1$ for a parabolic orbit, $\omega_0 \rightarrow 0$ so the orbital period becomes infinite. We may therefore identify the energy radiated per orbit with the total orbital energy radiated. Since the spacing of harmonics is $\Delta\omega = \omega_0$, we may identify the energy spectrum
+\begin{equation}
+\left.\diff{E}{\omega}\right|_{\omega_n}\omega_0 = E(n).
+\end{equation}
+Using the above relations, and changing to linear frequency $2\pi f = \omega$, we obtain
+\begin{align}
+\left.\diff{E}{f}\right|_{f_n} = {} & \frac{128\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}(1-e)^2g(n,e) \\
+ = {} & \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\ell(n,e),
+\label{eq:PM_spectrum}
+\end{align}
+where we have defined the function $\ell(n,e)$ in the last line. For a parabolic orbit, we now have to take the limit of $\ell(n,e)$ as $e \rightarrow 1$. For this we shall use a number of properties of Bessel functions, and will make frequent reference to Watson\cite{Watson1995}.
+
+We shall simplify $\ell(n,e)$ using the recurrence formulae (Watson\cite{Watson1995} 2.12)
+\begin{align}
+J_{\nu-1}(z) + J_{\nu+1}(z) = {} & \frac{2\nu}{z}J_\nu(z)\\
+J_{\nu-1}(z) - J_{\nu+1}(z) = {} & 2J'_\nu(z).
+\end{align}
+We shall also eliminate $n$ using
+\begin{align}
+n = {} & \frac{\omega_n}{\omega_0} \nonumber \\
+= {} & (1-e)^{-3/2}\widetilde{f}.
+\end{align}
+where $\widetilde{f} = \omega_n/\omega\sub{c} = f_n/f\sub{c}$ is a dimensionless frequency. We begin by breaking $\ell$ into three parts
+\begin{align}
+\ell = {} & \underbrace{(1-e)^2n^4\left[J_{n-2} - 2eJ_{n-1} + \frac{2}{n}J_n + 2eJ_{n+1} - J_{n+2}\right]^2}_{\ell_1} \nonumber \\
+  & + \underbrace{(1-e)^3(1+e)n^4\left[J_{n-2} - 2J_n + J_{n+2}\right]^2}_{\ell_2} + \underbrace{\frac{4(1-e)^2n^2}{3}\left[J_n\right]^2}_{\ell_3}.
+\end{align}
+We have suppressed the argument of the Bessel functions for brevity. Tackling each term of $\ell$ in turn we obtain
+\begin{align}
+\ell_1(\widetilde{f},e) = {} & \left[\frac{4(1+e)\widetilde{f}^2}{e}\frac{J'_n}{1-e} + 2\frac{e-2}{e}\widetilde{f}\frac{J_n}{(1-e)^{1/2}}\right]^2\\
+\ell_2(\widetilde{f},e) = {} & 16(1+e)\left[\frac{(1+e)\widetilde{f}^2}{e^2}\frac{J_n}{(1-e)^{1/2}} - \widetilde{f}\frac{J'_n}{e}\right]^2\\
+\ell_3(\widetilde{f},e) = {} & \frac{4\widetilde{f}^2}{3}\left[{J_n}{(1-e)^{1/2}}\right]^2.
+\end{align}
+To take the limit of these we need to find the limiting behaviour of Bessel functions. We shall define two new functions
+\begin{equation}
+A(\widetilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J_n}{(1-e)^{1/2}}\right\}; \quad B(\widetilde{f}) = \lim_{e\rightarrow 1}\left\{\frac{J'_n}{1-e}\right\}.
+\end{equation}
+To give a well defined energy spectrum, both of these must be finite. In this case we see that the second term in $\ell_2$ should go to zero.
+
+The Bessel function has an integral representation
+\begin{equation}
+J_\nu(z) = \recip{\pi}\intd{0}{\pi}{\cos(\nu\theta - z\sin\theta)}{\theta},
+\end{equation}
+we want the limit of this for $\nu \rightarrow \infty$, $z \rightarrow \infty$, with $z \leq \nu$. We will use the stationary phase approximation to argue that the predominant contribution to the integral comes from when the argument of the cosine is approximately zero, that is for small $\theta$ (Watson\cite{Watson1995} 8.2, 8.43). In this case we have
+\begin{align}
+J_\nu(z) \sim {} & \recip{\pi}\intd{0}{\pi}{\cos\left(\nu\theta - z\theta + \frac{z}{6}\theta^3\right)}{\theta}\\
+ \sim {} & \recip{\pi}\intd{0}{\infty}{\cos\left(\nu\theta - z\theta + \frac{z}{6}\theta^3\right)}{\theta};
+\end{align}
+this last expression is an Airy integral. The Airy integral has a standard form (Watson\cite{Watson1995} 6.4)
+\begin{equation}
+\intd{0}{\infty}{\cos(t^3 + xt)}{t} = \frac{\sqrt{x}}{3}K_{1/3}\left(\frac{2x^{3/2}}{3^{3/2}}\right),
+\end{equation}
+where $K_\nu(z)$ is a modified Bessel function of the second kind. Using this to evaluate our limit gives
+\begin{equation}
+J_\nu(z) \sim \recip{\pi}\sqrt{\frac{2(\nu - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu -z)^3}{z}}\right).
+\end{equation}
+For our particular case we have
+\begin{equation}
+\nu = (1 - e)^{-3/2}\widetilde{f}; \quad z = (1 - e)^{-3/2}e\widetilde{f};
+\end{equation}
+\begin{equation}
+\frac{\nu - z}{z} = (1 - e); \quad \frac{(\nu - z)^3}{z} = \widetilde{f}^2;
+\end{equation}
+so we find
+\begin{equation}
+J_n(ne) \sim \recip{\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right),
+\end{equation}
+thus
+\begin{equation}
+A(\widetilde{f}) = \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)
+\end{equation}
+is well defined.
+
+Now finding the derivative
+\begin{align}
+J'_\nu(z) = {} & \recip{2}\left[J_{\nu-1}(z) - J_{\nu+1}(z)\right] \nonumber \\
+ \sim {} & \recip{2\pi}\left[\sqrt{\frac{2(\nu -1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu - 1 - z)^3}{z}}\right) \right. \nonumber \\
+  & \left. - \sqrt{\frac{2(\nu +1 - z)}{3z}}K_{1/3}\left(\frac{2^{3/2}}{3}\sqrt{\frac{(\nu + 1 - z)^3}{z}}\right)\right].
+\end{align}
+For our case
+\begin{align}
+\sqrt{\frac{\nu \pm 1 - z}{z}} = {} & (1 - e)^{1/2}\left[1 \pm \frac{(1-e)^{1/2}}{2\widetilde{f}} + \ldots \, \right];\\
+\sqrt{\frac{(\nu \pm 1 - z)^{3/2}}{z}} = {} & \widetilde{f}\left[1 \pm \frac{3(1-e)^{1/2}}{2\widetilde{f}} + \ldots \, \right];
+\end{align}
+and so
+\begin{align}
+J'_n(ne) \sim {} & \recip{2\pi}\sqrt{\frac{2}{3}}(1-e)^{1/2}\left\{\left[1 - \frac{(1-e)^{1/2}}{2\widetilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\widetilde{f}}\right]\right) \right. \nonumber \\
+ & \left. - \left[1 + \frac{(1-e)^{1/2}}{2\widetilde{f}}\right]K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\left[1 - \frac{3(1-e)^{1/2}}{2\widetilde{f}}\right]\right)\right\}\nonumber \\
+ \sim {} & \frac{-1}{2\pi}\sqrt{\frac{2}{3}}(1-e)\left[2^{3/2}K'_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + \recip{\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right].
+\end{align}
+We may re-express the derivative using the recurrence formula (Watson\cite{Watson1995} 3.71)
+\begin{equation}
+K_{\nu-1}(z) - K_{\nu+1}(z) = -2K'_\nu(z)
+\end{equation}
+to give
+\begin{equation}
+J'_n(ne) \sim \frac{1-e}{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) - \recip{\sqrt{2}\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right].
+\end{equation}
+And so finally,
+\begin{equation}
+B(\widetilde{f}) = \recip{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) - \recip{\sqrt{2}\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right],
+\end{equation}
+which is also well defined.
+
+Having obtained expressions for $A(\widetilde{f})$ and $B(\widetilde{f})$ in terms of standard functions, we may now calculate the energy spectrum for a parabolic orbit. From \eqnref{PM_spectrum} we have
+\begin{equation}
+\diff{E}{f} = \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\ell\left(\frac{f}{f\sub{c}}\right),
+\label{eq:PM_dEdf}
+\end{equation}
+where we have used the limit
+\begin{align}
+\ell(\widetilde{f}) = {} & \lim_{e \rightarrow 1}\left\{\ell(n,e)\right\} \nonumber \\
+ = {} & \left[8\widetilde{f}B(\widetilde{f}) - 2\widetilde{f}A(\widetilde{f})\right]^2 + \left(128\widetilde{f}^4 + \frac{4\widetilde{f}^2}{3}\right)\left[A(\widetilde{f})\right]^2.
+\end{align}
+
+To check the validity of this limit we may calculate the total energy radiated. We should be able to calculate this by integrating \eqnref{PM_dEdf} over all frequencies, or alternatively by summing the energy radiated into each harmonic. For consistency, the two approaches should yield the same result. First, summing over harmonics we obtain
+\begin{align}
+E\sub{sum} = {} & \sum_n E(n) \nonumber \\
+ = {} & \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\omega\sub{c}(1-e)^{7/2}\sum_n g(n,e),
+\end{align}
+where we have used equations \eqref{eq:PM_P}, \eqref{eq:Kepler_freq} and \eqref{eq:E(n)}. Peters and Matthews\cite{Peters1963} provide the result
+\begin{equation}
+\sum_n g(n,e) = \frac{1 + \nicefrac{73}{24}\, e^2 + \nicefrac{37}{96}\, e^4}{(1-e^2)^{7/2}}.
+\end{equation}
+Using this,
+\begin{equation}
+E\sub{sum} = \frac{64\pi}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\omega\sub{c}\frac{1 + \nicefrac{73}{24}\, e^2 + \nicefrac{37}{96}\, e^4}{(1+e^2)^{7/2}}.
+\end{equation}
+This is perfectly well behaved as $e \rightarrow 1$. Taking the limit for a parabolic orbit, the total energy radiated is
+\begin{equation}
+E\sub{sum} = \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\omega\sub{c}.
+\end{equation}
+Integrating over the energy spectrum, \eqnref{PM_dEdf}, gives
+\begin{align}
+E\sub{int} = {} & \intd{0}{\infty}{\diff{E}{f}}{f} \nonumber \\
+ = {} & \frac{2\pi}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\omega\sub{c}\intd{0}{\infty}{\ell(\widetilde{f})}{\widetilde{f}}.
+\end{align}
+The integral can be easily evaluated numerically showing
+\begin{align}
+\intd{0}{\infty}{\ell(\widetilde{f})}{\widetilde{f}} = {} & 12.5216858\ldots \nonumber \\
+ = {} & \frac{425}{2^{7/2}3},
+\end{align}
+and so we find that the two total energies are consistent
+\begin{align}
+\label{eq:PM_total}
+E\sub{int} = {} & \frac{85\pi}{2^{5/2}3}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\omega\sub{c} \\
+ = {} & E\sub{sum}.
+\end{align}
+
+\subsection{Comparison}
+
+Two energy spectra are plotted in \figref{Energy} for orbits with a periapsis of $r\sub{p} = 35.0 r\sub{S}$, where $r\sub{S}$ is the MBH's Schwarzschild radius. For consistency with the approximation of Peters and Matthews the NK waveform has been calculated using only the quadrupole formula.
+\begin{figure}[htbp]
+  \begin{center}
+   \subfigure[Log-log plot.]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglog_E.tex}}} \\
+   \subfigure[Log-linear plot.]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglin_E.tex}}}
+    \caption{Energy spectra for a parabolic orbit of a $\mu = \SI{1e31}{\kg} \simeq 5 M_\odot$ object about a $M_\bullet = \SI{8.6e36}{\kg} \simeq \num{4.3e6} M_\odot$ Schwarzschild MBH with $L_z = 12 M_\bullet$ and $Q = 0$; the periapse distance is $r\sub{p} = 69.9 M_\bullet$. The spectra calculated from a the NK waveform is shown by the solid line and the Peters and Matthews flux is indicated by the dashed line. The NK waveform only uses the quadrupole formula.}
+    \label{fig:Energy}
+  \end{center}
+\end{figure}
+The two spectra appear to be in good agreement, showing the same general shape. The NK spectrum is more tightly peaked, but is always within a factor of $2$ (ignoring the high-frequency tail).
+
+We may also compare the total energy flux. The Peters and Matthews flux may be calculated from \eqnref{PM_total}. The NK flux can be found by integrating \eqnref{NK_dEdf}; it can also be found from the standard expression for GW luminosity assuming the quadrupole formula
+\begin{equation}
+\diff{E}{t} = \frac{G}{5c^9}\left\langle\dddot{\Ibar}_{ij}\dddot{\Ibar}^{ij}\right\rangle,
+\end{equation}
+where $\dddot{\Ibar}^{ij}$ is the reduced quadrupole moment. Integrating this over time gives
+\begin{equation}
+E = \frac{G}{5c^9}\int \dd t \dddot{\Ibar}_{ij}\dddot{\Ibar}^{ij}.
+\end{equation}
+Evaluating this should be more accurate than relying upon integrating \eqnref{NK_dEdf} since it is not necessary to Fourier transform, use window functions or integrate over all solid angles. For the orbit shown in \figref{Energy} integrating the NK spectrum gives $E_{\widetilde{H}(f)} = \SI{5.936e36}{\joule}$ and using the quadrupolar formula gives $E_\Ibar = \SI{5.945e36}{\joule}$. The two are consistent to $\SI{1.5}{\percent}$. The largest source of error may be from the use of the the window function, especially if it is not perfectly centred; however, the integration over all angles will also contribute since it may introduce an error of the order of a percent. From the level of this agreement we may infer that the numerical error made in calculating $\widetilde{H}_{ij}$ is less than a percent, which should be adequate for our purposes. The Peters and Matthews total energy is $E\sub{PM} = \SI{5.747e36}{\joule}$. The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}. From the level of agreement we may be confident that the NK waveforms are a reasonable approximation.
+
+Introducing the octopole moments makes a small change to the energy spectrum, as seen in \figref{Energy_oct}.
+\begin{figure}[htbp]
+  \begin{center}
+   \subfigure[Log-log plot.]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglog_E_oct.tex}}} \\
+   \subfigure[Log-linear plot.]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglin_E_oct.tex}}}
+    \caption{Energy spectra for the same orbit as shown in \figref{Energy}. The spectra calculated from a the NK waveform is shown by the solid line and the Peters and Matthews flux is indicated by the dashed line. The NK waveform includes contributions from the current quadrupole and mass octople as given by \eqnref{Octopole}.}
+    \label{fig:Energy_oct}
+  \end{center}
+\end{figure}
+The peak of the spectrum is shifted to a slightly higher frequency, and the total energy radiated is increased to $E_{\widetilde{H}(f)} = \SI{6.202e36}{\joule}$. At such radii the higher order terms only make a correction of the order of a few percent.
