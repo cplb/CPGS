@@ -135,12 +135,6 @@ Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
 Capozziello, S., Corda, C. \& {De Laurentis}, M.; \textit{Physics Letters B};
   \textbf{669}(5):255--259; 2008.
 
-\bibitem{Isaacson1968}
-Isaacson, R.; \textit{Physical Review}; \textbf{166}(5):1263--1271; 1968.
-
-\bibitem{Isaacson1968a}
-Isaacson, R.; \textit{Physical Review}; \textbf{166}(5):1272--1280; 1968.
-
 \bibitem{Peskin1995a}
 Peskin, M.~E. \& Schroeder, D.~V.; \textit{{An Introduction to Quantum Field
   Theory}}; Boulder, Colorado: Westview Press, 1995.
@@ -192,29 +186,9 @@ Kapner, D., Cook, T., Adelberger, E. \textit{et~al.}; \textit{Physical Review
 Hoyle, C., Kapner, D., Heckel, B. \textit{et~al.}; \textit{Physical Review D};
   \textbf{70}(4):042004(31); 2004.
 
-\bibitem{Talmadge1988}
-Talmadge, C., Berthias, J., Hellings, R. \& Standish, E.; \textit{Physical
-  Review Letters}; \textbf{61}(10):1159--1162; 1988.
-
 \bibitem{Bertotti2003}
 Bertotti, B., Iess, L. \& Tortora, P.; \textit{Nature};
   \textbf{425}(6956):374--376; 2003.
-
-\bibitem{Everitt2009}
-Everitt, C. W.~F., Adams, M., Bencze, W. \textit{et~al.}; \textit{Space Science
-  Reviews}; \textbf{148}(1-4):53--69; 2009.
-
-\bibitem{Burgay2003}
-Burgay, M., D'Amico, N., Possenti, A. \textit{et~al.}; \textit{Nature};
-  \textbf{426}(6966):531--533; 2003.
-
-\bibitem{Lyne2006}
-Lyne, A.~G.; \textit{Chinese Journal of Astronomy and Astrophysics};
-  \textbf{6}(S2):162--168; 2006.
-
-\bibitem{Breton2008}
-Breton, R.~P., Kaspi, V.~M., Kramer, M. \textit{et~al.}; \textit{Science};
-  \textbf{321}(5885):104--107; 2008.
 
 \bibitem{Hinshaw2009}
 Hinshaw, G., Weiland, J.~L., Hill, R.~S. \textit{et~al.}; \textit{The
@@ -287,10 +261,6 @@ Merritt, D., Mikkola, S. \& Will, C.~M.; \textit{Physical Review D};
 \bibitem{Kato2010}
 Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al.}; \textit{Monthly Notices
   of the Royal Astronomical Society: Letters}; \textbf{403}(1):L74--L78; 2010.
-
-\bibitem{King2008}
-King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; \textit{Monthly Notices of the
-  Royal Astronomical Society}; \textbf{385}(3):1621--1627; 2008.
 
 \bibitem{Rubbo2006}
 Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{The Astrophysical
@@ -372,17 +342,13 @@ Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
 \bibitem{Harris1978}
 Harris, F.; \textit{Proceedings of the IEEE}; \textbf{66}(1):51--83; 1978.
 
-\bibitem{Burko2007}
-Burko, L.~M. \& Khanna, G.; \textit{Europhysics Letters (EPL)};
-  \textbf{78}(6):60005; 2007.
+\bibitem{Nuttall1981}
+Nuttall, A.; \textit{Acoustics, Speech and Signal Processing, IEEE Transactions
+  on}; \textbf{29}(1):84--91; 1981.
 
 \bibitem{Kaiser1980}
 Kaiser, J. \& Schafer, R.; \textit{Acoustics, Speech and Signal Processing,
   IEEE Transactions on}; \textbf{28}(1):105--107; 1980.
-
-\bibitem{Nuttall1981}
-Nuttall, A.; \textit{Acoustics, Speech and Signal Processing, IEEE Transactions
-  on}; \textbf{29}(1):84--91; 1981.
 
 \bibitem{Ghez2008}
 Ghez, A.~M., Salim, S., Weinberg, N.~N. \textit{et~al.}; \textit{The
@@ -396,9 +362,17 @@ Thorne, K.~S.; \textit{The Astrophysical Journal}; \textbf{191}(2):507--519;
 King, A.~R. \& Pringle, J.~E.; \textit{Monthly Notices of the Royal
   Astronomical Society: Letters}; \textbf{373}(1):L90--L92; 2006.
 
+\bibitem{King2008}
+King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; \textit{Monthly Notices of the
+  Royal Astronomical Society}; \textbf{385}(3):1621--1627; 2008.
+
 \bibitem{Reid2003}
 Reid, M.~J., Menten, K.~M., Genzel, R. \textit{et~al.}; \textit{Astronomische
   Nachrichten}; \textbf{324}(S1):505--511; 2003.
+
+\bibitem{Doeleman2008}
+Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al.};
+  \textit{Nature}; \textbf{455}(7209):78--80; 2008.
 
 \bibitem{Reid1999}
 Reid, M.~J., Readhead, A. C.~S., Vermeulen, R.~C. \& Treuhaft, R.~N.;
@@ -454,9 +428,9 @@ Arnowitt, R., Deser, S. \& Misner, C.~W.; {The Dynamics of General Relativity};
 Alexander, S. \& Yunes, N.; \textit{Physics Reports}; \textbf{480}(1-2):1--55;
   2009.
 
-\bibitem{Doeleman2008}
-Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al.};
-  \textit{Nature}; \textbf{455}(7209):78--80; 2008.
+\bibitem{Broderick2009}
+Broderick, A.~E., Loeb, A. \& Narayan, R.; \textit{The Astrophysical Journal};
+  \textbf{701}(2):1357--1366; 2009.
 
 \bibitem{Hioki2009a}
 Hioki, K. \& Maeda, K.; \textit{Physical Review D}; \textbf{80}(2):024042(9);

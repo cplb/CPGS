@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  28 JUL 2010 07:24
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  28 JUL 2010 17:34
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -762,68 +762,58 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 23.
 [3
 
-] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-Overfull \hbox (1.12605pt too wide) detected at line 550
+] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (1.12605pt too wide) detected at line 416
 \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95  [] [] \OT1/lm
 r/m/n/10.95 ;  \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95
   [] []  []\OML/lmm/m/it/10.95 :
  []
 
-[17] [18] [19] [20] [21] [22] [23])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [24]
+[13] [14] [15] [16] [17] [18])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Parabolic.tex" [19]
 Chapter 3.
-[25
+[20
 
-] [26] [27] [28]
+] [21] [22]
 File: ./Images/Triangle.eps Graphic file (type eps)
- <./Images/Triangle.eps> [29]
+ <./Images/Triangle.eps> [23]
 Underfull \hbox (badness 4168) in paragraph at lines 116--117
-[]\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-space
- spher-i-cal po-lars
+[][]\T1/lmr/m/n/10.95 Identify the Boyer-Lindquist co-or-di-nates with flat-spa
+ce spher-i-cal po-lars
  []
 
-[30]
+[24] [25]
 File: ./Images/BH_SS.eps Graphic file (type eps)
  <./Images/BH_SS.eps>
 File: ./Images/SS_LISA.eps Graphic file (type eps)
  <./Images/SS_LISA.eps>
 File: ./Images/LISA_arms.eps Graphic file (type eps)
  <./Images/LISA_arms.eps>
-[31] [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-[34] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Noise.tex"
+[26] [27] [28]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Noise.tex"
 File: ./Images/Noise.eps Graphic file (type eps)
 
 <psfrag:./Images/Noise.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Noise.eps>) [35] [36]
+<./Images/Noise.eps>) [29]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Rectangular.t
 ex"
 File: ./Images/h_I_Rectangular.eps Graphic file (type eps)
  <psfrag:./Images/h_I_Rectangular.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/h_I_Rectangular.eps>)
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_II_Rectangular.
-tex"
-File: ./Images/h_II_Rectangular.eps Graphic file (type eps)
- <psfrag:./Images/h_II_Rectangular.eps>
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Rectangular.eps>) [37]
+Underfull \hbox (badness 2538) in paragraph at lines 293--293
+[]\T1/lmr/m/n/9 (a) Spec-trum us-ing a no win-dow. The
+ []
+
+
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_I_Nuttall_first
 _derivative.tex"
 File: ./Images/h_I_Nuttall_first_derivative.eps Graphic file (type eps)
  <psfrag:./Images/h_I_Nuttall_first_derivative.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_I_Nuttall_first_derivative.eps>)
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\h_II_Nuttall_firs
-t_derivative.tex"
-File: ./Images/h_II_Nuttall_first_derivative.eps Graphic file (type eps)
- <psfrag:./Images/h_II_Nuttall_first_derivative.eps>
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_Nuttall_first_derivative.eps>) [38]
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+<./Images/h_I_Nuttall_first_derivative.eps>) [30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
@@ -886,11 +876,11 @@ File: ./Images/h_II_7.eps Graphic file (type eps)
 
 <psfrag:./Images/h_II_7.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/h_II_7.eps>) [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
-[49] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex
-"
+<./Images/h_II_7.eps>) [32] [33] [34] [35] [36] [37] [38]
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
- <psfrag:./Images/Loglog_E.eps>
+
+<psfrag:./Images/Loglog_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Loglog_E.eps>)
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglin_E.tex"
@@ -898,7 +888,7 @@ File: ./Images/Loglin_E.eps Graphic file (type eps)
 
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [50]
+<./Images/Loglin_E.eps>) [39]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\loglog_E_oct.tex"
 File: ./Images/Loglog_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglog_E.eps>
@@ -908,8 +898,8 @@ File: ./Images/Loglog_E.eps Graphic file (type eps)
 File: ./Images/Loglin_E.eps Graphic file (type eps)
 <psfrag:./Images/Loglin_E.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
-<./Images/Loglin_E.eps>) [51] [52] [53])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [54]
+<./Images/Loglin_E.eps>) [40] [41] [42])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Future.tex" [43]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 9.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmr.fd"
@@ -917,7 +907,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 9.
- [55
+ [44
 
 ]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Images\Shadow_2-psfrag.t
@@ -968,12 +958,12 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
  <psfrag:./Images/Shadow_998_6-psfrag.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Shadow_998_6-psfrag.eps>))
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [56] [57]
-[58
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [45] [46]
+[47
 
-] [59] [60] [61])
+] [48] [49] [50])
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newer.tex"
-[62]
+[51]
 Appendix A.
 
 Overfull \hbox (4.54997pt too wide) in paragraph at lines 12--28
@@ -1005,17 +995,17 @@ Overfull \hbox (4.54997pt too wide) in paragraph at lines 117--133
  [][][] 
  []
 
-) [63
+) [52
 
-] [64] [65] [66] [67] [68] [69]
+] [53] [54] [55] [56] [57] [58]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11402 strings out of 495286
- 171371 string characters out of 3179901
- 360790 words of memory out of 3000000
- 14155 multiletter control sequences out of 15000+200000
+ 11361 strings out of 495286
+ 170185 string characters out of 3179901
+ 361314 words of memory out of 3000000
+ 14124 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,23n,91p,2917b,804s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,23n,91p,2496b,798s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (70 pages, 410880 bytes).
+Output written on CPGS.dvi (59 pages, 343804 bytes).

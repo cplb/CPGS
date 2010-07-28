@@ -293,7 +293,7 @@ There is one remaining complication: since we are Fourier transforming a finite 
   \begin{center} \subfigure[Spectrum using a no window. The calculated SNR is $\rho = 11$.]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_I_Rectangular.tex}}} \quad
 \subfigure[Spectrum using a Nuttall window. The calculated SNR is $\rho = 4.6$.]{\resizebox{0.45\textwidth}{!}{\import{./Images/}{h_I_Nuttall_first_derivative.tex}}} \\
     \caption{Example spectra calculated using (a) a rectangular window and (b) Nuttall's 4-term window with continuous first derivative\cite{Nuttall1981}. The input parameters are: $M_\bullet = \num{4.3e6} M_\odot$, $a = 0.5 M_\bullet$, $\Theta = \pi/3$, $\Phi = 0$, $R_0 = \SI{8.33}{\kilo\parsec}$, $\overline{\Theta} = \ang{95.607669}$, $\overline{\Phi} = \ang{266.851760}$, $\overline{\phi}_0 = 0$, $\varphi_0 = 0$, $L_z = 10.44 M_\bullet$, $Q = 0.055 M_\bullet^2$, $\mu = 5 M_\odot$, $x_0 = \SI{3.5e12}{\metre}$, $y_0 = \SI{3.0e12}{\metre}$, $z_0 = \SI{1.0e11}{\metre}$; see \secref{Parameters} for a discussion of these parameters. The periapse distance is $r\sub{p} = 52.7 M_\bullet$. The high-frequency tail is the result of spectral leakage. The level of the LISA noise curve is indicated by the dashed line. The spectra are from detector I, detector II has similar spectra.}
-    \label{fig:Rectangular}
+    \label{fig:Window}
   \end{center}
 \end{figure}
 The waveforms have two distinct regions: a low-frequency curve, and a high-frequency tail. The low-frequency signal is the spectrum we are interested in; the high-frequency components are the result of spectral leakage. Using the Nuttall window, the spectral leakage is greatly reduced; the peak sidelobe is lower, and the tail decays away as $\nicerecip{f^3}$ instead of $\nicerecip{f}$. This window is used for all future waveforms.
@@ -467,16 +467,16 @@ using the fact that the signal is real so $\widetilde{H}_{ij}^*(f) = \widetilde{
 
 \subsection{Peters \& Matthews Spectrum}
 
-To calculate the Peters and MAtthews energy spectrum for a parabolic orbit, we use the limiting result of Gair\cite{Gair2010}
+To calculate the Peters and Matthews energy spectrum for a parabolic orbit, we use the limiting result of Gair\cite{Gair2010}
 \begin{equation}
-\diff{E}{f} = \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\left[8\frac{f}{f\sub{c}}B\left(\frac{f}{f\sub{c}}\right) - 2\frac{f}{f\sub{c}}A\left(\frac{f}{f\sub{c}}\right)\right]^2 + \left(\frac{128f^4}{f\sub{c}^4}\right) + \frac{4f^2}{3f\sub{c}^2}\right)\left[A\left(\frac{f}{f\sub{c}}\right)\right]^2,
+\diff{E}{f} = \frac{4\pi^2}{5}\frac{G^3}{c^5}\frac{M_\bullet^2\mu^2}{r\sub{p}^2}\left\{\left[\frac{8f}{f\sub{c}}B\left(\frac{f}{f\sub{c}}\right) - \frac{2f}{f\sub{c}}A\left(\frac{f}{f\sub{c}}\right)\right]^2 + \left(\frac{128f^4}{f\sub{c}^4} + \frac{4f^2}{3f\sub{c}^2}\right)\left[A\left(\frac{f}{f\sub{c}}\right)\right]^2\right\},
 \label{eq:PM_dEdf}
 \end{equation}
-where $f\sub{c}$ is the orbtial frequency of a circular orbit of radius equal to $r\sub{p}$,
+where $f\sub{c}$ is the orbital frequency of a circular orbit of radius equal to $r\sub{p}$,
 \begin{equation}
 f\sub{c} = \recip{2\pi}\sqrt{\frac{G(M_\bullet + \mu)}{r\sub{p}^3}},
 \end{equation}
-and functions $A(\widetilde{f})$ and $B(\widetilde)$ are defined in terms of Bessel functions. Their precise forms are
+and functions $A(\widetilde{f})$ and $B(\widetilde{f})$ are defined in terms of Bessel functions. Their precise forms are
 \begin{align}
 A(\widetilde{f}) = {} & \recip{\pi}\sqrt{\frac{2}{3}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right); \\
 B(\widetilde{f}) = {} & \recip{\sqrt{3}\pi}\left[K_{-2/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) + K_{4/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right) - \recip{\sqrt{2}\widetilde{f}}K_{1/3}\left(\frac{2^{3/2}\widetilde{f}}{3}\right)\right],
@@ -486,6 +486,7 @@ where $K_\nu(z)$ is a modified Bessel function of the second kind\cite{Watson199
 \subsection{Comparison}
 
 Two energy spectra are plotted in \figref{Energy} for orbits with a periapsis of $r\sub{p} = 35.0 r\sub{S}$, where $r\sub{S}$ is the MBH's Schwarzschild radius. For consistency with the approximation of Peters and Matthews the NK waveform has been calculated using only the quadrupole formula.
+The two spectra appear to be in good agreement, showing the same general shape. The NK spectrum is more tightly peaked, but is always within a factor of $2$ (ignoring the high-frequency tail).
 \begin{figure}[htbp]
   \begin{center}
    \subfigure[Log-log plot.]{\resizebox{0.65\textwidth}{!}{\import{./Images/}{loglog_E.tex}}} \\
@@ -494,7 +495,6 @@ Two energy spectra are plotted in \figref{Energy} for orbits with a periapsis of
     \label{fig:Energy}
   \end{center}
 \end{figure}
-The two spectra appear to be in good agreement, showing the same general shape. The NK spectrum is more tightly peaked, but is always within a factor of $2$ (ignoring the high-frequency tail).
 
 We may also compare the total energy flux. For the orbit shown in \figref{Energy} integrating the NK spectrum gives $E\sub{NK} = \SI{5.936e36}{\joule}$; the Peters and Matthews total energy is $E\sub{PM} = \SI{5.747e36}{\joule}$. The total energy flux from the kludge waveform is larger than the Peters and Matthews result. This behaviour has been seen before for high eccentricity orbits about a non-spinning BH\cite{Gair2005}. From the level of agreement we may be confident that the NK waveforms are a reasonable approximation.
 
