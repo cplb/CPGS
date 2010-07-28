@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  27 JUL 2010 21:04
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  28 JUL 2010 07:24
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -738,7 +738,7 @@ File: ../shield.eps Graphic file (type eps)
  <../shield.eps>
 [1
 
-] [1] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Introduction.tex"
+] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Introduction.tex"
 Chapter 1.
 [1
 
@@ -758,6 +758,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 23.
 [3
 
 ] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
@@ -969,62 +971,51 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [56] [57]
 [58
 
-] [59] [60] [61] [62] [63]
-Underfull \hbox (badness 1931) in paragraph at lines 575--578
-[][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
-ith Ob-ser-va-tions in the
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 580--583
-[][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; Test-ing the No-hair The-o-rem w
-ith Ob-ser-va-tions in the
- []
-
-) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newer.tex"
-[64]
+] [59] [60] [61])
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newer.tex"
+[62]
 Appendix A.
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 11--27
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 12--28
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 32--48
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 33--49
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 53--69
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 54--70
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 74--90
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 75--91
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 95--111
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 96--112
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 116--132
+Overfull \hbox (4.54997pt too wide) in paragraph at lines 117--133
  [][][] 
  []
 
-) [65
+) [63
 
-] [66] [67] [68] [69] [70] [71]
+] [64] [65] [66] [67] [68] [69]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
  11402 strings out of 495286
  171371 string characters out of 3179901
- 360779 words of memory out of 3000000
+ 360790 words of memory out of 3000000
  14155 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,23n,91p,2917b,848s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,23n,91p,2917b,804s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (73 pages, 426064 bytes).
+Output written on CPGS.dvi (70 pages, 410880 bytes).
