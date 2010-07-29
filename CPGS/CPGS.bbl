@@ -16,20 +16,20 @@ Will, C.~M.; \textit{Living Reviews in Relativity}; \textbf{9}(3); 2006.
 Stairs, I.~H.; \textit{Living Reviews in Relativity}; \textbf{6}(5); 2003.
 
 \bibitem{Abramovici1992}
-Abramovici, A., Althouse, W.~E., Drever, R. W.~P. \textit{et~al.};
+Abramovici, A., Althouse, W.~E., Drever, R. W.~P. \textit{et~al\textup{.}};
   \textit{Science}; \textbf{256}(5055):325--333; 1992.
 
 \bibitem{Abbott2009}
-Abbott, B.~P., Abbott, R., Adhikari, R. \textit{et~al.}; \textit{Reports on
-  Progress in Physics}; \textbf{72}(7):076901(25); 2009.
+Abbott, B.~P., Abbott, R., Adhikari, R. \textit{et~al\textup{.}};
+  \textit{Reports on Progress in Physics}; \textbf{72}(7):076901(25); 2009.
 
 \bibitem{Accadia2010}
-Accadia, T., Acernese, F., Antonucci, F. \textit{et~al.}; \textit{Journal of
-  Physics: Conference Series}; \textbf{203}(1):012074; 2010.
+Accadia, T., Acernese, F., Antonucci, F. \textit{et~al\textup{.}};
+  \textit{Journal of Physics: Conference Series}; \textbf{203}(1):012074; 2010.
 
 \bibitem{Bender1998}
-Bender, P., Brillet, A., Ciufolini, I. \textit{et~al.}; {LISA Pre-Phase A
-  Report}; 1998.
+Bender, P., Brillet, A., Ciufolini, I. \textit{et~al\textup{.}}; {LISA
+  Pre-Phase A Report}; 1998.
 
 \bibitem{Danzmann2003}
 Danzmann, K. \& R\"{u}diger, A.; \textit{Classical and Quantum Gravity};
@@ -171,27 +171,28 @@ Capozziello, S. \& Stabile, A.; \textit{Classical and Quantum Gravity};
   \textbf{26}(8):085019(22); 2009.
 
 \bibitem{Adelberger2009}
-Adelberger, E., Gundlach, J., Heckel, B. \textit{et~al.}; \textit{Progress in
-  Particle and Nuclear Physics}; \textbf{62}(1):102--134; 2009.
+Adelberger, E., Gundlach, J., Heckel, B. \textit{et~al\textup{.}};
+  \textit{Progress in Particle and Nuclear Physics}; \textbf{62}(1):102--134;
+  2009.
 
 \bibitem{Adelberger2003}
 Adelberger, E., Heckel, B. \& Nelson, A.; \textit{Annual Review of Nuclear and
   Particle Science}; \textbf{53}(1):77--121; 2003.
 
 \bibitem{Kapner2007a}
-Kapner, D., Cook, T., Adelberger, E. \textit{et~al.}; \textit{Physical Review
-  Letters}; \textbf{98}(2):021101; 2007.
+Kapner, D., Cook, T., Adelberger, E. \textit{et~al\textup{.}}; \textit{Physical
+  Review Letters}; \textbf{98}(2):021101; 2007.
 
 \bibitem{Hoyle2004}
-Hoyle, C., Kapner, D., Heckel, B. \textit{et~al.}; \textit{Physical Review D};
-  \textbf{70}(4):042004(31); 2004.
+Hoyle, C., Kapner, D., Heckel, B. \textit{et~al\textup{.}}; \textit{Physical
+  Review D}; \textbf{70}(4):042004(31); 2004.
 
 \bibitem{Bertotti2003}
 Bertotti, B., Iess, L. \& Tortora, P.; \textit{Nature};
   \textbf{425}(6956):374--376; 2003.
 
 \bibitem{Hinshaw2009}
-Hinshaw, G., Weiland, J.~L., Hill, R.~S. \textit{et~al.}; \textit{The
+Hinshaw, G., Weiland, J.~L., Hill, R.~S. \textit{et~al\textup{.}}; \textit{The
   Astrophysical Journal Supplement Series}; \textbf{180}(2):225--245; 2009.
 
 \bibitem{Gair2008a}
@@ -220,6 +221,10 @@ Khoury, J. \& Weltman, A.; \textit{Physical Review Letters};
 Khoury, J. \& Weltman, A.; \textit{Physical Review D};
   \textbf{69}(4):044026(15); 2004.
 
+\bibitem{Corda2009}
+Corda, C.; \textit{The European Physical Journal C}; \textbf{65}(1-2):257--267;
+  2009.
+
 \bibitem{Lynden-Bell1971}
 Lynden-Bell, D. \& Rees, M.~J.; \textit{Monthly Notices of the Royal
   Astronomical Society}; \textbf{152}; 1971.
@@ -229,7 +234,7 @@ Rees, M.~J.; \textit{Annual Review of Astronomy and Astrophysics};
   \textbf{22}(1):471--506; 1984.
 
 \bibitem{Gillessen2009}
-Gillessen, S., Eisenhauer, F., Trippe, S. \textit{et~al.}; \textit{The
+Gillessen, S., Eisenhauer, F., Trippe, S. \textit{et~al\textup{.}}; \textit{The
   Astrophysical Journal}; \textbf{692}(2):1075--1109; 2009.
 
 \bibitem{Israel1967}
@@ -259,8 +264,9 @@ Merritt, D., Mikkola, S. \& Will, C.~M.; \textit{Physical Review D};
   \textbf{81}(6):062002(17); 2010.
 
 \bibitem{Kato2010}
-Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al.}; \textit{Monthly Notices
-  of the Royal Astronomical Society: Letters}; \textbf{403}(1):L74--L78; 2010.
+Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al\textup{.}}; \textit{Monthly
+  Notices of the Royal Astronomical Society: Letters};
+  \textbf{403}(1):L74--L78; 2010.
 
 \bibitem{Rubbo2006}
 Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{The Astrophysical
@@ -275,8 +281,8 @@ Kobayashi, S., Laguna, P., Phinney, E.~S. \& Meszaros, P.; \textit{The
   Astrophysical Journal}; \textbf{615}(2):855--865; 2004.
 
 \bibitem{Babak2007}
-Babak, S., Fang, H., Gair, J. \textit{et~al.}; \textit{Physical Review D};
-  \textbf{75}(2):024005(25); 2007.
+Babak, S., Fang, H., Gair, J. \textit{et~al\textup{.}}; \textit{Physical Review
+  D}; \textbf{75}(2):024005(25); 2007.
 
 \bibitem{Kerr1963}
 Kerr, R.; \textit{Physical Review Letters}; \textbf{11}(5):237--238; 1963.
@@ -342,16 +348,16 @@ Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
 \bibitem{Harris1978}
 Harris, F.; \textit{Proceedings of the IEEE}; \textbf{66}(1):51--83; 1978.
 
-\bibitem{Nuttall1981}
-Nuttall, A.; \textit{Acoustics, Speech and Signal Processing, IEEE Transactions
-  on}; \textbf{29}(1):84--91; 1981.
-
 \bibitem{Kaiser1980}
 Kaiser, J. \& Schafer, R.; \textit{Acoustics, Speech and Signal Processing,
   IEEE Transactions on}; \textbf{28}(1):105--107; 1980.
 
+\bibitem{Nuttall1981}
+Nuttall, A.; \textit{Acoustics, Speech and Signal Processing, IEEE Transactions
+  on}; \textbf{29}(1):84--91; 1981.
+
 \bibitem{Ghez2008}
-Ghez, A.~M., Salim, S., Weinberg, N.~N. \textit{et~al.}; \textit{The
+Ghez, A.~M., Salim, S., Weinberg, N.~N. \textit{et~al\textup{.}}; \textit{The
   Astrophysical Journal}; \textbf{689}(2):1044--1062; 2008.
 
 \bibitem{Thorne1974}
@@ -367,11 +373,11 @@ King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; \textit{Monthly Notices of the
   Royal Astronomical Society}; \textbf{385}(3):1621--1627; 2008.
 
 \bibitem{Reid2003}
-Reid, M.~J., Menten, K.~M., Genzel, R. \textit{et~al.}; \textit{Astronomische
-  Nachrichten}; \textbf{324}(S1):505--511; 2003.
+Reid, M.~J., Menten, K.~M., Genzel, R. \textit{et~al\textup{.}};
+  \textit{Astronomische Nachrichten}; \textbf{324}(S1):505--511; 2003.
 
 \bibitem{Doeleman2008}
-Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al.};
+Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al\textup{.}};
   \textit{Nature}; \textbf{455}(7209):78--80; 2008.
 
 \bibitem{Reid1999}
