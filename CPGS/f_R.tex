@@ -2,7 +2,7 @@
 
 \section{Introduction To $f(R)$ Theory}
 
-General relativity is a well tested theory of gravity\cite{Will2006}; however it is still interesting to explore alternative theories. This can be motivated by the need to explain dark matter and dark energy in cosmology, trying to formulate a quantizable theory of gravity or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR is the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
+General relativity is a well tested theory of gravity\cite{Will2006}; however it is still interesting to explore alternative theories. This can be motivated by the need to explain dark matter and dark energy in cosmology, trying to formulate a quantizable theory of gravity, or simple curiosity regarding the uniqueness of GR. One of the simplest extensions to standard GR is the class of $f(R)$ theories\cite{Sotiriou2010, DeFelice2010}.
 
 \subsection{The Action \& Field Equations}\label{sec:Action}
 
@@ -14,21 +14,21 @@ In $f(R)$ theory we make a simple modification of the action to include an arbit
 \begin{equation}
 S[g] = \frac{c^4}{16\pi G}\intd{}{}{f(R)\sqrt{-g}}{^4x}.
 \end{equation}
-Including the function $f(R)$ gives extra freedom in defining the behaviour of gravity; while this action may not encode the true theory of gravity it may at least contain sufficient information to act as an effective field theory, correctly describing phenomological behaviour\cite{Park2010}. We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Buchdahl1970, Psaltis2008}
+Including the function $f(R)$ gives extra freedom in defining the behaviour of gravity; while this action may not encode the true theory of gravity it may at least contain sufficient information to act as an effective field theory, correctly describing phenomenological behaviour\cite{Park2010}. We will assume that $f(R)$ is analytic about $R = 0$ so that it may be expressed as a power series\cite{Buchdahl1970, Psaltis2008}
 \begin{equation}
 f(R) = a_0 + a_1 R + \frac{a_2}{2!}R^2 + \frac{a_3}{3!}R^3 + \ldots
 \end{equation}
-Note that since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
+Since the dimensions of $f(R)$ must be the same as of $R$, $[a_n] = [R]^{(1-n)}$. To link to GR we will set $a_1 = 1$; any rescaling may be absorbed into the definition of $G$.
 
 The field equations are obtained by a variational principle; there are several ways of achieving this. To derive the Einstein field equations from the Einstein-Hilbert action one may use the standard metric variation or the Palatini variation\cite{Misner1973}. Both approaches may be used for $f(R)$, however they yield different results\cite{Sotiriou2010, DeFelice2010}. Following the metric formalism, one varies the action with respect to the metric $g^{\mu\nu}$, the resulting field equations being for metric $f(R)$-gravity. Following the Palatini formalism one varies the action with respect to both the metric $g^{\mu\nu}$ and the connection ${\Gamma^\rho}_{\mu\nu}$, which are treated as independent quantities: the connection is not the Levi-Civita metric connection.\footnote{Requiring that the metric and Palatini formalisms produce the same field equations, assuming an action that only depends on the metric and Riemann tensor, results in Lovelock gravity\cite{Exirifard2008}. Lovelock gravities require the field equations to be divergence free and no more than second order; in four dimensions the only possible Lovelock gravity is GR with a potentially non-zero cosmological constant\cite{Lovelock1970, Lovelock1971, Lovelock1972}.}
 
-Finally, there is a third version of $f(R)$-gravity: metric-affine $f(R)$-gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palatini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction of torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity may not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
+Finally, there is a third version of $f(R)$-gravity: metric-affine $f(R)$-gravity\cite{Sotiriou2007, Sotiriou2007b}. This goes beyond the Palatini formalism by supposing that the matter action is dependent on the variational independent connection. Parallel transport and the covariant derivative are divorced from the metric. This theory has its attractions: it allows for a natural introduction of torsion. However, it is not a metric theory of gravity and so cannot satisfy all the postulates of the Einstein equivalence principle\cite{Will2006}: a free particle does not necessarily follow a geodesic and so the effects of gravity might not be locally removed\cite{Exirifard2008}. The implications of this have not been fully explored, but for this reason we shall not consider the theory further.
 
 We shall restrict our attention to metric $f(R)$-gravity. This is preferred as the Palatini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{equation}
 \delta S = \frac{c^4}{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] - f(R)\frac{1}{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
 \end{equation}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action these gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. This is not the case for general $f(R)$\cite{Madsen1989}. However, since the action includes higher order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action these gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity\cite{York1972, Gibbons1977}. This is not the case for general $f(R)$\cite{Madsen1989}. However, since the action includes higher-order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
 The vacuum field equations are
 \begin{equation}
@@ -98,7 +98,7 @@ Similarly, the trace $h$ is given by
 \begin{equation}
 h = \eta^{\mu\nu}h_{\mu\nu}.
 \end{equation}
-All quantities denoted by ``$h$'' are strictly $\order{\varepsilon}$. We will have to be careful later on to distinguish between quantities where the Minkowski metric has been used to raise indices and those where the full metric has been used.
+All quantities denoted by ``$h$'' are strictly $\order{\varepsilon}$.
 
 The linearized connection is
 \begin{equation}
@@ -141,7 +141,7 @@ where $\mathcal{G}^{(1)} = \eta^{\mu\nu}{\mathcal{G}^{(1)}}_{\mu\nu}$. This is t
 \begin{equation}
 \Box R^{(1)} + \Upsilon^2 R^{(1)} = 0,
 \end{equation}
-defining the reciprocal length
+defining the reciprocal length (squared)
 \begin{equation}
 \Upsilon^2 = -\recip{3a_2}.
 \end{equation}
@@ -163,7 +163,7 @@ In GR we use the trace-reversed form where $A_{\mu\nu} = -(h/2)\eta_{\mu\nu}$. T
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} - \frac{h}{2}\eta_{\mu\nu} + B_{\mu\nu}.
 \end{equation}
-The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, ${R^{(1)}}_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate ${R^{(1)}}_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\varepsilon}$. There are three scalar quantities that satisfy this: $h$, $R^{(1)}$ and $\Box R^{(1)}$; $h$ is used already and $\Box R^{(1)}$ is related to $^{(1)}R$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
+The only rank two tensors in our theory are: $h_{\mu\nu}$, $\eta_{\mu\nu}$, ${R^{(1)}}_{\mu\nu}$, and $\partial_\mu\partial_\nu$; $h_{\mu\nu}$ has been used already, and we wish to eliminate ${R^{(1)}}_{\mu\nu}$, so we will try the simpler option based around $\eta_{\mu\nu}$. We want $B_{\mu\nu}$ to be $\order{\varepsilon}$. There are three scalar quantities that satisfy this: $h$, $R^{(1)}$ and $\Box R^{(1)}$; $h$ is used already and $\Box R^{(1)}$ is related to $R^{(1)}$ by \eqnref{Box_R}. Therefore, we may construct an ansatz
 \begin{equation}
 \overline{h}_{\mu\nu} = h_{\mu\nu} + \left(b a_2 R^{(1)} - \frac{h}{2}\right)\eta_{\mu\nu},
 \label{eq:Ansatz}
@@ -354,7 +354,7 @@ To proceed further we must know the form of the trace $T(x')$. In general the fo
 
 \subsection{The Newtonian Limit}
 
-For the limiting case of a Newtonian source, such that
+Let us consider the limiting case of a Newtonian source, such that
 \begin{equation}
 T_{00} = c^2\rho; \quad |T_{00}| \gg |T_{0i}|; \quad |T_{00}| \gg |T_{ij}|,
 \end{equation}
@@ -380,9 +380,9 @@ Thus, to first order, the metric for a point mass in $f(R)$-gravity is\cite{Capo
  & - {} \left\{1+\frac{2GM}{c^2r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
 \end{align}
-This is not the linearized limit of the Schwarzschild metric, although it is recovered in the limit $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole (BH) solution in $f(R)$-gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R^2$.
+This is not the linearized limit of the Schwarzschild metric, although it is recovered as $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$. Therefore the Schwarzschild solution is not a black hole (BH) solution in $f(R)$-gravity\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R^2$.
 
-We may extend this result for a slowly rotating source with angular momentum $J$; then we have the additional term\cite{Hobson2006}
+We may extend this result to a slowly rotating source with angular momentum $J$; then we have the additional term\cite{Hobson2006}
 \begin{equation}
 \overline{h}^{0i} = -\frac{2G}{c^2r^3} \epsilon^{ijk}J_j x_k,
 \end{equation}
@@ -394,7 +394,7 @@ where $z$ is the rotation axis. This is not the first order limit of the Kerr me
 
 It has been suggested that since $R = 0$ is a valid solution to the vacuum equations, the BH solutions of GR should also be solutions in $f(R)$\cite{Psaltis2008, Barausse2008}. However we see here that this is not the case: to have a BH you must have a source, and, because of \eqnref{Box_R}, this forces $R$ to be non-zero in the surrounding vacuum, although it will decay to zero at infinity\cite{Olmo2007c}. It should therefore be possible to distinguish between theories by observing the BHs that form.
 
-Solving the full field equations to find the exact BH metric in $f(R)$ is difficult because of the higher order derivatives that enter the equations; any solution must have the appropriate limiting form as given above.
+Solving the full field equations to find the exact BH metric in $f(R)$ is difficult because of the higher-order derivatives that enter the equations. Any solution must have the appropriate limiting form as given above.
 
 In $f(R)$-gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution, since the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$ we find
 %\begin{equation}
@@ -414,7 +414,7 @@ defining $\Xi(\Upsilon L)$ in the last line.\footnote{$\Xi(0) = \nicerecip{3}$ i
 h_{00} = -\frac{2GM}{c^2r}\left[1 + \exp(- \Upsilon r)\Xi(\Upsilon L)\right]; \quad h_{ii} = -\frac{2GM}{c^2r}\left[1 - \exp(- \Upsilon r)\Xi(\Upsilon L)\right] \quad \mathrm{(no\: sum)}.
 \label{eq:Uniform}
 \end{equation}
-where we have assumed that $r > L$ at all stages.\footnote{Inside the source $R^{(1)} = -{6 G \Upsilon^2 M}/{c^2}\left[1 - (\Upsilon a + 1)\exp(-\Upsilon a)\sinh(\Upsilon r)/\Upsilon r\right]$.}
+where we have assumed that $r > L$ at all stages.\footnote{Inside the source $R^{(1)} = -{6 G \Upsilon^2 M}\left[1 - (\Upsilon a + 1)\exp(-\Upsilon a)\sinh(\Upsilon r)/\Upsilon r\right]/{c^2}$.}
 
 \subsection{Fifth-Force Tests}\label{sec:Fifth}
 
@@ -430,13 +430,13 @@ We are able to put strict constraints upon our length-scale $\lambdabar_R$, and 
 
 The best constraints at short distances come from the E\"{o}t-Wash experiments, which use torsion balances\cite{Kapner2007a, Hoyle2004}. These constrain $\lambdabar_R \lesssim \SI{8e{-5}}{\metre}$. Hence we determine $|a_2| \lesssim \SI{2e-9}{\metre^2}$. A similar result is obtained by N\"{a}f and Jetzer\cite{Naf2010}. This would mean that the cut-off frequency for a propagating scalar mode would be $\Omega_R \gtrsim \SI{4e12}{\Sec^{-1}}$. This is much higher than expected for astrophysical objects.
 
-Fifth-force tests also permit $\lambdabar_R$ to be large. This degeneracy may be broken using other tests. From \eqnref{f(R)_Schw}, calculating the post-Newtonian parameter $\gamma$, which measures the space-curvature produced by unit rest mass\cite{Will2006}, we find\cite{Olmo2007c, DeFelice2010}
+Fifth-force tests also permit $\lambdabar_R$ to be large. This degeneracy can be broken using other tests. From \eqnref{f(R)_Schw}, calculating the post-Newtonian parameter $\gamma$, which measures the space-curvature produced by unit rest mass\cite{Will2006}, we find\cite{Olmo2007c, DeFelice2010}
 \begin{equation}
 \gamma = \frac{3 - \exp(-\Upsilon r)}{3 + \exp(-\Upsilon r)}.
 \end{equation}
 As $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. To be consistent with the current observational values of $\gamma = 1 + (2.1 \pm 2.3) \times 10^{-5}$\cite{Will2006, Bertotti2003} we must require $\Upsilon r \gg 1$ on solar system scales. This excludes the larger range for $\lambdabar_R$. Note that this bound for $\gamma$ was derived assuming that it was independent of position. We will see that the large range for $\lambdabar_R$ is also excluded by planetary perihelion precession in \secref{Epicycle}.
 
-While the laboratory bound on $\lambdabar_R$ may be strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the expected value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we see that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely to be a coincidence, since there is nothing fundamental about the level of current precision. It would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
+While the laboratory bound on $\lambdabar_R$ may be strict compared to astronomical length-scales, it is still much greater than the expected characteristic gravitational scale, the Planck length $\ell\sub{P}$. We might expect for a natural quantum theory, that $a_2 \sim \order{\ell\sub{P}^2}$; however $\ell\sub{P}^2 = \SI{2.612e-70}{\metre^2}$, thus the bound is still about $60$ orders of magnitude greater than the natural value. The only other length-scale that we could introduce would be defined by the cosmological constant $\Lambda$. Using the concordance values\cite{Hinshaw2009} $\Lambda = \SI{1.27e{-52}}{\metre^{-2}}$; we see that $\Lambda^{-1} \gg |a_2|$. It is intriguing to note that if we combine these two length-scales we find ${\ell\sub{P}}/{\Lambda^{1/2}} = \SI{1.44e-9}{\metre^2}$, which is on the order of the current bound. This is likely to be a coincidence, since there is nothing fundamental about the level of current precision. It would be interesting to see if the measurements could be improved to rule out a Yukawa interaction around this length-scale.
 
 Here we have only discussed tests in the solar system. It may be, if $f(R)$ is just an effective theory, that the value of $a_2$ is different in different regions. This may allow the Ricci mode to be excited and propagate outside of the solar system. We discuss this more in \secref{f_Discuss}.
 
@@ -447,7 +447,7 @@ To continue working with the weak-field metric, \eqnref{f(R)_Schw}, it is useful
 \dd s^2 = A(\widetilde{r}) c^2\dd t^2 - B(\widetilde{r})\dd \widetilde{r}^{\,2} - \widetilde{r}^{\,2} \dd \Omega^2.
 \label{eq:Sph_sym}
 \end{equation}
-The coordinate $\widetilde{r}$ is a circumferential measure as in the Schwarzschild metric as opposed to $r$, used in preceding sections, which is a radial distance, an isotropic coordinate\cite{Misner1973, Olmo2007c}. To simplify the algebra we shall introduce the Schwarzschild radius
+The coordinate $\widetilde{r}$ is a circumferential measure, as in the Schwarzschild metric, as opposed to $r$, used in preceding sections, which is a radial distance, an isotropic coordinate\cite{Misner1973, Olmo2007c}. To simplify the algebra we shall introduce the Schwarzschild radius
 \begin{equation}
 r\sub{S} = \frac{2GM}{c^2}.
 \end{equation}
@@ -473,7 +473,7 @@ Thus
 \begin{equation}
 \dd \widetilde{r}^{\,2} = \frac{\widetilde{r}^{\,2}}{r^2}\left\{\frac{1 + {\Upsilon r\sub{S}r\exp(-\Upsilon r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\Upsilon r)}/{3}\right]}\right\}\dd r^2.
 \end{equation}
-The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must check the size of $\Upsilon r\sub{S}\exp(-\Upsilon r)$. We are assuming that in the weak-field
+The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. To proceed further we must check the size of $\Upsilon r\sub{S}\exp(-\Upsilon r)$. We assume that in the weak-field
 \begin{equation}
 \varepsilon = \frac{r\sub{S}}{r}
 \end{equation}
@@ -513,14 +513,14 @@ E^2 = A\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right).
 \end{equation}
 Differentiating \eqnref{rdot} yields
 \begin{equation}
-\ddot{\widetilde{r}} = -\frac{E^2}{2AB}\left(\frac{A'}{A} + \frac{B'}{B}\right) + \frac{B'}{2B^2}\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right) + \frac{L^2}{\widetilde{r}^3B},
+\ddot{\widetilde{r}} = -\frac{E^2}{2AB}\left(\frac{A'}{A} + \frac{B'}{B}\right) + \frac{B'}{2B^2}\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right) + \frac{L^2}{\widetilde{r}^{\,3}B},
 \label{eq:geodesic}
 \end{equation}
 where a prime signifies differentiation with respect to $\widetilde{r}$. For a circular orbit
 \begin{equation}
-0 = \frac{2L^2}{\widetilde{r}^3} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right).
+0 = \frac{2L^2}{\widetilde{r}^{\,3}} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right).
 \end{equation}
-Thus a circular orbit is defined by one of its $\{E,L,\widetilde{r}\}$. We will consider a small perturbation to a circular orbit. Perturbations out of the plane just redefine the orbital plane; they are not of interest. A radial perturbation may be parameterized as
+Thus a circular orbit is defined by one of $\{E,L,\widetilde{r}\}$. We will consider a small perturbation to a circular orbit. Perturbations out of the plane just redefine the orbital plane; they are not of interest. A radial perturbation may be parameterized as
 \begin{equation}
 \widetilde{r} = \overline{r} + \delta,
 \end{equation}
@@ -534,14 +534,14 @@ Assuming a solution of form $\delta = \delta_0\cos(-i\Omega\tau)$,
 \end{equation}
 We may rewrite the radial motion as
 \begin{equation}
-\widetilde{r} = \overline{r} + \delta_0\cos(-i\Omega\tau);
+\widetilde{r} = \overline{r} + \delta_0\cos(-i\Omega\tau).
 \end{equation}
-if we compare this with an elliptic Keplerian orbit of small eccentricity $e$
+If we compare this with an elliptic Keplerian orbit of small eccentricity $e$
 \begin{align}
 \widetilde{r} = {} & \frac{a(1 - e^2)}{1 + e\cos(\omega_0\tau)} \\
  = {} & a\left[1 - e\cos(\omega_0\tau) + \ldots \, \right]
 \end{align}
-to first order in $e$, where $a$ is the semi-major axis and $\omega_0$ is the orbital frequency; we may identify our perturbed orbit with an elliptical orbit where\cite{Kerner2001a}
+to first order in $e$, where $a$ is the semimajor axis and $\omega_0$ is the orbital frequency; we may identify our perturbed orbit with an elliptical orbit where\cite{Kerner2001a}
 \begin{equation}
 \overline{r} = a; \quad \delta_0 = -ea.
 \end{equation}
@@ -596,7 +596,7 @@ Pluto & 59.063762 & 248.0208 & $28.4\phantom{00}$ & $25.1$ & 0.24880766 \\
 \caption{Orbital properties of the eight major planets and Pluto. We take the semimajor orbital axis to be the flatspace distance $r$, not the coordinate $\widetilde{r}$. The eccentricity is not used in calculations, but is given to assess the accuracy of neglecting terms $\order{e^2}$.}
 \label{tab:Precess}
 \end{table}
-Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity; however, all the precession rates are consistent with GR predictions, thus we cannot conclusively rule out $f(R)$-gravity. Since the deviations are zero to within their uncertainties, we may use the size of these uncertainties to constrain the $f(R)$ correction. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_2$ obtained by equating the uncertainty in the precession rate $\sigma_{\upDelta \varpi}$ with the $f(R)$ correction, and similarly using twice the uncertainty $2\sigma_{\upDelta \varpi}$.
+Since several of the deviations are negative, they cannot be explained by $f(R)$ corrections. This may be considered as evidence against $f(R)$-gravity; however, all the precession rates are consistent with GR predictions ($\upDelta \varpi = 0$), thus we cannot conclusively rule out $f(R)$-gravity. Since the deviations are zero to within their uncertainties, we may use the size of these uncertainties to constrain the $f(R)$ correction. \Tabref{Constraint} shows the constraints for $\Upsilon$ and $a_2$ obtained by equating the uncertainty in the precession rate $\sigma_{\upDelta \varpi}$ with the $f(R)$ correction, and similarly using twice the uncertainty $2\sigma_{\upDelta \varpi}$.
 \begin{table}[bht]\footnotesize
 \centering
 \begin{tabular}{l D{.}{.}{2.2} D{.}{.}{5.1} D{.}{.}{2.2} D{.}{.}{5.1} }
@@ -619,7 +619,7 @@ Pluto & 0.26 & 49000 & 0.25 & 55000 \\
 \label{tab:Constraint}
 \end{table}
 
-While the presence of negative deviations is evidence against $f(R)$-gravity, the tightest numerical constraint, obtained from the orbit of Mercury, is many orders of magnitude worse than obtained from laboratory tests in \secref{Fifth}. This bound is not much more stringent than the requirement that $\Upsilon r \gg 1$ over solar system scales. This is not surprising: for there to be a measurable precession effect the $f(R)$ modification to gravity must be significant, this implies that $\exp(-\Upsilon r)$ cannot be negligibly small.
+While the presence of negative deviations is evidence against $f(R)$-gravity, the tightest numerical constraint, obtained from the orbit of Mercury, is many orders of magnitude worse than obtained from laboratory tests in \secref{Fifth}. This bound is not much more stringent than the requirement that $\Upsilon r > 1$ over solar system scales. This is not surprising: for there to be a measurable precession effect the $f(R)$ modification to gravity must be significant, this implies that $\exp(-\Upsilon r)$ cannot be negligibly small.
 
 \section{Discussion \& Remaining Questions}\label{sec:f_Discuss}
 
@@ -627,8 +627,8 @@ We have seen that gravitational radiation is modified in $f(R)$-gravity, as the 
 
 Gravitational radiation is not the only way to test $f(R)$ theory. From linearized theory we have deduced the weak-field metrics for some simple mass distributions. These indicate that BH solutions are not the same as in GR. Using these weak-field results it is possible to constrain some parameters of $f(R)$. The strongest constraints come from fifth-force tests, but we have also derived the epicyclic frequency for near circular orbits. This is as an independent measurement, perhaps to check $f(R)$ in a different regime. We find that the current errors in planetary precession rates are too large to be explained by $f(R)$ modifications; they require $a_2$ to be unreasonably large. Additionally, some of the estimated deviations from GR precession rates are negative, which cannot be achieved with $f(R)$ corrections. Since all of the deviations are consistent with zero, we cannot use these as proof against $f(R)$, just that it does not modify gravity on solar system scales.
 
-It is possible that $f(R)$-gravity is not universal --- that it is different in different regions of space. This could occur if $f(R)$ is just an approximate effective theory, then the range of a particular parametrization's applicability could be limited to a specific domain. For example, we could imagine that the effective theory is different in the vicinity of a massive BH where the curvature is large and in the solar system where curvature is small; alternatively $f(R)$ could evolve with cosmological epoch so that it varies with redshift.
+It is possible that $f(R)$-gravity is not universal --- that it is different in different regions of space. This could occur if $f(R)$ is just an approximate effective theory, then the range of a particular parametrization's applicability could be limited to a specific domain. For example, we could imagine that the effective theory in the vicinity of a massive BH where the curvature is large is different from in the solar system where curvature is small; alternatively $f(R)$ could evolve with cosmological epoch so that it varies with redshift.
 
-Another possibility is that $f(R)$-gravity is modified in the presence of matter via the chameleon mechanism\cite{Khoury2004, Khoury2004a}. In metric $f(R)$ this corresponds to a nonlinear effect arising from a large departure of the Ricci scalar from its background value\cite{DeFelice2010}. The mass of the effective scalar degree of freedom then depends upon the density of its environment. In a region of high matter density, such as the Earth, the deviations from standard gravity would be exponentially suppressed due to a large effective $\Upsilon$; while on cosmological scales, where the density is low, the scalar would have a small $\Upsilon$, perhaps of the order $H_0/c$\cite{Khoury2004, Khoury2004a}. The chameleon mechanism allows $f(R)$ gravity to pass solar system tests while remaining of interest on a cosmological scale. In the context of gravitational radiation, this would mean that the Ricci scalar mode could freely propagate on cosmological scales. Unfortunately, since the chameleon mechanism suppresses the effects of $f(R)$ in the presence of matter, this mode would have to be excited by something other than the movement of matter.
+Another possibility is that $f(R)$-gravity is modified in the presence of matter via the chameleon mechanism\cite{Khoury2004, Khoury2004a}. In metric $f(R)$ this corresponds to a nonlinear effect arising from a large departure of the Ricci scalar from its background value\cite{DeFelice2010}. The mass of the effective scalar degree of freedom then depends upon the density of its environment. In a region of high matter density, such as the Earth, the deviations from standard gravity would be exponentially suppressed due to a large effective $\Upsilon$; while on cosmological scales, where the density is low, the scalar would have a small $\Upsilon$, perhaps of the order $H_0/c$\cite{Khoury2004, Khoury2004a}. The chameleon mechanism allows $f(R)$ gravity to pass solar system tests while remaining of interest for cosmology. In the context of gravitational radiation, this would mean that the Ricci scalar mode could freely propagate on cosmological scales\cite{Corda2009}. Unfortunately, since the chameleon mechanism suppresses the effects of $f(R)$ in the presence of matter, this mode would have to be excited by something other than the movement of matter.
 
 An obvious extension to the work presented here is to consider the case when $a_0$ is non-zero. We could then consider an expansion about (anti-)de Sitter space. This is interesting because the current $\Lambda$CDM paradigm indicates that we live in a universe with a positive cosmological constant\cite{Hinshaw2009}. 

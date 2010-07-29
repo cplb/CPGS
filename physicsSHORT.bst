@@ -227,7 +227,7 @@ FUNCTION {bbl.and}
 { "and"}
 
 FUNCTION {bbl.etal}
-{ "et~al." }
+{ "et~al\textup{.}" }
 
 FUNCTION {bbl.editors}
 { "editors" }
