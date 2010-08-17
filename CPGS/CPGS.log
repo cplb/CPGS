@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.2.25)  30 JUL 2010 08:48
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.8.15)  17 AUG 2010 20:22
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -24,18 +24,18 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.sty"
-Package: geometry 2008/12/21 v4.2 Page Geometry
+Package: geometry 2010/07/13 v5.5 Page Geometry
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode not detected.
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
 \Gm@cnth=\count88
@@ -45,6 +45,10 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.cfg"))
@@ -63,39 +67,79 @@ Package ifvtex Info: VTeX not detected.
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pstricks\pstricks.sty"
-Package: pstricks 2008/11/26 v0.40 LaTeX wrapper for `PSTricks' (RN,HV)
+Package: pstricks 2010/06/17 v0.45 LaTeX wrapper for `PSTricks' (RN,HV)
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pstricks.tex"
-`PSTricks' v1.31  <2009/11/27> (tvz)
-\pst@dima=\dimen107
-\pst@dimb=\dimen108
-\pst@dimc=\dimen109
-\pst@dimd=\dimen110
-\pst@dimg=\dimen111
-\pst@dimh=\dimen112
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+\XKV@depth=\count91
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+)))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pst-fp.tex"
+`pst-fp' v0.06, 2010/05/14 (hv)
+\pstFP@xs=\count92
+\pstFP@xia=\count93
+\pstFP@xib=\count94
+\pstFP@xfa=\count95
+\pstFP@xfb=\count96
+\pstFP@rega=\count97
+\pstFP@regb=\count98
+\pstFP@regs=\count99
+\pstFP@times=\count100
+)
+\psLoopIndex=\count101
+
+`PSTricks' v2.09  <2010/07/28> (tvz)
+\pst@dima=\dimen111
+\pst@dimb=\dimen112
+\pst@dimc=\dimen113
+\pst@dimd=\dimen114
+\pst@dimg=\dimen115
+\pst@dimh=\dimen116
+\pst@dimm=\dimen117
+\pst@dimn=\dimen118
+\pst@dimo=\dimen119
+\pst@dimp=\dimen120
 \pst@hbox=\box26
 \pst@boxg=\box27
-\pst@cnta=\count91
-\pst@cntb=\count92
-\pst@cntc=\count93
-\pst@cntd=\count94
-\pst@cntg=\count95
-\pst@cnth=\count96
-\pst@toks=\toks16
+\pst@cnta=\count102
+\pst@cntb=\count103
+\pst@cntc=\count104
+\pst@cntd=\count105
+\pst@cntg=\count106
+\pst@cnth=\count107
+\pst@cntm=\count108
+\pst@cntn=\count109
+\pst@cnto=\count110
+\pst@cntp=\count111
+\@zero=\count112
+\pst@toks=\toks18
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pstricks.con")
-\psunit=\dimen113
-\psxunit=\dimen114
-\psyunit=\dimen115
-\pslinewidth=\dimen116
-\pst@customdefs=\toks17
-\pslinearc=\dimen117
-\everypsbox=\toks18
-\psframesep=\dimen118
-\pslabelsep=\dimen119
-\pst@shift=\dimen120
+\psunit=\dimen121
+\psxunit=\dimen122
+\psyunit=\dimen123
+\pslinewidth=\dimen124
+\pst@customdefs=\toks19
+\pslinearc=\dimen125
+\pst@symbolStep=\dimen126
+\pst@symbolWidth=\dimen127
+\everypsbox=\toks20
+\psframesep=\dimen128
+\pslabelsep=\dimen129
+\pst@shift=\dimen130
 \theoverlaybox=\box28
 )
-File: pstricks.tex 2009/11/27 v1.31 `PSTricks' (tvz,hv)
+File: pstricks.tex 2010/07/28 v2.09 `PSTricks' (tvz,hv)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pst-fp.tex")
+File: pst-fp.tex 2010/07/28 v2.09 `PST-fp' (hv)
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -117,18 +161,21 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pstricks\pst-node.sty"
-Package: pst-node 2006/01/01 package wrapper for pst-node.tex
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-node\pst-node.sty"
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pstricks\pst-node.tex"
- v1.01, 2008/11/26
-\psrow=\count97
-\pscol=\count98
-\psmatrixcnt=\count99
+("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pst-node\pst-node.tex"
+ v1.13, 2010/06/06
+\psrow=\count113
+\pscol=\count114
+\psmatrixcnt=\count115
 \psrowsep=\skip52
 \pscolsep=\skip53
+\pst@args=\count116
+\num@pts=\count117
+\pst@argcnt=\count118
 )
-File: pst-node.tex 2008/11/26 1.01 `pst-node' (tvz)
+File: pst-node.tex 2010/06/06 1.13 `pst-node' (tvz)
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-text\pst-text.sty"
 Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
@@ -138,32 +185,20 @@ Package: pst-text 2006/01/01 package wrapper for pst-text.tex (hv)
 File: pst-text.tex 2006/11/05 1.00 `pst-text' (tvz)
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-3d\pst-3d.sty"
-Package: pst-3d 2005/09/02 package wrapper for pst-3d.tex (hv)
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pst-3d\pst-3d.tex"
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\pst-xkey.tex"
-File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
-\XKV@depth=\count100
-File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
-)))
-`PST-3d' v1.00, 2005/09/03 (tvz))
-File: pst-3d.tex 2005/09/03 v1.00 `PST-3d' (tvz)
+`PST-3d' v1.11, 2010/02/14 (tvz))
+File: pst-3d.tex 2010/02/14 v1.11 `PST-3d' (hv)
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pst-eucl\pst-eucl.sty"
 Package: pst-eucl 2005/05/14 package wrapper for PSTricks pst-eucl.tex
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\pst-eucl\pst-eucl.tex"
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\multido\multido.tex"
- v1.41, 2004/05/18 <tvz>
-\multido@count=\count101
-\multidocount=\count102
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count119
+\multidocount=\count120
 \multido@stuff=\toks21
 )
 `PST-Euclide v1.3.5, 2006/01/30 (Dominique RODRIGUEZ)
@@ -187,30 +222,30 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 )
-\pfg@pcount=\count103
-\pfg@scount=\count104
+\pfg@pcount=\count121
+\pfg@scount=\count122
 \pfg@temp=\write3
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\import.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\import\import.sty"
 Package: import 2009/03/23  v 5.1
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen121
-\Gin@req@width=\dimen122
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip54
 \subfigcapskip=\skip55
-\subfigcaptopadj=\dimen123
+\subfigcaptopadj=\dimen133
 \subfigbottomskip=\skip56
-\subfigcapmargin=\dimen124
+\subfigcapmargin=\dimen134
 \subfiglabelskip=\skip57
-\c@subfigure=\count105
-\c@lofdepth=\count106
-\c@subtable=\count107
-\c@lotdepth=\count108
+\c@subfigure=\count123
+\c@lofdepth=\count124
+\c@subtable=\count125
+\c@lotdepth=\count126
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -225,7 +260,7 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count109
+\c@r@tfl@t=\count127
 \rotFPtop=\skip60
 \rotFPbot=\skip61
 \rot@float@box=\box29
@@ -248,7 +283,7 @@ Package: amstext 2000/06/29 v2.01
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks24
-\ex@=\dimen125
+\ex@=\dimen135
 ))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -257,42 +292,42 @@ Package: amsmath 2000/07/18 v2.13 AMS math features
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen126
+\pmbraise@=\dimen136
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count110
+\inf@bad=\count128
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count111
-\leftroot@=\count112
+\uproot@=\count129
+\leftroot@=\count130
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count113
-\DOTSCASE@=\count114
+\classnum@=\count131
+\DOTSCASE@=\count132
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen127
+\big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count115
-\c@MaxMatrixCols=\count116
+\macc@depth=\count133
+\c@MaxMatrixCols=\count134
 \dotsspace@=\muskip10
-\c@parentequation=\count117
-\dspbrk@lvl=\count118
+\c@parentequation=\count135
+\dspbrk@lvl=\count136
 \tag@help=\toks25
-\row@=\count119
-\column@=\count120
-\maxfields@=\count121
+\row@=\count137
+\column@=\count138
+\maxfields@=\count139
 \andhelp@=\toks26
-\eqnshift@=\dimen128
-\alignsep@=\dimen129
-\tagshift@=\dimen130
-\tagwidth@=\dimen131
-\totwidth@=\dimen132
-\lineht@=\dimen133
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
 \@envbody=\toks27
 \multlinegap=\skip63
 \multlinetaggap=\skip64
@@ -305,23 +340,23 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.sty"
-\lst@mode=\count122
+\lst@mode=\count140
 \lst@gtempboxa=\box32
 \lst@token=\toks29
-\lst@length=\count123
-\lst@currlwidth=\dimen134
-\lst@column=\count124
-\lst@pos=\count125
-\lst@lostspace=\dimen135
-\lst@width=\dimen136
-\lst@newlines=\count126
-\lst@lineno=\count127
-\lst@maxwidth=\dimen137
+\lst@length=\count141
+\lst@currlwidth=\dimen144
+\lst@column=\count142
+\lst@pos=\count143
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count144
+\lst@lineno=\count145
+\lst@maxwidth=\dimen147
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count128
-\lst@skipnumbers=\count129
+\c@lstnumber=\count146
+\lst@skipnumbers=\count147
 \lst@framebox=\box33
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\listings\listings.cfg"
@@ -333,28 +368,28 @@ Package: listings 2007/02/22 1.4 (Carsten Heinz)
 Package: enumitem 2009/05/18 v2.2 Customized lists
 \enit@toks=\toks30
 \labelindent=\skip65
-\enit@outerparindent=\dimen138
-\enitdp@desc=\count130
+\enit@outerparindent=\dimen148
+\enitdp@desc=\count148
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen139
-\lightrulewidth=\dimen140
-\cmidrulewidth=\dimen141
-\belowrulesep=\dimen142
-\belowbottomsep=\dimen143
-\aboverulesep=\dimen144
-\abovetopsep=\dimen145
-\cmidrulesep=\dimen146
-\cmidrulekern=\dimen147
-\defaultaddspace=\dimen148
-\@cmidla=\count131
-\@cmidlb=\count132
-\@aboverulesep=\dimen149
-\@belowrulesep=\dimen150
-\@thisruleclass=\count133
-\@lastruleclass=\count134
-\@thisrulewidth=\dimen151
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
+\@cmidla=\count149
+\@cmidlb=\count150
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
+\@thisruleclass=\count151
+\@lastruleclass=\count152
+\@thisrulewidth=\dimen161
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
@@ -362,16 +397,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count135
-\LTcapwidth=\dimen152
+\LTchunksize=\count153
+\LTcapwidth=\dimen162
 \LT@head=\box34
 \LT@firsthead=\box35
 \LT@foot=\box36
 \LT@lastfoot=\box37
-\LT@cols=\count136
-\LT@rows=\count137
-\c@LT@tables=\count138
-\c@LT@chunks=\count139
+\LT@cols=\count154
+\LT@rows=\count155
+\c@LT@tables=\count156
+\c@LT@chunks=\count157
 \LT@p@ftn=\toks31
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\dcolumn.sty"
@@ -379,8 +414,8 @@ Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen153
-\extrarowheight=\dimen154
+\col@sep=\dimen163
+\extrarowheight=\dimen164
 \NC@list=\toks32
 \extratabsurround=\skip70
 \backup@length=\skip71
@@ -421,19 +456,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.sty"
-Package: microtype 2009/11/09 v2.3e Micro-typography with pdfTeX (RS)
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
 \MT@toks=\toks33
-\MT@count=\count140
-LaTeX Info: Redefining \lsstyle on input line 1617.
-LaTeX Info: Redefining \lslig on input line 1617.
+\MT@count=\count158
+LaTeX Info: Redefining \lsstyle on input line 1597.
+LaTeX Info: Redefining \lslig on input line 1597.
 \MT@outer@space=\skip72
-LaTeX Info: Redefining \textls on input line 1625.
-\MT@outer@kern=\dimen155
-LaTeX Info: Redefining \textmicrotypecontext on input line 2176.
+LaTeX Info: Redefining \textls on input line 1605.
+\MT@outer@kern=\dimen165
+LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
 Package microtype Info: Loading configuration file microtype.cfg.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\microtype.cfg"
-File: microtype.cfg 2009/11/09 v2.3e microtype main configuration file (RS)
+File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
@@ -449,92 +484,357 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\siunitx.sty"
-Package: siunitx 2009/10/24 v1.3d A comprehensive (SI) units package
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\expl3.sty"
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3names.sty"
+Package: l3names 2010/07/25 v1987 L3 Experimental Naming Scheme for TeX Primiti
+ves
+)
+Package: expl3 2010/07/25 v1987 L3 Experimental code bundle wrapper
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\xspace.sty"
-Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count159
 )
-\si@tempboxa=\box38
-\si@tempboxb=\box39
-\si@tempboxc=\box40
-\si@tempboxd=\box41
-\si@temptoks=\toks34
-\si@tab@mantprecnt=\count141
-\si@tab@mantpostcnt=\count142
-\si@tab@expprecnt=\count143
-\si@tab@exppostcnt=\count144
-\si@num@dp=\count145
-\si@num@sf=\count146
-\si@eVcorra=\skip76
-\si@eVcorrb=\skip77
-\si@frc@displen=\skip78
-\si@frc@textlen=\skip79
-\si@frc@suplen=\skip80
-\si@frc@ssuplen=\skip81
-\si@num@rndtarget=\count147
-\si@tab@toks=\toks35
-\si@tab@pretoks=\toks36
-\si@tab@posttoks=\toks37
-\si@tempcnta=\count148
-\si@tempcntb=\count149
-\si@tab@prebox=\box42
-\si@tab@midbox=\box43
-\si@tab@postbox=\box44
-\si@tab@expbox=\box45
-\si@tab@predim=\dimen156
-\si@tab@postdim=\dimen157
-\si@tab@expdim=\dimen158
-\si@tempdima=\dimen159
-\si@tempdimb=\dimen160
-\si@unt@unitcnta=\count150
-\si@unt@unitcntb=\count151
-\si@unt@depthcnt=\count152
-\si@unt@prefixcnt=\count153
-\si@unt@powerdim=\dimen161
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-abbr.cfg"
-File: si-abbr.cfg 2009/10/24 v1.3d siunitx: Abbreviated units
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-prefix.cfg"
-File: si-prefix.cfg 2009/10/24 v1.3d siunitx: SI Multiple prefixes
-Package siunitx Info: Redefining unit \kilogram on input line 46.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3basics.sty"
+Package: l3basics 2010/06/07 v1942 L3 Experimental basic definitions
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-named.cfg"
-File: si-named.cfg 2009/10/24 v1.3d siunitx: SI Named units
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3expan.sty"
+Package: l3expan 2010/06/10 v1948 L3 Experimental Argument Expansion module
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-accepted.cfg"
-File: si-accepted.cfg 2009/10/24 v1.3d siunitx: SI Accepted units
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3tl.sty"
+Package: l3tl 2010/05/22 v1919 L3 Experimental Token Lists
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-physical.cfg"
-File: si-physical.cfg 2009/10/24 v1.3d siunitx: SI Physically-measured units
-)) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-hep.cfg"
-File: si-hep.cfg 2009/10/24 v1.3d siunitx: Units for high-energy physics
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3intexpr.sty"
+Package: l3intexpr 2010/06/15 v1957 L3 Integer Expressions
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\si-astro.cfg"
-File: si-astro.cfg 2009/10/24 v1.3d siunitx: Units for astronomy
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3quark.sty"
+Package: l3quark 2010/03/21 v1853 L3 Experimental Quark Commands
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3seq.sty"
+Package: l3seq 2010/03/29 v1879 L3 Experimental sequences and stacks
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3toks.sty"
+Package: l3toks 2010/05/25 v1933 L3 Experimental Token Registers
+\l_tmpb_toks=\toks34
+\l_tmpc_toks=\toks35
+\g_tmpa_toks=\toks36
+\g_tmpb_toks=\toks37
+\g_tmpc_toks=\toks38
+\c_empty_toks=\toks39
+\l_tl_replace_toks=\toks40
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3int.sty"
+Package: l3int 2010/05/25 v1933 L3 Experimental Integer module
+\l_tmpa_int=\count160
+\l_tmpb_int=\count161
+\l_tmpc_int=\count162
+\g_tmpa_int=\count163
+\g_tmpb_int=\count164
+\c_max_int=\count165
+\g_tl_inline_level_int=\count166
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3prg.sty"
+Package: l3prg 2010/03/21 v1853 L3 Experimental control structures
+\g_prg_inline_level_int=\count167
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3clist.sty"
+Package: l3clist 2010/03/29 v1878 L3 Experimental comma separated lists
+\g_clist_inline_level_int=\count168
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3token.sty"
+Package: l3token 2010/04/11 v1890 L3 Experimental token investigation and manip
+ulation
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3prop.sty"
+Package: l3prop 2010/03/21 v1857 L3 Experimental Property Lists
+\g_prop_inline_level_int=\count169
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3msg.sty"
+Package: l3msg 2010/03/23 v1866 L3 Experimental LaTeX Messages module
+\l_msg_redirect_classes_prop=\toks41
+\l_msg_redirect_names_prop=\toks42
+\l_msg_redirect_fatal_prop=\toks43
+\l_msg_redirect_error_prop=\toks44
+\l_msg_redirect_warning_prop=\toks45
+\l_msg_redirect_info_prop=\toks46
+\l_msg_redirect_log_prop=\toks47
+\l_msg_redirect_trace_prop=\toks48
+\l_msg_redirect_none_prop=\toks49
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3io.sty"
+Package: l3io 2010/05/22 v1923 L3 Experimental i/o module
+\g_iow_streams_prop=\toks50
+\g_ior_streams_prop=\toks51
+\l_iow_stream_int=\count170
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3skip.sty"
+Package: l3skip 2010/05/25 v1933 L3 Experimental skip registers
+\l_tmpa_skip=\skip76
+\l_tmpb_skip=\skip77
+\l_tmpc_skip=\skip78
+\g_tmpa_skip=\skip79
+\g_tmpb_skip=\skip80
+\l_tmpa_dim=\dimen166
+\l_tmpb_dim=\dimen167
+\l_tmpc_dim=\dimen168
+\l_tmpd_dim=\dimen169
+\g_tmpa_dim=\dimen170
+\g_tmpb_dim=\dimen171
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3box.sty"
+Package: l3box 2010/05/22 v1919 L3 Experimental Box module
+\l_tmpb_box=\box38
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3keyval.sty"
+Package: l3keyval 2010/04/11 v1890 L3 Experimental keyval processing
+\l_KV_level_int=\count171
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3keys.sty"
+Package: l3keys 2010/05/24 v1931 L3 Experimental key-value support
+\l_keys_choice_int=\count172
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3precom.sty"
+Package: l3precom 2010/02/09 v1793 L3 Experimental precompilation module
+\g_gen_sym_int=\count173
+\g_ggen_sym_int=\count174
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3xref.sty"
+Package: l3xref 2010/02/09 v1786 L3 Experimental cross referencing
+\g_xref_all_curr_immediate_fields_prop=\toks52
+\g_xref_all_curr_deferred_fields_prop=\toks53
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3file.sty"
+Package: l3file 2010/03/21 v1853 L3 Experimental file loading
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3fp.sty"
+Package: l3fp 2010/07/18 v1985 L3 Experimental floating-point operations
+\l_fp_input_a_integer_int=\count175
+\l_fp_input_a_decimal_int=\count176
+\l_fp_input_b_integer_int=\count177
+\l_fp_input_b_decimal_int=\count178
+\l_fp_input_a_sign_int=\count179
+\l_fp_input_b_sign_int=\count180
+\l_fp_split_sign_int=\count181
+\l_fp_mul_a_i_int=\count182
+\l_fp_mul_a_ii_int=\count183
+\l_fp_mul_a_iii_int=\count184
+\l_fp_mul_a_iv_int=\count185
+\l_fp_mul_a_v_int=\count186
+\l_fp_mul_a_vi_int=\count187
+\l_fp_mul_b_i_int=\count188
+\l_fp_mul_b_ii_int=\count189
+\l_fp_mul_b_iii_int=\count190
+\l_fp_mul_b_iv_int=\count191
+\l_fp_mul_b_v_int=\count192
+\l_fp_mul_b_vi_int=\count193
+\l_fp_mul_output_int=\count194
+\l_fp_div_count_int=\count195
+\l_fp_div_offset_int=\count196
+\l_fp_output_sign_int=\count197
+\l_fp_output_integer_int=\count198
+\l_fp_output_decimal_int=\count199
+\l_fp_round_discard_int=\count200
+\l_fp_round_position_int=\count201
+\l_fp_tmp_int=\count202
+\c_one_hundred_million=\count203
+\c_one_thousand_million=\count204
+\l_fp_tmp_dim=\dimen172
+\l_fp_round_precision_int=\count205
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\expl3\l3luatex.sty"
+Package: l3luatex 2010/07/18 v1985 L3 Experimental LuaTeX functions
+\g_cctab_allocate_int=\count206
+\g_cctab_stack_int=\count207
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count208
+\calc@Bcount=\count209
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count210
+\calc@Cskip=\skip83
 ))
-Package siunitx Info: Redefining unit \as on input line 28.
+Package: siunitx 2010/08/02 v2.0r A comprehensive (SI) units package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\braket.sty")
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xpackages\xtras\l3keys2e.sty"
+Package: l3keys2e 2009/08/24 v1494 Parsing LaTeX3 keyvals as LaTeX2e package op
+tions
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\xpackages\xbase\xparse.sty"
+Package: xparse 2010/05/23 v1927 Generic document command parser
+\c_xparse_shorthands_prop=\toks54
+\l_xparse_m_args_int=\count211
+\l_xparse_mandatory_args_int=\count212
+\l_xparse_processor_int=\count213
+\l_xparse_total_args_int=\count214
+)
+ LaTeX Info: Defining document command \ProcessKeysOptions
+(LaTeX)  with arg. spec. 'm' on line 116.
+
+ LaTeX Info: Defining document command \ProcessKeysPackageOptions
+(LaTeX)  with arg. spec. 'm' on line 120.
+
+)
+\l_siunitx_tmp_box=\box39
+\l_siunitx_tmp_int=\count215
+\l_siunitx_number_in_prop=\toks55
+\l_siunitx_round_int=\count216
+\l_siunitx_process_decimal_int=\count217
+\l_siunitx_process_uncertainty_int=\count218
+\l_siunitx_process_precision_int=\count219
+\l_siunitx_number_out_prop=\toks56
+\l_siunitx_angle_marker_box=\box40
+\l_siunitx_angle_unit_box=\box41
+\l_siunitx_angle_marker_dim=\dimen175
+\l_siunitx_angle_unit_dim=\dimen176
+\l_siunitx_angle_degree_prop=\toks57
+\l_siunitx_angle_minute_prop=\toks58
+\l_siunitx_angle_second_prop=\toks59
+\l_siunitx_unit_int=\count220
+\l_siunitx_unit_prop=\toks60
+\l_siunitx_unit_denominator_int=\count221
+\l_siunitx_unit_numerator_int=\count222
+\l_siunitx_unit_prefix_int=\count223
+\l_siunitx_unit_prefix_base_int=\count224
+\l_siunitx_unit_prefix_gram_int=\count225
+\l_siunitx_number_product_int=\count226
+\c_siunitx_one_fill_skip=\skip84
+\c_siunitx_table_correction_skip=\skip85
+\l_siunitx_table_unit_align_skip=\skip86
+\l_siunitx_table_fill_box=\box42
+\l_siunitx_table_fill_dim=\dimen177
+\l_siunitx_table_pre_box=\box43
+\l_siunitx_table_post_box=\box44
+\l_siunitx_table_result_box=\box45
+\l_siunitx_table_decimal_dim=\dimen178
+\l_siunitx_table_exponent_dim=\dimen179
+\l_siunitx_table_integer_dim=\dimen180
+\l_siunitx_table_mantissa_dim=\dimen181
+\l_siunitx_table_marker_dim=\dimen182
+\l_siunitx_table_result_dim=\dimen183
+\l_siunitx_table_uncert_dim=\dimen184
+\l_siunitx_table_gap_dim=\dimen185
+\l_siunitx_table_model_prop=\toks61
+\l_siunitx_table_number_align_skip=\skip87
+\l_siunitx_table_text_align_skip=\skip88
+\l_siunitx_table_decimal_int=\count227
+\l_siunitx_table_exponent_int=\count228
+\l_siunitx_table_integer_int=\count229
+\l_siunitx_table_uncert_int=\count230
+ LaTeX Info: Defining document command \ang
+(LaTeX)  with arg. spec. 'o>{\SplitArgument {2}{;}}m' on line 5636.
+
+ LaTeX Info: Defining document command \num
+(LaTeX)  with arg. spec. 'om' on line 5643.
+
+ LaTeX Info: Defining document command \numlist
+(LaTeX)  with arg. spec. 'o>{\SplitList {;}}m' on line 5650.
+
+ LaTeX Info: Defining document command \numrange
+(LaTeX)  with arg. spec. 'omm' on line 5657.
+
+ LaTeX Info: Defining document command \si
+(LaTeX)  with arg. spec. 'om' on line 5667.
+
+ LaTeX Info: Defining document command \SIlist
+(LaTeX)  with arg. spec. 'o>{\SplitList {;}}mm' on line 5677.
+
+ LaTeX Info: Defining document command \SIrange
+(LaTeX)  with arg. spec. 'ommm' on line 5687.
+
+ LaTeX Info: Defining document command \SI
+(LaTeX)  with arg. spec. 'omom' on line 5697.
+
+ LaTeX Info: Defining document command \sisetup
+(LaTeX)  with arg. spec. 'm' on line 5700.
+
+ LaTeX Info: Defining document command \siunitx_bookmark_num:w
+(LaTeX)  with arg. spec. 'om' on line 5736.
+
+ LaTeX Info: Defining document command \siunitx_bookmark_numrange:w
+(LaTeX)  with arg. spec. 'omm' on line 5738.
+
+ LaTeX Info: Defining document command \siunitx_bookmark_si:w
+(LaTeX)  with arg. spec. 'om' on line 5739.
+
+ LaTeX Info: Defining document command \siunitx_bookmark_SI:w
+(LaTeX)  with arg. spec. 'omom' on line 5741.
+
+ LaTeX Info: Defining document command \siunitx_bookmark_SIrange:w
+(LaTeX)  with arg. spec. 'ommm' on line 5743.
+
+\g_ior_tmp_stream=\read1
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\beamer\base\translator\translator
+.sty"
+Package: translator 2010/06/12 ver 1.10
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\beamer\base\translator\translator
+-language-mappings.tex"))
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\siunitx-version-1.
+cfg"
+File: siunitx-version-1.cfg 2010/08/02 v2.0r siunitx: Version 1 settings
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\siunitx-abbreviati
+ons.cfg"
+File: siunitx-abbreviations.cfg 2010/08/02 v2.0r siunitx: Abbreviated units
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\siunitx\config\siunitx-binary.cfg
+"
+File: siunitx-binary.cfg 2010/08/02 v2.0r siunitx: Binary units
+)
+ LaTeX Info: Defining document command \newunit
+(LaTeX)  with arg. spec. 'omm' on line 634.
+
+ LaTeX Info: Defining document command \newpower
+(LaTeX)  with arg. spec. 'omm' on line 641.
+
+ LaTeX Info: Defining document command \renewpower
+(LaTeX)  with arg. spec. 'omm' on line 646.
+
+ LaTeX Info: Defining document command \providepower
+(LaTeX)  with arg. spec. 'omm' on line 651.
+
+ LaTeX Info: Defining document command \newprefix
+(LaTeX)  with arg. spec. 'ommm' on line 656.
+
+ LaTeX Info: Defining document command \renewprefix
+(LaTeX)  with arg. spec. 'ommm' on line 661.
+
+ LaTeX Info: Defining document command \provideprefix
+(LaTeX)  with arg. spec. 'ommm' on line 666.
+
+ LaTeX Info: Defining document command \newqualifier
+(LaTeX)  with arg. spec. 'mm' on line 669.
+
+ LaTeX Info: Defining document command \requiresiconfigs
+(LaTeX)  with arg. spec. 'm' on line 739.
+
+)) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\braket\braket.sty")
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\carlisle\slashed.sty"
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\afterpage.sty"
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
-\AP@output=\toks38
+\AP@output=\toks62
 \AP@partial=\box46
 \AP@footins=\box47
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count154
-\c@@ppsavesec=\count155
-\c@@ppsaveapp=\count156
+\c@@pps=\count231
+\c@@ppsavesec=\count232
+\c@@ppsaveapp=\count233
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks39
-\inpenc@posthook=\toks40
+\inpenc@prehook=\toks63
+\inpenc@posthook=\toks64
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latin9.def"
 File: latin9.def 2008/03/30 v1.1d Input encoding file
@@ -583,80 +883,67 @@ LaTeX Font Info:    Redeclaring math symbol \varrho on input line 65.
 LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 66.
 )
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\natbib\natbib.sty"
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip82
-\bibsep=\skip83
+Package: natbib 2009/11/07 8.31a (PWD, AO)
+\bibhang=\skip89
+\bibsep=\skip90
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count157
+Normal \count register pool exhausted, switching to extended pool.
+\c@NAT@ctr=\count277
 )
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-*geometry auto-detecting driver*
-*geometry detected driver: dvips*
--------------------- Geometry parameters
-paper: a4paper
-landscape: --
-twocolumn: --
-twoside: true
-asymmetric: --
-h-parts: 71.70166pt, 0.7\paperwidth , 107.55254pt (default)
-v-parts: 101.40665pt, 0.7\paperheight , 152.11pt (default)
-hmarginratio: 2:3
-vmarginratio: 2:3
-lines: --
-heightrounded: --
-bindingoffset: 0.0pt
-truedimen: --
-includehead: --
-includefoot: --
-includemp: --
-driver: dvips
--------------------- Page layout dimensions and switches
-\paperwidth  597.50787pt
-\paperheight 845.04684pt
-\textwidth  418.25368pt
-\textheight 612.00027pt
-\oddsidemargin  -0.56833pt
-\evensidemargin 35.28255pt
-\topmargin  -7.86334pt
-\headheight 13.6pt
-\headsep    25.0pt
-\footskip   30.0pt
-\marginparwidth 103.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.0pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 0.0pt
-\mag 1000
-\@twosidetrue \@mparswitchtrue 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
-\c@lstlisting=\count158
-LaTeX Info: Redefining \microtypecontext on input line 95.
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=612.00027pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-7.86334pt
+* \headheight=13.6pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count278
+LaTeX Info: Redefining \microtypecontext on input line 96.
 Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -668,38 +955,737 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package siunitx Info: xfrac package unavailable
-(siunitx)             using `fraction=sfrac' will fall back on
-(siunitx)             nicefrac-like method on input line 95.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 95.
+ LaTeX Info: Defining document command \of
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \per
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \raiseto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \tothe
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kilogram
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \metre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \meter
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mole
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \second
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ampere
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kelvin
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \candela
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gram
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yocto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \zepto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \atto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \femto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pico
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nano
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micro
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \milli
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \centi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \deci
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \deca
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \deka
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \hecto
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kilo
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mega
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \giga
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \tera
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \peta
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \exa
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \zetta
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yotta
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \becquerel
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \celsius
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \degreeCelsius
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \coulomb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \farad
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \hertz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \henry
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \joule
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \katal
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \lumen
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \lux
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \newton
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ohm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pascal
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \radian
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \siemens
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \sievert
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \steradian
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \tesla
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \volt
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \watt
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \weber
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \arcmin
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \arcminute
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \arcsecond
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \degree
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \hectare
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \hour
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \litre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \liter
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \minute
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \percent
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \tonne
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \astronomicalunit
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \atomicmassunit
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \electronvolt
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \dalton
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \clight
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \electronmass
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \planckbar
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \elementarycharge
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \bohr
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \hartree
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \angstrom
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \barn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \bel
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \decibel
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \knot
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mmHg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nauticalmile
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \neper
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \squared
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cubic
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cubed
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \A
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \uA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Hz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mHz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kHz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \MHz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \GHz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \THz
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \fmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \umol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \V
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ml
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ul
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mL
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \uL
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \fg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ug
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \g
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \amu
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \W
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mW
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kW
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \MW
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \GW
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kJ
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \eV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \meV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \keV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \MeV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \GeV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \TeV
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kWh
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \m
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \um
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \dm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \km
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \N
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mN
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kN
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \MN
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Pa
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kPa
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \MPa
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \GPa
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mohm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kohm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Mohm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \s
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \as
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \fs
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ps
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ns
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \us
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ms
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kibi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mebi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gibi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \tebi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pebi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \exbi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \zebi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yobi
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \bit
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \byte
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Square
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ssquare
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \BAR
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \bbar
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Day
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \dday
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Gray
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ggray
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \atomicmass
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \arcsec
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \are
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \curie
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gal
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \millibar
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \rad
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \rem
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \roentgen
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micA
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micl
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micL
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nanog
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micg
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \picm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micm
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Sec
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mics
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cmc
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \dmc
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cms
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \centimetrecubed
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \centimetresquared
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cubiccentimetre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \cubicdecimetre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \squarecentimetre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \squaremetre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \squarekilometre
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \parsec
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \lightyear
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \kgmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \lbmol
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \molar
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \Molar
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \torr
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gon
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \micron
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \mrad
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \gauss
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \eVperc
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nanobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \picobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \femtobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \attobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \zeptobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yoctobarn
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \nb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \pb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \fb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \ab
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \zb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yb
+(LaTeX)  with arg. spec. '' on line 96.
+
+ LaTeX Info: Defining document command \yr
+(LaTeX)  with arg. spec. '' on line 96.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\beamer\base\translator\dicts\tran
+slator-basic-dictionary\translator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+\c_siunitx_mathsf_int=\count279
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 96.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 96.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 95.
+(Font)              <10.95> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <8> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 95.
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+(Font)              <6> on input line 96.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -707,7 +1693,7 @@ File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -715,25 +1701,26 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 95.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 96.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 95.
+\c_siunitx_mathtt_int=\count280
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 96.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 130.
+(Font)              <12> on input line 131.
 File: ../shield.eps Graphic file (type eps)
  <../shield.eps>
 [1
@@ -955,36 +1942,36 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
 [49
 
 ] [50] [51] [52])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newer.tex"
+("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newest.tex"
 [53]
 Appendix A.
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 12--28
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 12--29
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 33--49
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 34--51
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 54--70
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 56--73
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 75--91
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 78--95
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 96--112
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 100--117
  [][][] 
  []
 
 
-Overfull \hbox (4.54997pt too wide) in paragraph at lines 117--133
+Overfull \hbox (16.86542pt too wide) in paragraph at lines 122--139
  [][][] 
  []
 
@@ -995,12 +1982,12 @@ Overfull \hbox (4.54997pt too wide) in paragraph at lines 117--133
 ]
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 11365 strings out of 495286
- 170251 string characters out of 3179901
- 359517 words of memory out of 3000000
- 14128 multiletter control sequences out of 15000+200000
+ 18028 strings out of 495286
+ 344701 string characters out of 3179850
+ 454429 words of memory out of 3000000
+ 20699 multiletter control sequences out of 15000+200000
  166093 words of font info for 146 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,23n,91p,2498b,794s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,22n,55p,1892b,1227s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (62 pages, 346092 bytes).
+Output written on CPGS.dvi (62 pages, 346732 bytes).

@@ -23,9 +23,10 @@
 \usepackage{microtype}
 \usepackage{nicefrac}
 \usepackage[T1]{fontenc}
-\usepackage[load=prefixed, load=abbr, alsoload=hep, alsoload=astro]{siunitx}
-\newunit{\yr}{\ensuremath{\mathrm{yr}}}
-\renewunit{\as}{\ensuremath{\mathrm{as}}}
+\usepackage[load-configurations = version-1]{siunitx}
+\DeclareSIUnit{\yr}{\ensuremath{\mathrm{yr}}}
+\DeclareSIUnit{\as}{\ensuremath{\mathrm{as}}}
+\DeclareSIUnit{\parsec}{\ensuremath{\mathrm{pc}}}
 \usepackage{braket}
 \usepackage{slashed}
 \usepackage{afterpage}
@@ -150,7 +151,7 @@ I am grateful to Jonathan Gair for suggesting this work presented here, for many
 \bibliographystyle{../physicsSHORT}
 \bibliography{../library}
 
-\input{./Fisher_newer.tex}
+\input{./Fisher_newest.tex}
 
 \clearpage
 \mbox{}
