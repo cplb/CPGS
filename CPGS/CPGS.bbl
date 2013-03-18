@@ -25,11 +25,13 @@ Abbott, B.~P., Abbott, R., Adhikari, R. \textit{et~al\textup{.}};
 
 \bibitem{Accadia2010}
 Accadia, T., Acernese, F., Antonucci, F. \textit{et~al\textup{.}};
-  \textit{Journal of Physics: Conference Series}; \textbf{203}(1):012074; 2010.
+  \textit{Journal of Physics: Conference Series}; \textbf{203}(1):012074(5);
+  2010.
 
 \bibitem{Bender1998}
 Bender, P., Brillet, A., Ciufolini, I. \textit{et~al\textup{.}}; {LISA
-  Pre-Phase A Report}; 1998.
+  Pre-Phase A Report}; Technical report; Max-Planck-Institut f\"{u}r
+  Quantenoptik; Garching; 1998.
 
 \bibitem{Danzmann2003}
 Danzmann, K. \& R\"{u}diger, A.; \textit{Classical and Quantum Gravity};
@@ -37,7 +39,8 @@ Danzmann, K. \& R\"{u}diger, A.; \textit{Classical and Quantum Gravity};
 
 \bibitem{Psaltis2008}
 Psaltis, D., Perrodin, D., Dienes, K.~R. \& Mocioiu, I.; \textit{Physical
-  Review Letters}; \textbf{100}(9):091101(4); 2008.
+  Review Letters}; \textbf{100}(9):091101(4);
+  \href{http://arxiv.org/abs/0710.4564}; {{\arXivprefix\arXiv 0710.4564}}.
 
 \bibitem{Landau1975}
 Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
@@ -46,23 +49,27 @@ Landau, L.~D. \& Lifshitz, E.~M.; \textit{{The Classical Theory of Fields}};
 
 \bibitem{Sotiriou2010}
 Sotiriou, T.~P. \& Faraoni, V.; \textit{Reviews of Modern Physics};
-  \textbf{82}(1):451--497; 2010.
+  \textbf{82}(1):451--497; \href{http://arxiv.org/abs/0805.1726};
+  {{\arXivprefix\arXiv 0805.1726}}.
 
 \bibitem{DeFelice2010}
 {De Felice}, A. \& Tsujikawa, S.; \textit{Living Reviews in Relativity};
-  \textbf{13}(3); 2010.
+  \textbf{13}(3); \href{http://arxiv.org/abs/1002.4928}; {{\arXivprefix\arXiv
+  1002.4928}}.
 
 \bibitem{Buchdahl1970}
 Buchdahl, H.~A.; \textit{Monthly Notices of the Royal Astronomical Society};
-  \textbf{150}:1--8; 1970.
+  \textbf{150}(1):1--8; 1970.
 
 \bibitem{Park2010}
 Park, M., Zurek, K.~M. \& Watson, S.; \textit{Physical Review D};
-  \textbf{81}(12):124008(18); 2010.
+  \textbf{81}(12):124008(18); \href{http://arxiv.org/abs/1003.1722};
+  {{\arXivprefix\arXiv 1003.1722}}.
 
 \bibitem{Exirifard2008}
 Exirifard, Q. \& Sheik-Jabbari, M.; \textit{Physics Letters B};
-  \textbf{661}(2-3):158--161; 2008.
+  \textbf{661}(2-3):158--161; \href{http://arxiv.org/abs/0705.1879};
+  {{\arXivprefix\arXiv 0705.1879}}.
 
 \bibitem{Lovelock1970}
 Lovelock, D.; \textit{Aequationes Mathematicae}; \textbf{4}(1-2):127--138;
@@ -78,22 +85,25 @@ Lovelock, D.; \textit{Journal of Mathematical Physics}; \textbf{13}(6):874;
 
 \bibitem{Sotiriou2007}
 Sotiriou, T. \& Liberati, S.; \textit{Annals of Physics};
-  \textbf{322}(4):935--966; 2007.
+  \textbf{322}(4):935--966; \href{http://arxiv.org/abs/0604006};
+  {{\arXivprefix\arXiv 0604006 [gr-qc]}}.
 
 \bibitem{Sotiriou2007b}
 Sotiriou, T.~P. \& Liberati, S.; \textit{Journal of Physics: Conference
-  Series}; \textbf{68}:012022(7); 2007.
+  Series}; \textbf{68}(1):012022(7); 2007.
 
 \bibitem{Barausse2008b}
 Barausse, E., Sotiriou, T.~P. \& Miller, J.~C.; \textit{Classical and Quantum
-  Gravity}; \textbf{25}(6):062001(7); 2008.
+  Gravity}; \textbf{25}(6):062001(7); \href{http://arxiv.org/abs/0703132};
+  {{\arXivprefix\arXiv 0703132 [gr-qc]}}.
 
 \bibitem{Barausse2008a}
 Barausse, E., Sotiriou, T.~P. \& Miller, J.~C.; \textit{Classical and Quantum
-  Gravity}; \textbf{25}(10):105008(15); 2008.
+  Gravity}; \textbf{25}(10):105008(15); \href{http://arxiv.org/abs/0712.1141};
+  {{\arXivprefix\arXiv 0712.1141}}.
 
 \bibitem{York1972}
-York, J., James~W.; \textit{Physical Review Letters};
+{York, Jr.}, J.~W.; \textit{Physical Review Letters};
   \textbf{28}(16):1082--1085; 1972.
 
 \bibitem{Gibbons1977}
@@ -117,23 +127,20 @@ Schmidt, H.-J.; \textit{Astronomische Nachrichten: A Journal on all Fields of
   Astronomy}; \textbf{307}(5):339--340; 1986.
 
 \bibitem{Teyssandier1990}
-Teyssandier, P.; \textit{Astronomische Nachrichten: A Journal on all Fields of
-  Astronomy}; \textbf{311}(4):209--212; 1990.
+Teyssandier, P.; \textit{Astronomische Nachrichten}; \textbf{311}(4):209--212;
+  1990.
 
 \bibitem{Olmo2005c}
 Olmo, G.~J.; \textit{Physical Review Letters}; \textbf{95}(26):261102(4); 2005.
-
-\bibitem{Corda2007}
-Corda, C.; \textit{International Journal of Modern Physics A};
-  \textbf{23}(10):1521--1535; 2007.
 
 \bibitem{Hobson2006}
 Hobson, M.~P., Efstathiou, G. \& Lasenby, A.; \textit{{General Relativity: An
   Introduction for Physicists}}; Cambridge: Cambridge University Press, 2006.
 
 \bibitem{Capozziello2008}
-Capozziello, S., Corda, C. \& {De Laurentis}, M.; \textit{Physics Letters B};
-  \textbf{669}(5):255--259; 2008.
+Capozziello, S., Corda, C. \& {{De Laurentis}}, M.~F.; \textit{Physics Letters
+  B}; \textbf{669}(5):255--259; \href{http://arxiv.org/abs/0812.2272};
+  {{\arXivprefix\arXiv 0812.2272}}.
 
 \bibitem{Peskin1995a}
 Peskin, M.~E. \& Schroeder, D.~V.; \textit{{An Introduction to Quantum Field
@@ -141,15 +148,18 @@ Peskin, M.~E. \& Schroeder, D.~V.; \textit{{An Introduction to Quantum Field
 
 \bibitem{Capozziello2009a}
 Capozziello, S., Stabile, A. \& Troisi, A.; \textit{Modern Physics Letters A};
-  \textbf{24}(09):659--665; 2009.
+  \textbf{24}(09):659--665; \href{http://arxiv.org/abs/0901.0448};
+  {{\arXivprefix\arXiv 0901.0448}}.
 
 \bibitem{Naf2010}
-N\"{a}f, J. \& Jetzer, P.; \textit{Physical Review D};
-  \textbf{81}(10):104003(8); 2010.
+N{\"a}f, J. \& Jetzer, P.; \textit{Physical Review D};
+  \textbf{81}(10):104003(8); \href{http://arxiv.org/abs/1004.2014};
+  {{\arXivprefix\arXiv 1004.2014}}.
 
 \bibitem{Chiba2007a}
-Chiba, T., Smith, T. \& Erickcek, A.; \textit{Physical Review D};
-  \textbf{75}(12):124014(7); 2007.
+Chiba, T., Smith, T.~L. \& Erickcek, A.~L.; \textit{Physical Review D};
+  \textbf{75}(12):124014(7); \href{http://arxiv.org/abs/0611867};
+  {{\arXivprefix\arXiv 0611867 [astro-ph]}}.
 
 \bibitem{Pechlaner1966}
 Pechlaner, E. \& Sexl, R.; \textit{Communications in Mathematical Physics};
@@ -161,10 +171,12 @@ Stelle, K.~S.; \textit{General Relativity and Gravitation};
 
 \bibitem{Barausse2008}
 Barausse, E. \& Sotiriou, T.~P.; \textit{Physical Review Letters};
-  \textbf{101}(9):099001(1); 2008.
+  \textbf{101}(9):099001(1); \href{http://arxiv.org/abs/0803.3433};
+  {{\arXivprefix\arXiv 0803.3433}}.
 
 \bibitem{Olmo2007c}
-Olmo, G.~J.; \textit{Physical Review D}; \textbf{75}(2):023511(8); 2007.
+Olmo, G.~J.; \textit{Physical Review D}; \textbf{75}(2):023511(8);
+  \href{http://arxiv.org/abs/0612047}; {{\arXivprefix\arXiv 0612047 [gr-qc]}}.
 
 \bibitem{Capozziello2009b}
 Capozziello, S. \& Stabile, A.; \textit{Classical and Quantum Gravity};
@@ -180,12 +192,12 @@ Adelberger, E., Heckel, B. \& Nelson, A.; \textit{Annual Review of Nuclear and
   Particle Science}; \textbf{53}(1):77--121; 2003.
 
 \bibitem{Kapner2007a}
-Kapner, D., Cook, T., Adelberger, E. \textit{et~al\textup{.}}; \textit{Physical
-  Review Letters}; \textbf{98}(2):021101; 2007.
+Kapner, D.~J., Cook, T.~S., Adelberger, E.~G. \textit{et~al\textup{.}};
+  \textit{Physical Review Letters}; \textbf{98}(2):021101; 2007.
 
 \bibitem{Hoyle2004}
-Hoyle, C., Kapner, D., Heckel, B. \textit{et~al\textup{.}}; \textit{Physical
-  Review D}; \textbf{70}(4):042004(31); 2004.
+Hoyle, C.~D., Kapner, D.~J., Heckel, B.~R. \textit{et~al\textup{.}};
+  \textit{Physical Review D}; \textbf{70}(4):042004(31); 2004.
 
 \bibitem{Bertotti2003}
 Bertotti, B., Iess, L. \& Tortora, P.; \textit{Nature};
@@ -196,11 +208,12 @@ Hinshaw, G., Weiland, J.~L., Hill, R.~S. \textit{et~al\textup{.}}; \textit{The
   Astrophysical Journal Supplement Series}; \textbf{180}(2):225--245; 2009.
 
 \bibitem{Gair2008a}
-Gair, J., Li, C. \& Mandel, I.; \textit{Physical Review D};
-  \textbf{77}(2):024035(23); 2008.
+Gair, J.~R., Li, C. \& Mandel, I.; \textit{Physical Review D};
+  \textbf{77}(2):024035(23); \href{http://arxiv.org/abs/0708.0628};
+  {{\arXivprefix\arXiv 0708.0628}}.
 
 \bibitem{Kerner2001a}
-Kerner, R., van Holten, J.~W. \& Colistete, J., R.; \textit{Classical and
+Kerner, R., {{van Holten}}, J.~W. \& Colistete, R., Jr.; \textit{Classical and
   Quantum Gravity}; \textbf{18}(22):4725--4742; 2001.
 
 \bibitem{Cox2000}
@@ -227,7 +240,7 @@ Corda, C.; \textit{The European Physical Journal C}; \textbf{65}(1-2):257--267;
 
 \bibitem{Lynden-Bell1971}
 Lynden-Bell, D. \& Rees, M.~J.; \textit{Monthly Notices of the Royal
-  Astronomical Society}; \textbf{152}; 1971.
+  Astronomical Society}; \textbf{152}(4):461--475; 1971.
 
 \bibitem{Rees1984}
 Rees, M.~J.; \textit{Annual Review of Astronomy and Astrophysics};
@@ -235,7 +248,8 @@ Rees, M.~J.; \textit{Annual Review of Astronomy and Astrophysics};
 
 \bibitem{Gillessen2009}
 Gillessen, S., Eisenhauer, F., Trippe, S. \textit{et~al\textup{.}}; \textit{The
-  Astrophysical Journal}; \textbf{692}(2):1075--1109; 2009.
+  Astrophysical Journal}; \textbf{692}(2):1075--1109;
+  \href{http://arxiv.org/abs/0810.4674}; {{\arXivprefix\arXiv 0810.4674}}.
 
 \bibitem{Israel1967}
 Israel, W.; \textit{Physical Review}; \textbf{164}(5):1776--1779; 1967.
@@ -252,7 +266,8 @@ Hawking, S.~W.; \textit{Communications in Mathematical Physics};
   \textbf{25}(2):152--166; 1972.
 
 \bibitem{Robinson1975}
-Robinson, D.; \textit{Physical Review Letters}; \textbf{34}(14):905--906; 1975.
+Robinson, D.~C.; \textit{Physical Review Letters}; \textbf{34}(14):905--906;
+  1975.
 
 \bibitem{Chandrasekhar1998}
 Chandrasekhar, S.; \textit{{The Mathematical Theory of Black Holes}}; Oxford
@@ -260,29 +275,41 @@ Chandrasekhar, S.; \textit{{The Mathematical Theory of Black Holes}}; Oxford
   1998.
 
 \bibitem{Merritt2010}
-Merritt, D., Mikkola, S. \& Will, C.~M.; \textit{Physical Review D};
-  \textbf{81}(6):062002(17); 2010.
+Merritt, D., Alexander, T., Mikkola, S. \& Will, C.~M.; \textit{Physical Review
+  D}; \textbf{81}(6):062002(17); \href{http://arxiv.org/abs/0911.4718};
+  {{\arXivprefix\arXiv 0911.4718}}.
 
 \bibitem{Kato2010}
 Kato, Y., Miyoshi, M., Takahashi, R. \textit{et~al\textup{.}}; \textit{Monthly
   Notices of the Royal Astronomical Society: Letters};
-  \textbf{403}(1):L74--L78; 2010.
+  \textbf{403}(1):L74--L78; \href{http://arxiv.org/abs/0906.5423};
+  {{\arXivprefix\arXiv 0906.5423}}.
+
+\bibitem{King2008}
+King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; \textit{Monthly Notices of the
+  Royal Astronomical Society}; \textbf{385}(3):1621--1627; 2008.
 
 \bibitem{Rubbo2006}
 Rubbo, L.~J., Holley-Bockelmann, K. \& Finn, L.~S.; \textit{The Astrophysical
-  Journal}; \textbf{649}(1):L25--L28; 2006.
+  Journal}; \textbf{649}(1):L25--L28; \href{http://arxiv.org/abs/0602445};
+  {{\arXivprefix\arXiv 0602445 [astro-ph]}}.
 
 \bibitem{Hopman2007}
 Hopman, C., Freitag, M. \& Larson, S.~L.; \textit{Monthly Notices of the Royal
-  Astronomical Society}; \textbf{378}(1):129--136; 2007.
+  Astronomical Society}; \textbf{378}(1):129--136;
+  \href{http://arxiv.org/abs/0612337}; {{\arXivprefix\arXiv 0612337
+  [astro-ph]}}.
 
 \bibitem{Kobayashi2004}
 Kobayashi, S., Laguna, P., Phinney, E.~S. \& Meszaros, P.; \textit{The
-  Astrophysical Journal}; \textbf{615}(2):855--865; 2004.
+  Astrophysical Journal}; \textbf{615}(2):855--865;
+  \href{http://arxiv.org/abs/0404173}; {{\arXivprefix\arXiv 0404173
+  [astro-ph]}}.
 
 \bibitem{Babak2007}
 Babak, S., Fang, H., Gair, J. \textit{et~al\textup{.}}; \textit{Physical Review
-  D}; \textbf{75}(2):024005(25); 2007.
+  D}; \textbf{75}(2):024005(25); \href{http://arxiv.org/abs/0607007};
+  {{\arXivprefix\arXiv 0607007 [gr-qc]}}.
 
 \bibitem{Kerr1963}
 Kerr, R.; \textit{Physical Review Letters}; \textbf{11}(5):237--238; 1963.
@@ -295,23 +322,26 @@ Boyer, R.~H. \& Lindquist, R.~W.; \textit{Journal of Mathematical Physics};
 Carter, B.; \textit{Physical Review}; \textbf{174}(5):1559--1571; 1968.
 
 \bibitem{DeFelice1980}
-de~Felice, F.; \textit{Journal of Physics A: Mathematical and General};
+{{de Felice}}, F.; \textit{Journal of Physics A: Mathematical and General};
   \textbf{13}(5):1701--1708; 1980.
 
 \bibitem{Rosquist2009}
 Rosquist, K., Bylund, T. \& Samuelsson, L.; \textit{International Journal of
-  Modern Physics D}; \textbf{18}(03):429--434; 2009.
+  Modern Physics D}; \textbf{18}(03):429--434;
+  \href{http://arxiv.org/abs/0710.4260}; {{\arXivprefix\arXiv 0710.4260}}.
 
 \bibitem{Wilkins1972}
 Wilkins, D.; \textit{Physical Review D}; \textbf{5}(4):814--822; 1972.
 
 \bibitem{Drasco2004}
 Drasco, S. \& Hughes, S.; \textit{Physical Review D};
-  \textbf{69}(4):044015(11); 2004.
+  \textbf{69}(4):044015(11); \href{http://arxiv.org/abs/0308479};
+  {{\arXivprefix\arXiv 0308479 [astro-ph]}}.
 
 \bibitem{Gair2005}
-Gair, J., Kennefick, D. \& Larson, S.; \textit{Physical Review D};
-  \textbf{72}(8):084009(20); 2005.
+Gair, J.~R., Kennefick, D.~J. \& Larson, S.~L.; \textit{Physical Review D};
+  \textbf{72}(8):084009(20); \href{http://arxiv.org/abs/0508049};
+  {{\arXivprefix\arXiv 0508049 [gr-qc]}}.
 
 \bibitem{Glampedakis2002a}
 Glampedakis, K. \& Kennefick, D.; \textit{Physical Review D};
@@ -325,7 +355,8 @@ Ruffini, R. \& Sasaki, M.; \textit{Progress of Theoretical Physics};
 Press, W.; \textit{Physical Review D}; \textbf{15}(4):965--968; 1977.
 
 \bibitem{Bekenstein1973}
-Bekenstein, J.~D.; \textit{The Astrophysical Journal}; \textbf{183}:657; 1973.
+Bekenstein, J.~D.; \textit{The Astrophysical Journal};
+  \textbf{183}(2):657--664; 1973.
 
 \bibitem{Cutler1998}
 Cutler, C.; \textit{Physical Review D}; \textbf{57}(12):7089--7102; 1998.
@@ -334,12 +365,13 @@ Cutler, C.; \textit{Physical Review D}; \textbf{57}(12):7089--7102; 1998.
 Finn, L.~S.; \textit{Physical Review D}; \textbf{46}(12):5236--5249; 1992.
 
 \bibitem{Cutler1994}
-Cutler, C., Kennefick, D. \& Poisson, E.; \textit{Physical Review D};
-  \textbf{50}(6):3816--3835; 1994.
+Cutler, C. \& Flanagan, E.~E.; \textit{Physical Review D};
+  \textbf{49}(6):2658--2697; 1994.
 
 \bibitem{Barack2004}
 Barack, L. \& Cutler, C.; \textit{Physical Review D};
-  \textbf{69}(8):082005(24); 2004.
+  \textbf{69}(8):082005(24); \href{http://arxiv.org/abs/0310125};
+  {{\arXivprefix\arXiv 0310125 [gr-qc]}}.
 
 \bibitem{Jones1982}
 Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
@@ -349,8 +381,8 @@ Jones, N.~B. (editor); \textit{{Digital Signal Processing}}; IEE Control
 Harris, F.; \textit{Proceedings of the IEEE}; \textbf{66}(1):51--83; 1978.
 
 \bibitem{Kaiser1980}
-Kaiser, J. \& Schafer, R.; \textit{Acoustics, Speech and Signal Processing,
-  IEEE Transactions on}; \textbf{28}(1):105--107; 1980.
+Kaiser, J. \& Schafer, R.; \textit{IEEE Transactions on Acoustics, Speech and
+  Signal Processing}; \textbf{28}(1):105--107; 1980.
 
 \bibitem{Nuttall1981}
 Nuttall, A.; \textit{IEEE Transactions on Acoustics, Speech and Signal
@@ -368,17 +400,14 @@ Thorne, K.~S.; \textit{The Astrophysical Journal}; \textbf{191}(2):507--519;
 King, A.~R. \& Pringle, J.~E.; \textit{Monthly Notices of the Royal
   Astronomical Society: Letters}; \textbf{373}(1):L90--L92; 2006.
 
-\bibitem{King2008}
-King, A.~R., Pringle, J.~E. \& Hofmann, J.~A.; \textit{Monthly Notices of the
-  Royal Astronomical Society}; \textbf{385}(3):1621--1627; 2008.
-
 \bibitem{Reid2003}
 Reid, M.~J., Menten, K.~M., Genzel, R. \textit{et~al\textup{.}};
   \textit{Astronomische Nachrichten}; \textbf{324}(S1):505--511; 2003.
 
 \bibitem{Doeleman2008}
 Doeleman, S.~S., Weintroub, J., Rogers, A. E.~E. \textit{et~al\textup{.}};
-  \textit{Nature}; \textbf{455}(7209):78--80; 2008.
+  \textit{Nature}; \textbf{455}(7209):78--80;
+  \href{http://arxiv.org/abs/0809.2442}; {{\arXivprefix\arXiv 0809.2442}}.
 
 \bibitem{Reid1999}
 Reid, M.~J., Readhead, A. C.~S., Vermeulen, R.~C. \& Treuhaft, R.~N.;
@@ -393,7 +422,8 @@ Jaynes, E.~T.; \textit{{Probability Theory: The Logic of Science}}; Cambridge:
   Cambridge University Press, 2003.
 
 \bibitem{Vallisneri2008}
-Vallisneri, M.; \textit{Physical Review D}; \textbf{77}(4):042001(20); 2008.
+Vallisneri, M.; \textit{Physical Review D}; \textbf{77}(4):042001(20);
+  \href{http://arxiv.org/abs/0703086}; {{\arXivprefix\arXiv 0703086 [gr-qc]}}.
 
 \bibitem{Peters1963}
 Peters, P.~C. \& Mathews, J.; \textit{Physical Review};
@@ -412,23 +442,27 @@ Watson, G.~N.; \textit{{A Treatise on the Theory of Bessel Functions}}; second
 
 \bibitem{Farhoudi2006}
 Farhoudi, M.; \textit{General Relativity and Gravitation};
-  \textbf{38}(8):1261--1284; 2006.
+  \textbf{38}(8):1261--1284; \href{http://arxiv.org/abs/0509210};
+  {{\arXivprefix\arXiv 0509210 [physics]}}.
 
 \bibitem{Horava2009}
 Ho\v{r}ava, P.; \textit{Physical Review D}; \textbf{79}(8):084008(15); 2009.
 
 \bibitem{Blas2010a}
 Blas, D., Pujol\`{a}s, O. \& Sibiryakov, S.; \textit{Physical Review Letters};
-  \textbf{104}(18):181302(4); 2010.
+  \textbf{104}(18):181302(4); \href{http://arxiv.org/abs/0909.3525};
+  {{\arXivprefix\arXiv 0909.3525}}.
 
 \bibitem{Sotiriou2009c}
 Sotiriou, T.~P., Visser, M. \& Weinfurtner, S.; \textit{Journal of High Energy
-  Physics}; \textbf{2009}(10):033(32); 2009.
+  Physics}; \textbf{2009}(10):033(32); \href{http://arxiv.org/abs/0905.2798};
+  {{\arXivprefix\arXiv 0905.2798}}.
 
 \bibitem{Arnowitt1962a}
 Arnowitt, R., Deser, S. \& Misner, C.~W.; {The Dynamics of General Relativity};
   in Witten, L. (editor), \textit{Gravitation: an introduction to current
-  research}; chapter~7, 227--264; New York: Wiley, 1962.
+  research}; chapter~7, 227--264; \href{http://arxiv.org/abs/0405109};
+  {{\arXivprefix\arXiv 0405109 [gr-qc]}}.
 
 \bibitem{Alexander2009a}
 Alexander, S. \& Yunes, N.; \textit{Physics Reports}; \textbf{480}(1-2):1--55;
@@ -440,11 +474,11 @@ Broderick, A.~E., Loeb, A. \& Narayan, R.; \textit{The Astrophysical Journal};
 
 \bibitem{Hioki2009a}
 Hioki, K. \& Maeda, K.; \textit{Physical Review D}; \textbf{80}(2):024042(9);
-  2009.
+  \href{http://arxiv.org/abs/0904.3575}; {{\arXivprefix\arXiv 0904.3575}}.
 
 \bibitem{Bambi2009}
 Bambi, C. \& Freese, K.; \textit{Physical Review D}; \textbf{79}(4):043002(7);
-  2009.
+  \href{http://arxiv.org/abs/0812.1328}; {{\arXivprefix\arXiv 0812.1328}}.
 
 \bibitem{Johannsen2010a}
 Johannsen, T. \& Psaltis, D.; \textit{The Astrophysical Journal};
@@ -452,7 +486,8 @@ Johannsen, T. \& Psaltis, D.; \textit{The Astrophysical Journal};
 
 \bibitem{Johannsen2010b}
 Johannsen, T. \& Psaltis, D.; \textit{The Astrophysical Journal};
-  \textbf{718}(1):446--454; 2010.
+  \textbf{718}(1):446--454; \href{http://arxiv.org/abs/1005.1931};
+  {{\arXivprefix\arXiv 1005.1931}}.
 
 \bibitem{Manko1992}
 Manko, V.~S. \& Novikov, I.~D.; \textit{Classical and Quantum Gravity};

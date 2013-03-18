@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.8.15)  1 SEP 2010 18:02
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.8.15)  28 AUG 2012 13:30
 entering extended mode
 **CPGS.tex
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.tex"
@@ -1720,7 +1720,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 96.
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 131.
+(Font)              <12> on input line 132.
 File: ../shield.eps Graphic file (type eps)
  <../shield.eps>
 [1
@@ -1749,7 +1749,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 23.
 [3
 
-] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+] [4] [5] [6]
+
+Package natbib Warning: Citation `Corda2007' on page 7 undefined on input line 
+148.
+
+[7]
+
+Package natbib Warning: Citation `Corda2007' on page 8 undefined on input line 
+198.
+
+[8]
+
+Package natbib Warning: Citation `Corda2007' on page 9 undefined on input line 
+261.
+
+[9] [10] [11] [12]
 Overfull \hbox (1.12605pt too wide) detected at line 416
 \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95  [] [] \OT1/lm
 r/m/n/10.95 ;  \OML/lmm/m/it/10.95 h[] \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95
@@ -1765,9 +1780,9 @@ Underfull \vbox (badness 1983) has occurred while \output is active []
 Chapter 3.
 [21
 
-] [22] [23]
+] [22] [23] [24]
 File: ./Images/Triangle.eps Graphic file (type eps)
- <./Images/Triangle.eps> [24] [25] [26]
+ <./Images/Triangle.eps> [25] [26]
 File: ./Images/BH_SS.eps Graphic file (type eps)
  <./Images/BH_SS.eps>
 File: ./Images/SS_LISA.eps Graphic file (type eps)
@@ -1793,7 +1808,7 @@ File: ./Images/h_I_Nuttall_first_derivative.eps Graphic file (type eps)
  <psfrag:./Images/h_I_Nuttall_first_derivative.eps>
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/h_I_Nuttall_first_derivative.eps>) [31] [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
@@ -1939,10 +1954,423 @@ File: ./Images/Shadow_998_6-psfrag.eps Graphic file (type eps)
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.pfg")
 <./Images/Shadow_998_6-psfrag.eps>))
 ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.bbl" [47] [48]
+! Undefined control sequence.
+l.43   \href
+            {http://arxiv.org/abs/0710.4564}; {{\arXivprefix\arXiv 0710.4564}}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 43.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+! Undefined control sequence.
+l.52   \textbf{82}(1):451--497; \href
+                                     {http://arxiv.org/abs/0805.1726};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+[][]\T1/lmr/m/n/9 Sotiriou, T. P. & Faraoni, V.; \T1/lmr/m/it/9 Re-views of Mod
+-ern Physics\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 82\T1/lmr/m/n/9 (1):451--497;
+ []
+
+! Undefined control sequence.
+l.57   \textbf{13}(3); \href
+                            {http://arxiv.org/abs/1002.4928}; {{\arXivprefix...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.66   \textbf{81}(12):124008(18); \href
+                                        {http://arxiv.org/abs/1003.1722};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 65--68
+[][]\T1/lmr/m/n/9 Park, M., Zurek, K. M. & Wat-son, S.; \T1/lmr/m/it/9 Phys-i-c
+al Re-view D\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 81\T1/lmr/m/n/9 (12):124008(18);
+ []
+
+! Undefined control sequence.
+l.71   \textbf{661}(2-3):158--161; \href
+                                        {http://arxiv.org/abs/0705.1879};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+[][]\T1/lmr/m/n/9 Exirifard, Q. & Sheik-Jabbari, M.; \T1/lmr/m/it/9 Physics Let
+-ters B\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 661\T1/lmr/m/n/9 (2-3):158--161;
+ []
+
+! Undefined control sequence.
+l.88   \textbf{322}(4):935--966; \href
+                                      {http://arxiv.org/abs/0604006};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.97   Gravity}; \textbf{25}(6):062001(7); \href
+                                                {http://arxiv.org/abs/0703132};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 [49
 
-] [50] [51] [52])
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newest.tex"
+]
+! Undefined control sequence.
+l.102 ...avity}; \textbf{25}(10):105008(15); \href
+                                                  {http://arxiv.org/abs/0712...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.142   B}; \textbf{669}(5):255--259; \href
+                                           {http://arxiv.org/abs/0812.2272};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 141--144
+[][]\T1/lmr/m/n/9 Capozziello, S., Corda, C. & De Lau-ren-tis, M. F.; \T1/lmr/m
+/it/9 Physics Let-ters B\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 669\T1/lmr/m/n/9 (5):255-
+-259;
+ []
+
+! Undefined control sequence.
+l.151   \textbf{24}(09):659--665; \href
+                                       {http://arxiv.org/abs/0901.0448};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 150--153
+[][]\T1/lmr/m/n/9 Capozziello, S., Sta-bile, A. & Troisi, A.; \T1/lmr/m/it/9 Mo
+d-ern Physics Let-ters A\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 24\T1/lmr/m/n/9 (09):659-
+-665;
+ []
+
+! Undefined control sequence.
+l.156   \textbf{81}(10):104003(8); \href
+                                        {http://arxiv.org/abs/1004.2014};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.161   \textbf{75}(12):124014(7); \href
+                                        {http://arxiv.org/abs/0611867};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 160--163
+[][]\T1/lmr/m/n/9 Chiba, T., Smith, T. L. & Er-ick-cek, A. L.; \T1/lmr/m/it/9 P
+hys-i-cal Re-view D\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 75\T1/lmr/m/n/9 (12):124014(7)
+;
+ []
+
+! Undefined control sequence.
+l.174   \textbf{101}(9):099001(1); \href
+                                        {http://arxiv.org/abs/0803.3433};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+[][]\T1/lmr/m/n/9 Barausse, E. & Sotiriou, T. P.; \T1/lmr/m/it/9 Phys-i-cal Re-
+view Let-ters\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 101\T1/lmr/m/n/9 (9):099001(1);
+ []
+
+! Undefined control sequence.
+l.179   \href
+             {http://arxiv.org/abs/0612047}; {{\arXivprefix\arXiv 0612047 [g...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[50]
+! Undefined control sequence.
+l.212   \textbf{77}(2):024035(23); \href
+                                        {http://arxiv.org/abs/0708.0628};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+[][]\T1/lmr/m/n/9 Gair, J. R., Li, C. & Man-del, I.; \T1/lmr/m/it/9 Phys-i-cal 
+Re-view D\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 77\T1/lmr/m/n/9 (2):024035(23);
+ []
+
+! Undefined control sequence.
+l.252   \href
+             {http://arxiv.org/abs/0810.4674}; {{\arXivprefix\arXiv 0810.467...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.279   D}; \textbf{81}(6):062002(17); \href
+                                            {http://arxiv.org/abs/0911.4718};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.285   \textbf{403}(1):L74--L78; \href
+                                       {http://arxiv.org/abs/0906.5423};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.294   Journal}; \textbf{649}(1):L25--L28; \href
+                                                 {http://arxiv.org/abs/06024...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.300   \href
+             {http://arxiv.org/abs/0612337}; {{\arXivprefix\arXiv 0612337
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.306   \href
+             {http://arxiv.org/abs/0404173}; {{\arXivprefix\arXiv 0404173
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[51]
+! Undefined control sequence.
+l.311   D}; \textbf{75}(2):024005(25); \href
+                                            {http://arxiv.org/abs/0607007};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--313
+[][]\T1/lmr/m/n/9 Babak, S., Fang, H., Gair, J. \T1/lmr/m/it/9 et al\T1/lmr/m/n
+/9 .; \T1/lmr/m/it/9 Phys-i-cal Re-view D\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 75\T1/lm
+r/m/n/9 (2):024005(25);
+ []
+
+! Undefined control sequence.
+l.331   \href
+             {http://arxiv.org/abs/0710.4260}; {{\arXivprefix\arXiv 0710.426...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.338   \textbf{69}(4):044015(11); \href
+                                        {http://arxiv.org/abs/0308479};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.343   \textbf{72}(8):084009(20); \href
+                                        {http://arxiv.org/abs/0508049};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 342--345
+[][]\T1/lmr/m/n/9 Gair, J. R., Ken-nefick, D. J. & Lar-son, S. L.; \T1/lmr/m/it
+/9 Phys-i-cal Re-view D\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 72\T1/lmr/m/n/9 (8):084009
+(20);
+ []
+
+! Undefined control sequence.
+l.373   \textbf{69}(8):082005(24); \href
+                                        {http://arxiv.org/abs/0310125};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.410   \href
+             {http://arxiv.org/abs/0809.2442}; {{\arXivprefix\arXiv 0809.244...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 408--411
+[][]\T1/lmr/m/n/9 Doeleman, S. S., Wein-troub, J., Rogers, A. E. E. \T1/lmr/m/i
+t/9 et al\T1/lmr/m/n/9 .; \T1/lmr/m/it/9 Na-ture\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 4
+55\T1/lmr/m/n/9 (7209):78--80;
+ []
+
+[52]
+! Undefined control sequence.
+l.426   \href
+             {http://arxiv.org/abs/0703086}; {{\arXivprefix\arXiv 0703086 [g...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.445   \textbf{38}(8):1261--1284; \href
+                                        {http://arxiv.org/abs/0509210};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.453   \textbf{104}(18):181302(4); \href
+                                         {http://arxiv.org/abs/0909.3525};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 452--455
+[][]\T1/lmr/m/n/9 Blas, D., Pu-jolàs, O. & Sibiryakov, S.; \T1/lmr/m/it/9 Phys-
+i-cal Re-view Let-ters\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 104\T1/lmr/m/n/9 (18):18130
+2(4);
+ []
+
+! Undefined control sequence.
+l.458   Physics}; \textbf{2009}(10):033(32); \href
+                                                  {http://arxiv.org/abs/0905...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.464   research}; chapter~7, 227--264; \href
+                                             {http://arxiv.org/abs/0405109};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 462--466
+[][]\T1/lmr/m/n/9 Arnowitt, R., Deser, S. & Mis-ner, C. W.; The Dy-nam-ics of G
+en-eral Rel-a-tiv-ity; in
+ []
+
+! Undefined control sequence.
+l.477   \href
+             {http://arxiv.org/abs/0904.3575}; {{\arXivprefix\arXiv 0904.357...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.481   \href
+             {http://arxiv.org/abs/0812.1328}; {{\arXivprefix\arXiv 0812.132...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.489   \textbf{718}(1):446--454; \href
+                                       {http://arxiv.org/abs/1005.1931};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--491
+[][]\T1/lmr/m/n/9 Johannsen, T. & Psaltis, D.; \T1/lmr/m/it/9 The As-tro-phys-i
+-cal Jour-nal\T1/lmr/m/n/9 ; \T1/lmr/b/n/9 718\T1/lmr/m/n/9 (1):446--454;
+ []
+
+) ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\Fisher_newest.tex"
 [53]
 Appendix A.
 
@@ -1977,17 +2405,20 @@ Overfull \hbox (16.86542pt too wide) in paragraph at lines 122--139
 
 ) [54
 
-] [55] [56] [57] [58] [59] [60] [61
+] [55] [56] [57] [58] [59] [60]
 
-]
-("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
+Package natbib Warning: There were undefined citations.
+
+[61
+
+] ("C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux") ) 
 Here is how much of TeX's memory you used:
- 18028 strings out of 495286
- 344701 string characters out of 3179850
- 454429 words of memory out of 3000000
- 20699 multiletter control sequences out of 15000+200000
- 166093 words of font info for 146 fonts, out of 3000000 for 9000
+ 18064 strings out of 495286
+ 345275 string characters out of 3179850
+ 454459 words of memory out of 3000000
+ 20731 multiletter control sequences out of 15000+200000
+ 169414 words of font info for 148 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,22n,55p,1892b,1227s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CPGS.dvi (62 pages, 347048 bytes).
+Output written on CPGS.dvi (62 pages, 350648 bytes).

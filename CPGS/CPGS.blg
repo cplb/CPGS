@@ -1,6 +1,154 @@
 This is BibTeX, Version 0.99cThe top-level auxiliary file: C:\Users\cplb2\Documents\Cambridge\PhD\Write up\CPGS\CPGS.aux
 The style file: ../physicsSHORT.bst
 Database file #1: ../library.bib
+Repeated entry---line 3370 of file ../library.bib
+ : @article{Schmidt1986
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5174 of file ../library.bib
+ : @article{Gillessen2009
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Corda2007"
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Psaltis2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Sotiriou2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry DeFelice2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Park2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Exirifard2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2007
+---the literal stack isn't empty for entry Sotiriou2007
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Barausse2008b
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Barausse2008a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Capozziello2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Capozziello2009a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Naf2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2007
+---the literal stack isn't empty for entry Chiba2007a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Barausse2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2007
+---the literal stack isn't empty for entry Olmo2007c
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Gair2008a
+while executing---line 1468 of file ../physicsSHORT.bst
 Warning--can't use both volume and number fields in Pitjeva2009a
-Warning--can't use both author and editor fields in Arnowitt1962a
-(There were 2 warnings)
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Gillessen2009
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Merritt2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Kato2010
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2006
+---the literal stack isn't empty for entry Rubbo2006
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2007
+---the literal stack isn't empty for entry Hopman2007
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2004
+---the literal stack isn't empty for entry Kobayashi2004
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2007
+---the literal stack isn't empty for entry Babak2007
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Rosquist2009
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2004
+---the literal stack isn't empty for entry Drasco2004
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2005
+---the literal stack isn't empty for entry Gair2005
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2004
+---the literal stack isn't empty for entry Barack2004
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Doeleman2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2008
+---the literal stack isn't empty for entry Vallisneri2008
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2006
+---the literal stack isn't empty for entry Farhoudi2006
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Blas2010a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Sotiriou2009c
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+New York: Wiley, 1962
+---the literal stack isn't empty for entry Arnowitt1962a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Hioki2009a
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2009
+---the literal stack isn't empty for entry Bambi2009
+while executing---line 1468 of file ../physicsSHORT.bst
+ptr=1, stack=
+2010
+---the literal stack isn't empty for entry Johannsen2010b
+while executing---line 1468 of file ../physicsSHORT.bst
+(There were 37 error messages)
